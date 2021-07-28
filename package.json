@@ -1,0 +1,25 @@
+{
+  "name": "@datacamp/waffles",
+  "version": "0.1.0",
+  "description": "The DataCamp design system and components library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datacamp/waffles.git"
+  },
+  "keywords": [
+    "design system",
+    "react",
+    "components",
+    "typescript"
+  ],
+  "author": "DataCamp",
+  "license": "MIT",
+  "homepage": "https://waffles.datacamp.com",
+  "engines": {
+    "node": ">=14.x"
+  }
+}
