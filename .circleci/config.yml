@@ -1,0 +1,42 @@
+version: 2.1
+
+aliases:
+  - &docker
+    - image: cimg/node:14.17.3
+
+jobs:
+  setup:
+    docker: *docker
+    steps:
+      - checkout
+      - run:
+          name: Add .npmrc
+          command: |
+            echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .npmrc
+            echo "always-auth=true" >> .npmrc
+      - restore_cache:
+          name: Restore Yarn Cache
+          keys:
+            - yarn-packages-cache-v1-{{ checksum "yarn.lock" }}
+      - run:
+          name: Install Packages
+          command: yarn install --frozen-lockfile --cache-folder ~/.cache/yarn
+      - save_cache:
+          name: Save Yarn Cache
+          key: yarn-packages-cache-v1-{{ checksum "yarn.lock" }}
+          paths:
+            - ~/.cache/yarn
+  test:
+    docker: *docker
+    steps:
+      - run:
+          name: Test
+          command: yarn test
+
+workflows:
+  version: 2
+  jobs:
+    - setup
+    - test
+      requires:
+       - setup
