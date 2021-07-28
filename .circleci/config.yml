@@ -35,8 +35,9 @@ jobs:
 
 workflows:
   version: 2
-  jobs:
-    - setup
-    - test
-      requires:
-       - setup
+  build_and_test:
+    jobs:
+      - setup
+      - test:
+          requires:
+            - setup
