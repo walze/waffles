@@ -1,1 +1,1 @@
-# waffles
+# Waffles 2.0
