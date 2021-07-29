@@ -4,7 +4,8 @@
   "description": "The DataCamp design system and components library.",
   "main": "index.js",
   "scripts": {
-    "doc:dev": "next dev doc-site"
+    "doc:dev": "next dev doc-site",
+    "lint": "eslint ./ --fix --cache"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,10 @@
   },
   "devDependencies": {
     "@types/react": "^17.0.15",
+    "@typescript-eslint/eslint-plugin": "^4.28.5",
+    "@typescript-eslint/parser": "^4.28.5",
+    "eslint": "^7.31.0",
+    "eslint-plugin-react": "^7.24.0",
     "next": "^11.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
