@@ -33,6 +33,8 @@ jobs:
   test:
     docker: *docker
     steps:
+      - attach_workspace:
+          at: '.'
       - run:
           name: Lint
           command: yarn lint
