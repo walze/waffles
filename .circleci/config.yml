@@ -34,8 +34,11 @@ jobs:
     docker: *docker
     steps:
       - run:
-          name: Test
-          command: yarn test
+          name: Lint
+          command: yarn lint
+      - run:
+          name: Check Code Formatting
+          command: yarn format:check
 
 workflows:
   version: 2
