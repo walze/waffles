@@ -5,20 +5,15 @@
   "main": "index.js",
   "scripts": {
     "doc:dev": "next dev doc-site",
-    "lint": "eslint ./ --fix --cache",
-    "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "lint": "eslint ./ --fix --cache --ignore-path ./.gitignore",
+    "format": "prettier --write . --ignore-path ./.gitignore",
+    "format:check": "prettier --check . --ignore-path ./.gitignore"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/datacamp/waffles.git"
   },
-  "keywords": [
-    "design system",
-    "react",
-    "components",
-    "typescript"
-  ],
+  "keywords": ["design system", "react", "components", "typescript"],
   "author": "DataCamp",
   "license": "MIT",
   "homepage": "https://waffles.datacamp.com",
