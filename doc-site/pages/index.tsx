@@ -20,7 +20,6 @@ const paragraphStyle = css`
   line-height: 1.5;
 `;
 
-
 export default function Home() {
   return (
     <div css={containerStyle}>
@@ -51,7 +50,9 @@ export default function Home() {
       </Head>
       <main>
         <h1 css={headingStyle}>Welcome to Waffles 2.0</h1>
-        <p css={paragraphStyle}>It is still work in progress and subject to change.</p>
+        <p css={paragraphStyle}>
+          It is still work in progress and subject to change.
+        </p>
       </main>
     </div>
   );
