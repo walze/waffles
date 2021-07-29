@@ -24,6 +24,7 @@
     "node": ">=14.x"
   },
   "devDependencies": {
+    "@datacamp/prettier-config": "^2.1.0",
     "@types/react": "^17.0.15",
     "@typescript-eslint/eslint-plugin": "^4.28.5",
     "@typescript-eslint/parser": "^4.28.5",
