@@ -17,7 +17,7 @@
     "noUnusedLocals": true,
     "downlevelIteration": true,
     "noUnusedParameters": true,
-    "noImplicitReturns": true,
+    "noImplicitReturns": true
   },
   "exclude": ["node_modules", "build", "dist"]
 }
