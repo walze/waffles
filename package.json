@@ -10,6 +10,7 @@
     "prebuild": "rimraf dist",
     "doc:dev": "next dev doc-site",
     "doc:build": "next build doc-site && next export doc-site -o build",
+    "predoc:build": "rimraf build",
     "lint": "eslint ./ --fix --cache",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
