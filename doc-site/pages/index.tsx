@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { css } from '@emotion/react';
 
-import { Button } from '../../dist/cjs/button';
+import { Button } from '@datacamp/waffles/button';
 
 const containerStyle = css`
   padding: 24px;
@@ -56,7 +56,7 @@ export default function Home() {
           It is still work in progress and subject to change.
         </p>
       </main>
-      <Button />
+      <Button>Click me!</Button>
     </div>
   );
 }

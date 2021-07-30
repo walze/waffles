@@ -9,7 +9,12 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "allowJs": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "paths": {
+      "@datacamp/waffles": ["../dist"],
+      "@datacamp/waffles/*": ["../dist/*"]
+    }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
 }
