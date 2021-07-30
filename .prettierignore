@@ -1,3 +1,4 @@
 package.json
 doc-site/.next/
 build
+dist
