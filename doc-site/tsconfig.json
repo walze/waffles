@@ -9,7 +9,6 @@
     "isolatedModules": true,
     "allowJs": true,
     "skipLibCheck": true,
-    "jsx": "preserve",
     "jsxImportSource": "@emotion/react"
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]

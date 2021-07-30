@@ -4,6 +4,7 @@
     "module": "ESNext",
     "moduleResolution": "node",
     "esModuleInterop": true,
+    "jsx": "preserve",
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "noImplicitAny": true,
@@ -16,7 +17,7 @@
     "noUnusedLocals": true,
     "downlevelIteration": true,
     "noUnusedParameters": true,
-    "noImplicitReturns": true
+    "noImplicitReturns": true,
   },
   "exclude": ["node_modules", "build", "dist"]
 }
