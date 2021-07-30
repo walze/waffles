@@ -4,7 +4,6 @@
     "outDir": "dist/cjs",
     "module": "CommonJS",
     "target": "es5",
-    "jsx": "react-jsx",
     "declaration": true,
     "rootDir": "./src"
   },

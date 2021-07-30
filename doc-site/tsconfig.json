@@ -3,13 +3,13 @@
   "compilerOptions": {
     "target": "es5",
     "lib": ["dom", "dom.iterable", "ESNext"],
+    "jsx": "preserve",
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "allowJs": true,
-    "skipLibCheck": true,
-    "jsxImportSource": "@emotion/react"
+    "skipLibCheck": true
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
 }

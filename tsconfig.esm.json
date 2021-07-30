@@ -3,7 +3,6 @@
   "compilerOptions": {
     "outDir": "dist/esm",
     "target": "es5",
-    "jsx": "react-jsx",
     "declaration": true,
     "rootDir": "./src"
   },
