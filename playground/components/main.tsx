@@ -12,10 +12,10 @@ const mainStyle = css`
 
 type MainProps = {
   children?: React.ReactNode;
-}
+};
 
 function Main({ children }: MainProps) {
-  return <main css={mainStyle}>{children}</main>
+  return <main css={mainStyle}>{children}</main>;
 }
 
 export default Main;

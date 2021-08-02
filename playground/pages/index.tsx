@@ -37,9 +37,7 @@ export default function Home() {
           type="font/woff2"
         />
       </Head>
-      <Main>
-        {/* Develop your components here */}
-      </Main>
+      <Main>{/* Develop your components here */}</Main>
     </div>
   );
 }
