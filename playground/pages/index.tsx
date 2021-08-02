@@ -2,8 +2,6 @@ import Head from 'next/head';
 
 import Main from '../components/main';
 
-import { Button } from '@datacamp/waffles/button';
-
 export default function Home() {
   return (
     <div>
@@ -40,7 +38,7 @@ export default function Home() {
         />
       </Head>
       <Main>
-        <Button>Click!</Button>
+        {/* Develop your components here */}
       </Main>
     </div>
   );
