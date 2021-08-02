@@ -10,9 +10,9 @@ const buttonStyle = css`
   font-weight: 800;
   font-size: 14px;
   line-height: 1;
+  outline: 0;
   border-radius: 4px;
   border: 0;
-  outline: 0;
   cursor: pointer;
 
   &:hover {
