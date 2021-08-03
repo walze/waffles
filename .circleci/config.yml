@@ -41,6 +41,9 @@ jobs:
       - run:
           name: Check Code Formatting
           command: yarn format:check
+      - run:
+          name: Run Unit Tests
+          command: yarn test:coverage
 
 workflows:
   version: 2
