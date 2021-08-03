@@ -10,7 +10,7 @@
     "prebuild": "rimraf dist",
     "playground": "yarn prebuild && yarn build:cjs --watch & next dev playground --port 4040",
     "doc:dev": "yarn prebuild && yarn build:cjs && next dev doc-site",
-    "doc:build": "next build doc-site && next export doc-site -o build",
+    "doc:build": "yarn build && next build doc-site && next export doc-site -o build",
     "predoc:build": "rimraf build",
     "test": "jest --watch",
     "test:coverage": "yarn jest --coverage --runInBand",
