@@ -12,6 +12,8 @@
     "doc:dev": "yarn prebuild && yarn build:cjs && next dev doc-site",
     "doc:build": "next build doc-site && next export doc-site -o build",
     "predoc:build": "rimraf build",
+    "test": "jest --watch",
+    "test:coverage": "yarn jest --coverage",
     "lint": "eslint ./ --fix --cache",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
