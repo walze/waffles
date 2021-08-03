@@ -7,6 +7,6 @@ module.exports = {
   setupFilesAfterEnv: ['<rootDir>/test-setup.ts'],
   testPathIgnorePatterns: ['/node_modules/', '/dist/', '/build/', '/packages/'],
   modulePathIgnorePatterns: ['<rootDir>/dist/'],
-  testRegex: '(.|-)test\\.(js|ts|tsx|jsx)$',
+  testRegex: '(.|-)spec\\.(js|ts|tsx|jsx)$',
   snapshotSerializers: ['@emotion/jest/serializer'],
 };

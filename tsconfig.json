@@ -20,5 +20,12 @@
     "noUnusedParameters": true,
     "noImplicitReturns": true
   },
-  "exclude": ["node_modules", "build", "dist"]
+  "exclude": [
+    "node_modules",
+    "build",
+    "dist",
+    "**.spec.ts",
+    "**.spec.tsx",
+    "**/__tests__/**"
+  ]
 }
