@@ -30,7 +30,11 @@ interface ButtonProps {
 }
 
 function Button({ children, onClick }: ButtonProps) {
-  return <button onClick={onClick} css={buttonStyle}>{children}</button>;
+  return (
+    <button onClick={onClick} css={buttonStyle}>
+      {children}
+    </button>
+  );
 }
 
 export default Button;

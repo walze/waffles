@@ -1,13 +1,12 @@
 module.exports = {
   preset: 'ts-jest',
-  coveragePathIgnorePatterns: [
-    '/node_modules/'
-  ],
+  coveragePathIgnorePatterns: ['/node_modules/'],
   rootDir: '.',
   testEnvironment: 'jsdom',
   coverageDirectory: './coverage',
   setupFilesAfterEnv: ['<rootDir>/test-setup.ts'],
   testPathIgnorePatterns: ['/node_modules/', '/dist/', '/build/', '/packages/'],
   modulePathIgnorePatterns: ['<rootDir>/dist/'],
-  testRegex: '(.|-)test\\.(js|ts|tsx|jsx)$'
+  testRegex: '(.|-)test\\.(js|ts|tsx|jsx)$',
+  snapshotSerializers: ['@emotion/jest/serializer'],
 };

@@ -1,22 +1,25 @@
-import {render, fireEvent} from '@testing-library/react';
+import { render, fireEvent } from '@testing-library/react';
 
 import { Button } from '../index';
 
-describe('Button', function() {
-  it('renders correctly', function() {
+describe('Button', function () {
+  it('renders correctly', function () {
     const { getByText } = render(<Button>Amazing Label</Button>);
 
-    const label = getByText(/amazing label/i);
+    const button = getByText(/amazing label/i);
 
-    expect(label).toBeInTheDocument();
+    expect(button).toBeInTheDocument();
+    expect(button).toMatchSnapshot();
   });
 
-  it('handles click correctly', function() {
+  it('handles click correctly', function () {
     const handleClick = jest.fn();
-    const { getByText } = render(<Button onClick={handleClick}>Amazing Label</Button>);
+    const { getByText } = render(
+      <Button onClick={handleClick}>Amazing Label</Button>,
+    );
 
-    const label = getByText(/amazing label/i);
-    fireEvent.click(label);
+    const button = getByText(/amazing label/i);
+    fireEvent.click(button);
 
     expect(handleClick).toHaveBeenCalledTimes(1);
   });

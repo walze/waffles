@@ -1,4 +1,5 @@
 doc-site/.next/
 playground/.next
+/coverage
 build
 dist
