@@ -26,10 +26,11 @@ const buttonStyle = css`
 
 interface ButtonProps {
   children: React.ReactNode;
+  onClick?: (event?: React.MouseEvent<HTMLButtonElement>) => void;
 }
 
-function Button({ children }: ButtonProps) {
-  return <button css={buttonStyle}>{children}</button>;
+function Button({ children, onClick }: ButtonProps) {
+  return <button onClick={onClick} css={buttonStyle}>{children}</button>;
 }
 
 export default Button;
