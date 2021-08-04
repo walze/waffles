@@ -1,5 +1,3 @@
-// Add DataCamp eslint config after it's compatible with eslint 7
-
 module.exports = {
   env: {
     browser: true,

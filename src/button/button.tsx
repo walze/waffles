@@ -24,10 +24,10 @@ const buttonStyle = css`
   }
 `;
 
-interface ButtonProps {
+type ButtonProps = {
   children: React.ReactNode;
   onClick?: (event?: React.MouseEvent<HTMLButtonElement>) => void;
-}
+};
 
 function Button({ children, onClick }: ButtonProps) {
   return (

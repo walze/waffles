@@ -347,10 +347,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@datacamp/prettier-config@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@datacamp/prettier-config/-/prettier-config-2.1.0.tgz#bdcdfed4810580e1937fee01dc793669a44bd315"
-  integrity sha512-3dFkYEaOVs5toTILbNZIzeHbPzPflTDNiAT/pZGFHs3Ftn/C6lsdgOc3oQgQ6XuvJvE0UpOxngXomb+Sm3OwxQ==
+"@datacamp/prettier-config@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@datacamp/prettier-config/-/prettier-config-3.0.0.tgz#692653f8c5d97e1c1805fe750601c5a1aa7a4394"
+  integrity sha512-TanmWpkx1pqkrUXCdPb5VGsxxT+qU69+uto8UMihDpEtkmcOVQz/q8kV9mXY4Xx6JQdVee7VIhWDfH7vxPkkpg==
 
 "@emotion/babel-plugin@^11.3.0":
   version "11.3.0"

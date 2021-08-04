@@ -2,8 +2,8 @@ import { render, fireEvent } from '@testing-library/react';
 
 import { Button } from '../index';
 
-describe('Button', function () {
-  it('renders correctly', function () {
+describe('Button', () => {
+  it('renders correctly', () => {
     const { getByText } = render(<Button>Amazing Label</Button>);
 
     const button = getByText(/amazing label/i);
@@ -12,7 +12,7 @@ describe('Button', function () {
     expect(button).toMatchSnapshot();
   });
 
-  it('handles click correctly', function () {
+  it('handles click correctly', () => {
     const handleClick = jest.fn();
     const { getByText } = render(
       <Button onClick={handleClick}>Amazing Label</Button>,
