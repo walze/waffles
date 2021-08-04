@@ -12,13 +12,13 @@ Run the following command to install components library and it's peer dependenci
 # with yarn
 yarn add @datacamp/waffles react react-dom @emotion/react
 
-#with npm
+# with npm
 npm install @datacamp/waffles react react-dom @emotion/react
 ```
 
 ### Usage
 
-In your codebase just import component directly:
+In your React project just import component directly:
 
 ```js
 import { Button } from '@datacamp/waffles/button';
