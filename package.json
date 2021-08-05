@@ -17,6 +17,7 @@
     "test": "jest --watch",
     "test:coverage": "yarn jest --coverage --runInBand",
     "lint": "eslint ./ --fix --cache",
+    "lint:commits": "commitlint --to HEAD",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "release": "release-it --dry-run",
@@ -39,6 +40,8 @@
     "node": ">=14.x"
   },
   "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
     "@datacamp/prettier-config": "^3.0.0",
     "@emotion/babel-plugin": "^11.3.0",
     "@emotion/jest": "^11.3.0",
