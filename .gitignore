@@ -16,3 +16,4 @@ yarn-error.log*
 doc-site/.next/
 playground/.next
 .eslintcache
+.husky/_
