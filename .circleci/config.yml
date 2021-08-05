@@ -36,11 +36,14 @@ jobs:
       - attach_workspace:
           at: '.'
       - run:
-          name: Lint
+          name: Lint Codebase
           command: yarn lint
       - run:
           name: Check Code Formatting
           command: yarn format:check
+      - run:
+          name: Lint Commits
+          command: yarn lint:commits
       - run:
           name: Run Unit Tests
           command: yarn test:coverage
