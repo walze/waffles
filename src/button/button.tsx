@@ -5,7 +5,7 @@ const buttonStyle = css`
   color: #05192d;
   background-color: #03ef62;
   height: 36px;
-  min-width: 120px;
+  min-width: 110px;
   font-family: Studio-Feixen-Sans, Arial, sans-serif;
   font-weight: 800;
   font-size: 14px;

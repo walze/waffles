@@ -5,7 +5,7 @@ exports[`Button renders correctly 1`] = `
   color: #05192d;
   background-color: #03ef62;
   height: 36px;
-  min-width: 100px;
+  min-width: 110px;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-weight: 800;
   font-size: 14px;
