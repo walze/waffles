@@ -19,6 +19,7 @@
     "lint": "eslint ./ --fix --cache",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
+    "release": "release-it --dry-run",
     "prepare": "husky install"
   },
   "repository": {
@@ -60,6 +61,7 @@
     "pretty-quick": "^3.1.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "release-it": "^14.10.1",
     "rimraf": "^3.0.2",
     "sanitize.css": "^12.0.1",
     "ts-jest": "^27.0.4",
