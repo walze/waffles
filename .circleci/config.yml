@@ -62,7 +62,7 @@ jobs:
   release:
     docker: *docker
     environment:
-      GITHUB_FINGERPRINT: $API_KEY
+      GITHUB_FINGERPRINT: $GITHUB_FINGERPRINT
     steps:
       - attach_workspace:
           at: '.'
