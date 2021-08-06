@@ -9,7 +9,6 @@ module.exports = {
   github: {
     release: true,
     releaseName: '${version}',
-    skipChecks: true,
   },
   npm: {
     publish: true,

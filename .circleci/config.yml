@@ -64,6 +64,8 @@ jobs:
     steps:
       - attach_workspace:
           at: '.'
+      - add_ssh_keys:
+          fingerprints: $GITHUB_FINGERPRINT
       - run:
           name: Release Package
           command: yarn release
