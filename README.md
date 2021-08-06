@@ -1,6 +1,6 @@
 # Waffles 2.0
 
-**Waffles** is DataCamp Design System comprised of modern React components.
+**Waffles** is DataCamp Design System and React components library.
 
 ## Using React Components
 
@@ -18,7 +18,7 @@ npm install @datacamp/waffles react react-dom @emotion/react
 
 ### Usage
 
-In your React project just import component directly:
+In your React project just import appropriate component directly:
 
 ```js
 import { Button } from '@datacamp/waffles/button';
