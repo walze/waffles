@@ -21,7 +21,7 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "release": "release-it --VV --ci",
-    "release:manual": "release-it --VV",
+    "release:manual": "CI=true release-it --VV",
     "prepare": "is-ci || husky install"
   },
   "repository": {
