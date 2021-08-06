@@ -61,6 +61,8 @@ jobs:
           command: yarn test:coverage
   release:
     docker: *docker
+    environment:
+      GITHUB_FINGERPRINT: $API_KEY
     steps:
       - attach_workspace:
           at: '.'
