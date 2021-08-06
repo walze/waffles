@@ -13,7 +13,8 @@ jobs:
           name: Add .npmrc
           command: |
             echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
-            echo "always-auth=true" >> .npmrc
+            echo "scope=datacamp" >> .npmrc
+            echo "@datacamp:registry=https://registry.npmjs.org/" >> .npmrc
             echo "scripts-prepend-node-path=true" >> .npmrc
       - restore_cache:
           name: Restore Yarn Cache
@@ -70,7 +71,7 @@ jobs:
           command: mkdir ~/.ssh/ && echo -e "Host github.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
       - run:
           name: Release Package
-          command: npm run release
+          command: GITHUB_TOKEN=$CIRCLECI_GITHUB_TOKEN npm run release
 
 workflows:
   version: 2
