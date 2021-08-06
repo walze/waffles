@@ -64,9 +64,9 @@ jobs:
     steps:
       - attach_workspace:
           at: '.'
-      - add_ssh_keys:
-          fingerprints:
-            - 'SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8'
+      - run:
+          name: Avoid hosts unknown for github
+          command: mkdir ~/.ssh/ && echo -e "Host github.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
       - run:
           name: Release Package
           command: yarn release
