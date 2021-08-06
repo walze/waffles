@@ -1,6 +1,6 @@
 module.exports = {
   hooks: {
-    'after:bump': 'build:copy-files',
+    'after:bump': 'yarn build:copy-files',
   },
   git: {
     tagName: 'v${version}',

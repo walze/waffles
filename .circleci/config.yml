@@ -30,6 +30,18 @@ jobs:
           root: '.'
           paths:
             - '*'
+  build:
+    docker: *docker
+    steps:
+      - attach_workspace:
+          at: '.'
+      - run:
+        name: Build Distribution
+        command: yarn build
+      - persist_to_workspace:
+          root: '.'
+          paths:
+            - '*'
   test:
     docker: *docker
     steps:
@@ -47,12 +59,31 @@ jobs:
       - run:
           name: Run Unit Tests
           command: yarn test:coverage
+  release:
+    docker: *docker
+    steps:
+      - attach_workspace:
+          at: '.'
+      - run:
+          name: Release Package
+          command: yarn release
 
 workflows:
   version: 2
-  build_and_test:
+  build_test_release:
     jobs:
       - setup
-      - test:
+      - build:
           requires:
             - setup
+      - test:
+          requires:
+            - build
+      - release:
+          requires:
+            - test
+          context: org-global
+          filters:
+            branches:
+              only:
+                - master
