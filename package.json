@@ -4,7 +4,7 @@
   "description": "The DataCamp design system and components library.",
   "sideEffects": false,
   "scripts": {
-    "build": "yarn build:esm && yarn build:cjs && yarn build:copy-files && yarn build:package-json",
+    "build": "yarn build:esm && yarn build:cjs && yarn build:package-json",
     "build:esm": "tsc -p tsconfig.esm.json",
     "build:cjs": "tsc -p tsconfig.cjs.json",
     "build:copy-files": "cpy README.md dist & cpy package.json dist",
@@ -17,10 +17,10 @@
     "test": "jest --watch",
     "test:coverage": "yarn jest --coverage --runInBand",
     "lint": "eslint ./ --fix --cache",
-    "lint:commits": "commitlint --to HEAD",
+    "lint:commits": "commitlint --to HEAD --verbose",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "release": "release-it --dry-run",
+    "release": "release-it --VV --ci",
     "prepare": "husky install"
   },
   "repository": {
@@ -46,6 +46,7 @@
     "@emotion/babel-plugin": "^11.3.0",
     "@emotion/jest": "^11.3.0",
     "@emotion/react": "^11.4.0",
+    "@release-it/conventional-changelog": "^3.0.1",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
     "@types/jest": "^26.0.24",
