@@ -12,7 +12,9 @@ jobs:
       - run:
           name: Add .npmrc
           command: |
-            echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .npmrc
+            echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
+            echo "scope=datacamp" >> .npmrc
+            echo "@datacamp:registry=https://registry.npmjs.org/" >> .npmrc
             echo "always-auth=true" >> .npmrc
             echo "scripts-prepend-node-path=true" >> .npmrc
       - restore_cache:
@@ -66,7 +68,7 @@ jobs:
       - attach_workspace:
           at: '.'
       - run:
-          name: Avoid hosts unknown for github
+          name: Fix GitHub Unknown Hosts
           command: mkdir ~/.ssh/ && echo -e "Host github.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
       - run:
           name: Release Package
