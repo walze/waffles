@@ -21,7 +21,7 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "release": "release-it --VV --ci",
-    "prepare": "husky install"
+    "prepare": "node ./tools/prepare-git-hooks.js"
   },
   "repository": {
     "type": "git",
