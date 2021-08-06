@@ -36,8 +36,8 @@ jobs:
       - attach_workspace:
           at: '.'
       - run:
-        name: Build Distribution
-        command: yarn build
+          name: Build Distribution
+          command: yarn build
       - persist_to_workspace:
           root: '.'
           paths:
