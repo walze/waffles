@@ -13,6 +13,7 @@ module.exports = {
   npm: {
     publish: true,
     publishPath: './dist',
+    skipChecks: true,
   },
   plugins: {
     '@release-it/conventional-changelog': {
