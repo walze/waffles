@@ -61,13 +61,12 @@ jobs:
           command: yarn test:coverage
   release:
     docker: *docker
-    environment:
-      GITHUB_FINGERPRINT: $GITHUB_FINGERPRINT
     steps:
       - attach_workspace:
           at: '.'
       - add_ssh_keys:
-          fingerprints: $GITHUB_FINGERPRINT
+          fingerprints:
+            - SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8
       - run:
           name: Release Package
           command: yarn release
