@@ -63,14 +63,9 @@ jobs:
           command: yarn test:coverage
   release:
     docker: *docker
-    environment:
-      GIT_SSH_COMMAND: 'ssh -i ~/.ssh/id_rsa -o IdentitiesOnly=yes'
     steps:
       - attach_workspace:
           at: '.'
-      - add_ssh_keys:
-          fingerprints:
-            - 'SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8'
       - run:
           name: Release Package
           command: yarn release
