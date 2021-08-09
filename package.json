@@ -10,7 +10,7 @@
     "build:copy-files": "concurrently \"cpy README.md dist\" \"cpy package.json dist\"",
     "build:package-json": "node ./tools/add-package-json-files.js",
     "prebuild": "rimraf dist",
-    "playground": "yarn prebuild && concurrently --kill-others -c \"bgBlue.bold,bgMagenta.bold\" \"yarn build:cjs --watch\" \"next dev playground --port 4040\"",
+    "workbench": "yarn prebuild && concurrently --kill-others -c \"bgBlue.bold,bgMagenta.bold\" \"yarn build:cjs --watch\" \"next dev workbench --port 4040\"",
     "doc:dev": "yarn prebuild && yarn build:cjs && next dev doc-site",
     "doc:build": "yarn build && next build doc-site && next export doc-site -o build",
     "predoc:build": "rimraf build",

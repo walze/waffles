@@ -1,5 +1,5 @@
-doc-site/.next/
-playground/.next
+doc-site/.next
+workbench/.next
 /coverage
 build
 dist
