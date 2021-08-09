@@ -7,6 +7,8 @@ aliases:
 jobs:
   build:
     docker: *docker
+    environment:
+      GIT_SSH_COMMAND: 'ssh -i ~/.ssh/id_rsa -o IdentitiesOnly=yes'
     steps:
       - checkout
       - run:
