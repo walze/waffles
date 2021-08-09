@@ -1,3 +1,16 @@
+## [0.9.0](https://github.com/datacamp/waffles/compare/v0.2.0...v0.9.0) (2021-08-09)
+
+
+### Features
+
+* cleanup workbench setup ([b94bd0d](https://github.com/datacamp/waffles/commit/b94bd0d42ff18c39c106074f62331ce020d769d0))
+
+
+### Bug Fixes
+
+* bump package version ([00e5956](https://github.com/datacamp/waffles/commit/00e5956c26427206af32b8568303bf2fe3699684))
+* github unknown host during ci ([4e49670](https://github.com/datacamp/waffles/commit/4e49670bc4baccaefe2e97917bf2fca296bbf3e0))
+
 ## 0.2.0 (2021-08-06)
 
 ### Features
