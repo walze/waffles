@@ -1,10 +1,11 @@
 import Head from 'next/head';
 
+import Workbench from '../workbench';
 import Main from '../components/main';
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <title>Waffles 2.0 Playground</title>
         <meta
@@ -37,7 +38,9 @@ export default function Home() {
           type="font/woff2"
         />
       </Head>
-      <Main>{/* Develop your components here */}</Main>
-    </div>
+      <Main>
+        <Workbench />
+      </Main>
+    </>
   );
 }
