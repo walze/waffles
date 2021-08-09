@@ -5,88 +5,42 @@ aliases:
     - image: cimg/node:14.17.3
 
 jobs:
-  setup:
+  build:
     docker: *docker
     steps:
       - checkout
       - run:
-          name: Add .npmrc
+          name: Add npmrc
           command: |
             echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
             echo "scope=datacamp" >> .npmrc
             echo "@datacamp:registry=https://registry.npmjs.org/" >> .npmrc
             echo "scripts-prepend-node-path=true" >> .npmrc
-      - restore_cache:
-          name: Restore Yarn Cache
-          keys:
-            - yarn-packages-cache-v1-{{ checksum "yarn.lock" }}
       - run:
-          name: Install Packages
-          command: yarn install --frozen-lockfile --cache-folder ~/.cache/yarn
-      - save_cache:
-          name: Save Yarn Cache
-          key: yarn-packages-cache-v1-{{ checksum "yarn.lock" }}
-          paths:
-            - ~/.cache/yarn
-      - persist_to_workspace:
-          root: '.'
-          paths:
-            - '*'
-  build:
-    docker: *docker
-    steps:
-      - attach_workspace:
-          at: '.'
+          name: Install packages
+          command: yarn install
       - run:
-          name: Build Distribution
+          name: Build distribution
           command: yarn build
-      - persist_to_workspace:
-          root: '.'
-          paths:
-            - '*'
-  test:
-    docker: *docker
-    steps:
-      - attach_workspace:
-          at: '.'
       - run:
-          name: Lint Codebase
+          name: Lint codebase
           command: yarn lint
       - run:
-          name: Check Code Formatting
+          name: Check code formatting
           command: yarn format:check
       - run:
-          name: Lint Commits
+          name: Lint commits
           command: yarn lint:commits
       - run:
-          name: Run Unit Tests
+          name: Run unit tests
           command: yarn test:coverage
-  release:
-    docker: *docker
-    steps:
-      - attach_workspace:
-          at: '.'
       - run:
-          name: Release Package
+          name: Release npm package
           command: yarn release
 
 workflows:
   version: 2
   build_test_release:
     jobs:
-      - setup:
-          context: org-global
       - build:
-          requires:
-            - setup
-      - test:
-          requires:
-            - build
-      - release:
-          requires:
-            - test
           context: org-global
-          filters:
-            branches:
-              only:
-                - master
