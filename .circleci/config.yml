@@ -35,6 +35,11 @@ jobs:
           name: Run unit tests
           command: yarn test:coverage
       - run:
+          name: Add git credentials
+          command: |
+            git config --global user.email engineering+datacamp-circleci-user@datacamp.com
+            git config --global user.name datacamp-circleci-user
+      - run:
           name: Release npm package
           command: yarn release
 
