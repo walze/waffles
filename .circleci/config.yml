@@ -7,8 +7,6 @@ aliases:
 jobs:
   build:
     docker: *docker
-    environment:
-      GIT_SSH_COMMAND: 'ssh -i ~/.ssh/id_rsa -o IdentitiesOnly=yes'
     steps:
       - checkout
       - run:
@@ -36,6 +34,11 @@ jobs:
       - run:
           name: Run unit tests
           command: yarn test:coverage
+      - run:
+          name: Add git credentials
+          command: |
+            git config --global user.email engineering@datacamp.com
+            git config --global user.name datacamp-org
       - run:
           name: Release npm package
           command: yarn release
