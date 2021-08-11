@@ -2,7 +2,7 @@ version: 2.1
 
 aliases:
   - &docker
-    - image: cimg/node:14.17.3
+    - image: cypress/base:14.17.0
 
 jobs:
   build:
