@@ -30,10 +30,13 @@ jobs:
           command: yarn format:check
       - run:
           name: Lint commits
-          command: yarn lint:commits
+          command: yarn lint-commits
       - run:
           name: Run unit tests
-          command: yarn test:coverage
+          command: yarn test-unit:ci
+      - run:
+          name: Run e2e stories tests
+          command: yarn test-stories:ci
       - run:
           name: Add git credentials
           command: |
