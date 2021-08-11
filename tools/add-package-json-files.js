@@ -6,7 +6,7 @@ const path = require('path');
 // Tree shaking support
 // Put package.json in each component directory created during build step, hinting path to ES module
 // If it's not supported consume regular CommonJS module
-async function addPackageJsonFiles() {
+function addPackageJsonFiles() {
   const distPath = path.resolve(__dirname, '../dist');
   const esmPath = path.join(distPath, 'esm');
 
