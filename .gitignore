@@ -15,5 +15,7 @@ yarn-error.log*
 .env.production.local
 doc-site/.next
 workbench/.next
+workbench/pages/stories
 .eslintcache
 .husky/_
+cypress

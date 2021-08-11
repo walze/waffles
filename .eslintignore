@@ -1,5 +1,7 @@
 doc-site/.next
 workbench/.next
+workbench/pages/stories
 /coverage
 build
 dist
+cypress

@@ -1,7 +1,9 @@
 package.json
 doc-site/.next
 workbench/.next
+workbench/pages/stories
 /coverage
 build
 dist
 CHANGELOG.md
+cypress
