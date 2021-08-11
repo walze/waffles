@@ -27,11 +27,12 @@ function contentWithUpdatedImports(storyContent, componentDirectoryName) {
 
 // Wrap story component(s) with Main
 function contentWrappedWithMain(storyContent) {
-  // Match everything between return parenthesis
-  const mainContent = storyContent.match(/return \(([\S\s]*)\)/)[1];
+  const mainContent = storyContent.match(/return ([^;]*)/)[1];
+  const noFragmentOrParenthesis = mainContent.replace(/<>|<\/>|^\(|\)$/g, '');
+
   const wrappedWithMain = storyContent.replace(
-    /return \([\S\s]*\)/,
-    `return (<Main>${mainContent}</Main>)`,
+    /return ([^;]*)/,
+    `return (<Main>${noFragmentOrParenthesis}</Main>)`,
   );
 
   return wrappedWithMain;
