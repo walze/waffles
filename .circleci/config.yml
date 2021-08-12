@@ -20,21 +20,25 @@ jobs:
       - restore_cache:
           name: Restore yarn cache
           keys:
-            - cache-v6-{{ checksum "yarn.lock" }}
-            - cache-v6-
+            - cache-v7-{{ checksum "yarn.lock" }}
+            - cache-v7-
       - run:
           name: Install packages
           command: yarn install --frozen-lockfile --cache-folder ~/.cache/yarn
       - save_cache:
           name: Save cypress binary cache
-          key: cypress-binary-v1-{{ checksum "yarn.lock" }}
+          key: cypress-binary-v2-{{ checksum "yarn.lock" }}
           paths:
             - /root/.cache/Cypress
       - save_cache:
           name: Save cache
-          key: cache-v6-{{ checksum "yarn.lock" }}
+          key: cache-v7-{{ checksum "yarn.lock" }}
           paths:
             - ~/.cache
+      - persist_to_workspace:
+          root: '.'
+          paths:
+            - '*'
   build:
     docker: *docker
     working_directory: ~/project
@@ -70,8 +74,8 @@ jobs:
       - restore_cache:
           name: Restore cypress binary cache
           keys:
-            - cypress-binary-v1-{{ checksum "yarn.lock" }}
-            - cypress-binary-v1-
+            - cypress-binary-v2-{{ checksum "yarn.lock" }}
+            - cypress-binary-v2-
       - run:
           name: Run stories and a11y audits
           command: yarn test-stories:ci
