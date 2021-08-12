@@ -7,6 +7,7 @@ aliases:
 jobs:
   setup:
     docker: *docker
+    working_directory: ~/app
     steps:
       - checkout
       - run:
@@ -19,13 +20,13 @@ jobs:
       - restore_cache:
           name: Restore yarn cache
           keys:
-            - yarn-packages-cache-v3-{{ checksum "yarn.lock" }}
+            - yarn-packages-cache-v4-{{ checksum "yarn.lock" }}
       - run:
           name: Install packages
           command: yarn install --frozen-lockfile
       - save_cache:
           name: Save yarn cache
-          key: yarn-packages-cache-v3-{{ checksum "yarn.lock" }}
+          key: yarn-packages-cache-v4-{{ checksum "yarn.lock" }}
           paths:
             - ~/.cache
       - persist_to_workspace:
@@ -53,7 +54,7 @@ jobs:
       - restore_cache:
           name: Restore yarn cache
           keys:
-            - yarn-packages-cache-v3-{{ checksum "yarn.lock" }}
+            - yarn-packages-cache-v4-{{ checksum "yarn.lock" }}
       - run:
           name: Lint codebase
           command: yarn lint
