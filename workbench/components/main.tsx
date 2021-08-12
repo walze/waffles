@@ -4,10 +4,10 @@ import React from 'react';
 import GridBackground from './grid-background';
 
 const mainStyle = css`
-  background: url(${GridBackground}) repeat;
+  background: 50px 50px repeat url(${GridBackground});
   width: 100%;
   height: 100vh;
-  padding: 100px;
+  padding: 50px;
 `;
 
 type MainProps = {
