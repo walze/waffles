@@ -7,6 +7,7 @@ aliases:
 jobs:
   setup:
     docker: *docker
+    working_directory: ~/project
     steps:
       - checkout
       - run:
@@ -34,12 +35,9 @@ jobs:
           key: cache-v6-{{ checksum "yarn.lock" }}
           paths:
             - ~/.cache
-      - persist_to_workspace:
-          root: '.'
-          paths:
-            - '*'
   build:
     docker: *docker
+    working_directory: ~/project
     steps:
       - attach_workspace:
           at: '.'
@@ -51,6 +49,7 @@ jobs:
           paths:
             - '*'
   test:
+    working_directory: ~/project
     docker:
       - image: cypress/base:14.17.0
     steps:
@@ -78,6 +77,7 @@ jobs:
           command: yarn test-stories:ci
   release:
     docker: *docker
+    working_directory: ~/project
     steps:
       - attach_workspace:
           at: '.'
