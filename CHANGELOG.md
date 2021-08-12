@@ -1,3 +1,5 @@
+### [0.9.1](https://github.com/datacamp/waffles/compare/v0.9.0...v0.9.1) (2021-08-11)
+
 ## [0.9.0](https://github.com/datacamp/waffles/compare/v0.2.0...v0.9.0) (2021-08-09)
 
 
