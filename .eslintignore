@@ -4,4 +4,4 @@ workbench/pages/stories
 /coverage
 build
 dist
-cypress
+cypress/fixtures

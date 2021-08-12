@@ -18,4 +18,4 @@ workbench/.next
 workbench/pages/stories
 .eslintcache
 .husky/_
-cypress
+cypress/fixtures

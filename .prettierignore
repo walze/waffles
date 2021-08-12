@@ -6,4 +6,4 @@ workbench/pages/stories
 build
 dist
 CHANGELOG.md
-cypress
+cypress/fixtures
