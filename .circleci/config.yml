@@ -56,12 +56,12 @@ jobs:
     docker:
       - image: cypress/base:14.17.0
     steps:
+      - attach_workspace:
+          at: '.'
       - restore_cache:
           name: Restore cache
           keys:
             - project-cache-v1-{{ checksum "yarn.lock" }}
-      - attach_workspace:
-          at: '.'
       - run:
           name: Preview dirs
           command: |
