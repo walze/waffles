@@ -8,7 +8,7 @@ jobs:
   setup:
     docker: *docker
     environment:
-      CYPRESS_CACHE_FOLDER: '~/.cache/Cypress/8.2.0/Cypress/Cypress'
+      CYPRESS_CACHE_FOLDER: '~/.cache/Cypress'
     steps:
       - checkout
       - run:
@@ -49,6 +49,8 @@ jobs:
             - '*'
   test:
     docker: *docker
+    environment:
+      CYPRESS_CACHE_FOLDER: '~/.cache/Cypress'
     steps:
       - attach_workspace:
           at: '.'
