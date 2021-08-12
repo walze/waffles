@@ -19,14 +19,14 @@ jobs:
       - restore_cache:
           name: Restore cache
           keys:
-            - cache-v4-{{ checksum "yarn.lock" }}
-            - cache-v4-
+            - cache-v5-{{ checksum "yarn.lock" }}
+            - cache-v5-
       - run:
           name: Install packages
-          command: yarn install --frozen-lockfile
+          command: yarn install --frozen-lockfile --cache-folder ~/.cache/yarn
       - save_cache:
           name: Save cache
-          key: cache-v4-{{ checksum "yarn.lock" }}
+          key: cache-v5-{{ checksum "yarn.lock" }}
           paths:
             - ~/.cache
       - persist_to_workspace:
