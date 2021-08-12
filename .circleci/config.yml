@@ -34,7 +34,10 @@ jobs:
             - '*'
       - run:
           name: Preview dirs
-          command: ls -a
+          command: |
+            ls -a
+            cd ..
+            ls -a
   build:
     docker: *docker
     steps:
