@@ -4,12 +4,11 @@ module.exports = {
   },
   git: {
     tagName: 'v${version}',
-    commitMessage: 'chore: v${version} release',
+    commitMessage: 'chore: v${version} release [skip ci]',
   },
   github: {
     release: true,
-    releaseName: '${version}',
-    tokenRef: 'CIRCLECI_GITHUB_TOKEN',
+    releaseName: 'v${version}',
   },
   npm: {
     publish: true,
