@@ -9,6 +9,7 @@ module.exports = {
   github: {
     release: true,
     releaseName: 'v${version}',
+    tokenRef: 'CIRCLECI_GITHUB_TOKEN',
   },
   npm: {
     publish: true,
