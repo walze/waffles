@@ -4,9 +4,7 @@ module.exports = {
   },
   git: {
     tagName: 'v${version}',
-    commitMessage: `chore: v${version} release
-
-[skip ci]`,
+    commitMessage: 'chore: v${version} release\n\n[skip ci]',
   },
   github: {
     release: true,
