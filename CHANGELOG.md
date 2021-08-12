@@ -1,3 +1,11 @@
+## [0.10.0](https://github.com/datacamp/waffles/compare/v0.9.1...v0.10.0) (2021-08-12)
+
+
+### Features
+
+* extend cypress a11y checks and add a11y logger ([a3c5bc3](https://github.com/datacamp/waffles/commit/a3c5bc3f35f0937d84e9761fb01822b3af14705a))
+* update workbench layout ([60a4129](https://github.com/datacamp/waffles/commit/60a4129d6637fcf21ed435cf77e0eec4f0f42376))
+
 ### [0.9.1](https://github.com/datacamp/waffles/compare/v0.9.0...v0.9.1) (2021-08-11)
 
 ## [0.9.0](https://github.com/datacamp/waffles/compare/v0.2.0...v0.9.0) (2021-08-09)
