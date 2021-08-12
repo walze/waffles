@@ -38,6 +38,8 @@ jobs:
             ls -a
             cd ..
             ls -a
+            cd .cache
+            ls -a
   build:
     docker: *docker
     steps:
