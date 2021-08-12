@@ -3,13 +3,10 @@ version: 2.1
 aliases:
   - &docker
     - image: cimg/node:14.17.0
-  - &environment
-    CYPRESS_CACHE_FOLDER: ~/.cache/Cypress
 
 jobs:
   setup:
     docker: *docker
-    environment: *environment
     steps:
       - checkout
       - run:
@@ -35,6 +32,9 @@ jobs:
           root: '.'
           paths:
             - '*'
+      - run:
+          name: Preview dirs
+          command: ls -a
   build:
     docker: *docker
     steps:
@@ -50,14 +50,9 @@ jobs:
   test:
     docker:
       - image: cypress/base:14.17.0
-    environment: *environment
     steps:
       - attach_workspace:
           at: '.'
-      - restore_cache:
-          name: Restore cache
-          keys:
-            - project-cache-v1-{{ checksum "yarn.lock" }}
       - run:
           name: Lint codebase
           command: yarn lint
