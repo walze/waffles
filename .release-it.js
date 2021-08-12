@@ -26,11 +26,15 @@ module.exports = {
         types: [
           {
             type: 'feat',
-            section: 'Features',
+            section: 'Core Changes',
           },
           {
             type: 'fix',
             section: 'Bug Fixes',
+          },
+          {
+            type: 'docs',
+            section: 'Documentation Changes',
           },
           {
             type: 'perf',
