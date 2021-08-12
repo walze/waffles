@@ -56,8 +56,20 @@ jobs:
     docker:
       - image: cypress/base:14.17.0
     steps:
+      - restore_cache:
+          name: Restore cache
+          keys:
+            - project-cache-v1-{{ checksum "yarn.lock" }}
       - attach_workspace:
           at: '.'
+      - run:
+          name: Preview dirs
+          command: |
+            ls -a
+            cd ..
+            ls -a
+            cd .cache
+            ls -a
       - run:
           name: Lint codebase
           command: yarn lint
