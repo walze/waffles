@@ -7,8 +7,6 @@ aliases:
 jobs:
   setup:
     docker: *docker
-    environment:
-      CYPRESS_CACHE_FOLDER: '~/.cache/Cypress'
     steps:
       - checkout
       - run:
@@ -49,8 +47,6 @@ jobs:
             - '*'
   test:
     docker: *docker
-    environment:
-      CYPRESS_CACHE_FOLDER: '~/.cache/Cypress'
     steps:
       - attach_workspace:
           at: '.'
