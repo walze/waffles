@@ -7,6 +7,7 @@ aliases:
 jobs:
   setup:
     docker: *docker
+    working_directory: ~/project
     steps:
       - checkout
       - run:
@@ -29,9 +30,7 @@ jobs:
           key: cache-v1-{{ checksum "yarn.lock" }}
           paths:
             - ~/.cache
-      - run:
-          name: Cache cypress
-          command: $(yarn bin)/cypress run --record --key <record_key>
+      - run: $(yarn bin)/cypress run --record --key <record_key>
       - persist_to_workspace:
           root: '.'
           paths:
