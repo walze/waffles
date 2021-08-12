@@ -54,7 +54,8 @@ jobs:
             - '*'
   test:
     docker:
-      - image: cypress/base:14.17.0
+      *docker
+      # - image: cypress/base:14.17.0
     steps:
       - checkout
       - attach_workspace:
