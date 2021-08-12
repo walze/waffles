@@ -5,7 +5,7 @@ aliases:
     - image: cypress/base:14.17.0
 
 jobs:
-  build:
+  setup:
     docker: *docker
     steps:
       - checkout
@@ -16,12 +16,39 @@ jobs:
             echo "scope=datacamp" >> .npmrc
             echo "@datacamp:registry=https://registry.npmjs.org/" >> .npmrc
             echo "scripts-prepend-node-path=true" >> .npmrc
+      - restore_cache:
+          name: Restore yarn cache
+          keys:
+            - yarn-packages-cache-v1-{{ checksum "yarn.lock" }}
       - run:
           name: Install packages
-          command: yarn install
+          command: yarn install --frozen-lockfile --cache-folder ~/.cache/yarn
+      - save_cache:
+          name: Save yarn cache
+          key: yarn-packages-cache-v1-{{ checksum "yarn.lock" }}
+          paths:
+            - ~/.cache/yarn
+      - persist_to_workspace:
+          root: '.'
+          paths:
+            - '*'
+  build:
+    docker: *docker
+    steps:
+      - attach_workspace:
+          at: '.'
       - run:
           name: Build distribution
           command: yarn build
+      - persist_to_workspace:
+          root: '.'
+          paths:
+            - '*'
+  test:
+    docker: *docker
+    steps:
+      - attach_workspace:
+          at: '.'
       - run:
           name: Lint codebase
           command: yarn lint
@@ -35,8 +62,13 @@ jobs:
           name: Run unit tests
           command: yarn test-unit:ci
       - run:
-          name: Run e2e stories tests
+          name: Run stories and a11y audits
           command: yarn test-stories:ci
+  release:
+    docker: *docker
+    steps:
+      - attach_workspace:
+          at: '.'
       - run:
           name: Add git credentials
           command: |
@@ -50,5 +82,19 @@ workflows:
   version: 2
   build_test_release:
     jobs:
-      - build:
+      - setup:
           context: org-global
+      - build:
+          requires:
+            - setup
+      - test:
+          requires:
+            - build
+      - release:
+          requires:
+            - test
+          context: org-global
+          filters:
+            branches:
+              only:
+                - master
