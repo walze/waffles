@@ -7,7 +7,6 @@ aliases:
 jobs:
   setup:
     docker: *docker
-    working_directory: /test/
     steps:
       - checkout
       - run:
