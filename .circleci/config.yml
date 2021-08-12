@@ -2,7 +2,7 @@ version: 2.1
 
 aliases:
   - &docker
-    - image: cypress/base:14.17.0
+    - image: cimg/node:14.17.0
 
 jobs:
   setup:
@@ -17,16 +17,21 @@ jobs:
             echo "@datacamp:registry=https://registry.npmjs.org/" >> .npmrc
             echo "scripts-prepend-node-path=true" >> .npmrc
       - restore_cache:
-          name: Restore cache
+          name: Restore yarn cache
           keys:
-            - cache-v5-{{ checksum "yarn.lock" }}
-            - cache-v5-
+            - cache-v6-{{ checksum "yarn.lock" }}
+            - cache-v6-
       - run:
           name: Install packages
           command: yarn install --frozen-lockfile --cache-folder ~/.cache/yarn
       - save_cache:
+          name: Save cypress binary cache
+          key: cypress-binary-v1-{{ checksum "yarn.lock" }}
+          paths:
+            - /root/.cache/Cypress
+      - save_cache:
           name: Save cache
-          key: cache-v5-{{ checksum "yarn.lock" }}
+          key: cache-v6-{{ checksum "yarn.lock" }}
           paths:
             - ~/.cache
       - persist_to_workspace:
@@ -46,7 +51,8 @@ jobs:
           paths:
             - '*'
   test:
-    docker: *docker
+    docker:
+      - image: cypress/base:14.17.0
     steps:
       - attach_workspace:
           at: '.'
@@ -62,6 +68,11 @@ jobs:
       - run:
           name: Run unit tests
           command: yarn test-unit:ci
+      - restore_cache:
+          name: Restore cypress binary cache
+          keys:
+            - cypress-binary-v1-{{ checksum "yarn.lock" }}
+            - cypress-binary-v1-
       - run:
           name: Run stories and a11y audits
           command: yarn test-stories:ci
