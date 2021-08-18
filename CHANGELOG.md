@@ -1,3 +1,24 @@
+## [0.12.0](https://github.com/datacamp/waffles/compare/v0.11.0...v0.12.0) (2021-08-18)
+
+
+### Core Changes
+
+* **button:** use tokens in button ([4aa1d34](https://github.com/datacamp/waffles/commit/4aa1d34597d054a6b16c60e3cd9373ba0040df57))
+* **tokens:** implement design tokens ([c9dd36c](https://github.com/datacamp/waffles/commit/c9dd36c3c675c7781b9256d7d638c6a36582c928))
+* **tokens:** put tokens groups in separate files ([e73640c](https://github.com/datacamp/waffles/commit/e73640cf28fd2de46c30984300e39b3e4342f36a))
+
+
+### Documentation Changes
+
+* add available commands and directories overview ([8e67b03](https://github.com/datacamp/waffles/commit/8e67b03aef1cd9f4029d74f22f229ce496494c03))
+* add docs about local development ([19dde43](https://github.com/datacamp/waffles/commit/19dde43ce466dde586120aad416f18e65a399de4))
+* add links to internal docs to readme ([8b7b23b](https://github.com/datacamp/waffles/commit/8b7b23bf05489f638fbc15b56bf6f3a7d39ca635))
+* add project scripts and structure documentation ([d92b2fd](https://github.com/datacamp/waffles/commit/d92b2fda3dba6f8abefcd6da5a3c079e99732c30))
+* extend development guide docs ([d795fea](https://github.com/datacamp/waffles/commit/d795feaea8d849680aa53d017f5b1d7130a0103d))
+* mention commit types and scopes ([746515c](https://github.com/datacamp/waffles/commit/746515cc3fec6baa27604ed75d935f8d59d61256))
+* small project organization doc adjustments ([c3ce95e](https://github.com/datacamp/waffles/commit/c3ce95e5204752f2cb233ec7159eca63df6d5577))
+* use tokens in doc-site ([d3cd05c](https://github.com/datacamp/waffles/commit/d3cd05cb18425da193774d80d9ae0c41eb16b8ae))
+
 ## 0.11.0 (2021-08-12)
 
 
