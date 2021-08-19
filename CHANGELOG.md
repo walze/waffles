@@ -1,3 +1,19 @@
+## [0.13.0](https://github.com/datacamp/waffles/compare/v0.12.0...v0.13.0) (2021-08-19)
+
+
+### Core Changes
+
+* **tokens:** add base design tokens compatible with Figma ([8b2a859](https://github.com/datacamp/waffles/commit/8b2a8595de30642458c020085d84b7e6c5f56936))
+* **tokens:** commit auto generated tokens for internal use ([caceb96](https://github.com/datacamp/waffles/commit/caceb96131e3f0cea00d0ad855c9f88657f7ebfe))
+
+
+### Documentation Changes
+
+* add generate dsign tokens script overview ([320fdd5](https://github.com/datacamp/waffles/commit/320fdd559245edc0a18d149672ac3c4ee55082d1))
+* add section about design tokens and icons to dev guide ([211b37c](https://github.com/datacamp/waffles/commit/211b37c69c53349aecc56daded2bcdde961ee56d))
+* mention script to generate design tokens ([ff25c4b](https://github.com/datacamp/waffles/commit/ff25c4b4e8875259b7bb1c0c5fccdea58d72d6c9))
+* update core principles in dev guide ([93ff9ae](https://github.com/datacamp/waffles/commit/93ff9aecef10ab1eda2ad701fe29f8ba4250b35e))
+
 ## [0.12.0](https://github.com/datacamp/waffles/compare/v0.11.0...v0.12.0) (2021-08-18)
 
 
