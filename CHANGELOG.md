@@ -1,3 +1,30 @@
+## [0.14.0](https://github.com/datacamp/waffles/compare/v0.13.0...v0.14.0) (2021-08-24)
+
+
+### Documentation Changes
+
+* mention generate icons script ([94433fe](https://github.com/datacamp/waffles/commit/94433fe096051271961ddec7c32f9d4a5c57ec78))
+* update icons path ([c965f14](https://github.com/datacamp/waffles/commit/c965f1483ae0825634a832d24539fbdafe7bc64d))
+* update npm script names ([b4b57f7](https://github.com/datacamp/waffles/commit/b4b57f73152994669c1f32cdf94c561c42f995e5))
+
+
+### Core Changes
+
+* **icon:** add base icon with size mapping baked in ([7583ad1](https://github.com/datacamp/waffles/commit/7583ad1806e86a2603bf22a8d0747b24a0271e4c))
+* **icon:** add colored pay pal bran icon ([e92f7b5](https://github.com/datacamp/waffles/commit/e92f7b537a55c56cc5714189fbb254b180d2dc87))
+* **icon:** add raw svg icons ([72e3b15](https://github.com/datacamp/waffles/commit/72e3b15ce6be60c1dd4c5fb9436a1287f80f111a))
+* **icon:** commit auto generated icons ([161f7ce](https://github.com/datacamp/waffles/commit/161f7ce522231438fd56be04467b6029f155b159))
+* **icon:** commit optimized icons ([f8ff012](https://github.com/datacamp/waffles/commit/f8ff012236e8d2ad1f7b68d3d2b95d2359c17015))
+* **icon:** commit updated icon components ([aed9307](https://github.com/datacamp/waffles/commit/aed93075e1ad6f2338533c22fa4e0709dab98338))
+* **icon:** keep only one facebbok brand icon ([6bdeff5](https://github.com/datacamp/waffles/commit/6bdeff56cfb57072a53df69da480f84fa2135a09))
+* **icon:** keep only one linked in brand icon ([85f8857](https://github.com/datacamp/waffles/commit/85f8857241e14dc8c95ceeac0df18f4943b27977))
+* **icon:** make size prop optional ([87cf798](https://github.com/datacamp/waffles/commit/87cf79802abd7f9679c6ae2189d78128da743f11))
+* **icon:** remove google plus icon ([22c0f83](https://github.com/datacamp/waffles/commit/22c0f83adcbd3d777cd5f241751fa76967ddb4d9))
+* **icon:** remove title element ([7717cf9](https://github.com/datacamp/waffles/commit/7717cf9fc2722546ce40474b35d0ce407ffed499))
+* **icon:** streamline svg icons files ([04f7e44](https://github.com/datacamp/waffles/commit/04f7e4490aa18a1077a4ddcaf657b2455cecfb2f))
+* **icon:** update share icon ([4a26f1e](https://github.com/datacamp/waffles/commit/4a26f1ec011590f86ae1ca998574fb152096a084))
+* **workbench:** wrap whole workbench with main component ([68da194](https://github.com/datacamp/waffles/commit/68da19421ced14154cb604c9dc0725ec126c8fd2))
+
 ## [0.13.0](https://github.com/datacamp/waffles/compare/v0.12.0...v0.13.0) (2021-08-19)
 
 
