@@ -1,6 +1,6 @@
 {
   "name": "@datacamp/waffles",
-  "version": "0.14.0",
+  "version": "0.15.0",
   "description": "The DataCamp design system and components library.",
   "sideEffects": false,
   "scripts": {

@@ -1,3 +1,15 @@
+## [0.15.0](https://github.com/datacamp/waffles/compare/v0.14.0...v0.15.0) (2021-09-01)
+
+
+### Documentation Changes
+
+* proofread docs ([f6838b6](https://github.com/datacamp/waffles/commit/f6838b6f3375e825ec7e43fafbb5c41c72f6277b))
+
+
+### Core Changes
+
+* **media-query:** generate media queries from breakpoints ([c9237bc](https://github.com/datacamp/waffles/commit/c9237bc652d10143236db4b7a28ed66660086ec6))
+
 ## [0.14.0](https://github.com/datacamp/waffles/compare/v0.13.0...v0.14.0) (2021-08-24)
 
 
