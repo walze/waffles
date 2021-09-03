@@ -1,3 +1,31 @@
+## [0.17.0](https://github.com/datacamp/waffles/compare/v0.16.0...v0.17.0) (2021-09-03)
+
+
+### Bug Fixes
+
+* **button:** prevent content from shrinking ([5054ebd](https://github.com/datacamp/waffles/commit/5054ebd36a795097d85bb919a81b458eec53144b))
+
+
+### Core Changes
+
+* **button:** add disabled styles ([cf586f9](https://github.com/datacamp/waffles/commit/cf586f92aaa1d4f06b28ccd9d5c386acec0ffa92))
+* **button:** add inverted variants for dark backgrounds ([2d07f9f](https://github.com/datacamp/waffles/commit/2d07f9f47f2403e6a0ade1bce40a67aa755f6805))
+* **button:** add keyboard focus indicator style ([85c91ce](https://github.com/datacamp/waffles/commit/85c91ced583255ca65c5093227b211b367397705))
+* **button:** add padding depending on button size ([6e5bb8c](https://github.com/datacamp/waffles/commit/6e5bb8c4b63b17596e6690d26004b2806933a2ca))
+* **button:** add props to show icon, iconLeft, or iconRight ([7830b97](https://github.com/datacamp/waffles/commit/7830b97c957360dc80f5edf43aa67038176fe23c))
+* **button:** adjust padding around label when there is an icon ([3ac7878](https://github.com/datacamp/waffles/commit/3ac7878a443f7ed0a5867e0ef4caa5fb3d76f971))
+* **button:** clean button as a link style ([3aa7616](https://github.com/datacamp/waffles/commit/3aa7616b8e73122740d4b274afae6299608a4f94))
+* **button:** extrac dynamic styles to separate file ([4150fa3](https://github.com/datacamp/waffles/commit/4150fa37eb07b99be9c4665c8f59def367ae4dff))
+* **button:** forward ref ([6bfdae6](https://github.com/datacamp/waffles/commit/6bfdae65004ef45b6ee89f9cbb2b0ab090bdad09))
+* **button:** implement base sizes and variants ([4d501b1](https://github.com/datacamp/waffles/commit/4d501b146857748322b920e80064fce88387cb6a))
+* **button:** make button props extensible ([63c4860](https://github.com/datacamp/waffles/commit/63c486088ab0a4dda46d67bdb4b8319cc6e24089))
+* **button:** make icons slots more flexible ([561116f](https://github.com/datacamp/waffles/commit/561116f103bce0f4a8342012bf8a8e4993ddb26c))
+* **button:** support for fullWidth prop ([533e317](https://github.com/datacamp/waffles/commit/533e31767846c15d49d55795b189ce051ca0f836))
+* **button:** update button to use hexToRgba util ([9109367](https://github.com/datacamp/waffles/commit/9109367518d4dad8f15f2fdf15cf22088c8b60c5))
+* **button:** update secondary variant mappings ([7f502ad](https://github.com/datacamp/waffles/commit/7f502ad0081667312a64b4ad1f4b85303e3d40c5))
+* **tokens:** convert opacity from percentages to unitless ([8c9c551](https://github.com/datacamp/waffles/commit/8c9c5518de189a33e266ddd0ef31e0f373cedfb5))
+* **utils:** implement hexToRgba color conversion util ([8e191ec](https://github.com/datacamp/waffles/commit/8e191eca53ea9207a52b92ae7248d1331b3f43d8))
+
 ## [0.16.0](https://github.com/datacamp/waffles/compare/v0.15.0...v0.16.0) (2021-09-03)
 
 
