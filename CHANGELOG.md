@@ -1,3 +1,11 @@
+## [0.16.0](https://github.com/datacamp/waffles/compare/v0.15.0...v0.16.0) (2021-09-03)
+
+
+### Core Changes
+
+* **content-container:** extract styles to separate file ([ca7b845](https://github.com/datacamp/waffles/commit/ca7b845f85076674d9062550f2a2b1a6691b2d18))
+* **content-container:** implement content wrapper ([d733339](https://github.com/datacamp/waffles/commit/d733339bc084c02acbf2ae186e9f48882574cb36))
+
 ## [0.15.0](https://github.com/datacamp/waffles/compare/v0.14.0...v0.15.0) (2021-09-01)
 
 
