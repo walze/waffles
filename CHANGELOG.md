@@ -1,3 +1,24 @@
+## [0.18.0](https://github.com/datacamp/waffles/compare/v0.17.0...v0.18.0) (2021-09-09)
+
+
+### Core Changes
+
+* **button:** use polymorphic types fro utils ([8af469d](https://github.com/datacamp/waffles/commit/8af469d12953b9b11744589eba7d4c0b454cb4b0))
+* **chapeau:** create chapeau component ([e323eed](https://github.com/datacamp/waffles/commit/e323eed0408a8e2bb06fb27b45c9d8a6525c3646))
+* **code-block:** create code-block component ([78933c4](https://github.com/datacamp/waffles/commit/78933c4a5fb90fa065931ac51aea21b668abe40e))
+* **code-block:** make code block focusable ([d56a3d8](https://github.com/datacamp/waffles/commit/d56a3d85352115cdc94d089de48d44735cdcd6db))
+* **code:** implement code component ([7a5f057](https://github.com/datacamp/waffles/commit/7a5f0575e0888ccc23786c83a0eae853fa46e7d0))
+* **code:** make code work as pre tag ([b303ffd](https://github.com/datacamp/waffles/commit/b303ffd35a2a4c443b3e005523bee9d0767bca98))
+* **display:** adjust font weight ([3353f6d](https://github.com/datacamp/waffles/commit/3353f6dc7f0529abc482b8e261c120aa2ca1e197))
+* **display:** create display component ([e345d93](https://github.com/datacamp/waffles/commit/e345d93572dbeab74e6e698889b46b236f36a845))
+* **heading:** adjust line height ([59e50a4](https://github.com/datacamp/waffles/commit/59e50a4d2d2fcb33a77961b3f5995bbad4a60b9b))
+* **heading:** create heading component ([9cba950](https://github.com/datacamp/waffles/commit/9cba9501528987ae1fcee74845207739344aa854))
+* **link:** create link component ([b6d525a](https://github.com/datacamp/waffles/commit/b6d525a2977fe4025b7c54b2c0f2b6282196e2c2))
+* **paragraph:** implement paragraph component ([75c47d5](https://github.com/datacamp/waffles/commit/75c47d5011dab8ff322cac58e9972123d1be9193))
+* **paragraph:** remove margin from last paragraph in a section ([9851ca6](https://github.com/datacamp/waffles/commit/9851ca69dc710ddedc38347ecede536539f9bf46))
+* **text:** implement generic text component ([e9ef4ac](https://github.com/datacamp/waffles/commit/e9ef4ac8d544246f745b0a43b36de327eae2f672))
+* **utils:** add polymorphic component types ([db36ca5](https://github.com/datacamp/waffles/commit/db36ca59d6a7bc28193adefbe43a7729776c34b2))
+
 ## [0.17.0](https://github.com/datacamp/waffles/compare/v0.16.0...v0.17.0) (2021-09-03)
 
 
