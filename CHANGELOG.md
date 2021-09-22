@@ -1,3 +1,23 @@
+## [0.19.0](https://github.com/datacamp/waffles/compare/v0.18.0...v0.19.0) (2021-09-22)
+
+
+### Core Changes
+
+* **icon:** add flash and flash inverted icons ([4ec635c](https://github.com/datacamp/waffles/commit/4ec635c2cb0ca0e5049467fb489b9ae1e98b1f8a))
+* **link:** update link hover underline style ([54c3c96](https://github.com/datacamp/waffles/commit/54c3c96eba6c7db0c43448f810610b312951ccd5))
+* merge props in button, code-block, and link ([afbfead](https://github.com/datacamp/waffles/commit/afbfead7c210d146b9d10dc2d108ffc738a61a37))
+* **portal:** implement isomorphic portal component ([bd1f0b3](https://github.com/datacamp/waffles/commit/bd1f0b34dc3d0b98af970e23d858dde639998360))
+* **tokens:** add new popup z-index token ([87a813b](https://github.com/datacamp/waffles/commit/87a813b8301824e486b595eaf43998a536b4ad88))
+* **tooltip:** add inverted style ([6d40fcd](https://github.com/datacamp/waffles/commit/6d40fcd628047d95d76b9895535cfb9056c4ddc9))
+* **tooltip:** adjust styles slightly ([da6abd8](https://github.com/datacamp/waffles/commit/da6abd81feecd1c827fb6018f9b62f84a10d8b78))
+* **tooltip:** allow offset to be passed with units ([b9807fd](https://github.com/datacamp/waffles/commit/b9807fdea73e459a40ef3e7d98b4a1acac83153d))
+* **tooltip:** associate trigger and tooltip by id ([3ca7c39](https://github.com/datacamp/waffles/commit/3ca7c39a3a7db06bf2df6cb1620693dd1d0960ce))
+* **tooltip:** custom hook for trigger position and size ([7d3f967](https://github.com/datacamp/waffles/commit/7d3f9670648d4f90990c218005dc1893859d74e2))
+* **tooltip:** implement basic bottom placed tooltip ([d950e50](https://github.com/datacamp/waffles/commit/d950e50e803c579e7488250cef5e28a879fd7435))
+* **tooltip:** set tooltip position based on placement ([80b1790](https://github.com/datacamp/waffles/commit/80b179094dc04f63e2757738a2a4fe4b168312f2))
+* **tooltip:** show tooltip with very slight delay ([acda40a](https://github.com/datacamp/waffles/commit/acda40a041f1866ffda579ce8a34458dbdaaa48d))
+* update external link icon ([7ea6de2](https://github.com/datacamp/waffles/commit/7ea6de2018cddc759e8828e902da3ce24c3ab4af))
+
 ## [0.18.0](https://github.com/datacamp/waffles/compare/v0.17.0...v0.18.0) (2021-09-09)
 
 
