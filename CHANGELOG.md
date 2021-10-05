@@ -1,3 +1,66 @@
+## [0.20.0](https://github.com/datacamp/waffles/compare/v0.19.0...v0.20.0) (2021-10-05)
+
+
+### Bug Fixes
+
+* docs logo in safari ([54ba036](https://github.com/datacamp/waffles/commit/54ba036178518ad86d33df7fa13c9dbc890e03eb))
+
+
+### Core Changes
+
+* **button:** change hover color for primary variant ([8b513fd](https://github.com/datacamp/waffles/commit/8b513fda17631cba39423eda311090affb19df0d))
+* **button:** specify lighter colors for inverted hover ([b196721](https://github.com/datacamp/waffles/commit/b19672196bc86453528432e690214141f8f149c2))
+* **button:** update destructive variant hover color ([2af73ee](https://github.com/datacamp/waffles/commit/2af73eeba8438cc00514d0bcc011f0d53242edfb))
+* **content-container:** set top and bottom padding ([494f41f](https://github.com/datacamp/waffles/commit/494f41fc9d6ad9108df0e909f5d3866876a1284b))
+* **link:** add subtle highlight hover color ([27faaaf](https://github.com/datacamp/waffles/commit/27faaaf975d7d8625b3e336aab9422d46aec4f0b))
+* **link:** change hover background when focused ([ad484e0](https://github.com/datacamp/waffles/commit/ad484e009636832f31e63c44d26bb9c2f440a97c))
+* **paragraph:** add bottom padding back ([6b37c72](https://github.com/datacamp/waffles/commit/6b37c72a79f229c11ac46e685dc7541d23137018))
+* rename utils to helpers and move media-query there ([7360df1](https://github.com/datacamp/waffles/commit/7360df17266776c5f86dae632b89445070c8cec4))
+* **tokens:** update opacity low token value ([96609b1](https://github.com/datacamp/waffles/commit/96609b19cf16aa402d9663c9875bb3e0cfc0c854))
+
+
+### Documentation Changes
+
+* add basic nav component ([2096717](https://github.com/datacamp/waffles/commit/2096717cdcb0778e25d4a9299660a7485aca5b88))
+* add edit page link to the bottom of relevant pages ([e2e63a9](https://github.com/datacamp/waffles/commit/e2e63a927de4015d67cd90ef397748485ae2c202))
+* add libs to autogenerate props docs ([4b3e006](https://github.com/datacamp/waffles/commit/4b3e00680f9fdde4a4d39ebc4c0249c2b18b9cee))
+* add public pages placeholders ([e91f2ac](https://github.com/datacamp/waffles/commit/e91f2acc5945f13b134e41cfc4a755683e11b519))
+* add reset code button to playground ([0affc58](https://github.com/datacamp/waffles/commit/0affc585a9c25b5d73fdb746ee8263f909cf7e7a))
+* add sidebar component ([f1c34d0](https://github.com/datacamp/waffles/commit/f1c34d04e0bd9e0c5e5c824e767018ded6addbc2))
+* add subcategory style to nav link ([b9f671e](https://github.com/datacamp/waffles/commit/b9f671e3657118ab7cbf123f1553daf1c3849f5b))
+* add text selection color ([27222e5](https://github.com/datacamp/waffles/commit/27222e5e7a1d0f4936151ad0eddc5c87afd3e341))
+* add textFromChildren utility ([f2cf307](https://github.com/datacamp/waffles/commit/f2cf307fb7d18533e6b6042e879a949fa50631aa))
+* adjust best-practices style for single card ([98849f1](https://github.com/datacamp/waffles/commit/98849f19ebf260190ee91883fed0c494fce74e7d))
+* adjust font size of paragrpah after main heading ([08634d5](https://github.com/datacamp/waffles/commit/08634d5498eb6555de415464396d29cb7df0c7a4))
+* adjust secondary heading margin ([ad2082f](https://github.com/datacamp/waffles/commit/ad2082f6be2bc07c11f13992683d02dd8b81f368))
+* adjust side nav look ([bc98ec4](https://github.com/datacamp/waffles/commit/bc98ec44c552f9a59f4c3741e96e3916607f5755))
+* align copyright to the left ([5a7242c](https://github.com/datacamp/waffles/commit/5a7242c5147e616c7ed5d15531702d89f8c151a9))
+* allow props-table to render markdown as description ([6340d7c](https://github.com/datacamp/waffles/commit/6340d7c4d39379970785148a998a86305de12f06))
+* allow secondary headings to be bookmarked ([dc2b514](https://github.com/datacamp/waffles/commit/dc2b514d73cc9d430075ab47b220d189bfcfa82b))
+* creat list component for markdown ([1bb2026](https://github.com/datacamp/waffles/commit/1bb20269a81c1fddca1eaa3c9e07d4e151f9553c))
+* create navigation-category component ([f95fdac](https://github.com/datacamp/waffles/commit/f95fdac9c559bc2bc27f99375c9923dfdbbbb08a))
+* create navigation-link component ([1b5558a](https://github.com/datacamp/waffles/commit/1b5558a7563943ec798b682792d4564c7455bc55))
+* create props table component ([761eead](https://github.com/datacamp/waffles/commit/761eeadde5bfdbb1a260b1596a32a5d845adf28a))
+* custom components mapping for mdx ([28a3773](https://github.com/datacamp/waffles/commit/28a37734d77a66a44ef21c32dd4c6f41bd9d1a73))
+* enable docs written in markdown with mdx ([e245145](https://github.com/datacamp/waffles/commit/e245145993e9dc4f7936911912e1348a09539ec2))
+* extract page title from mine heading ([d59589d](https://github.com/datacamp/waffles/commit/d59589d90da55a3084656417daba8afe47d7ea2c))
+* fix svg logo in safari ([b1d7858](https://github.com/datacamp/waffles/commit/b1d785882ffff0141d607f81194a605ce3506542))
+* higlight selected nav link ([ea282b3](https://github.com/datacamp/waffles/commit/ea282b325730d4ae20cfc3286b77969237aeedf0))
+* implement basic page-layout component ([4a02953](https://github.com/datacamp/waffles/commit/4a02953afe0c5458a08c705839d16d214fa6d5be))
+* implement best-practices component ([23168e6](https://github.com/datacamp/waffles/commit/23168e64c998e8a70604b3f6dc957c7b7135e3a7))
+* implement convertedProps utility ([ac1ac8e](https://github.com/datacamp/waffles/commit/ac1ac8e9924ae2e0d05b55c6a38c209fb61cf796))
+* implement example component ([21b018b](https://github.com/datacamp/waffles/commit/21b018bd9c53691e30f8827e35a1b2a0455fe2ff))
+* implement imports component ([d16acd7](https://github.com/datacamp/waffles/commit/d16acd7cf96b813fd9c41ef48c4693e221cff5ad))
+* implement nav subcategory component ([fd07298](https://github.com/datacamp/waffles/commit/fd0729819e7d34748fc8f831d545d868a3bf701b))
+* implement page-header component ([ddf98cd](https://github.com/datacamp/waffles/commit/ddf98cdb610e931c7303719524b6193782b6a471))
+* implement table component ([d1bf9e8](https://github.com/datacamp/waffles/commit/d1bf9e84c185f1c2f653d6cda7d22c2a7822c327))
+* improve convertedProps typings ([5703af1](https://github.com/datacamp/waffles/commit/5703af172a82c0b2ce1757dda59d30ed29ef8906))
+* make page-header position fixed at the top ([c1515cb](https://github.com/datacamp/waffles/commit/c1515cb4b0ab07e9289dc6f970f76223e53245a0))
+* set up live coding components playground ([fc931df](https://github.com/datacamp/waffles/commit/fc931df556082d8aaabf18210888ccdb354e603e))
+* set up side navigation ([5cfbf5e](https://github.com/datacamp/waffles/commit/5cfbf5ed16634bd608977af2b1c58eec4afce626))
+* sort props and fixed optional flag adjustment ([15e6bce](https://github.com/datacamp/waffles/commit/15e6bcefc0a198390d8b89f27c6969968ae158e6))
+* update link border width and it's on hover color ([41997a9](https://github.com/datacamp/waffles/commit/41997a90549e6fcd43d4b15f7b529a7019954208))
+
 ## [0.19.0](https://github.com/datacamp/waffles/compare/v0.18.0...v0.19.0) (2021-09-22)
 
 
