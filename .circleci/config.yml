@@ -117,7 +117,10 @@ jobs:
       - attach_workspace:
           at: '.'
       - run:
-          name: S3 sync
+          name: Build static docs website
+          command: yarn doc:build
+      - run:
+          name: Sync with S3
           command: |
             export AWS_ACCESS_KEY_ID=${PROD_AWS_ACCESS_KEY_ID}
             export AWS_SECRET_ACCESS_KEY=${PROD_AWS_SECRET_ACCESS_KEY}
