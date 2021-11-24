@@ -67,6 +67,10 @@ jobs:
       - run:
           name: Release npm package
           command: yarn release
+      - persist_to_workspace:
+          root: '.'
+          paths:
+            - '*'
       - run:
           name: Get package version
           command: echo export VERSION_TAG=$(eval node -p "require\(\'./package.json\'\).version") >> $BASH_ENV
