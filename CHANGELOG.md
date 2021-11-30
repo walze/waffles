@@ -1,3 +1,30 @@
+## [1.0.0](https://github.com/datacamp/waffles/compare/v0.22.0...v1.0.0) (2021-11-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* v1.0 release
+
+### Core Changes
+
+* **input-field:** rename TextField to InputField ([4a71423](https://github.com/datacamp/waffles/commit/4a71423f6cacf817a01f544e833b3d582cc91dbf))
+
+
+### chore
+
+* v1 release ([3c7024c](https://github.com/datacamp/waffles/commit/3c7024cffff3aabe46f6bac902bb19ae1e686752))
+
+
+### Documentation Changes
+
+* create LandingPageCard component ([9b95a31](https://github.com/datacamp/waffles/commit/9b95a31c82a15f95318fd2c4c577031b6cf89cfe))
+* fix regex removing eslint flags in examples ([3453d90](https://github.com/datacamp/waffles/commit/3453d902b9ac38506e5d954b3823c2dd19160641))
+* implement context for generating table of contents ([cad9e3a](https://github.com/datacamp/waffles/commit/cad9e3ad30d6fdadf46b6f4ae206f01b6dcfae2f))
+* make links to figma components open in new tab ([c2f1a01](https://github.com/datacamp/waffles/commit/c2f1a01daae8677f50839d11e252d95be8d280c8))
+* update landing page ([b1511a3](https://github.com/datacamp/waffles/commit/b1511a36d78b62c658ae63a3199580e2be2de12c))
+* update roadmap and naviagation ([3fe49c5](https://github.com/datacamp/waffles/commit/3fe49c5e79aa472d0ac3d199ebedb4f4f53bc91e))
+* use context to generate table of contents on each page ([527230e](https://github.com/datacamp/waffles/commit/527230e5989e5737753bc3b87910c7f266bd33a0))
+
 ## [0.22.0](https://github.com/datacamp/waffles/compare/v0.21.0...v0.22.0) (2021-11-24)
 
 
