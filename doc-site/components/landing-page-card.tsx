@@ -16,6 +16,7 @@ const cardStyle = css`
 const imageWrapperStyle = css`
   background-color: ${tokens.colors.purpleLight};
   padding: ${tokens.spacing.xsmall};
+  max-width: 236px;
 `;
 
 const imageStyle = css`
@@ -24,7 +25,6 @@ const imageStyle = css`
 
 const contentStyle = css`
   padding: ${tokens.spacing.medium};
-  flex-grow: 1;
 `;
 
 type LandingPageCardProps = {
