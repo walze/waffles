@@ -1,3 +1,45 @@
+## [1.1.0](https://github.com/datacamp/waffles/compare/v1.0.0...v1.1.0) (2021-12-16)
+
+
+### Bug Fixes
+
+* incorrect image size on landing page card ([dbb043c](https://github.com/datacamp/waffles/commit/dbb043cd77584d54d87999f83af25a80b6a8254c))
+
+
+### Documentation Changes
+
+* add inline Tabs props documentation ([c0d6499](https://github.com/datacamp/waffles/commit/c0d649931942e6ab805c4b3c0edc243e6d21ee97))
+* add Tabs documentation page ([9cd6512](https://github.com/datacamp/waffles/commit/9cd65124b93f78995135a457a4fb1282d33f92c4))
+* add Tabs examples ([46a54f0](https://github.com/datacamp/waffles/commit/46a54f0f67f5aee7c490d0399fdc8f1b57ada627))
+* stop preloading monospaced font ([b7b354b](https://github.com/datacamp/waffles/commit/b7b354b387e30d501c436217996d66e1be388edc))
+* update button guidelines ([93b40ad](https://github.com/datacamp/waffles/commit/93b40adabf15348674102b3f46a46a7095158d6a))
+* update convertedProps utility to better handle advaced types ([298c606](https://github.com/datacamp/waffles/commit/298c606ec0ddd9aeab1a230d07c1726da8082c0a))
+* update roadmap and component status ([d78bf23](https://github.com/datacamp/waffles/commit/d78bf238fc246ffc93878da4aa726b79b3e823e8))
+
+
+### Core Changes
+
+* **code:** lower the opacity of inverted style ([405a646](https://github.com/datacamp/waffles/commit/405a6465a5ac150c2b1ab35ca357baa14f208c28))
+* create basic Tabs and Tab components ([6b9f07b](https://github.com/datacamp/waffles/commit/6b9f07b0a30b8a869b8df03b159dee05e717e920))
+* **icon:** add AddUser icon ([4c0a0eb](https://github.com/datacamp/waffles/commit/4c0a0eb8c9b290093dd2876b13162283fa33ee21))
+* **icon:** add Picture icon ([85547dc](https://github.com/datacamp/waffles/commit/85547dce648e485abb95ad6b097a2c0c36eb77a4))
+* **icon:** update Edit icon ([7799935](https://github.com/datacamp/waffles/commit/77999359fcd27dafdadc08949c54bfcedc4300e3))
+* **tabs:** add auto activate on focus functionality ([78fc01a](https://github.com/datacamp/waffles/commit/78fc01a281abfca35e32e89ad3ca7cce1860cfe8))
+* **tabs:** add disabled style and reworked faux element ([0a73ad2](https://github.com/datacamp/waffles/commit/0a73ad289ce93197c36f254689b3c48abba7bbc8))
+* **tabs:** add inverted style ([5e6b766](https://github.com/datacamp/waffles/commit/5e6b7660999c4da2363c0631feb3fca1916279de))
+* **tabs:** add Tab to Tabs namespace ([8c1a83b](https://github.com/datacamp/waffles/commit/8c1a83b88e46f99d2031bd7e29feddf39611aa1a))
+* **tabs:** allow key prop to index tabs ([2bf8ffd](https://github.com/datacamp/waffles/commit/2bf8ffd4ceed11d2ecd390a3fb365a6a3ced1acc))
+* **tabs:** create basic Tabs and Tab styles ([90596d5](https://github.com/datacamp/waffles/commit/90596d5373298d90ad6b9ea8ad267c0f5098c0d8))
+* **tabs:** enable usage of icon next to label ([7193bdc](https://github.com/datacamp/waffles/commit/7193bdcd49e2d0a466228fb56780945642cf614c))
+* **tabs:** extract tab list to separate component ([3160e14](https://github.com/datacamp/waffles/commit/3160e143340ba7ea002139199f51cc43d2f06b52))
+* **tabs:** hide gradient mask for short tabs on mobile ([604dd1c](https://github.com/datacamp/waffles/commit/604dd1c2c8e49b2595f8ffce69bf5f45ab8bc17f))
+* **tabs:** make onChange optional ([8e60e2f](https://github.com/datacamp/waffles/commit/8e60e2fc8d6806da7abeaf2c71ba8353bb5e84fa))
+* **tabs:** make Tab polymorphic ([3461017](https://github.com/datacamp/waffles/commit/3461017b6b4663a0e02b977bedcd09c996df8811))
+* **tabs:** make tabs scrollable on mobile ([6c6152b](https://github.com/datacamp/waffles/commit/6c6152b322f69d8fc57fcd40b5e00da924e8c2ff))
+* **tabs:** manage keyboard interactions ([0aac3f4](https://github.com/datacamp/waffles/commit/0aac3f4fde2eb56f51c16a3d88f31ecc4dd5b5f1))
+* **tabs:** merge tab event handlers ([bd1c5bb](https://github.com/datacamp/waffles/commit/bd1c5bb39509424ef30c6e724a8b0b3120dd83fb))
+* **tabs:** update active disabled tab style ([451784b](https://github.com/datacamp/waffles/commit/451784bf3d512ea34cf9a8f3650b21ffa4544400))
+
 ## [1.0.0](https://github.com/datacamp/waffles/compare/v0.22.0...v1.0.0) (2021-11-30)
 
 
