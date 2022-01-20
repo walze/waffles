@@ -1,3 +1,76 @@
+## [1.2.0](https://github.com/datacamp/waffles/compare/v1.1.0...v1.2.0) (2022-01-20)
+
+
+### Bug Fixes
+
+* item text positioning ([4363b67](https://github.com/datacamp/waffles/commit/4363b67aab4d14cdce27166507285f1a1cc17ca3))
+
+
+### Core Changes
+
+* **badge:** add badge styles ([2358d81](https://github.com/datacamp/waffles/commit/2358d8108ef66f5c1225ba0d7056ab7f4ea54fbf))
+* **badge:** implement Badge component ([987043d](https://github.com/datacamp/waffles/commit/987043d19c510bc7c97f9d5adbb0a94294088a4f))
+* **badge:** set same height for all sizes ([dafb5c0](https://github.com/datacamp/waffles/commit/dafb5c0a8a5dd55354aeb89c337856dd510db0ae))
+* **badge:** truncate label when it exceeds max width ([e964891](https://github.com/datacamp/waffles/commit/e9648912fbe2713c1199b0a485d017278ac55104))
+* **icon:** add regular and inverted Verified icon ([cd1ee89](https://github.com/datacamp/waffles/commit/cd1ee89531e0c1226db51518a32008b1bf1d216b))
+* **media-query:** update query names to be clearer ([15522fc](https://github.com/datacamp/waffles/commit/15522fc8732942df2831d50201635de8cc5953df))
+* **side-navigation:** add category divider ([c4050fd](https://github.com/datacamp/waffles/commit/c4050fd2b9da9d7fa831ecc7437bafe4ac94a163))
+* **side-navigation:** add mobile close button ([673977a](https://github.com/datacamp/waffles/commit/673977ad1ece5203a0edb8732f5d2149bd8511b9))
+* **side-navigation:** add mobile sidebar and overlay styles ([6b18798](https://github.com/datacamp/waffles/commit/6b187985dd48581d4b9ff3ef3673db8beee16076))
+* **side-navigation:** add new indicator badge ([cfe8df0](https://github.com/datacamp/waffles/commit/cfe8df048454febfd0b63684829dd4e540a5f670))
+* **side-navigation:** add right icon to item ([abf071e](https://github.com/datacamp/waffles/commit/abf071e2b789fa52ed6a52325bde76c6bc286631))
+* **side-navigation:** add subtle border to sidebar and close button ([8718113](https://github.com/datacamp/waffles/commit/871811394df85d2e611523650cf7e28c6b5b1d8b))
+* **side-navigation:** close mobile nav if item is link ([a4cf29c](https://github.com/datacamp/waffles/commit/a4cf29c2ae05e52e91d366da2a8ea8df72d4687d))
+* **side-navigation:** close mobile nav when item is clicked ([c72cb4d](https://github.com/datacamp/waffles/commit/c72cb4dd537958aa9ddc0367454e2d984c4c463e))
+* **side-navigation:** configure animations for mobile sidebar ([eb0b943](https://github.com/datacamp/waffles/commit/eb0b94397ae097f2cb4004db1b49ec4faec52019))
+* **side-navigation:** create hook to add delay to component unmount ([77be294](https://github.com/datacamp/waffles/commit/77be2949c7bab624a643da986c2a6657b209d10f))
+* **side-navigation:** display optional Link icon ([c991ce3](https://github.com/datacamp/waffles/commit/c991ce3d1aae8363ea2041f9efd2643df15ef0a3))
+* **side-navigation:** enhance active item with aria-current attribute ([f6b844b](https://github.com/datacamp/waffles/commit/f6b844bdcf2589a5265e49a9ab65aa93890a19b2))
+* **side-navigation:** extract mobile sidebar to speparate component ([5f551c2](https://github.com/datacamp/waffles/commit/5f551c2b2698ae7dc8dceda79559d8909dcb4f3e))
+* **side-navigation:** extract styles to separate file ([0f38e2a](https://github.com/datacamp/waffles/commit/0f38e2a293ee55eb8837fbd74fcd1f070a085270))
+* **side-navigation:** implment side nav base ([139a67f](https://github.com/datacamp/waffles/commit/139a67f6d533f7c40000f4a00c80368fa2d261e4))
+* **side-navigation:** improve group of links a11y ([db5f987](https://github.com/datacamp/waffles/commit/db5f9870c250f5bcd399c9d37158a8eae61e33f8))
+* **side-navigation:** prevent scroll on mobile with no lib ([a60503e](https://github.com/datacamp/waffles/commit/a60503ed1b5a590fe7633d3d210012f1e320622f))
+* **side-navigation:** prevent scrolling on mobile ([9bd6f3b](https://github.com/datacamp/waffles/commit/9bd6f3bb8f1b2e13b9aaf70b6e6a906e1f94827a))
+* **side-navigation:** prevent scrolling when its open ([27aefa4](https://github.com/datacamp/waffles/commit/27aefa484797ada5f07be1221a679ca38b1f1859))
+* **side-navigation:** simplify Link styles to accomodate for long content ([84deb23](https://github.com/datacamp/waffles/commit/84deb239b08a74380b94431f4708c016bba8b9cc))
+* **side-navigation:** small and medium size of item and subcategory ([a4653ef](https://github.com/datacamp/waffles/commit/a4653ef94bb7262a050761f9a1e38c198286d2d8))
+* **side-navigation:** specify animation keyframes for mobile sidebar ([0447dc6](https://github.com/datacamp/waffles/commit/0447dc6d3907c4d672ebe8ccf978f1ede1902412))
+* **side-navigation:** subcategory may act as a link ([f37a81f](https://github.com/datacamp/waffles/commit/f37a81f32334dfd337b86fb2fd75b9bf0a2590a9))
+* **side-navigation:** update elements colors ([efd409a](https://github.com/datacamp/waffles/commit/efd409adeff83ee5a90ee4e34e6615b9bf4cf0ee))
+* **side-navigation:** update height of sidebar wrapper ([55af2ca](https://github.com/datacamp/waffles/commit/55af2cae6f4f702da2611cd8a5e6853404cd39c1))
+* **side-navigation:** update hitbox and font sizes for mobile ([fdbc311](https://github.com/datacamp/waffles/commit/fdbc3112ba534f33d3d88344c50d60af1463f569))
+* **side-navigation:** update Item and Subcategory to be more consistent ([312ba88](https://github.com/datacamp/waffles/commit/312ba881004aa790ddcd48682ec57a5667ac0fb8))
+* **side-navigation:** update the structure to make it more flexible ([3bafa1c](https://github.com/datacamp/waffles/commit/3bafa1ceb7679e39333b40f9ffa7e05ea7b0690f))
+* **side-navigation:** use badge component for new indicator ([c435f91](https://github.com/datacamp/waffles/commit/c435f9105df03a6804ed19d758630c22de8eed7f))
+* **side-navigation:** use Portal to render mobile nav ([beeac7c](https://github.com/datacamp/waffles/commit/beeac7c7d843e5e9ce39ac26dafe00a28c93dcc8))
+* **use-isomorphic-layout-effect:** hook to fix useLayoutEffect warning ([b4042db](https://github.com/datacamp/waffles/commit/b4042db2abcad48b682d0011931e08edb496a612))
+* **use-media-query:** add useMediaQuery hook for breakpoints from tokens ([af6796d](https://github.com/datacamp/waffles/commit/af6796d0a7f852dcced12f54d7f55fea396f249a))
+* **use-media-query:** make conditional breakpoints names more clear ([d4bdeca](https://github.com/datacamp/waffles/commit/d4bdeca90492f25b563e94b80957064c791071c1))
+
+
+### Documentation Changes
+
+* add Badge documentation page ([9a340de](https://github.com/datacamp/waffles/commit/9a340de41f3e7e4933e4787b3d2b4e42ec8d0438))
+* add Badge examples ([c6303fc](https://github.com/datacamp/waffles/commit/c6303fcd5a544d33291f651eba46c3852570be7e))
+* add Badge props documentation ([65ed02b](https://github.com/datacamp/waffles/commit/65ed02bacb6840e105bccf57907114517081fc59))
+* add inline props documentation for SideNavigation subcomponents ([28e91ee](https://github.com/datacamp/waffles/commit/28e91ee5cc39807e62a4976a5271b00702f2739f))
+* add SideNavigation documentation page ([f966f54](https://github.com/datacamp/waffles/commit/f966f54f9092e4abb5a9d4a4fd217db111ac09eb))
+* add SideNavigation examples ([98d8819](https://github.com/datacamp/waffles/commit/98d881969e5ada8020fb8cbc9399b25de8e71d69))
+* add updated NavigationItem component ([ce35663](https://github.com/datacamp/waffles/commit/ce356636fed72e3c90f4dd76c9f5669139933cf5))
+* add useMediaQuery example ([4578d1e](https://github.com/datacamp/waffles/commit/4578d1e2107ddd2ecbcf5d24aa11a901b0f17311))
+* add useMediaQuery hook documentation page ([68bac9a](https://github.com/datacamp/waffles/commit/68bac9a408480b3a2b09781743bf8d2e62306e07))
+* fix ContentContainer imports ([6fd907b](https://github.com/datacamp/waffles/commit/6fd907b9ff4f2edecff72169e231a4743f4a2b03))
+* fix media query hook breakpoint ([14dbf1c](https://github.com/datacamp/waffles/commit/14dbf1c68007d202b59263c134bdbdcbcd2f213c))
+* implement navigation using own SideNaviagtion ([f139472](https://github.com/datacamp/waffles/commit/f139472aa74d12303ada90489c4674839aeccfce))
+* make best practices responsive ([820e184](https://github.com/datacamp/waffles/commit/820e184982febae41aa9536d48288bab32f40f7e))
+* make cards on landing page responsive ([b36687f](https://github.com/datacamp/waffles/commit/b36687fd3de1839565f074e40bc6e4c2ee9a2c2f))
+* make page header and layout more responsive ([b62f470](https://github.com/datacamp/waffles/commit/b62f470cc40e01854d535cbd43c64c0b31c867c0))
+* make TableOfContents responsive ([b410fa6](https://github.com/datacamp/waffles/commit/b410fa644932a4f24c68ad0df0e71038b9445b7c))
+* minor updates for useId and Portal ([21c2fe4](https://github.com/datacamp/waffles/commit/21c2fe46e81adbe5fa2e3d54697c21bd209c4e40))
+* update mediaQuery documentation ([017c72d](https://github.com/datacamp/waffles/commit/017c72daa51cb31568ba773d7e4708a8a4ba43bb))
+* update roadmap and component status ([a322d14](https://github.com/datacamp/waffles/commit/a322d147d005db295bc93b123b3221276a40a788))
+
 ## [1.1.0](https://github.com/datacamp/waffles/compare/v1.0.0...v1.1.0) (2021-12-16)
 
 
