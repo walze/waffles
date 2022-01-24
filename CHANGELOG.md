@@ -1,3 +1,27 @@
+## [1.3.0](https://github.com/datacamp/waffles/compare/v1.2.0...v1.3.0) (2022-01-24)
+
+
+### Bug Fixes
+
+* **side-navigation:** remove overeager element type checks ([1f0c51c](https://github.com/datacamp/waffles/commit/1f0c51c89c6711fa0287d5935e7afa1e27be14ae))
+* **side-navigation:** update animated sidebar layout ([2fb01ac](https://github.com/datacamp/waffles/commit/2fb01ac43fb123a440f3da1c2d086fe410695c5f))
+
+
+### Core Changes
+
+* add Image ([8f585e9](https://github.com/datacamp/waffles/commit/8f585e95d424d5586b320ef61dcb62f3d19a3d8c))
+* **icon:** add Calendar ([f2414c2](https://github.com/datacamp/waffles/commit/f2414c2f06fea12a13615e13b96137dec26af1d5))
+* **icon:** rename Picture to Camera ([cb91c22](https://github.com/datacamp/waffles/commit/cb91c22d4c2eaf3fb9179119b25e072bad5c7099))
+
+
+### Documentation Changes
+
+* add Accessibility page, other minor updates ([ae8795b](https://github.com/datacamp/waffles/commit/ae8795b65a5a46f52b444a9d4d91012fdae6da5a))
+* fix page header position in Safari ([ceea161](https://github.com/datacamp/waffles/commit/ceea161bb5718c4185d5e05342fd80118a045f71))
+* mention useMediaQuery on tokens page ([6990196](https://github.com/datacamp/waffles/commit/6990196b99a00061dc242453953372d8a1a6ac34))
+* update SideNavigation docs with more exaples ([e6094c2](https://github.com/datacamp/waffles/commit/e6094c29c9a88b5268852a821828c32f655fe5b1))
+* updated pages layout to properly handle mobile nav ([3b1c873](https://github.com/datacamp/waffles/commit/3b1c873db694c86df41c9456b2dd00dc8dbb1e11))
+
 ## [1.2.0](https://github.com/datacamp/waffles/compare/v1.1.0...v1.2.0) (2022-01-20)
 
 
