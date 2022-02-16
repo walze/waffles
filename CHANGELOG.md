@@ -1,3 +1,82 @@
+## [1.4.0](https://github.com/datacamp/waffles/compare/v1.3.0...v1.4.0) (2022-02-16)
+
+
+### Bug Fixes
+
+* **modal:** remove redundant call in useScrollPosition hook ([45c2585](https://github.com/datacamp/waffles/commit/45c258510d84dcd14bd8f53e04c33804186d4f61))
+* **side-navigation:** remove scroll lock ([7829ddc](https://github.com/datacamp/waffles/commit/7829ddcb21cea60ce9d182f3c74a8ce84d169a79))
+
+
+### Core Changes
+
+* **alert-dialog:** rename AlertModal to AlertDialog ([85edf51](https://github.com/datacamp/waffles/commit/85edf51411e49aca4ff4b853a70fa7ff989b74a4))
+* **alert-modal:** implement AlertModal and its subcomponents ([2061f94](https://github.com/datacamp/waffles/commit/2061f94273dfe74bf4ccfa5e27e2dc457c28e972))
+* **badge:** type of Badge is now defined by variant not by color ([b606ad7](https://github.com/datacamp/waffles/commit/b606ad7b626df327205cf3b8821d63ab60384589))
+* **dialog:** rename Modal to Dialog and clean up animations ([049ea34](https://github.com/datacamp/waffles/commit/049ea34232589b9f013e8555fe6eb34ae59497a9))
+* **drawer:** implement Drawer component ([1cdf760](https://github.com/datacamp/waffles/commit/1cdf7600d51e845fd71b9b2eb63be9b5f290a09e))
+* **drawer:** implement Drawer component ([9716206](https://github.com/datacamp/waffles/commit/9716206fc886f1cf7268d28c1deb90c8a4f6bbd8))
+* **drawer:** make panels behave nicely on iOS ([f1465c9](https://github.com/datacamp/waffles/commit/f1465c95d06d148d7db97e79950268443d46669b))
+* **drawer:** update drawer panel a11y ([782cc43](https://github.com/datacamp/waffles/commit/782cc433b6091ee625a9bce8c010ec458a2111a6))
+* **form-field:** add FormField utility component to enhance inputs ([9b8ba99](https://github.com/datacamp/waffles/commit/9b8ba99b48a56a28ca45b5182e85cd91f78b531b))
+* **icon:** add Diamond icon ([7abc048](https://github.com/datacamp/waffles/commit/7abc048683f0b35cc24a03be01dc55161949790d))
+* **icon:** add Publish icon ([7afa4e2](https://github.com/datacamp/waffles/commit/7afa4e2a87613361f174625321e73ed637435ae5))
+* **icon:** add xlarge and large size ([dd53f19](https://github.com/datacamp/waffles/commit/dd53f190fe7f8a21ca8d6aa36780018629d17db3))
+* **input:** simplify Input to play nicely with FormField ([38dcd11](https://github.com/datacamp/waffles/commit/38dcd11043eee0bd8d41ede1ac5f36974bf84f88))
+* **modal:** add animation on dismiss ([204a760](https://github.com/datacamp/waffles/commit/204a760aa238d608adfc27ab67214f70d0ef68cf))
+* **modal:** add body subcomponent ([828bdc2](https://github.com/datacamp/waffles/commit/828bdc22dae18d99d2ca893af97178005be9f308))
+* **modal:** add close button ([ba79ed5](https://github.com/datacamp/waffles/commit/ba79ed5f720a785f136fe3f86f78342a184946ce))
+* **modal:** add header and footer subcomponents ([1212d74](https://github.com/datacamp/waffles/commit/1212d74eae515bb0bc49e949d573fe8503098c03))
+* **modal:** add overlay ([bc2c09e](https://github.com/datacamp/waffles/commit/bc2c09ef6178b3b7e6ab227b7f6661a7b79d7569))
+* **modal:** add some wiggle room to isAtBottom calculations in scroll hook ([a22b3cf](https://github.com/datacamp/waffles/commit/a22b3cfb41c83f8ab4d7c30403b2c4eff6449d2b))
+* **modal:** button subcomponent with some QOL additions ([7502f62](https://github.com/datacamp/waffles/commit/7502f625f1fa08365cbfee0a2a0e71abbb3e3762))
+* **modal:** focus lock modal content ([d2e1d16](https://github.com/datacamp/waffles/commit/d2e1d169f2fe3eaac3ebbfc3443b33dd03868cd9))
+* **modal:** implement dialog and its wrappers ([e6380d0](https://github.com/datacamp/waffles/commit/e6380d027b2624eab25bc6afca0439b18e247804))
+* **modal:** implement hook managing modal body scroll position ([d8df4ca](https://github.com/datacamp/waffles/commit/d8df4ca2e4030c1480b44363b15e515d3e7caf12))
+* **modal:** make close button and overlay more extensible ([ac2ad41](https://github.com/datacamp/waffles/commit/ac2ad4160862f63dae962da01ca864552407d452))
+* **modal:** make modal content scrollable with fixed footer and header ([327109c](https://github.com/datacamp/waffles/commit/327109ce5aeae749340643ae214558e094f1bc7e))
+* **modal:** make subcomponents more extensible ([1aa2fe9](https://github.com/datacamp/waffles/commit/1aa2fe9ed1e7876166f43f9db07f8acdee2c1ed3))
+* **modal:** prevent footer and header from shrinking ([2b256d2](https://github.com/datacamp/waffles/commit/2b256d248ebe52223fa1bdb23408c9b5d9409f33))
+* **modal:** put together basic modal and add animation keyframes ([2d90ab6](https://github.com/datacamp/waffles/commit/2d90ab6f5e818ee734963687b0f7b68dd09d5af5))
+* **modal:** show shadow scroll indicators when content is long ([be4c89a](https://github.com/datacamp/waffles/commit/be4c89ae37a49eddcbb5ae4b13e7bebec127a16f))
+* **overlay:** add internal Overlay component ([907aabc](https://github.com/datacamp/waffles/commit/907aabc9850dee90a9049593cefeab69e6228835))
+* **select:** simplify Select to play nicely with FormField ([e0468a7](https://github.com/datacamp/waffles/commit/e0468a727621b8dd2ad392b58b7ccb06c76204b5))
+* set aria-invalid when Input, TextArea, and Select has error ([47fe36e](https://github.com/datacamp/waffles/commit/47fe36e7c2558367795e36134582f695e3ec1567))
+* **side-navigation:** increase size of close button icon ([a07b346](https://github.com/datacamp/waffles/commit/a07b346d9a93e93c5333de8338a749bd47ef47f2))
+* **side-navigation:** update new badge ([1a9f385](https://github.com/datacamp/waffles/commit/1a9f3851a1e01947ccc164bbd9dad4c41528fb3c))
+* **side-navigation:** use Overlay and streamline animation keyframes ([f9d4d85](https://github.com/datacamp/waffles/commit/f9d4d856f2c82304eb7041c69d2ea73089c584c2))
+* **tabs:** update spacing on mobile ([81a985a](https://github.com/datacamp/waffles/commit/81a985a71f15244a1ea28434cf8a0468f92aba4d))
+* **text-area:** simplify TextArea to play nicely with FormField ([c90d80f](https://github.com/datacamp/waffles/commit/c90d80f458e615167b3d90a7fbc79e5bbebf7396))
+* **tooltip:** decrease z-index ([9dc625d](https://github.com/datacamp/waffles/commit/9dc625ddb5762a407b47efe651dc070dbb86ea57))
+* **use-animate-transition:** add hook to handle CSS exit animations ([a09ddaf](https://github.com/datacamp/waffles/commit/a09ddaf58f054189609893420be9730ceca9c45d))
+
+
+### Documentation Changes
+
+* add a11y note to Input, TextArea, and Select ([abce7bf](https://github.com/datacamp/waffles/commit/abce7bfa368282b6e80ae17be99722b7fe27b25b))
+* add accessibility notes to modal components ([1e8a7cf](https://github.com/datacamp/waffles/commit/1e8a7cf1c8909b1d2a914594a688de34b0301083))
+* add AlertDialog examples ([b0a77b4](https://github.com/datacamp/waffles/commit/b0a77b44b8649fc16afeac1ead547a670e8ff5ff))
+* add Dialog examples ([5582027](https://github.com/datacamp/waffles/commit/55820271f5e65b4d923e96ddfb33d904687c9e83))
+* add dodumentation pages for modal components ([9c0774d](https://github.com/datacamp/waffles/commit/9c0774d49991591d08e7f1da3b26d411a9ce880a))
+* add Drawer examples ([3b95783](https://github.com/datacamp/waffles/commit/3b9578300739ee2fc8b64337ad8f5e8f8b9234b2))
+* add FormField basic documentation page ([545643a](https://github.com/datacamp/waffles/commit/545643a1002d6446cfe1f24dd8977693e1d852e2))
+* add FormField examples ([41b6e14](https://github.com/datacamp/waffles/commit/41b6e14dbdc84ef626f34b722c52aac9ec709188))
+* add FormField inline props docs ([c63555c](https://github.com/datacamp/waffles/commit/c63555ceda351da5d0d4226bbf22df23d0ae64b7))
+* add info about strong and em to Paragraph ([192ca33](https://github.com/datacamp/waffles/commit/192ca3368b1bc9f40efe55990707f0f050cfa5b7))
+* add new components to navigation ([7cf1176](https://github.com/datacamp/waffles/commit/7cf1176096801092ea847ac58abcc1678d61c37d))
+* add tooltip indicator to inline element example ([0debd1a](https://github.com/datacamp/waffles/commit/0debd1a5e6cf69fc205fc8e4f55b9b2e8357d539))
+* document useAnimateTransition hook ([180dcb5](https://github.com/datacamp/waffles/commit/180dcb5cc9ecb70b6cca1f14bdf3f2318774b953))
+* fix SideNavigation example ([f538dec](https://github.com/datacamp/waffles/commit/f538decf1682bc54a66cee7ee9c97cfe641373ea))
+* inline props docs for AlertDialog ([dea4e00](https://github.com/datacamp/waffles/commit/dea4e0092b1f5dfe8e2bf3d6df3f931a6f85547b))
+* inline props docs for Dialog ([be838db](https://github.com/datacamp/waffles/commit/be838dbc8db06fc8be2860ba08006908525dd5db))
+* inline props docs for Drawer ([45f224f](https://github.com/datacamp/waffles/commit/45f224f55d710a0c194d07f5250b5620dbfa0cd2))
+* make FormField and Select notes more precise ([24f4e63](https://github.com/datacamp/waffles/commit/24f4e63430ced796e448455d837117db7db1ad60))
+* update Badge documentation ([0259d06](https://github.com/datacamp/waffles/commit/0259d06a85b3d947eaff10190cced22b65befa82))
+* update CodePreview horizontal scrolling for small devices ([73f47a5](https://github.com/datacamp/waffles/commit/73f47a5ce1fd94779f50d0bd75ebbf08927fa779))
+* update icon docs and examples ([11c310e](https://github.com/datacamp/waffles/commit/11c310e8eb0c171811ce7bac346a5f40172f4e66))
+* update roadmap ([2ea0874](https://github.com/datacamp/waffles/commit/2ea08746eba040b832903d8fe625f6628d0277a2))
+* update Select and TextArea documentation ([38055c7](https://github.com/datacamp/waffles/commit/38055c7456d0d4ac0704dbbebe4be86800090f4d))
+* update size of hamburger menu and GitHub link ([17b25bf](https://github.com/datacamp/waffles/commit/17b25bf468a2c27d0c3a4e09635632012a4758ff))
+
 ## [1.3.0](https://github.com/datacamp/waffles/compare/v1.2.0...v1.3.0) (2022-01-24)
 
 
