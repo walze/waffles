@@ -1,3 +1,50 @@
+## [1.5.0](https://github.com/datacamp/waffles/compare/v1.4.0...v1.5.0) (2022-03-09)
+
+
+### Bug Fixes
+
+* **dialog:** hide scrollbars on Windows ([4a3ce45](https://github.com/datacamp/waffles/commit/4a3ce456bb035beec60814e05291b5f04eef3616))
+* **sidebar:** context error handling ([6b9a9ca](https://github.com/datacamp/waffles/commit/6b9a9ca813f0cbb4522e0d4c911161a19f78af74))
+* **tabs:** hide scrollbars on Windows ([645fd33](https://github.com/datacamp/waffles/commit/645fd3399e70dcff8c4f65a02149ded6e236fef6))
+* **text-area:** very long string breaking autoGrow ([62d03c8](https://github.com/datacamp/waffles/commit/62d03c8504267545bb1e336a0cfbdc84ed5cb5f8))
+
+
+### Documentation Changes
+
+* add Toast documentation page ([2835861](https://github.com/datacamp/waffles/commit/283586180b7f680d3744bcd6a1402400b7315f06))
+* add Toast examples and playground ([1e18cd9](https://github.com/datacamp/waffles/commit/1e18cd924a575e3954d8bbe93798e671d8f425d6))
+* add useIsomorphicLayoutEffect and useCallbackRef overview ([e7cc082](https://github.com/datacamp/waffles/commit/e7cc082bd7b70d41025af925624dac812f02a9b9))
+* fix typo ([fa54823](https://github.com/datacamp/waffles/commit/fa548239742bba69694694dc22d52babb9d3e6de))
+* hide code samples scrollbars on Windows ([95f04c0](https://github.com/datacamp/waffles/commit/95f04c090622add41c60d9ce7640118af3d540b8))
+* update component names in links between doc pages ([d200bf4](https://github.com/datacamp/waffles/commit/d200bf4ca17a112d1271f20a34b24da74ee9136b))
+* update FormFiled documentation ([eff5cea](https://github.com/datacamp/waffles/commit/eff5ceab855b5e2a17a55fd1f28a5f0db36b7d90))
+* update navigation and roadmap ([d30508e](https://github.com/datacamp/waffles/commit/d30508e659e96b81ce128cacb98649508afacfee))
+* update TextArea documentation ([0af7f9d](https://github.com/datacamp/waffles/commit/0af7f9d3b63b8b58cbc29ac399c9ea9e70002829))
+
+
+### Core Changes
+
+* **badge:** update height for each size ([e44660a](https://github.com/datacamp/waffles/commit/e44660a045dff9e9da6a523b0729d1ea3d22536f))
+* **form-field:** add an option to disable required indicator completely ([6d17fff](https://github.com/datacamp/waffles/commit/6d17fff5ae7538c5231f6ee6cbaab283fa5c56eb))
+* handle animation keyframes in more explicit way ([b3790ab](https://github.com/datacamp/waffles/commit/b3790aba95836581386f047cd0ef4f7310d49187))
+* **hooks:** add useCallbackRef to persist functions between rerenders ([83fc02f](https://github.com/datacamp/waffles/commit/83fc02f6ad378314ff8bdefed79e3f1742f5a433))
+* **hooks:** useCallbackRef allow to pass deps array ([a36962a](https://github.com/datacamp/waffles/commit/a36962acca01400b32f39f2326c95ec7fdf152d2))
+* **icon:** add Integration icon ([4c74ac6](https://github.com/datacamp/waffles/commit/4c74ac61f908e1ba05a7f1e5cb63ef1f47ac4167))
+* **text-area:** add optional character count indicator ([80974f8](https://github.com/datacamp/waffles/commit/80974f8d2bf0b4418f295f604a6dec336b7f7171))
+* **text-area:** decrease the size of character counter ([964aca4](https://github.com/datacamp/waffles/commit/964aca4edc828cfd3484835db13b9996eafdf2f0))
+* **toast:** add close button and animations ([14996ff](https://github.com/datacamp/waffles/commit/14996ff609f79c6cb4bd143b22ebd057617a9a6c))
+* **toast:** add global auto hide configuration for ToastProvide ([9ba206e](https://github.com/datacamp/waffles/commit/9ba206e287c098ff2552a544c1d650601cad4947))
+* **toast:** add logic to handle Toast closing and animations ([4ae738a](https://github.com/datacamp/waffles/commit/4ae738a7b11463585fd0ae9a00f38f056c457d08))
+* **toast:** add offset to adjust toasts container top position ([32445a8](https://github.com/datacamp/waffles/commit/32445a855a63209e5250315c7e73523cd0b9472c))
+* **toast:** cleanup of ToastProvider ([e3c6548](https://github.com/datacamp/waffles/commit/e3c654837a1375cfa14a58cd71dc6f1101e0615a))
+* **toast:** collapse Toast when closed ([18fae6f](https://github.com/datacamp/waffles/commit/18fae6fea1550c8bc6e5f94cccb0dd15381a7b19))
+* **toast:** create container for toasts ([9e6c545](https://github.com/datacamp/waffles/commit/9e6c545271c4ec6be8aa2e74006d714e99430ff2))
+* **toast:** extract Toast visual content to separate component ([52a9bc7](https://github.com/datacamp/waffles/commit/52a9bc732a90e0ed9bd0fa39b78ee968d0d863a1))
+* **toast:** implement basic Toast component ([7f0cf74](https://github.com/datacamp/waffles/commit/7f0cf74a8c5458eeb789e1685bbba9dc3caa9d38))
+* **toast:** implement context provider and hook for managing toasts ([a541cec](https://github.com/datacamp/waffles/commit/a541cec3a15a0cf948949c0597c60672f5b817ce))
+* **toast:** implement hook to get Toast height ([43f5373](https://github.com/datacamp/waffles/commit/43f537314e1f9c00661fe44885772b0be6b8d8b9))
+* **toast:** make it display correctyl on mobile ([5e21f96](https://github.com/datacamp/waffles/commit/5e21f963760dcf88fdbbaa6f8ca141a2287c53bd))
+
 ## [1.4.0](https://github.com/datacamp/waffles/compare/v1.3.0...v1.4.0) (2022-02-16)
 
 
