@@ -1,3 +1,48 @@
+## [1.6.0](https://github.com/datacamp/waffles/compare/v1.5.0...v1.6.0) (2022-04-11)
+
+
+### Core Changes
+
+* **button:** update plain variant inverted text color ([73e5849](https://github.com/datacamp/waffles/commit/73e58491f2c45320e8a7e3431116a26f74348873))
+* **content-container:** removed noSidebar prop ([1392f66](https://github.com/datacamp/waffles/commit/1392f66badb50df48fcc719462ad68872ed2f3b7))
+* **content-container:** simplify how it works across various breakpoints ([3b0f392](https://github.com/datacamp/waffles/commit/3b0f392a168ff9df7e5d3df281a8c34dd0cd33e0))
+* **error-boundary:** add fallback prop for custom error notifications ([1f72cb8](https://github.com/datacamp/waffles/commit/1f72cb8dda7d307800cd18685697a40a048464df))
+* **error-boundary:** implement custom ErrorBoundary component ([aa8ae21](https://github.com/datacamp/waffles/commit/aa8ae215cd889ca8ec3445d39b32ace9e2f3f3df))
+* **link:** update inverted link color ([aa8bf81](https://github.com/datacamp/waffles/commit/aa8bf81bda86896fc1efd86cc22437008a13a1d1))
+* make modals overlay slightly darker ([b7b3606](https://github.com/datacamp/waffles/commit/b7b3606f8cf1b68c422e0f8ae0ab91080b7e60fa))
+* **notification-card:** baseline for various notification implementations ([7d102a7](https://github.com/datacamp/waffles/commit/7d102a7c57da8461de8fab38305cee4d4016ef48))
+* **notification:** add action button slot ([2fa923b](https://github.com/datacamp/waffles/commit/2fa923b0e7cdb8b70c14b8ccf88ae00bf299a5a4))
+* **notification:** add ActionButton subcomponent ([4f123f0](https://github.com/datacamp/waffles/commit/4f123f0b83f552b0386007d14e9ab0035fe2bd1d))
+* **notification:** add closeable flag to show close button ([4540bf3](https://github.com/datacamp/waffles/commit/4540bf3f0dc6f4657b1c0b0bf88debbc515ad6f9))
+* **notification:** add CloseButton internal component ([43e0a4c](https://github.com/datacamp/waffles/commit/43e0a4ca7226f974f1f2540e602f68b210d0c1b3))
+* **notification:** add hook to determine internal layout ([4ad0442](https://github.com/datacamp/waffles/commit/4ad0442e5cab7ae4f1d1939d68dd13fa69b58f31))
+* **notification:** add Icon internal component ([101287e](https://github.com/datacamp/waffles/commit/101287e10e3e073a7f0f65f36a2406d215fe5fa9))
+* **notification:** add inverted style ([5bd9c2e](https://github.com/datacamp/waffles/commit/5bd9c2ea967dc98610e4aafe4d7451103997dee0))
+* **notification:** add simple fade out animation when it's closed ([0ad4d99](https://github.com/datacamp/waffles/commit/0ad4d998ae7aad75a2745d6a65d9a63826a9b2e8))
+* **notification:** add success, error, and warning variant ([bbbf0a8](https://github.com/datacamp/waffles/commit/bbbf0a8d338999380c073864b334471046e7d2dd))
+* **notification:** implement basic default Notification ([b583cd9](https://github.com/datacamp/waffles/commit/b583cd938538c9512b114f67f1e5713940ff8fe6))
+* **notification:** pass inverted prop to action ([bc41d1b](https://github.com/datacamp/waffles/commit/bc41d1bc0f6a52680f49bda735b046c3280297f0))
+* **notification:** pass through remaining props to notification wrapper ([349dacc](https://github.com/datacamp/waffles/commit/349dacce6565991d1051e6f10d1a45746d998506))
+* **notification:** separate variant display logic from content ([8a14566](https://github.com/datacamp/waffles/commit/8a14566d3eec575c0d42e3821044c62af31dcdff))
+* **notification:** small props and styles adjustments ([ecc1867](https://github.com/datacamp/waffles/commit/ecc1867b201b70445913c108360d27b9d242c767))
+* **side-navigation:** mobile nav appears below medium breakpoint ([1a69100](https://github.com/datacamp/waffles/commit/1a691000ab5b4a42eb24c60d935f62a903f09bfd))
+* **toast:** use NotificationCard under the hood ([d73d454](https://github.com/datacamp/waffles/commit/d73d454f7275f59db4aced3a31baa9fa7231c3d8))
+
+
+### Documentation Changes
+
+* add ErrorBoundary fallback ocs and examples ([4f72627](https://github.com/datacamp/waffles/commit/4f72627d5d7969e988a07b89772c6d9fa13337f1))
+* add inline props docs for ErrorBoundary ([c97df1c](https://github.com/datacamp/waffles/commit/c97df1cd845344370b0576036c322af7883e24d1))
+* add Notification inline props documentation ([de5cda9](https://github.com/datacamp/waffles/commit/de5cda9aaf1aaacea1755afc5fbc246317230dab))
+* add Notification page with playground and examples ([bf5f8c6](https://github.com/datacamp/waffles/commit/bf5f8c675f12988c974affd2b0df0d819fdaa23f))
+* create ErrorBoundary docs page ([98f03d6](https://github.com/datacamp/waffles/commit/98f03d6db500b5458d1694ad8429f1a3b6990f74))
+* update ContentContainer documentation ([fd1d845](https://github.com/datacamp/waffles/commit/fd1d845910826e8fbc02129d8a938ebc79690f8a))
+* update documentation to reflect SideNavigation changes ([40fa7ba](https://github.com/datacamp/waffles/commit/40fa7ba82d5e319ccc1642ef60f4e8a4e807182a))
+* update ErrorBoundary props docs ([77b4952](https://github.com/datacamp/waffles/commit/77b4952cb3ce5224057fff0db49a2f8e7c81c353))
+* update roadmap ([4e69d79](https://github.com/datacamp/waffles/commit/4e69d79cf021a4a1ee58cdd675c355a4ad175289))
+* update roadmap ([96df017](https://github.com/datacamp/waffles/commit/96df0173271729d0a241b58747bf5ccb8fd62478))
+* update roadmap and navigation ([70935a1](https://github.com/datacamp/waffles/commit/70935a12c199b1af45ee282183d6cb5dcfbf1291))
+
 ## [1.5.0](https://github.com/datacamp/waffles/compare/v1.4.0...v1.5.0) (2022-03-09)
 
 
