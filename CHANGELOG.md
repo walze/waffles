@@ -1,3 +1,12 @@
+## [1.7.0](https://github.com/datacamp/waffles/compare/v1.6.0...v1.7.0) (2022-04-13)
+
+
+### Core Changes
+
+* **notification-card:** adjusted decor style ([bb32799](https://github.com/datacamp/waffles/commit/bb32799a83e636ae91019579b2e95d32e8c6d7c7))
+* **tooltip:** update position on initial render ([6734cb5](https://github.com/datacamp/waffles/commit/6734cb5b2bdbe966b26258dbe0e89954aa5b5ceb))
+* **tooltip:** use floating-ui under the hood ([8b81d76](https://github.com/datacamp/waffles/commit/8b81d7649b1916f190ff4d205c3f5918eb667ce5))
+
 ## [1.6.0](https://github.com/datacamp/waffles/compare/v1.5.0...v1.6.0) (2022-04-11)
 
 
