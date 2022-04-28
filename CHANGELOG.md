@@ -1,3 +1,30 @@
+## [1.8.0](https://github.com/datacamp/waffles/compare/v1.7.0...v1.8.0) (2022-04-28)
+
+
+### Core Changes
+
+* **button:** add upgrade variant ([2983875](https://github.com/datacamp/waffles/commit/29838754f0fb2bf3cb0634fbbf1d3c75143178b8))
+* **hooks:** add useMergeRefs hook ([dd4d875](https://github.com/datacamp/waffles/commit/dd4d875b8161b8ca2ab4c662986eaaf7339791c7))
+* **icon:** add Plus icon ([d766f04](https://github.com/datacamp/waffles/commit/d766f04f5113101665a8a4423ed3d115ecf4c1d6))
+* **icon:** add Refresh icon ([29db933](https://github.com/datacamp/waffles/commit/29db933ff2d03bfa78985e43ac3f4a44b8e2d1d0))
+* **icon:** add RocketInverted icon ([7068168](https://github.com/datacamp/waffles/commit/7068168c222092d052d1fb524b200fd6c2b5afe7))
+* **notification-card:** add upgrade style and fix border ([fed3f04](https://github.com/datacamp/waffles/commit/fed3f04431e96af9c7ae4532def83f476de226bd))
+* **notification-card:** configure upgrade variant ([5a5391a](https://github.com/datacamp/waffles/commit/5a5391a703745086887a4cb17d2baf270593e8b0))
+* **notification:** add upgrade variant and appropriate action button ([9ed46c4](https://github.com/datacamp/waffles/commit/9ed46c47d4eee7e3e647cee1bc4bee622a141e42))
+* **portal:** add id to portal to optionally group related elements ([ba44702](https://github.com/datacamp/waffles/commit/ba44702a30a9fe98d053260dac64452f1cca6528))
+* **portal:** cleanup DOM on unmount ([7db217d](https://github.com/datacamp/waffles/commit/7db217d0a801534f919ec21a3a27e791ee9401d5))
+* **tooltip:** update Tooltip internals ([318a77e](https://github.com/datacamp/waffles/commit/318a77e8eed24c5923d12dc7b0358ed9f242a05d))
+
+
+### Documentation Changes
+
+* add info about upgrade Button ([cf55fe3](https://github.com/datacamp/waffles/commit/cf55fe3355c0073e4f1625aa32d246f5bcbe1c96))
+* add upgrade Notification examples ([5f26f1f](https://github.com/datacamp/waffles/commit/5f26f1f32a51966d9272b1af0cd76f8fb4c1698e))
+* fix typo ([4905e7f](https://github.com/datacamp/waffles/commit/4905e7f7597cbc0a1e9ff74fc4d571cd79f4321f))
+* mention grid demo ([539d1f3](https://github.com/datacamp/waffles/commit/539d1f37df7121146b2ec3c963bb7028526ab319))
+* update hooks docs with useMergeRefs ([89ab524](https://github.com/datacamp/waffles/commit/89ab52457ee4f3d92b0c7cbba8a930221bb9e572))
+* update navigation ([0cccc3b](https://github.com/datacamp/waffles/commit/0cccc3bb63efdbe0c49ded4d35bc3b9430917200))
+
 ## [1.7.0](https://github.com/datacamp/waffles/compare/v1.6.0...v1.7.0) (2022-04-13)
 
 
