@@ -1,3 +1,10 @@
+### [1.8.1](https://github.com/datacamp/waffles/compare/v1.8.0...v1.8.1) (2022-04-28)
+
+
+### Bug Fixes
+
+* portal cleanup on unmount ([34701ba](https://github.com/datacamp/waffles/commit/34701ba9e03a1fe283178ee2b3434c4b0d814aca))
+
 ## [1.8.0](https://github.com/datacamp/waffles/compare/v1.7.0...v1.8.0) (2022-04-28)
 
 
