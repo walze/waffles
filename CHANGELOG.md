@@ -1,3 +1,96 @@
+
+
+## [1.9.0](https://github.com/datacamp/waffles/compare/v1.8.1...v1.9.0) (2022-05-26)
+
+
+### Bug Fixes
+
+* **asset:** fix alpa asset colours ([a1e568f](https://github.com/datacamp/waffles/commit/a1e568fa2111b45df43ad8c41572479135d0ecf3))
+* **button:** remove redundant onClick handler ([8c817cc](https://github.com/datacamp/waffles/commit/8c817cc0a285754cdcc3e7e242f99644e1a9d341))
+
+
+### Core Changes
+
+* add new datacamp branding components ([94cd649](https://github.com/datacamp/waffles/commit/94cd649814d6a03368c77f75d4d86758df0fa558))
+* **asset:** add alpa assets ([957233a](https://github.com/datacamp/waffles/commit/957233ae67590fd0d6cea559484de2bdd3ce2acf))
+* **asset:** add new 3d asset components ([f50e180](https://github.com/datacamp/waffles/commit/f50e180bd2185b0c6dd428a4dcf2942493aac19a))
+* **asset:** add new partner logo assets ([8cd04b0](https://github.com/datacamp/waffles/commit/8cd04b0b5abaa828c9678451180a7ed4ab253e1c))
+* **asset:** add regular waffles logomark ([22d7d02](https://github.com/datacamp/waffles/commit/22d7d0296c2cdab2b76142056317d9708080b435))
+* **asset:** add waffles logo and logomark assets ([0b53948](https://github.com/datacamp/waffles/commit/0b539489ae296f6c476275c8270b7d481206a9c9))
+* **dialog:** update Button typings ([f7abfb5](https://github.com/datacamp/waffles/commit/f7abfb54f66115e15b968523710cc46b25ed3930))
+* **form-field:** update children type to JSX.Element ([6e9d1f7](https://github.com/datacamp/waffles/commit/6e9d1f7f7393901570bda14a866e002926f7a871))
+* **helpers:** add deepChildrenMap utility ([ae5a5c1](https://github.com/datacamp/waffles/commit/ae5a5c1929b5efc1e4bc8e58fe904fcddae78ece))
+* **icon:** add new minus icon ([457eb95](https://github.com/datacamp/waffles/commit/457eb9531f9511d838b555122aa92fe65337cf61))
+* **icon:** update linkedin token and icon color ([df97b3f](https://github.com/datacamp/waffles/commit/df97b3faf8e13c656ee480852e6bfe7b7cc52d10))
+* improve way floting components position is updated ([91b6781](https://github.com/datacamp/waffles/commit/91b6781980f36da49bec9d629843be388b91b283))
+* **logo:** add new logo components ([f906dd3](https://github.com/datacamp/waffles/commit/f906dd3ad47d4f42a0cd714cdaa7594f1d822c40))
+* **logomark:** add new logomark components ([3fcce80](https://github.com/datacamp/waffles/commit/3fcce808ebb43d86cae13bf67aea4b75cb0b7fde))
+* make usage of Portal more stable across various components ([ef05361](https://github.com/datacamp/waffles/commit/ef053610f123da300a0a2f649bcd52cae9e9e11b))
+* **menu:** add active Item style ([7b6c312](https://github.com/datacamp/waffles/commit/7b6c312eba1964a2cfb5ee69b63a8204d59f224d))
+* **menu:** add alert dot indicator ([d960e5f](https://github.com/datacamp/waffles/commit/d960e5fa796042df8c87836f820a8494689168a6))
+* **menu:** add Button subcomponent ([9b1c632](https://github.com/datacamp/waffles/commit/9b1c6323dda2be959aae098417fbdc1419f3f6c8))
+* **menu:** add Category subcomponent ([bb4dc8b](https://github.com/datacamp/waffles/commit/bb4dc8b0bcb6fcf2523223fb92f52a6fc180e09c))
+* **menu:** add icons to Item ([69e2198](https://github.com/datacamp/waffles/commit/69e21984cb17874e59f5bb55084f8a7cc80f2976))
+* **menu:** add update menu style and add styles for subcomponents ([1140d29](https://github.com/datacamp/waffles/commit/1140d2931557783fb9aa34b54305b3ee4ccd3b23))
+* **menu:** adjust item and dot spacings ([3568986](https://github.com/datacamp/waffles/commit/35689863ffbf125c0039c7d710496fd91d730c2b))
+* **menu:** allow setting menu placement ([d9596d3](https://github.com/datacamp/waffles/commit/d9596d31f6e989dc3b67e84ee7cc0ff67a092875))
+* **menu:** associate dropdown and trigger by ID ([37ba661](https://github.com/datacamp/waffles/commit/37ba661213aa404feed2302c5f859ac7803a14ad))
+* **menu:** create menu context ([3004bc3](https://github.com/datacamp/waffles/commit/3004bc319d82086148c053d8e9d079d5d907c51f))
+* **menu:** expose useMenu hook ([826a311](https://github.com/datacamp/waffles/commit/826a311994fd55fb6327641a7a3c59cafda66a53))
+* **menu:** focus menu trigger after menu got closed ([36db13f](https://github.com/datacamp/waffles/commit/36db13fede8517e34451ed6320169d9ef1636caa))
+* **menu:** handle even very long content in Item ([5e3e4cf](https://github.com/datacamp/waffles/commit/5e3e4cf2bffe483b6110392ff1380676fb006a22))
+* **menu:** implement basic Item component ([081981c](https://github.com/datacamp/waffles/commit/081981c49c5fe8bad2baa050ee879bf86b853001))
+* **menu:** implement internal logic using floating-ui ([56afb1b](https://github.com/datacamp/waffles/commit/56afb1bd3bfdf40c21b4cc596d42330557a2eea3))
+* **menu:** implement inverted style for Menu and all subcomponents ([6cb3ca6](https://github.com/datacamp/waffles/commit/6cb3ca67fd83057e2475bbe908d439b9b648d336))
+* **menu:** label and description could be set for Item ([7d7835e](https://github.com/datacamp/waffles/commit/7d7835ef11c636c866e92013b9dcc96f8aae4631))
+* **menu:** make Item polymorphic ([17d8878](https://github.com/datacamp/waffles/commit/17d88785df35b7440ed4f568003d24178f9ba834))
+* **menu:** rename Item's showAlert to showNotificationDot ([7e4e69c](https://github.com/datacamp/waffles/commit/7e4e69c76f64e86a708dde72adf9be8cb7e9d51c))
+* **menu:** truncate Item text content if it's too long ([83f91b5](https://github.com/datacamp/waffles/commit/83f91b545e01d740d394c870363fa066fed88aa5))
+* **menu:** update spacing and sizing to reflact changes in desing ([31784f9](https://github.com/datacamp/waffles/commit/31784f931eead4b4e78055c961fda51907520731))
+* **menu:** use context in Menu and Item ([0f22603](https://github.com/datacamp/waffles/commit/0f226032a14a20642c0c56145971d6e299c2d98c))
+* **side-navigation:** adjust the size of category label for desktop ([56d3c8a](https://github.com/datacamp/waffles/commit/56d3c8afa7e681058eb702a64d682b0c2bbc7247))
+* **side-navigation:** update subcomponent IDs prefixes ([1c30c65](https://github.com/datacamp/waffles/commit/1c30c65bb1db319dad7319b08daf49978c73ca50))
+* **tokens:** add xxsmall fontSizes token ([011d1f0](https://github.com/datacamp/waffles/commit/011d1f0775919a8dd00a7a054ff4415da310a041))
+* **tooltip:** get rid of Portal so it works better in tricky z-index situations ([0a5b7e6](https://github.com/datacamp/waffles/commit/0a5b7e66ecbfbd2e076f731ea2e923872043d447))
+* **tooltip:** prevent Tooltip from 'stealing' trigger ref ([545aaec](https://github.com/datacamp/waffles/commit/545aaecef3c2311c790bc5a8f0f1948ad225ab42))
+* **tooltip:** update tooltip internals ([459ed50](https://github.com/datacamp/waffles/commit/459ed50f15075f4fd56fd3ee42da8cae41f46a9c))
+
+
+### Documentation Changes
+
+* add asset component to docs site ([38d911a](https://github.com/datacamp/waffles/commit/38d911a9450821469d0e1270b6b59f4734ad2cd6))
+* add bundle of svg assets for download on docs ([17c02bf](https://github.com/datacamp/waffles/commit/17c02bfbb7294ff110f64a7329b3529bd0e03e95))
+* add datacamp branding assets to docs ([2f21ee1](https://github.com/datacamp/waffles/commit/2f21ee14dacd3f182e2128a47e29e90f1efe3736))
+* add documentation for deepChildrenMap ([619c1bb](https://github.com/datacamp/waffles/commit/619c1bb6b5e42c020103e0bdfeab0bd3d2916da0))
+* add examples for logomark and logo ([de2f563](https://github.com/datacamp/waffles/commit/de2f5638a3d8b20eb6fb095bb2809112f43240ac))
+* add inline props documentation for Menu ([ddafa00](https://github.com/datacamp/waffles/commit/ddafa00a5018eaa2dae350a63f7051b6f27504c4))
+* add link to branding assets on asset page ([a3cc445](https://github.com/datacamp/waffles/commit/a3cc44561a57d53d271b94ecbbaa4243f581a2c8))
+* add logo and logomark generation scripts ([d721abd](https://github.com/datacamp/waffles/commit/d721abdc4ecd0dc5e0cd9660e7bf1d22dae137db))
+* add Menu examples ([893b2f1](https://github.com/datacamp/waffles/commit/893b2f101e76e4be8fbf4d517fdf78a1fcb21973))
+* add new generate assets script to docs ([aae36d7](https://github.com/datacamp/waffles/commit/aae36d71dfb90ccab98fe80193ecaf785982fc44))
+* add playground and Button props table to Menu docs page ([ac718af](https://github.com/datacamp/waffles/commit/ac718af7981b440e9e74da188a58c12f9f1affd9))
+* alphabetically order components in nav ([78fbe1a](https://github.com/datacamp/waffles/commit/78fbe1a5674f9c55743c821ef214c86871f0e278))
+* **asset:** add asset type headings to page contents ([0a2bcf3](https://github.com/datacamp/waffles/commit/0a2bcf3b5849ebe300060ee93166fcbf71e34b45))
+* **asset:** add brief behaviour overview to docs ([baa7952](https://github.com/datacamp/waffles/commit/baa79522fcb5366527b61d701730d5766a86e63f))
+* **asset:** add link to asset type subheadings ([7e624a6](https://github.com/datacamp/waffles/commit/7e624a6866a8b8bdebe24b909b8a33097559610d))
+* **asset:** group assets by type in grids ([de63af5](https://github.com/datacamp/waffles/commit/de63af5de3c823943c91b9b0fd3e6db882d177ee))
+* **asset:** provide individual bundle downloads ([d4d2333](https://github.com/datacamp/waffles/commit/d4d2333eaee14f30fd5f00e932082cd79d1a6dcd))
+* **asset:** update example and prop comment ([54cc3d6](https://github.com/datacamp/waffles/commit/54cc3d6fd78558be6ea982f84e0528cf46ff11d2))
+* **asset:** update import example ([4d911d6](https://github.com/datacamp/waffles/commit/4d911d6a685c38f2c312eea7708bab97ae265cd6))
+* change styling of brand download link ([3519b73](https://github.com/datacamp/waffles/commit/3519b73369b46f20be46f07b7f4ba4fe4d2f3190))
+* **datacamp-branding:** add component docs ([7763dd2](https://github.com/datacamp/waffles/commit/7763dd257708f5520fb92c8517715dccda885eb1))
+* fallback to type kind on type formatting ([324919d](https://github.com/datacamp/waffles/commit/324919d0dd9059bf9bd95c553fbaf0aaa7cb7c32))
+* fix typos ([7737e89](https://github.com/datacamp/waffles/commit/7737e8938ebfc6a2f505d961081646d427a3f76e))
+* fixed z-index of header ([9caf2e4](https://github.com/datacamp/waffles/commit/9caf2e487101d94111e97f99036d9e18493cebac))
+* initial logo and logomark doc pages ([a025115](https://github.com/datacamp/waffles/commit/a02511528cd8669a633bd97d35b52b301d040bb0))
+* order items alphabetically in overlay category of side nav ([6f683f6](https://github.com/datacamp/waffles/commit/6f683f6dcfc556f236d765a51a07aecefd323aaa))
+* remove logomark and logo from repo docs ([9f24ac5](https://github.com/datacamp/waffles/commit/9f24ac5c7fda74733e56211e0dfed8b284ac31db))
+* update asset grid formatting ([abeb83f](https://github.com/datacamp/waffles/commit/abeb83fb7f2b8ebfcc3429be0cde0da36004f68a))
+* update brand and asset docs styling ([6aedd01](https://github.com/datacamp/waffles/commit/6aedd0160864888806ded117d6d906c5bf3566d9))
+* update coding style docs ([bc8e8f9](https://github.com/datacamp/waffles/commit/bc8e8f99db10decf58db9110c93bab49a65aac47))
+* update roadmap and navigation ([d221867](https://github.com/datacamp/waffles/commit/d22186748084ce0c1a4cf0daedf9955016633dfa))
+* wrap some components with ErrorBoundary ([0c1bb31](https://github.com/datacamp/waffles/commit/0c1bb3101b58db4f63093f7ac34c11e3119eaee1))
+
 ### [1.8.1](https://github.com/datacamp/waffles/compare/v1.8.0...v1.8.1) (2022-04-28)
 
 
@@ -845,4 +938,3 @@
 * setup playground entry ([63bccdc](https://github.com/datacamp/waffles/commit/63bccdc8d3c6a16fc97f948e6b16693bc1c53bd2))
 * update dummy button example ([17ba3c5](https://github.com/datacamp/waffles/commit/17ba3c574325927af85c42d7ffe5b1197002c0eb))
 * update workbench layout ([60a4129](https://github.com/datacamp/waffles/commit/60a4129d6637fcf21ed435cf77e0eec4f0f42376))
-
