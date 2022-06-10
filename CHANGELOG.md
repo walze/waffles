@@ -1,5 +1,66 @@
 
 
+## [1.10.0](https://github.com/datacamp/waffles/compare/v1.9.0...v1.10.0) (2022-06-10)
+
+
+### Bug Fixes
+
+* **asset:** clean up some assets and pass currentColor properly ([8382087](https://github.com/datacamp/waffles/commit/8382087cf5c2efe39101da11d1de99558157006b))
+* **notification:** fix padding for heading and description ([eb976a9](https://github.com/datacamp/waffles/commit/eb976a97566d141f6197414e45db931d7e4b0b65))
+* **side-navigation:** proper sidebar height on iOS ([351ef35](https://github.com/datacamp/waffles/commit/351ef357bf2b3ae3b0776e87972ffbbe16383b25))
+* **side-navigation:** set proper height of sidebar on iOS ([439ae8e](https://github.com/datacamp/waffles/commit/439ae8eeb89b152c061b9a09b252c8e4629b2690))
+* **text-area:** properly sync auto grow wrapper with content ([65a8a31](https://github.com/datacamp/waffles/commit/65a8a3170dbf130ef76c833b327fe158e0dd1007))
+* update notification and toast alignment ([b9ef466](https://github.com/datacamp/waffles/commit/b9ef466f2a2bf64a2e38ccbfcdd6a4bb112a859f))
+
+
+### Core Changes
+
+* **asset:** add new assignment assets ([9fbf420](https://github.com/datacamp/waffles/commit/9fbf420b12974c83fd6d738fc565d40058a47ab5))
+* **assets:** remove intel logo ([87d7e9e](https://github.com/datacamp/waffles/commit/87d7e9e0f650159476d0b54695c037595ffe5392))
+* **avatar:** add avatar component ([3fd983d](https://github.com/datacamp/waffles/commit/3fd983d9ea9f06922b02cedc1029256cee52222f))
+* **avatar:** add prop for controlling content fill ([079e633](https://github.com/datacamp/waffles/commit/079e6335d05949a155bbbc459784461e8320fad6))
+* **drawer:** make width consistent with SideNav ([10a500c](https://github.com/datacamp/waffles/commit/10a500c5db999d87d07fc4a47c361cb31071925c))
+* **icon:** add new figma brand icon ([f0a7b18](https://github.com/datacamp/waffles/commit/f0a7b1839b1d816f185b28c2e225d37579f94415))
+* **icon:** update FlashInverted and Medal icons ([8265afe](https://github.com/datacamp/waffles/commit/8265afe2ef28e78528874e55fee20df8cba160a0))
+* **loader:** add new loader component ([50c6d83](https://github.com/datacamp/waffles/commit/50c6d83c73863ed608c837d82b3c50de3752152b))
+* **menu:** improve the way items are indexed for keyboard navigation ([26f6314](https://github.com/datacamp/waffles/commit/26f63145374771eb9c3dc867d32dbd9681b5bc52))
+* **side-navigation:** make width of mobile sidebar dynamic ([3f10c44](https://github.com/datacamp/waffles/commit/3f10c44ad6cd75bdfe2b5a930b22d5e282da688e))
+* **tabs:** make tabs scrollable on all devices ([071cd25](https://github.com/datacamp/waffles/commit/071cd256c58b53c3144cbfd2b1bc5f669aef709b))
+* **tabs:** update Tab subcomponent focus style ([b3101de](https://github.com/datacamp/waffles/commit/b3101de91211538450397b17a6cb6c33756eea7b))
+* **text-area:** adjust spacing so with single row it looks like input ([2eace5f](https://github.com/datacamp/waffles/commit/2eace5f93303a17ca5efafcb7ae908861bb207f7))
+* **text-area:** set minimum height and adjust large size padding ([8bd2777](https://github.com/datacamp/waffles/commit/8bd27775c9aa51b054da42ecfa2107ec7a1aa958))
+* **tokens:** add xxlarge spacing token ([2a61d21](https://github.com/datacamp/waffles/commit/2a61d213cede07987b5eb0dc3b88c6d262de513c))
+* **tokens:** place all tokens in tokens.json in global group ([66f6a37](https://github.com/datacamp/waffles/commit/66f6a37be2ee902a72180e33dea3ecf67016845e))
+* **tokens:** update structure of tokens.json file ([0b19928](https://github.com/datacamp/waffles/commit/0b19928f15594cb2edb125b81e9073e4d7494f7e))
+
+
+### Documentation Changes
+
+* add some Figma missing links in component status table ([c66477a](https://github.com/datacamp/waffles/commit/c66477a68e9244de0fb97d17801b4e67f2512a1e))
+* add updated fonts to documentation website ([fe8f29d](https://github.com/datacamp/waffles/commit/fe8f29d612585cb82ecf2cc41cd0a30d99f581bb))
+* **asset:** add assignment category to asset docs ([7ad4e61](https://github.com/datacamp/waffles/commit/7ad4e6131a8a3b21cc83fcb495573fc1cadfc8b8))
+* **avatar:** add initial page and examples for avatar ([ab40fb9](https://github.com/datacamp/waffles/commit/ab40fb9fc053d83edd2145354ca2b89411ac91be))
+* **avatar:** tidy up styling for examples ([9c69a98](https://github.com/datacamp/waffles/commit/9c69a9849f03fb4c069e0bea72f0cbea0423c91d))
+* **avatar:** update content of examples ([2ec72d6](https://github.com/datacamp/waffles/commit/2ec72d672bdaa6223b3b62b5c6d83c0705a430b1))
+* **avatar:** update examples and prop docs ([bf24c40](https://github.com/datacamp/waffles/commit/bf24c404035ba1b13b4512fea492b3c94b269139))
+* **avatar:** update examples content ([f114bb4](https://github.com/datacamp/waffles/commit/f114bb4ff7286649e907aa873159532b232c054b))
+* **avatar:** update navigation and roadmap ([43560af](https://github.com/datacamp/waffles/commit/43560af5ec201f91a27fbc0d84f7f89e4d5f06f8))
+* clean up langing page images ([0138b28](https://github.com/datacamp/waffles/commit/0138b28b1a050117c4cd12565bfdfe38add5b12f))
+* downsize best practices icons bacgrounds ([c077a49](https://github.com/datacamp/waffles/commit/c077a491814fb1127d0dc8e09279a225d9b84482))
+* **form-field:** update examples ([1936b8c](https://github.com/datacamp/waffles/commit/1936b8c7b0c87f6d296eed6d5c1922c6432b9afe))
+* **form-field:** update size example sentence casing ([9aaeea1](https://github.com/datacamp/waffles/commit/9aaeea1fb1d3f8288d33dfd2f09cdeb3e9c8c09e))
+* **loader:** add docs and navigation item ([9ec92a1](https://github.com/datacamp/waffles/commit/9ec92a1e15b8fc532e4bd7820501cac62c2c31ac))
+* **loader:** update prop description ([b55aa92](https://github.com/datacamp/waffles/commit/b55aa92a62fc867cf4fbfea79a79ac0d41d9daf8))
+* replace waffles logo in header with the onew from assets ([f2eecba](https://github.com/datacamp/waffles/commit/f2eecbaf2e3a809e164c15c28e25f4b09cd7532f))
+* small examples improvements ([5d15108](https://github.com/datacamp/waffles/commit/5d15108115d152db5cad5e83985e283ae189210e))
+* small update to SideNavigation ([0a3b0aa](https://github.com/datacamp/waffles/commit/0a3b0aac3b7bc74c7c4d65bddb27aba86ea8b0de))
+* **text-area:** add size variant example ([bcba074](https://github.com/datacamp/waffles/commit/bcba0743334502d366169e14e26049aedcf10486))
+* update component status ([94b23af](https://github.com/datacamp/waffles/commit/94b23afda637103dd1646f31b684ed6ae3943b92))
+* update docs and examples ([54775d7](https://github.com/datacamp/waffles/commit/54775d7f758d6149acdb9804a34e4253032ecdb9))
+* update examples ([05f5825](https://github.com/datacamp/waffles/commit/05f5825ee2be2a174b94d25b0508e4bd62c05000))
+* update Menu advanced example with custom style item ([b0d78f7](https://github.com/datacamp/waffles/commit/b0d78f76527d3aa564da6a4f09d8e9cfe16d1ca1))
+* update waffles name in dev docs ([ce698fa](https://github.com/datacamp/waffles/commit/ce698fad314c94be1c7a5ccecf206ac4b567ebd6))
+
 ## [1.9.0](https://github.com/datacamp/waffles/compare/v1.8.1...v1.9.0) (2022-05-26)
 
 
