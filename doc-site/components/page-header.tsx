@@ -39,6 +39,10 @@ const logoLinkStyle = css`
   padding-right: ${tokens.spacing.xsmall};
 `;
 
+const responsiveLogoStyle = css`
+  width: 100%;
+`;
+
 const versionStyle = css`
   margin-right: auto;
   padding-left: ${tokens.spacing.small};
@@ -67,7 +71,7 @@ function PageHeader({ onNavOpen }: PageHeaderProps) {
           <Button
             as="a"
             variant="plain"
-            icon={<WafflesColoredLogo />}
+            icon={<WafflesColoredLogo css={responsiveLogoStyle} />}
             aria-label="Waffles, DataCamp Design System"
             css={logoLinkStyle}
           />
