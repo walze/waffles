@@ -1,5 +1,60 @@
 
 
+## [1.11.0](https://github.com/datacamp/waffles/compare/v1.10.0...v1.11.0) (2022-07-15)
+
+
+### Bug Fixes
+
+* **asset:** fix opacity of assess alpa loop asset ([9060021](https://github.com/datacamp/waffles/commit/9060021f9a66230f5c44522b0153c0e7beb743eb))
+* **avatar:** fix artifacts around edge of component ([feb2f63](https://github.com/datacamp/waffles/commit/feb2f63b0a6f255f4a406c52198358771a2c8b66))
+* **loader:** fix rendering issue in safari ([1152321](https://github.com/datacamp/waffles/commit/1152321e241965d7177c14b3a3faca357472b861))
+* pr feedback Mateusz ([05cbaab](https://github.com/datacamp/waffles/commit/05cbaab90bd5d68e46182f0a9d22f29f76c3384a))
+
+
+### Documentation Changes
+
+* add contents table support for asset grid headings ([7e15279](https://github.com/datacamp/waffles/commit/7e15279d32e3e1c487df19e1de1fc871e0ba6af7))
+* add figma link to top navigation ([2eab0fe](https://github.com/datacamp/waffles/commit/2eab0feebcaa9a65645336c54fff6015a6a8955e))
+* add horizontal rule between sections ([5f27ab0](https://github.com/datacamp/waffles/commit/5f27ab0ece1788391ed801d27c2100ecde2c38db))
+* add new page heading ([10ba17e](https://github.com/datacamp/waffles/commit/10ba17e97b6074c4ff5691d77aee9da71c1bc444))
+* add scroll to top link ([1a70527](https://github.com/datacamp/waffles/commit/1a705276a5486a1c45bb305aa78d3284ac72b84f))
+* adjust margin values ([1cf79d2](https://github.com/datacamp/waffles/commit/1cf79d25170fc1bc14f1baebc26adfa1f30a0dc7))
+* **empty-state:** add initial docs page ([f33f17e](https://github.com/datacamp/waffles/commit/f33f17e83fbb0b4b5b3a8f777e44b4a549d54578))
+* **empty-state:** update component examples ([860c13e](https://github.com/datacamp/waffles/commit/860c13e2de981f8c70dbdda87a8f5751b82ec697))
+* **empty-state:** update example content ([2cdd92b](https://github.com/datacamp/waffles/commit/2cdd92b1502e5c5158c5f79c835443435ff48658))
+* fix and tidy up scrolling with active section ([87daf76](https://github.com/datacamp/waffles/commit/87daf76ef51807abc45c7536c41cd4ba63f655ea))
+* fix content layout padding ([8644a4a](https://github.com/datacamp/waffles/commit/8644a4a9fecc010e928a3f0186450b621120d9ec))
+* fix design tokens table padding ([c364c8d](https://github.com/datacamp/waffles/commit/c364c8d1cb97fb9ad4090c3e03a4f54c96e79e8c))
+* fix SideNav advanced example ([32e67ba](https://github.com/datacamp/waffles/commit/32e67ba20fffb00d2712d0fde0e1a126e3056d9f))
+* fix sticky scrolling of contents table ([a00d3af](https://github.com/datacamp/waffles/commit/a00d3af9fccd6a491e08af59d6eb98f282bfa02d))
+* improve Menu examples on mobile ([6b5c8b4](https://github.com/datacamp/waffles/commit/6b5c8b44c82a607a70edab1e78025b6b61e696c1))
+* overwrite new table styling ([05bc389](https://github.com/datacamp/waffles/commit/05bc38915fe6b529e44edced3c3fb1121f188d2c))
+* remove new badge from older components ([9f798d7](https://github.com/datacamp/waffles/commit/9f798d71fa88cdfc854957b51973a528f9fe5d26))
+* set active section in contents based on heading visibility ([c06b18c](https://github.com/datacamp/waffles/commit/c06b18c2b2dc75bcf7e6d67c6e2128ffdb0a0e03))
+* update active heading based on section ([3c6cceb](https://github.com/datacamp/waffles/commit/3c6cceb9dc8d75718f2e5398a7b6cb12757c5fba))
+* update animation of back to top button ([9347226](https://github.com/datacamp/waffles/commit/9347226f3f4c127416a8e9cdbdd41b10a8a9e3d5))
+* update Dialog playground ([c9f1052](https://github.com/datacamp/waffles/commit/c9f1052048d4d8c92c3d681110d8cb9f60a7db70))
+* update docs bgr color according to fixed guidelines ([b976425](https://github.com/datacamp/waffles/commit/b976425167093df84ea74f32399f60b2c5900021))
+* update Menu examples ([0a7356c](https://github.com/datacamp/waffles/commit/0a7356c025a2fbc9dddbbf3e7606d0105894b27b))
+* update prop table union types styling ([7b776e1](https://github.com/datacamp/waffles/commit/7b776e19cc9a91ca249bf6c47b5c33a9e1df1ed6))
+* update props table styling ([45ad5a3](https://github.com/datacamp/waffles/commit/45ad5a31fe3447769fae60646207f2504fb58b1e))
+* update roadmap ([00fdbc0](https://github.com/datacamp/waffles/commit/00fdbc0495f38ba678bd6f64d1111b00e15ec339))
+* update roadmap ([bba9ad0](https://github.com/datacamp/waffles/commit/bba9ad06a754b1fef4b240e8f6f2c3071ccfce1f))
+* update spacing for props table types ([cce0c2f](https://github.com/datacamp/waffles/commit/cce0c2fca1c0e11b3b6a6e461aa6ef5703b663e5))
+* update styling for component status table ([06d2c27](https://github.com/datacamp/waffles/commit/06d2c27d87901271e5bf5c6e9bb4ddd90148c803))
+* update table of contents padding ([beaaf61](https://github.com/datacamp/waffles/commit/beaaf618ec64690f0e51136d360501c5d045ee11))
+* update table of contents styling ([52d4175](https://github.com/datacamp/waffles/commit/52d41758508b9b4e1c0b5351aff9de37ae409708))
+
+
+### Core Changes
+
+* **empty-state:** add new empty state component ([dea4d4c](https://github.com/datacamp/waffles/commit/dea4d4ce39f60e05e62502a3b0cbb215ea0c955b))
+* **menu:** add destructive variant to Menu.Item ([f50ec0d](https://github.com/datacamp/waffles/commit/f50ec0d94977a44dcee5f86aaa6a2723c220fd69))
+* **tabs:** add gradient to left side of tabs ([2f071fc](https://github.com/datacamp/waffles/commit/2f071fc80796a1061de6d7d740e5499a54b8a5df))
+* update button placement in Dialog, AlertDialog, and Drawer footer ([6f1d797](https://github.com/datacamp/waffles/commit/6f1d7972f2b2863619930c3445beaefbfcf17fab))
+* update long content buttons behavior in modals footer ([8e16081](https://github.com/datacamp/waffles/commit/8e16081465849910dacfffe006b1813bc35a61fc))
+* update modals button and footer so wrapper is no longer needed ([8d9b2c1](https://github.com/datacamp/waffles/commit/8d9b2c1cb1b2587c4644c4a332a351e07a2f489a))
+
 ## [1.10.0](https://github.com/datacamp/waffles/compare/v1.9.0...v1.10.0) (2022-06-10)
 
 
