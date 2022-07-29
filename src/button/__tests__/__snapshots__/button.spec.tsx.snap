@@ -2382,7 +2382,7 @@ exports[`Button renders snapshot of isLoading variants variant destructive and s
 }
 
 .emotion-5 {
-  padding-left: 8px;
+  padding-left: 4px;
 }
 
 <button
@@ -2940,7 +2940,7 @@ exports[`Button renders snapshot of isLoading variants variant plain and size sm
 }
 
 .emotion-5 {
-  padding-left: 8px;
+  padding-left: 4px;
 }
 
 <button
@@ -3498,7 +3498,7 @@ exports[`Button renders snapshot of isLoading variants variant primary and size 
 }
 
 .emotion-5 {
-  padding-left: 8px;
+  padding-left: 4px;
 }
 
 <button
@@ -4056,7 +4056,7 @@ exports[`Button renders snapshot of isLoading variants variant secondary and siz
 }
 
 .emotion-5 {
-  padding-left: 8px;
+  padding-left: 4px;
 }
 
 <button
@@ -4614,7 +4614,7 @@ exports[`Button renders snapshot of isLoading variants variant upgrade and size 
 }
 
 .emotion-5 {
-  padding-left: 8px;
+  padding-left: 4px;
 }
 
 <button

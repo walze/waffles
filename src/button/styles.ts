@@ -144,7 +144,7 @@ type ButtonStyleOptions = {
   variant: NonNullable<React.ComponentProps<typeof Button>['variant']>;
   inverted: boolean;
   fullWidth: boolean;
-  hasIcon: boolean;
+  hasIconOrOnlyLoader: boolean;
   isFocusVisible: boolean;
 };
 
@@ -153,7 +153,7 @@ export function buttonStyle({
   variant,
   inverted,
   fullWidth,
-  hasIcon,
+  hasIconOrOnlyLoader,
   isFocusVisible,
 }: ButtonStyleOptions) {
   const variantMap = inverted ? invertedVariantMap : regularVariantMap;
@@ -163,8 +163,8 @@ export function buttonStyle({
     height: ${sizeMap[size].sizing};
     min-width: ${sizeMap[size].sizing};
     width: ${fullWidth ? '100%' : 'auto'};
-    padding-left: ${!hasIcon && sizeMap[size].spacing};
-    padding-right: ${!hasIcon && sizeMap[size].spacing};
+    padding-left: ${!hasIconOrOnlyLoader && sizeMap[size].spacing};
+    padding-right: ${!hasIconOrOnlyLoader && sizeMap[size].spacing};
     font-size: ${sizeMap[size].fontSize};
     color: ${variantMap[variant].color};
     background-color: ${variantMap[variant].backgroundColor};
@@ -199,6 +199,7 @@ export function buttonStyle({
 type LoaderStyleOptions = {
   variant: NonNullable<React.ComponentProps<typeof Button>['variant']>;
   inverted: boolean;
+  hasChildren: boolean;
 };
 
 export function loaderStyle({ variant, inverted }: LoaderStyleOptions) {

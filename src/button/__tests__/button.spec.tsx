@@ -202,7 +202,7 @@ describe('Button', () => {
     expect(icons).toHaveLength(2);
   });
 
-  it('renders loader with isloading prop', () => {
+  it('renders loader with isLoading prop', () => {
     const { getByText, getByTestId } = render(
       <Button isLoading>Loading</Button>,
     );

@@ -12,6 +12,8 @@ function Example() {
     >
       <Button>No State</Button>
       <Button disabled>Disabled</Button>
+      <Button isLoading>Loading ...</Button>
+      <Button isLoading />
     </div>
   );
 }

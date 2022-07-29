@@ -13,6 +13,8 @@ type ButtonBaseProps = {
   variant?: 'primary' | 'secondary' | 'plain' | 'destructive' | 'upgrade';
   /* Defines the size of the button. In most cases default `medium` size should be used. */
   size?: 'small' | 'medium' | 'large';
+  /* Whether the button is in it's loading state. */
+  isLoading?: boolean;
   /* Allows button to grow to the width of its container. */
   fullWidth?: boolean;
   /* Sets the style of the button suitable for dark backgrounds. */
@@ -40,20 +42,8 @@ type ButtonNoIconProps = {
   'aria-label'?: string;
 } & ButtonBaseProps;
 
-type ButtonIsLoadingProps = {
-  icon?: never;
-  children?: React.ReactNode;
-  iconLeft?: never;
-  /* Whether the button is in it's loading state. *Note* Cannot be provided alongside the `iconLeft` property. */
-  isLoading?: boolean;
-  'aria-label'?: string;
-} & ButtonBaseProps;
-
 export type ButtonProps<T extends React.ElementType = 'button'> =
-  PolymorphicComponentProps<
-    T,
-    ButtonIsLoadingProps | ButtonNoIconProps | ButtonIconOnlyProps
-  >;
+  PolymorphicComponentProps<T, ButtonNoIconProps | ButtonIconOnlyProps>;
 
 function ButtonInternal<T extends React.ElementType = 'button'>(
   {
@@ -88,28 +78,28 @@ function ButtonInternal<T extends React.ElementType = 'button'>(
   return (
     <Element
       {...mergeProps(focusProps, restProps)}
-      {...(isLoading ? { disabled: true } : null)}
+      {...(isLoading && { disabled: true })}
       ref={ref}
       css={buttonStyle({
         variant,
         size,
         inverted,
         fullWidth,
-        hasIcon: !!icon,
+        hasIconOrOnlyLoader: !!icon || (isLoading && !children),
         isFocusVisible,
       })}
     >
-      {icon ? (
+      {icon && !isLoading ? (
         renderIcon(icon)
       ) : (
         <>
           {isLoading && (
             <Loader
-              css={loaderStyle({ variant, inverted })}
-              width={size === 'small' ? '12px' : '16px'}
+              css={loaderStyle({ variant, inverted, hasChildren: !!children })}
+              width={size === 'small' ? '12px' : '16px'} // Setting width prop here so that it gets passed to the loader as restProps for the svg element
             />
           )}
-          {iconLeft && renderIcon(iconLeft)}
+          {iconLeft && !isLoading && renderIcon(iconLeft)}
           {children && (
             <span
               css={innerContentStyle({
