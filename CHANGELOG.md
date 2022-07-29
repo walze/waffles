@@ -1,5 +1,71 @@
 
 
+## [1.12.0](https://github.com/datacamp/waffles/compare/v1.11.0...v1.12.0) (2022-07-29)
+
+
+### Bug Fixes
+
+* **asset:** fix barchart asset misalignment ([951ffe4](https://github.com/datacamp/waffles/commit/951ffe4448fe915447f12e0699e02478b3ecba20))
+* **menu:** icons alignment in Safari ([73ff13a](https://github.com/datacamp/waffles/commit/73ff13a4483827ca56736efb81ba9c2e04745543))
+* pass key when cloning to Tooltip and Menu trigger element ([69a3a2a](https://github.com/datacamp/waffles/commit/69a3a2ad32b3016cba7aa24df24c029536529cc6))
+* **resizable:** prevent text selection when dragging in Firefox ([d3c6108](https://github.com/datacamp/waffles/commit/d3c6108eb4c73b6709cf2c30776e66019253e7f7))
+* **resizable:** prevent wasteful rerender when onResizeEnd is called ([ef09854](https://github.com/datacamp/waffles/commit/ef0985479ce0502417b4807f39062e7661f71b45))
+* **resizable:** remove possible memory leak with how onResizeEnd was called ([f94cafd](https://github.com/datacamp/waffles/commit/f94cafdac8977a544885f246f39768a6920e543d))
+
+
+### Documentation Changes
+
+* **asset:** update ordering of content on asset page ([f5c9159](https://github.com/datacamp/waffles/commit/f5c915992f966b82c2e5b4ec72f9da045acdc55e))
+* fix table of contents in production build ([ba36021](https://github.com/datacamp/waffles/commit/ba36021b80c43bb66bd843f5e69b536cd4bb8c20))
+* **icon:** fix margin on icon grids ([ff4e5ed](https://github.com/datacamp/waffles/commit/ff4e5edb7c590eac894824639d8edcbc4bf4f0f2))
+* make top bar links open in new tab ([1bf7536](https://github.com/datacamp/waffles/commit/1bf75365bf7a52591a61e80340ad44de276dc4a3))
+* **resizable:** add examples and playground config ([b1399e4](https://github.com/datacamp/waffles/commit/b1399e4f70773268217c4ccb63780faa9c259a43))
+* **resizable:** add inline props documentation ([cae75f5](https://github.com/datacamp/waffles/commit/cae75f56edacc8f3fec447e9e81ba00aa4682f87))
+* **resizable:** create main documentaiton page, update navigation ([df2ea62](https://github.com/datacamp/waffles/commit/df2ea620e8c2b49c0be02d10fcbb63b7ba4487ca))
+* **resizable:** update advanced usage example ([d58a140](https://github.com/datacamp/waffles/commit/d58a1402cf30383a5a41c6141753c10091eea0f3))
+* **resizable:** update docs after API changes ([8f436f7](https://github.com/datacamp/waffles/commit/8f436f7e451432c7c3c707bd16b56ed25d5f3b15))
+* **resizable:** update playgroundConfig and inline props docs ([9c0e78f](https://github.com/datacamp/waffles/commit/9c0e78f4c01448b99f8cae8b61b4a49d557e383c))
+* show more accurate arrayType name ([8568555](https://github.com/datacamp/waffles/commit/85685558cfb180db16a9e8e2a980016314df8ecf))
+* update aria-labels on top nav links ([2cfbe5d](https://github.com/datacamp/waffles/commit/2cfbe5d3c5b8934729c602e1fc2bcc6a25eecb84))
+* update heigh of inverted Resizable example ([1481504](https://github.com/datacamp/waffles/commit/1481504555e0834b02df504fc08e1028f4b1230f))
+* update initialProportions in examples ([6fcc276](https://github.com/datacamp/waffles/commit/6fcc27669f998d89fe82f84f0e9eb0f59a171081))
+* update inline props docs ([a0611cc](https://github.com/datacamp/waffles/commit/a0611cc15d55bcd061fc31d2762f112f7bdf46b5))
+* update style of required props dot style ([ae86407](https://github.com/datacamp/waffles/commit/ae8640705f72eca7de53e4fba3f895465bae66db))
+
+
+### Core Changes
+
+* **button:** decrease spacing between icon and text for small size ([b705ca2](https://github.com/datacamp/waffles/commit/b705ca21df704ee9614b107911deafcc41e847f4))
+* **code:** update background blending mode so it renders better on beige ([ec9f0d6](https://github.com/datacamp/waffles/commit/ec9f0d6b5d4e2f15b1caa820a17a840d6716db0b))
+* **form-field:** update style of required dot to match Menu one ([13b2729](https://github.com/datacamp/waffles/commit/13b27290ed9bb9867dcd7105a5fe16598e68fc0e))
+* **icon:** add Attention regular and inverted ([b20b8c1](https://github.com/datacamp/waffles/commit/b20b8c1b92946c9f150dcfee2cad37e24b834f5a))
+* **icon:** add ClosedCaptions ([fe0ec08](https://github.com/datacamp/waffles/commit/fe0ec08a4cf9d8e856175d36d16a2504d4da2f89))
+* **icon:** add new sorting and tablet icons ([badbf29](https://github.com/datacamp/waffles/commit/badbf292af69f49ebf7b3080470443085aaa414d))
+* **icon:** add Scissors ([5e55987](https://github.com/datacamp/waffles/commit/5e55987de5a36f48dcdd194cc6a58f23ecde4d44))
+* **icon:** remove AttentionCircle regular and inverted ([50f16ed](https://github.com/datacamp/waffles/commit/50f16ed68dab94e88de2ab7838755fc8f00a9d10))
+* **input:** increase spacing for small and large input ([a876e97](https://github.com/datacamp/waffles/commit/a876e97d692f607fdb1e5818e8dcb7d4520ac105))
+* **resizable:** add inverted style ([c0c84ec](https://github.com/datacamp/waffles/commit/c0c84ec48a9cc72f3d0a02fcc3f16e3636b57ca4))
+* **resizable:** add optional resize end and start callbacks ([8b45a48](https://github.com/datacamp/waffles/commit/8b45a483f608d43fc990a78bf1bd45adba7a169a))
+* **resizable:** allow resizing with keyboard ([06d0eb6](https://github.com/datacamp/waffles/commit/06d0eb657f40c1393171995193e9ad4bd0f76c5f))
+* **resizable:** allow to set subsections initial proportions ([9e702c3](https://github.com/datacamp/waffles/commit/9e702c38dd117bd52a34d0f6398c1cab5e134119))
+* **resizable:** alow to retrieve proportions after dragging stopped ([0db907c](https://github.com/datacamp/waffles/commit/0db907c475caaa3c145613a1433022256ad70da5))
+* **resizable:** clean up listeners when unmounting ([4e234b0](https://github.com/datacamp/waffles/commit/4e234b0bd6e00aa7dcbfed2a26fe0b9d2eee9982))
+* **resizable:** create styles for Resizable internal components ([f563709](https://github.com/datacamp/waffles/commit/f563709423682b97841024e296bd563dc95b9ce6))
+* **resizable:** divider separator lines could be toggled ([7e9626c](https://github.com/datacamp/waffles/commit/7e9626c0395bd29e0e3ecc9d532e569bacb37e31))
+* **resizable:** implement resizing for vertical orientation ([8e611e2](https://github.com/datacamp/waffles/commit/8e611e219160a166d30617887e75b265021a7299))
+* **resizable:** improve cursor and divider highlighting behavior ([58def4d](https://github.com/datacamp/waffles/commit/58def4d34a12ef845155a9afa05e2aa3ee67127f))
+* **resizable:** optimize how subsection size is applied ([97c055c](https://github.com/datacamp/waffles/commit/97c055ce42e35cc8ffb0b735f0f776ddeb5208bc))
+* **resizable:** recalculate panels sizes when browser window is resized ([a6dd5fc](https://github.com/datacamp/waffles/commit/a6dd5fc935d783abca619288be25452ecb2a96b1))
+* **resizable:** rename initialProportions prop to defaultProportions ([f027f06](https://github.com/datacamp/waffles/commit/f027f0628eb449823d02e4cdbc9c33bcced45d7c))
+* **resizable:** rename orientation prop to layout ([b272b1a](https://github.com/datacamp/waffles/commit/b272b1ac62826e6e7427b2ef51646557365215d9))
+* **resizable:** rename showSeparators prop to showDividers ([2ce6a35](https://github.com/datacamp/waffles/commit/2ce6a356a1fe1ae816f54e07dadbaea3184c19c8))
+* **resizable:** support both vertical and horizontal orientation ([6ad1e74](https://github.com/datacamp/waffles/commit/6ad1e74826b5ffa053c7617126c5dace2075e7ea))
+* **resizable:** update styling according to guidelines ([59019af](https://github.com/datacamp/waffles/commit/59019afa9f24e5e8d9e0542909fad607e06e39e5))
+* **select:** increase spacing for small and large select ([e2dc405](https://github.com/datacamp/waffles/commit/e2dc405affd4db57728df62c26768f34b9ae650a))
+* **text-area:** increase spacing for small and large textarea ([81cc86b](https://github.com/datacamp/waffles/commit/81cc86b7231fa2a92b8b7fae4d1a700fdf58d3b3))
+* **tokens:** update greenDark and greenDarkText colors ([1c4e159](https://github.com/datacamp/waffles/commit/1c4e1591085d22a172d11a31d1ec963d79ce8526))
+* update icon for warning Toast and Notification ([e430dd4](https://github.com/datacamp/waffles/commit/e430dd4a4ec4cfaebcac89f06846a1ec40db65a6))
+
 ## [1.11.0](https://github.com/datacamp/waffles/compare/v1.10.0...v1.11.0) (2022-07-15)
 
 
