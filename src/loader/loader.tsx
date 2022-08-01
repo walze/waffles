@@ -17,12 +17,15 @@ function Loader({ inverted = false, ...restProps }: LoaderProps) {
 
   return (
     <div
-      css={wrapperStyle({ height: height as string, width: width as string })}
+      css={wrapperStyle({
+        height: parseInt(height as string, 10),
+        width: parseInt(width as string, 10),
+      })}
       data-testid="loader-wrapper"
     >
       <div css={loaderSvgWrapperStyle}>
         <svg
-          viewBox="0 0 2640 3444"
+          viewBox="0 0 2569 3403"
           css={loaderSvgStyle({ inverted })}
           {...restProps}
         >

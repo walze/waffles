@@ -8,18 +8,17 @@ export const stroke = keyframes`
 
 export const loaderStartMask = keyframes`
   0%, 6% {
-    clip-path: polygon(0% -12%, 0% -12%, 169% 65.5%, 169% 65.5%);
+    clip-path: polygon(0% -8%, 0% 178%, 188% 106%, 178% 72%);
   }
   100% {
-    clip-path: polygon(0% -12%, 0% 308%, 169% 383%, 169% 65.5%);
+    clip-path: polygon(0% -8%, 0% 197%, 188% 300%, 178% 72%);
   }
 `;
-
 export const loaderEndMask = keyframes`
   0%, 71% {
-    clip-path: polygon(0% 0%, 0% 78.5%, 100% 34.5%, 100% -30%);
+    clip-path: polygon(0% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
   }
   96%, 100% {
-    clip-path: polygon(0% 0%, 0% 140%, 100% 96%, 100% -30%);
+    clip-path: polygon(0% 0%, 0% 150%, 100% 96%, 100% -84%);
   }
 `;

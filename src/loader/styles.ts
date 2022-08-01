@@ -5,17 +5,23 @@ import { tokens } from '../tokens';
 import Loader from './loader';
 import { loaderEndMask, loaderStartMask, stroke } from './keyframes';
 
-const animationSettings = '2s infinite alternate';
+const animationSettings = '5s infinite alternate';
 
 type WrapperStyleOptions = {
-  height: string;
-  width: string;
+  height: number;
+  width: number;
 };
 
 export function wrapperStyle({ height, width }: WrapperStyleOptions) {
   return css`
-    height: ${height};
-    width: ${width};
+    ${width &&
+    css`
+      width: ${width}px;
+    `};
+    ${height &&
+    css`
+      height: ${height}px;
+    `};
     animation: ${loaderStartMask} cubic-bezier(0.65, 0, 0.55, 1)
       ${animationSettings};
     will-change: clip-path;
