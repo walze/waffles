@@ -144,7 +144,7 @@ type ButtonStyleOptions = {
   variant: NonNullable<React.ComponentProps<typeof Button>['variant']>;
   inverted: boolean;
   fullWidth: boolean;
-  hasIconOrOnlyLoader: boolean;
+  hasIconOrIsLoading: boolean;
   isFocusVisible: boolean;
 };
 
@@ -153,7 +153,7 @@ export function buttonStyle({
   variant,
   inverted,
   fullWidth,
-  hasIconOrOnlyLoader,
+  hasIconOrIsLoading,
   isFocusVisible,
 }: ButtonStyleOptions) {
   const variantMap = inverted ? invertedVariantMap : regularVariantMap;
@@ -163,8 +163,9 @@ export function buttonStyle({
     height: ${sizeMap[size].sizing};
     min-width: ${sizeMap[size].sizing};
     width: ${fullWidth ? '100%' : 'auto'};
-    padding-left: ${!hasIconOrOnlyLoader && sizeMap[size].spacing};
-    padding-right: ${!hasIconOrOnlyLoader && sizeMap[size].spacing};
+    padding-left: ${!hasIconOrIsLoading && sizeMap[size].spacing};
+    padding-right: ${!hasIconOrIsLoading && sizeMap[size].spacing};
+    flex-direction: ${hasIconOrIsLoading && 'column'};
     font-size: ${sizeMap[size].fontSize};
     color: ${variantMap[variant].color};
     background-color: ${variantMap[variant].backgroundColor};
@@ -196,15 +197,61 @@ export function buttonStyle({
   `;
 }
 
+type WrapperStyleOptions = {
+  size: NonNullable<React.ComponentProps<typeof Button>['size']>;
+  isLoading: NonNullable<React.ComponentProps<typeof Button>['isLoading']>;
+};
+
+export function wrapperStyle({ isLoading, size }: WrapperStyleOptions) {
+  return css`
+    ${isLoading &&
+    css`
+      opacity: 0;
+      height: 0;
+      padding-left: ${sizeMap[size].spacing};
+      padding-right: ${sizeMap[size].spacing};
+    `}
+  `;
+}
+
+type LoaderWrapperStyleOptions = {
+  size: NonNullable<React.ComponentProps<typeof Button>['size']>;
+  hasLoadingLabel: boolean;
+};
+
+export function loaderWrapperStyle({
+  size,
+  hasLoadingLabel,
+}: LoaderWrapperStyleOptions) {
+  return css`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    ${hasLoadingLabel &&
+    css`
+      padding-left: ${sizeMap[size].spacing};
+      padding-right: ${sizeMap[size].spacing};
+
+      span {
+        padding-left: ${size === 'small'
+          ? tokens.spacing.xsmall
+          : tokens.spacing.small};
+      }
+    `}
+  `;
+}
+
 type LoaderStyleOptions = {
   variant: NonNullable<React.ComponentProps<typeof Button>['variant']>;
   inverted: boolean;
-  hasChildren: boolean;
 };
 
 export function loaderStyle({ variant, inverted }: LoaderStyleOptions) {
   const variantMap = inverted ? invertedVariantMap : regularVariantMap;
   return css`
+    width: 100%;
+    height: 100%;
     stroke: ${variantMap[variant].color};
   `;
 }
@@ -212,18 +259,18 @@ export function loaderStyle({ variant, inverted }: LoaderStyleOptions) {
 // Generate button inner wrapper style based on provided options
 
 type InnerContentStyleOptions = {
-  hasLeftIconOrLoader: boolean;
+  hasLeftIcon: boolean;
   hasRightIcon: boolean;
   size: NonNullable<React.ComponentProps<typeof Button>['size']>;
 };
 
 export function innerContentStyle({
-  hasLeftIconOrLoader,
+  hasLeftIcon,
   hasRightIcon,
   size,
 }: InnerContentStyleOptions) {
   return css`
-    ${hasLeftIconOrLoader &&
+    ${hasLeftIcon &&
     `padding-left: ${
       size === 'small' ? tokens.spacing.xsmall : tokens.spacing.small
     };`}

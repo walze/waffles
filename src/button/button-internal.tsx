@@ -4,7 +4,13 @@ import { useFocusRing } from '@react-aria/focus';
 
 import { Loader } from '../loader';
 
-import { buttonStyle, innerContentStyle, loaderStyle } from './styles';
+import {
+  buttonStyle,
+  innerContentStyle,
+  loaderStyle,
+  loaderWrapperStyle,
+  wrapperStyle,
+} from './styles';
 
 import type { PolymorphicRef, PolymorphicComponentProps } from '../helpers';
 
@@ -13,8 +19,10 @@ type ButtonBaseProps = {
   variant?: 'primary' | 'secondary' | 'plain' | 'destructive' | 'upgrade';
   /* Defines the size of the button. In most cases default `medium` size should be used. */
   size?: 'small' | 'medium' | 'large';
-  /* Whether the button is in it's loading state. */
+  /* Whether the button is in it's loading state. The button will maintain the width of it's child content, unless `loadingLabel` is provided and longer than the original content. */
   isLoading?: boolean;
+  /* An optional label to be shown whilst `isLoading` is set to true. */
+  loadingLabel?: React.ReactNode;
   /* Allows button to grow to the width of its container. */
   fullWidth?: boolean;
   /* Sets the style of the button suitable for dark backgrounds. */
@@ -53,6 +61,7 @@ function ButtonInternal<T extends React.ElementType = 'button'>(
     isLoading = false,
     inverted = false,
     fullWidth = false,
+    loadingLabel,
     icon,
     iconLeft,
     iconRight,
@@ -85,34 +94,41 @@ function ButtonInternal<T extends React.ElementType = 'button'>(
         size,
         inverted,
         fullWidth,
-        hasIconOrOnlyLoader: !!icon || (isLoading && !children),
+        hasIconOrIsLoading: !!icon || isLoading,
         isFocusVisible,
       })}
     >
-      {icon && !isLoading ? (
-        renderIcon(icon)
-      ) : (
-        <>
-          {isLoading && (
-            <Loader
-              css={loaderStyle({ variant, inverted, hasChildren: !!children })}
-              width={size === 'small' ? '12px' : '16px'} // Setting width prop here so that it gets passed to the loader as restProps for the svg element
-            />
-          )}
-          {iconLeft && !isLoading && renderIcon(iconLeft)}
-          {children && (
-            <span
-              css={innerContentStyle({
-                hasLeftIconOrLoader: isLoading || !!iconLeft,
-                hasRightIcon: !!iconRight,
-                size,
-              })}
-            >
-              {children}
-            </span>
-          )}
-          {iconRight && renderIcon(iconRight)}
-        </>
+      <div css={wrapperStyle({ size, isLoading })}>
+        {icon ? (
+          renderIcon(icon)
+        ) : (
+          <>
+            {iconLeft && !isLoading && renderIcon(iconLeft)}
+            {children && (
+              <span
+                css={innerContentStyle({
+                  hasLeftIcon: !!iconLeft,
+                  hasRightIcon: !!iconRight,
+                  size,
+                })}
+              >
+                {children}
+              </span>
+            )}
+            {iconRight && renderIcon(iconRight)}
+          </>
+        )}
+      </div>
+      {isLoading && (
+        <div
+          css={loaderWrapperStyle({ size, hasLoadingLabel: !!loadingLabel })}
+        >
+          <Loader
+            css={loaderStyle({ variant, inverted })}
+            width={size === 'small' ? '12px' : '16px'} // Setting width prop here so that it gets passed to the loader as restProps for the svg element
+          />
+          {loadingLabel && <span>{loadingLabel}</span>}
+        </div>
       )}
     </Element>
   );

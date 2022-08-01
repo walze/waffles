@@ -226,7 +226,7 @@ exports[`Notification renders snapshot of inverted notification with all optiona
   cursor: default;
 }
 
-.emotion-13 {
+.emotion-14 {
   position: relative;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -265,6 +265,9 @@ exports[`Notification renders snapshot of inverted notification with all optiona
   height: 28px;
   min-width: 28px;
   width: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 12px;
   color: #06BDFC;
   background-color: transparent;
@@ -275,7 +278,7 @@ exports[`Notification renders snapshot of inverted notification with all optiona
   flex-shrink: 0;
 }
 
-.emotion-13::after {
+.emotion-14::after {
   content: '';
   display: block;
   position: absolute;
@@ -291,15 +294,15 @@ exports[`Notification renders snapshot of inverted notification with all optiona
   transition: box-shadow 125ms ease-out;
 }
 
-.emotion-13:hover:not(:disabled) {
+.emotion-14:hover:not(:disabled) {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.emotion-13:active:not(:disabled) {
+.emotion-14:active:not(:disabled) {
   background-color: transparent;
 }
 
-.emotion-13:disabled {
+.emotion-14:disabled {
   opacity: 0.6;
   cursor: default;
 }
@@ -363,30 +366,38 @@ exports[`Notification renders snapshot of inverted notification with all optiona
         <button
           class="emotion-11"
         >
-          <span
+          <div
             class="emotion-12"
           >
-            Action
-          </span>
+            <span
+              class="emotion-13"
+            >
+              Action
+            </span>
+          </div>
         </button>
       </div>
     </div>
   </div>
   <button
     aria-label="Close notification"
-    class="emotion-13"
+    class="emotion-14"
   >
-    <svg
-      aria-hidden="true"
-      height="12"
-      viewBox="0 0 18 18"
-      width="12"
+    <div
+      class="emotion-12"
     >
-      <path
-        d="m9.005 7.625 4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84Z"
-        fill="currentColor"
-      />
-    </svg>
+      <svg
+        aria-hidden="true"
+        height="12"
+        viewBox="0 0 18 18"
+        width="12"
+      >
+        <path
+          d="m9.005 7.625 4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84Z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
   </button>
 </section>
 `;
@@ -617,7 +628,7 @@ exports[`Notification renders snapshot of regular notification with all optional
   cursor: default;
 }
 
-.emotion-13 {
+.emotion-14 {
   position: relative;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -656,6 +667,9 @@ exports[`Notification renders snapshot of regular notification with all optional
   height: 28px;
   min-width: 28px;
   width: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 12px;
   color: #0075AD;
   background-color: transparent;
@@ -666,7 +680,7 @@ exports[`Notification renders snapshot of regular notification with all optional
   flex-shrink: 0;
 }
 
-.emotion-13::after {
+.emotion-14::after {
   content: '';
   display: block;
   position: absolute;
@@ -682,15 +696,15 @@ exports[`Notification renders snapshot of regular notification with all optional
   transition: box-shadow 125ms ease-out;
 }
 
-.emotion-13:hover:not(:disabled) {
+.emotion-14:hover:not(:disabled) {
   background-color: rgba(5, 25, 45, 0.1);
 }
 
-.emotion-13:active:not(:disabled) {
+.emotion-14:active:not(:disabled) {
   background-color: transparent;
 }
 
-.emotion-13:disabled {
+.emotion-14:disabled {
   opacity: 0.6;
   cursor: default;
 }
@@ -754,30 +768,38 @@ exports[`Notification renders snapshot of regular notification with all optional
         <button
           class="emotion-11"
         >
-          <span
+          <div
             class="emotion-12"
           >
-            Action
-          </span>
+            <span
+              class="emotion-13"
+            >
+              Action
+            </span>
+          </div>
         </button>
       </div>
     </div>
   </div>
   <button
     aria-label="Close notification"
-    class="emotion-13"
+    class="emotion-14"
   >
-    <svg
-      aria-hidden="true"
-      height="12"
-      viewBox="0 0 18 18"
-      width="12"
+    <div
+      class="emotion-12"
     >
-      <path
-        d="m9.005 7.625 4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84Z"
-        fill="currentColor"
-      />
-    </svg>
+      <svg
+        aria-hidden="true"
+        height="12"
+        viewBox="0 0 18 18"
+        width="12"
+      >
+        <path
+          d="m9.005 7.625 4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84Z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
   </button>
 </section>
 `;

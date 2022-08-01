@@ -118,6 +118,9 @@ exports[`NotificationCard renders snapshot of inverted variant default 1`] = `
   height: 28px;
   min-width: 28px;
   width: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 12px;
   color: #06BDFC;
   background-color: transparent;
@@ -195,17 +198,21 @@ exports[`NotificationCard renders snapshot of inverted variant default 1`] = `
     aria-label="Close notification"
     class="emotion-6"
   >
-    <svg
-      aria-hidden="true"
-      height="12"
-      viewBox="0 0 18 18"
-      width="12"
+    <div
+      class="emotion-7"
     >
-      <path
-        d="m9.005 7.625 4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84Z"
-        fill="currentColor"
-      />
-    </svg>
+      <svg
+        aria-hidden="true"
+        height="12"
+        viewBox="0 0 18 18"
+        width="12"
+      >
+        <path
+          d="m9.005 7.625 4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84Z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
   </button>
 </section>
 `;
@@ -328,6 +335,9 @@ exports[`NotificationCard renders snapshot of inverted variant error 1`] = `
   height: 28px;
   min-width: 28px;
   width: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 12px;
   color: #06BDFC;
   background-color: transparent;
@@ -405,17 +415,21 @@ exports[`NotificationCard renders snapshot of inverted variant error 1`] = `
     aria-label="Close notification"
     class="emotion-6"
   >
-    <svg
-      aria-hidden="true"
-      height="12"
-      viewBox="0 0 18 18"
-      width="12"
+    <div
+      class="emotion-7"
     >
-      <path
-        d="m9.005 7.625 4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84Z"
-        fill="currentColor"
-      />
-    </svg>
+      <svg
+        aria-hidden="true"
+        height="12"
+        viewBox="0 0 18 18"
+        width="12"
+      >
+        <path
+          d="m9.005 7.625 4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84Z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
   </button>
 </section>
 `;
@@ -538,6 +552,9 @@ exports[`NotificationCard renders snapshot of inverted variant success 1`] = `
   height: 28px;
   min-width: 28px;
   width: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 12px;
   color: #06BDFC;
   background-color: transparent;
@@ -615,17 +632,21 @@ exports[`NotificationCard renders snapshot of inverted variant success 1`] = `
     aria-label="Close notification"
     class="emotion-6"
   >
-    <svg
-      aria-hidden="true"
-      height="12"
-      viewBox="0 0 18 18"
-      width="12"
+    <div
+      class="emotion-7"
     >
-      <path
-        d="m9.005 7.625 4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84Z"
-        fill="currentColor"
-      />
-    </svg>
+      <svg
+        aria-hidden="true"
+        height="12"
+        viewBox="0 0 18 18"
+        width="12"
+      >
+        <path
+          d="m9.005 7.625 4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84Z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
   </button>
 </section>
 `;
@@ -748,6 +769,9 @@ exports[`NotificationCard renders snapshot of inverted variant upgrade 1`] = `
   height: 28px;
   min-width: 28px;
   width: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 12px;
   color: #06BDFC;
   background-color: transparent;
@@ -827,17 +851,21 @@ exports[`NotificationCard renders snapshot of inverted variant upgrade 1`] = `
     aria-label="Close notification"
     class="emotion-6"
   >
-    <svg
-      aria-hidden="true"
-      height="12"
-      viewBox="0 0 18 18"
-      width="12"
+    <div
+      class="emotion-7"
     >
-      <path
-        d="m9.005 7.625 4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84Z"
-        fill="currentColor"
-      />
-    </svg>
+      <svg
+        aria-hidden="true"
+        height="12"
+        viewBox="0 0 18 18"
+        width="12"
+      >
+        <path
+          d="m9.005 7.625 4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84Z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
   </button>
 </section>
 `;
@@ -961,6 +989,9 @@ exports[`NotificationCard renders snapshot of inverted variant warning 1`] = `
   height: 28px;
   min-width: 28px;
   width: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 12px;
   color: #06BDFC;
   background-color: transparent;
@@ -1040,17 +1071,21 @@ exports[`NotificationCard renders snapshot of inverted variant warning 1`] = `
     aria-label="Close notification"
     class="emotion-6"
   >
-    <svg
-      aria-hidden="true"
-      height="12"
-      viewBox="0 0 18 18"
-      width="12"
+    <div
+      class="emotion-7"
     >
-      <path
-        d="m9.005 7.625 4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84Z"
-        fill="currentColor"
-      />
-    </svg>
+      <svg
+        aria-hidden="true"
+        height="12"
+        viewBox="0 0 18 18"
+        width="12"
+      >
+        <path
+          d="m9.005 7.625 4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84Z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
   </button>
 </section>
 `;
@@ -1173,6 +1208,9 @@ exports[`NotificationCard renders snapshot of variant default 1`] = `
   height: 28px;
   min-width: 28px;
   width: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 12px;
   color: #0075AD;
   background-color: transparent;
@@ -1250,17 +1288,21 @@ exports[`NotificationCard renders snapshot of variant default 1`] = `
     aria-label="Close notification"
     class="emotion-6"
   >
-    <svg
-      aria-hidden="true"
-      height="12"
-      viewBox="0 0 18 18"
-      width="12"
+    <div
+      class="emotion-7"
     >
-      <path
-        d="m9.005 7.625 4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84Z"
-        fill="currentColor"
-      />
-    </svg>
+      <svg
+        aria-hidden="true"
+        height="12"
+        viewBox="0 0 18 18"
+        width="12"
+      >
+        <path
+          d="m9.005 7.625 4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84Z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
   </button>
 </section>
 `;
@@ -1383,6 +1425,9 @@ exports[`NotificationCard renders snapshot of variant error 1`] = `
   height: 28px;
   min-width: 28px;
   width: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 12px;
   color: #0075AD;
   background-color: transparent;
@@ -1460,17 +1505,21 @@ exports[`NotificationCard renders snapshot of variant error 1`] = `
     aria-label="Close notification"
     class="emotion-6"
   >
-    <svg
-      aria-hidden="true"
-      height="12"
-      viewBox="0 0 18 18"
-      width="12"
+    <div
+      class="emotion-7"
     >
-      <path
-        d="m9.005 7.625 4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84Z"
-        fill="currentColor"
-      />
-    </svg>
+      <svg
+        aria-hidden="true"
+        height="12"
+        viewBox="0 0 18 18"
+        width="12"
+      >
+        <path
+          d="m9.005 7.625 4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84Z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
   </button>
 </section>
 `;
@@ -1593,6 +1642,9 @@ exports[`NotificationCard renders snapshot of variant success 1`] = `
   height: 28px;
   min-width: 28px;
   width: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 12px;
   color: #0075AD;
   background-color: transparent;
@@ -1670,17 +1722,21 @@ exports[`NotificationCard renders snapshot of variant success 1`] = `
     aria-label="Close notification"
     class="emotion-6"
   >
-    <svg
-      aria-hidden="true"
-      height="12"
-      viewBox="0 0 18 18"
-      width="12"
+    <div
+      class="emotion-7"
     >
-      <path
-        d="m9.005 7.625 4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84Z"
-        fill="currentColor"
-      />
-    </svg>
+      <svg
+        aria-hidden="true"
+        height="12"
+        viewBox="0 0 18 18"
+        width="12"
+      >
+        <path
+          d="m9.005 7.625 4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84Z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
   </button>
 </section>
 `;
@@ -1803,6 +1859,9 @@ exports[`NotificationCard renders snapshot of variant upgrade 1`] = `
   height: 28px;
   min-width: 28px;
   width: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 12px;
   color: #0075AD;
   background-color: transparent;
@@ -1882,17 +1941,21 @@ exports[`NotificationCard renders snapshot of variant upgrade 1`] = `
     aria-label="Close notification"
     class="emotion-6"
   >
-    <svg
-      aria-hidden="true"
-      height="12"
-      viewBox="0 0 18 18"
-      width="12"
+    <div
+      class="emotion-7"
     >
-      <path
-        d="m9.005 7.625 4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84Z"
-        fill="currentColor"
-      />
-    </svg>
+      <svg
+        aria-hidden="true"
+        height="12"
+        viewBox="0 0 18 18"
+        width="12"
+      >
+        <path
+          d="m9.005 7.625 4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84Z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
   </button>
 </section>
 `;
@@ -2016,6 +2079,9 @@ exports[`NotificationCard renders snapshot of variant warning 1`] = `
   height: 28px;
   min-width: 28px;
   width: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 12px;
   color: #0075AD;
   background-color: transparent;
@@ -2095,17 +2161,21 @@ exports[`NotificationCard renders snapshot of variant warning 1`] = `
     aria-label="Close notification"
     class="emotion-6"
   >
-    <svg
-      aria-hidden="true"
-      height="12"
-      viewBox="0 0 18 18"
-      width="12"
+    <div
+      class="emotion-7"
     >
-      <path
-        d="m9.005 7.625 4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84Z"
-        fill="currentColor"
-      />
-    </svg>
+      <svg
+        aria-hidden="true"
+        height="12"
+        viewBox="0 0 18 18"
+        width="12"
+      >
+        <path
+          d="m9.005 7.625 4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84Z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
   </button>
 </section>
 `;

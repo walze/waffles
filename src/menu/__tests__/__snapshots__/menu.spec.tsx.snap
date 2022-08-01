@@ -532,11 +532,15 @@ exports[`Menu renders snapshot with categories, active style, icons, alert dot, 
       class="emotion-20"
       role="menuitem"
     >
-      <span
+      <div
         class="emotion-21"
       >
-        Log Out
-      </span>
+        <span
+          class="emotion-22"
+        >
+          Log Out
+        </span>
+      </div>
     </button>
   </div>
 </div>
@@ -1074,11 +1078,15 @@ exports[`Menu renders snapshot with categories, active style, icons, alert dot, 
       class="emotion-20"
       role="menuitem"
     >
-      <span
+      <div
         class="emotion-21"
       >
-        Log Out
-      </span>
+        <span
+          class="emotion-22"
+        >
+          Log Out
+        </span>
+      </div>
     </button>
   </div>
 </div>

@@ -99,6 +99,9 @@ exports[`AlertDialogTest renders snapshot 1`] = `
   height: 36px;
   min-width: 36px;
   width: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 14px;
   color: #0075AD;
   background-color: transparent;
@@ -139,7 +142,7 @@ exports[`AlertDialogTest renders snapshot 1`] = `
   cursor: default;
 }
 
-.emotion-2 {
+.emotion-3 {
   color: #05192D;
   font-family: Studio-Feixen-Sans,Arial,sans-serif;
   font-size: 14px;
@@ -164,7 +167,7 @@ exports[`AlertDialogTest renders snapshot 1`] = `
   padding-left: 48px;
 }
 
-.emotion-3 {
+.emotion-4 {
   padding-top: 0;
   padding-right: 24px;
   padding-bottom: 8px;
@@ -177,7 +180,7 @@ exports[`AlertDialogTest renders snapshot 1`] = `
   text-align: center;
 }
 
-.emotion-4 {
+.emotion-5 {
   padding: 24px;
   padding-top: 16px;
   display: -webkit-box;
@@ -195,11 +198,11 @@ exports[`AlertDialogTest renders snapshot 1`] = `
   gap: 8px;
 }
 
-.emotion-4 button:first-of-type {
+.emotion-5 button:first-of-type {
   margin-right: 0;
 }
 
-.emotion-5 {
+.emotion-6 {
   position: relative;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -249,7 +252,7 @@ exports[`AlertDialogTest renders snapshot 1`] = `
   flex-shrink: 1;
 }
 
-.emotion-5::after {
+.emotion-6::after {
   content: '';
   display: block;
   position: absolute;
@@ -265,28 +268,28 @@ exports[`AlertDialogTest renders snapshot 1`] = `
   transition: box-shadow 125ms ease-out;
 }
 
-.emotion-5:hover:not(:disabled) {
+.emotion-6:hover:not(:disabled) {
   background-color: #00D649;
 }
 
-.emotion-5:active:not(:disabled) {
+.emotion-6:active:not(:disabled) {
   background-color: #03EF62;
 }
 
-.emotion-5:disabled {
+.emotion-6:disabled {
   opacity: 0.6;
   cursor: default;
 }
 
-.emotion-5::after {
+.emotion-6::after {
   box-shadow: 0 0 0 2px #009BD8;
 }
 
-.emotion-5:active:focus {
+.emotion-6:active:focus {
   background-color: #00D649;
 }
 
-.emotion-5:first-of-type {
+.emotion-6:first-of-type {
   margin-right: auto;
 }
 
@@ -301,31 +304,39 @@ exports[`AlertDialogTest renders snapshot 1`] = `
     aria-label="Close"
     class="emotion-1"
   >
-    CrossIcon
+    <div
+      class="emotion-2"
+    >
+      CrossIcon
+    </div>
   </button>
   <h2
-    class="emotion-2"
+    class="emotion-3"
     id="alert-dialog-title"
   >
     Warning!
   </h2>
   <div
-    class="emotion-3"
+    class="emotion-4"
   >
     Oops, something happened.
   </div>
   <footer
-    class="emotion-4"
+    class="emotion-5"
   >
     <button
-      class="emotion-5"
+      class="emotion-6"
       data-autofocus="true"
     >
-      <span
-        class="emotion-6"
+      <div
+        class="emotion-2"
       >
-        Got It!
-      </span>
+        <span
+          class="emotion-8"
+        >
+          Got It!
+        </span>
+      </div>
     </button>
   </footer>
 </section>

@@ -12,7 +12,9 @@ function Example() {
     >
       <Button>No State</Button>
       <Button disabled>Disabled</Button>
-      <Button isLoading>Loading ...</Button>
+      <Button isLoading loadingLabel="Loading…">
+        Normal Label
+      </Button>
       <Button isLoading />
     </div>
   );

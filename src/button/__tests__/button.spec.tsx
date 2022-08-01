@@ -204,14 +204,31 @@ describe('Button', () => {
 
   it('renders loader with isLoading prop', () => {
     const { getByText, getByTestId } = render(
-      <Button isLoading>Loading</Button>,
+      <Button isLoading>Add to Fanpage</Button>,
     );
 
-    const button = getByText('Loading').closest('button');
+    const button = getByText('Add to Fanpage').closest('button');
     const loader = getByTestId('loader-wrapper');
 
     expect(button).toBeInTheDocument();
     expect(button).toBeDisabled();
+    expect(loader).toBeInTheDocument();
+  });
+
+  it('renders provided loadingLabel when isLoading', () => {
+    const { getByText, getByTestId } = render(
+      <Button isLoading loadingLabel="Loading">
+        Add to Fanpage
+      </Button>,
+    );
+
+    const button = getByText('Add to Fanpage').closest('button');
+    const loadingLabel = getByText('Loading');
+    const loader = getByTestId('loader-wrapper');
+
+    expect(button).toBeInTheDocument();
+    expect(button).toBeDisabled();
+    expect(loadingLabel).toBeInTheDocument();
     expect(loader).toBeInTheDocument();
   });
 

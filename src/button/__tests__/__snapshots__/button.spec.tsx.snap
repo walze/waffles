@@ -81,11 +81,15 @@ exports[`Button renders snapshot of disabled medium variant destructive 1`] = `
   class="emotion-0"
   disabled=""
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -170,11 +174,15 @@ exports[`Button renders snapshot of disabled medium variant plain 1`] = `
   class="emotion-0"
   disabled=""
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -259,11 +267,15 @@ exports[`Button renders snapshot of disabled medium variant primary 1`] = `
   class="emotion-0"
   disabled=""
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -348,11 +360,15 @@ exports[`Button renders snapshot of disabled medium variant secondary 1`] = `
   class="emotion-0"
   disabled=""
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -437,11 +453,15 @@ exports[`Button renders snapshot of disabled medium variant upgrade 1`] = `
   class="emotion-0"
   disabled=""
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -533,11 +553,15 @@ exports[`Button renders snapshot of focused state 1`] = `
 <button
   class="emotion-0"
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -621,11 +645,15 @@ exports[`Button renders snapshot of inverted variant destructive and size large 
 <button
   class="emotion-0"
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -709,11 +737,15 @@ exports[`Button renders snapshot of inverted variant destructive and size medium
 <button
   class="emotion-0"
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -797,11 +829,15 @@ exports[`Button renders snapshot of inverted variant destructive and size small 
 <button
   class="emotion-0"
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -885,11 +921,15 @@ exports[`Button renders snapshot of inverted variant plain and size large 1`] = 
 <button
   class="emotion-0"
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -973,11 +1013,15 @@ exports[`Button renders snapshot of inverted variant plain and size medium 1`] =
 <button
   class="emotion-0"
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -1061,11 +1105,15 @@ exports[`Button renders snapshot of inverted variant plain and size small 1`] = 
 <button
   class="emotion-0"
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -1149,11 +1197,15 @@ exports[`Button renders snapshot of inverted variant primary and size large 1`] 
 <button
   class="emotion-0"
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -1237,11 +1289,15 @@ exports[`Button renders snapshot of inverted variant primary and size medium 1`]
 <button
   class="emotion-0"
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -1325,11 +1381,15 @@ exports[`Button renders snapshot of inverted variant primary and size small 1`] 
 <button
   class="emotion-0"
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -1413,11 +1473,15 @@ exports[`Button renders snapshot of inverted variant secondary and size large 1`
 <button
   class="emotion-0"
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -1501,11 +1565,15 @@ exports[`Button renders snapshot of inverted variant secondary and size medium 1
 <button
   class="emotion-0"
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -1589,11 +1657,15 @@ exports[`Button renders snapshot of inverted variant secondary and size small 1`
 <button
   class="emotion-0"
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -1677,11 +1749,15 @@ exports[`Button renders snapshot of inverted variant upgrade and size large 1`] 
 <button
   class="emotion-0"
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -1765,11 +1841,15 @@ exports[`Button renders snapshot of inverted variant upgrade and size medium 1`]
 <button
   class="emotion-0"
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -1853,11 +1933,15 @@ exports[`Button renders snapshot of inverted variant upgrade and size small 1`] 
 <button
   class="emotion-0"
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -1943,8 +2027,9 @@ exports[`Button renders snapshot of isLoading variants variant destructive and s
   height: 48px;
   min-width: 48px;
   width: auto;
-  padding-left: 16px;
-  padding-right: 16px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 14px;
   color: #05192D;
   background-color: #FF5400;
@@ -1981,13 +2066,34 @@ exports[`Button renders snapshot of isLoading variants variant destructive and s
 }
 
 .emotion-1 {
+  opacity: 0;
+  height: 0;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.emotion-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-4 {
   width: 16px;
   -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
-.emotion-2 {
+.emotion-5 {
   -webkit-clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
@@ -1995,22 +2101,20 @@ exports[`Button renders snapshot of isLoading variants variant destructive and s
   will-change: clip-path;
 }
 
-.emotion-3 {
+.emotion-6 {
   display: block;
   stroke: #000820;
+  width: 100%;
+  height: 100%;
   stroke: #05192D;
 }
 
-.emotion-4 {
+.emotion-7 {
   -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   stroke-dasharray: 9800;
   stroke-dashoffset: 9800;
   will-change: stroke-dashoffset;
-}
-
-.emotion-5 {
-  padding-left: 8px;
 }
 
 <button
@@ -2019,31 +2123,39 @@ exports[`Button renders snapshot of isLoading variants variant destructive and s
 >
   <div
     class="emotion-1"
-    data-testid="loader-wrapper"
   >
-    <div
+    <span
       class="emotion-2"
     >
-      <svg
-        class="emotion-3"
-        viewBox="0 0 2640 3444"
-        width="16px"
+      Test
+    </span>
+  </div>
+  <div
+    class="emotion-3"
+  >
+    <div
+      class="emotion-4"
+      data-testid="loader-wrapper"
+    >
+      <div
+        class="emotion-5"
       >
-        <path
-          class="emotion-4"
-          d="M0 0 M2569 1056L143 2447V149l1175 673v1867l1248 715"
-          fill="none"
-          stroke-linejoin="round"
-          stroke-width="300"
-        />
-      </svg>
+        <svg
+          class="emotion-6"
+          viewBox="0 0 2640 3444"
+          width="16px"
+        >
+          <path
+            class="emotion-7"
+            d="M0 0 M2569 1056L143 2447V149l1175 673v1867l1248 715"
+            fill="none"
+            stroke-linejoin="round"
+            stroke-width="300"
+          />
+        </svg>
+      </div>
     </div>
   </div>
-  <span
-    class="emotion-5"
-  >
-    Test
-  </span>
 </button>
 `;
 
@@ -2129,8 +2241,9 @@ exports[`Button renders snapshot of isLoading variants variant destructive and s
   height: 36px;
   min-width: 36px;
   width: auto;
-  padding-left: 16px;
-  padding-right: 16px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 14px;
   color: #05192D;
   background-color: #FF5400;
@@ -2167,13 +2280,34 @@ exports[`Button renders snapshot of isLoading variants variant destructive and s
 }
 
 .emotion-1 {
+  opacity: 0;
+  height: 0;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.emotion-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-4 {
   width: 16px;
   -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
-.emotion-2 {
+.emotion-5 {
   -webkit-clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
@@ -2181,22 +2315,20 @@ exports[`Button renders snapshot of isLoading variants variant destructive and s
   will-change: clip-path;
 }
 
-.emotion-3 {
+.emotion-6 {
   display: block;
   stroke: #000820;
+  width: 100%;
+  height: 100%;
   stroke: #05192D;
 }
 
-.emotion-4 {
+.emotion-7 {
   -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   stroke-dasharray: 9800;
   stroke-dashoffset: 9800;
   will-change: stroke-dashoffset;
-}
-
-.emotion-5 {
-  padding-left: 8px;
 }
 
 <button
@@ -2205,31 +2337,39 @@ exports[`Button renders snapshot of isLoading variants variant destructive and s
 >
   <div
     class="emotion-1"
-    data-testid="loader-wrapper"
   >
-    <div
+    <span
       class="emotion-2"
     >
-      <svg
-        class="emotion-3"
-        viewBox="0 0 2640 3444"
-        width="16px"
+      Test
+    </span>
+  </div>
+  <div
+    class="emotion-3"
+  >
+    <div
+      class="emotion-4"
+      data-testid="loader-wrapper"
+    >
+      <div
+        class="emotion-5"
       >
-        <path
-          class="emotion-4"
-          d="M0 0 M2569 1056L143 2447V149l1175 673v1867l1248 715"
-          fill="none"
-          stroke-linejoin="round"
-          stroke-width="300"
-        />
-      </svg>
+        <svg
+          class="emotion-6"
+          viewBox="0 0 2640 3444"
+          width="16px"
+        >
+          <path
+            class="emotion-7"
+            d="M0 0 M2569 1056L143 2447V149l1175 673v1867l1248 715"
+            fill="none"
+            stroke-linejoin="round"
+            stroke-width="300"
+          />
+        </svg>
+      </div>
     </div>
   </div>
-  <span
-    class="emotion-5"
-  >
-    Test
-  </span>
 </button>
 `;
 
@@ -2315,8 +2455,9 @@ exports[`Button renders snapshot of isLoading variants variant destructive and s
   height: 28px;
   min-width: 28px;
   width: auto;
-  padding-left: 8px;
-  padding-right: 8px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 12px;
   color: #05192D;
   background-color: #FF5400;
@@ -2353,13 +2494,34 @@ exports[`Button renders snapshot of isLoading variants variant destructive and s
 }
 
 .emotion-1 {
+  opacity: 0;
+  height: 0;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.emotion-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-4 {
   width: 12px;
   -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
-.emotion-2 {
+.emotion-5 {
   -webkit-clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
@@ -2367,22 +2529,20 @@ exports[`Button renders snapshot of isLoading variants variant destructive and s
   will-change: clip-path;
 }
 
-.emotion-3 {
+.emotion-6 {
   display: block;
   stroke: #000820;
+  width: 100%;
+  height: 100%;
   stroke: #05192D;
 }
 
-.emotion-4 {
+.emotion-7 {
   -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   stroke-dasharray: 9800;
   stroke-dashoffset: 9800;
   will-change: stroke-dashoffset;
-}
-
-.emotion-5 {
-  padding-left: 4px;
 }
 
 <button
@@ -2391,31 +2551,39 @@ exports[`Button renders snapshot of isLoading variants variant destructive and s
 >
   <div
     class="emotion-1"
-    data-testid="loader-wrapper"
   >
-    <div
+    <span
       class="emotion-2"
     >
-      <svg
-        class="emotion-3"
-        viewBox="0 0 2640 3444"
-        width="12px"
+      Test
+    </span>
+  </div>
+  <div
+    class="emotion-3"
+  >
+    <div
+      class="emotion-4"
+      data-testid="loader-wrapper"
+    >
+      <div
+        class="emotion-5"
       >
-        <path
-          class="emotion-4"
-          d="M0 0 M2569 1056L143 2447V149l1175 673v1867l1248 715"
-          fill="none"
-          stroke-linejoin="round"
-          stroke-width="300"
-        />
-      </svg>
+        <svg
+          class="emotion-6"
+          viewBox="0 0 2640 3444"
+          width="12px"
+        >
+          <path
+            class="emotion-7"
+            d="M0 0 M2569 1056L143 2447V149l1175 673v1867l1248 715"
+            fill="none"
+            stroke-linejoin="round"
+            stroke-width="300"
+          />
+        </svg>
+      </div>
     </div>
   </div>
-  <span
-    class="emotion-5"
-  >
-    Test
-  </span>
 </button>
 `;
 
@@ -2501,8 +2669,9 @@ exports[`Button renders snapshot of isLoading variants variant plain and size la
   height: 48px;
   min-width: 48px;
   width: auto;
-  padding-left: 16px;
-  padding-right: 16px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 14px;
   color: #06BDFC;
   background-color: transparent;
@@ -2539,13 +2708,34 @@ exports[`Button renders snapshot of isLoading variants variant plain and size la
 }
 
 .emotion-1 {
+  opacity: 0;
+  height: 0;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.emotion-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-4 {
   width: 16px;
   -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
-.emotion-2 {
+.emotion-5 {
   -webkit-clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
@@ -2553,22 +2743,20 @@ exports[`Button renders snapshot of isLoading variants variant plain and size la
   will-change: clip-path;
 }
 
-.emotion-3 {
+.emotion-6 {
   display: block;
   stroke: #000820;
+  width: 100%;
+  height: 100%;
   stroke: #06BDFC;
 }
 
-.emotion-4 {
+.emotion-7 {
   -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   stroke-dasharray: 9800;
   stroke-dashoffset: 9800;
   will-change: stroke-dashoffset;
-}
-
-.emotion-5 {
-  padding-left: 8px;
 }
 
 <button
@@ -2577,31 +2765,39 @@ exports[`Button renders snapshot of isLoading variants variant plain and size la
 >
   <div
     class="emotion-1"
-    data-testid="loader-wrapper"
   >
-    <div
+    <span
       class="emotion-2"
     >
-      <svg
-        class="emotion-3"
-        viewBox="0 0 2640 3444"
-        width="16px"
+      Test
+    </span>
+  </div>
+  <div
+    class="emotion-3"
+  >
+    <div
+      class="emotion-4"
+      data-testid="loader-wrapper"
+    >
+      <div
+        class="emotion-5"
       >
-        <path
-          class="emotion-4"
-          d="M0 0 M2569 1056L143 2447V149l1175 673v1867l1248 715"
-          fill="none"
-          stroke-linejoin="round"
-          stroke-width="300"
-        />
-      </svg>
+        <svg
+          class="emotion-6"
+          viewBox="0 0 2640 3444"
+          width="16px"
+        >
+          <path
+            class="emotion-7"
+            d="M0 0 M2569 1056L143 2447V149l1175 673v1867l1248 715"
+            fill="none"
+            stroke-linejoin="round"
+            stroke-width="300"
+          />
+        </svg>
+      </div>
     </div>
   </div>
-  <span
-    class="emotion-5"
-  >
-    Test
-  </span>
 </button>
 `;
 
@@ -2687,8 +2883,9 @@ exports[`Button renders snapshot of isLoading variants variant plain and size me
   height: 36px;
   min-width: 36px;
   width: auto;
-  padding-left: 16px;
-  padding-right: 16px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 14px;
   color: #06BDFC;
   background-color: transparent;
@@ -2725,13 +2922,34 @@ exports[`Button renders snapshot of isLoading variants variant plain and size me
 }
 
 .emotion-1 {
+  opacity: 0;
+  height: 0;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.emotion-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-4 {
   width: 16px;
   -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
-.emotion-2 {
+.emotion-5 {
   -webkit-clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
@@ -2739,22 +2957,20 @@ exports[`Button renders snapshot of isLoading variants variant plain and size me
   will-change: clip-path;
 }
 
-.emotion-3 {
+.emotion-6 {
   display: block;
   stroke: #000820;
+  width: 100%;
+  height: 100%;
   stroke: #06BDFC;
 }
 
-.emotion-4 {
+.emotion-7 {
   -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   stroke-dasharray: 9800;
   stroke-dashoffset: 9800;
   will-change: stroke-dashoffset;
-}
-
-.emotion-5 {
-  padding-left: 8px;
 }
 
 <button
@@ -2763,31 +2979,39 @@ exports[`Button renders snapshot of isLoading variants variant plain and size me
 >
   <div
     class="emotion-1"
-    data-testid="loader-wrapper"
   >
-    <div
+    <span
       class="emotion-2"
     >
-      <svg
-        class="emotion-3"
-        viewBox="0 0 2640 3444"
-        width="16px"
+      Test
+    </span>
+  </div>
+  <div
+    class="emotion-3"
+  >
+    <div
+      class="emotion-4"
+      data-testid="loader-wrapper"
+    >
+      <div
+        class="emotion-5"
       >
-        <path
-          class="emotion-4"
-          d="M0 0 M2569 1056L143 2447V149l1175 673v1867l1248 715"
-          fill="none"
-          stroke-linejoin="round"
-          stroke-width="300"
-        />
-      </svg>
+        <svg
+          class="emotion-6"
+          viewBox="0 0 2640 3444"
+          width="16px"
+        >
+          <path
+            class="emotion-7"
+            d="M0 0 M2569 1056L143 2447V149l1175 673v1867l1248 715"
+            fill="none"
+            stroke-linejoin="round"
+            stroke-width="300"
+          />
+        </svg>
+      </div>
     </div>
   </div>
-  <span
-    class="emotion-5"
-  >
-    Test
-  </span>
 </button>
 `;
 
@@ -2873,8 +3097,9 @@ exports[`Button renders snapshot of isLoading variants variant plain and size sm
   height: 28px;
   min-width: 28px;
   width: auto;
-  padding-left: 8px;
-  padding-right: 8px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 12px;
   color: #06BDFC;
   background-color: transparent;
@@ -2911,13 +3136,34 @@ exports[`Button renders snapshot of isLoading variants variant plain and size sm
 }
 
 .emotion-1 {
+  opacity: 0;
+  height: 0;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.emotion-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-4 {
   width: 12px;
   -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
-.emotion-2 {
+.emotion-5 {
   -webkit-clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
@@ -2925,22 +3171,20 @@ exports[`Button renders snapshot of isLoading variants variant plain and size sm
   will-change: clip-path;
 }
 
-.emotion-3 {
+.emotion-6 {
   display: block;
   stroke: #000820;
+  width: 100%;
+  height: 100%;
   stroke: #06BDFC;
 }
 
-.emotion-4 {
+.emotion-7 {
   -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   stroke-dasharray: 9800;
   stroke-dashoffset: 9800;
   will-change: stroke-dashoffset;
-}
-
-.emotion-5 {
-  padding-left: 4px;
 }
 
 <button
@@ -2949,31 +3193,39 @@ exports[`Button renders snapshot of isLoading variants variant plain and size sm
 >
   <div
     class="emotion-1"
-    data-testid="loader-wrapper"
   >
-    <div
+    <span
       class="emotion-2"
     >
-      <svg
-        class="emotion-3"
-        viewBox="0 0 2640 3444"
-        width="12px"
+      Test
+    </span>
+  </div>
+  <div
+    class="emotion-3"
+  >
+    <div
+      class="emotion-4"
+      data-testid="loader-wrapper"
+    >
+      <div
+        class="emotion-5"
       >
-        <path
-          class="emotion-4"
-          d="M0 0 M2569 1056L143 2447V149l1175 673v1867l1248 715"
-          fill="none"
-          stroke-linejoin="round"
-          stroke-width="300"
-        />
-      </svg>
+        <svg
+          class="emotion-6"
+          viewBox="0 0 2640 3444"
+          width="12px"
+        >
+          <path
+            class="emotion-7"
+            d="M0 0 M2569 1056L143 2447V149l1175 673v1867l1248 715"
+            fill="none"
+            stroke-linejoin="round"
+            stroke-width="300"
+          />
+        </svg>
+      </div>
     </div>
   </div>
-  <span
-    class="emotion-5"
-  >
-    Test
-  </span>
 </button>
 `;
 
@@ -3059,8 +3311,9 @@ exports[`Button renders snapshot of isLoading variants variant primary and size 
   height: 48px;
   min-width: 48px;
   width: auto;
-  padding-left: 16px;
-  padding-right: 16px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 14px;
   color: #05192D;
   background-color: #03EF62;
@@ -3097,13 +3350,34 @@ exports[`Button renders snapshot of isLoading variants variant primary and size 
 }
 
 .emotion-1 {
+  opacity: 0;
+  height: 0;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.emotion-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-4 {
   width: 16px;
   -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
-.emotion-2 {
+.emotion-5 {
   -webkit-clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
@@ -3111,22 +3385,20 @@ exports[`Button renders snapshot of isLoading variants variant primary and size 
   will-change: clip-path;
 }
 
-.emotion-3 {
+.emotion-6 {
   display: block;
   stroke: #000820;
+  width: 100%;
+  height: 100%;
   stroke: #05192D;
 }
 
-.emotion-4 {
+.emotion-7 {
   -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   stroke-dasharray: 9800;
   stroke-dashoffset: 9800;
   will-change: stroke-dashoffset;
-}
-
-.emotion-5 {
-  padding-left: 8px;
 }
 
 <button
@@ -3135,31 +3407,39 @@ exports[`Button renders snapshot of isLoading variants variant primary and size 
 >
   <div
     class="emotion-1"
-    data-testid="loader-wrapper"
   >
-    <div
+    <span
       class="emotion-2"
     >
-      <svg
-        class="emotion-3"
-        viewBox="0 0 2640 3444"
-        width="16px"
+      Test
+    </span>
+  </div>
+  <div
+    class="emotion-3"
+  >
+    <div
+      class="emotion-4"
+      data-testid="loader-wrapper"
+    >
+      <div
+        class="emotion-5"
       >
-        <path
-          class="emotion-4"
-          d="M0 0 M2569 1056L143 2447V149l1175 673v1867l1248 715"
-          fill="none"
-          stroke-linejoin="round"
-          stroke-width="300"
-        />
-      </svg>
+        <svg
+          class="emotion-6"
+          viewBox="0 0 2640 3444"
+          width="16px"
+        >
+          <path
+            class="emotion-7"
+            d="M0 0 M2569 1056L143 2447V149l1175 673v1867l1248 715"
+            fill="none"
+            stroke-linejoin="round"
+            stroke-width="300"
+          />
+        </svg>
+      </div>
     </div>
   </div>
-  <span
-    class="emotion-5"
-  >
-    Test
-  </span>
 </button>
 `;
 
@@ -3245,8 +3525,9 @@ exports[`Button renders snapshot of isLoading variants variant primary and size 
   height: 36px;
   min-width: 36px;
   width: auto;
-  padding-left: 16px;
-  padding-right: 16px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 14px;
   color: #05192D;
   background-color: #03EF62;
@@ -3283,13 +3564,34 @@ exports[`Button renders snapshot of isLoading variants variant primary and size 
 }
 
 .emotion-1 {
+  opacity: 0;
+  height: 0;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.emotion-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-4 {
   width: 16px;
   -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
-.emotion-2 {
+.emotion-5 {
   -webkit-clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
@@ -3297,22 +3599,20 @@ exports[`Button renders snapshot of isLoading variants variant primary and size 
   will-change: clip-path;
 }
 
-.emotion-3 {
+.emotion-6 {
   display: block;
   stroke: #000820;
+  width: 100%;
+  height: 100%;
   stroke: #05192D;
 }
 
-.emotion-4 {
+.emotion-7 {
   -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   stroke-dasharray: 9800;
   stroke-dashoffset: 9800;
   will-change: stroke-dashoffset;
-}
-
-.emotion-5 {
-  padding-left: 8px;
 }
 
 <button
@@ -3321,31 +3621,39 @@ exports[`Button renders snapshot of isLoading variants variant primary and size 
 >
   <div
     class="emotion-1"
-    data-testid="loader-wrapper"
   >
-    <div
+    <span
       class="emotion-2"
     >
-      <svg
-        class="emotion-3"
-        viewBox="0 0 2640 3444"
-        width="16px"
+      Test
+    </span>
+  </div>
+  <div
+    class="emotion-3"
+  >
+    <div
+      class="emotion-4"
+      data-testid="loader-wrapper"
+    >
+      <div
+        class="emotion-5"
       >
-        <path
-          class="emotion-4"
-          d="M0 0 M2569 1056L143 2447V149l1175 673v1867l1248 715"
-          fill="none"
-          stroke-linejoin="round"
-          stroke-width="300"
-        />
-      </svg>
+        <svg
+          class="emotion-6"
+          viewBox="0 0 2640 3444"
+          width="16px"
+        >
+          <path
+            class="emotion-7"
+            d="M0 0 M2569 1056L143 2447V149l1175 673v1867l1248 715"
+            fill="none"
+            stroke-linejoin="round"
+            stroke-width="300"
+          />
+        </svg>
+      </div>
     </div>
   </div>
-  <span
-    class="emotion-5"
-  >
-    Test
-  </span>
 </button>
 `;
 
@@ -3431,8 +3739,9 @@ exports[`Button renders snapshot of isLoading variants variant primary and size 
   height: 28px;
   min-width: 28px;
   width: auto;
-  padding-left: 8px;
-  padding-right: 8px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 12px;
   color: #05192D;
   background-color: #03EF62;
@@ -3469,13 +3778,34 @@ exports[`Button renders snapshot of isLoading variants variant primary and size 
 }
 
 .emotion-1 {
+  opacity: 0;
+  height: 0;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.emotion-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-4 {
   width: 12px;
   -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
-.emotion-2 {
+.emotion-5 {
   -webkit-clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
@@ -3483,22 +3813,20 @@ exports[`Button renders snapshot of isLoading variants variant primary and size 
   will-change: clip-path;
 }
 
-.emotion-3 {
+.emotion-6 {
   display: block;
   stroke: #000820;
+  width: 100%;
+  height: 100%;
   stroke: #05192D;
 }
 
-.emotion-4 {
+.emotion-7 {
   -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   stroke-dasharray: 9800;
   stroke-dashoffset: 9800;
   will-change: stroke-dashoffset;
-}
-
-.emotion-5 {
-  padding-left: 4px;
 }
 
 <button
@@ -3507,31 +3835,39 @@ exports[`Button renders snapshot of isLoading variants variant primary and size 
 >
   <div
     class="emotion-1"
-    data-testid="loader-wrapper"
   >
-    <div
+    <span
       class="emotion-2"
     >
-      <svg
-        class="emotion-3"
-        viewBox="0 0 2640 3444"
-        width="12px"
+      Test
+    </span>
+  </div>
+  <div
+    class="emotion-3"
+  >
+    <div
+      class="emotion-4"
+      data-testid="loader-wrapper"
+    >
+      <div
+        class="emotion-5"
       >
-        <path
-          class="emotion-4"
-          d="M0 0 M2569 1056L143 2447V149l1175 673v1867l1248 715"
-          fill="none"
-          stroke-linejoin="round"
-          stroke-width="300"
-        />
-      </svg>
+        <svg
+          class="emotion-6"
+          viewBox="0 0 2640 3444"
+          width="12px"
+        >
+          <path
+            class="emotion-7"
+            d="M0 0 M2569 1056L143 2447V149l1175 673v1867l1248 715"
+            fill="none"
+            stroke-linejoin="round"
+            stroke-width="300"
+          />
+        </svg>
+      </div>
     </div>
   </div>
-  <span
-    class="emotion-5"
-  >
-    Test
-  </span>
 </button>
 `;
 
@@ -3617,8 +3953,9 @@ exports[`Button renders snapshot of isLoading variants variant secondary and siz
   height: 48px;
   min-width: 48px;
   width: auto;
-  padding-left: 16px;
-  padding-right: 16px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 14px;
   color: #FFFFFF;
   background-color: transparent;
@@ -3655,13 +3992,34 @@ exports[`Button renders snapshot of isLoading variants variant secondary and siz
 }
 
 .emotion-1 {
+  opacity: 0;
+  height: 0;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.emotion-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-4 {
   width: 16px;
   -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
-.emotion-2 {
+.emotion-5 {
   -webkit-clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
@@ -3669,22 +4027,20 @@ exports[`Button renders snapshot of isLoading variants variant secondary and siz
   will-change: clip-path;
 }
 
-.emotion-3 {
+.emotion-6 {
   display: block;
   stroke: #000820;
+  width: 100%;
+  height: 100%;
   stroke: #FFFFFF;
 }
 
-.emotion-4 {
+.emotion-7 {
   -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   stroke-dasharray: 9800;
   stroke-dashoffset: 9800;
   will-change: stroke-dashoffset;
-}
-
-.emotion-5 {
-  padding-left: 8px;
 }
 
 <button
@@ -3693,31 +4049,39 @@ exports[`Button renders snapshot of isLoading variants variant secondary and siz
 >
   <div
     class="emotion-1"
-    data-testid="loader-wrapper"
   >
-    <div
+    <span
       class="emotion-2"
     >
-      <svg
-        class="emotion-3"
-        viewBox="0 0 2640 3444"
-        width="16px"
+      Test
+    </span>
+  </div>
+  <div
+    class="emotion-3"
+  >
+    <div
+      class="emotion-4"
+      data-testid="loader-wrapper"
+    >
+      <div
+        class="emotion-5"
       >
-        <path
-          class="emotion-4"
-          d="M0 0 M2569 1056L143 2447V149l1175 673v1867l1248 715"
-          fill="none"
-          stroke-linejoin="round"
-          stroke-width="300"
-        />
-      </svg>
+        <svg
+          class="emotion-6"
+          viewBox="0 0 2640 3444"
+          width="16px"
+        >
+          <path
+            class="emotion-7"
+            d="M0 0 M2569 1056L143 2447V149l1175 673v1867l1248 715"
+            fill="none"
+            stroke-linejoin="round"
+            stroke-width="300"
+          />
+        </svg>
+      </div>
     </div>
   </div>
-  <span
-    class="emotion-5"
-  >
-    Test
-  </span>
 </button>
 `;
 
@@ -3803,8 +4167,9 @@ exports[`Button renders snapshot of isLoading variants variant secondary and siz
   height: 36px;
   min-width: 36px;
   width: auto;
-  padding-left: 16px;
-  padding-right: 16px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 14px;
   color: #FFFFFF;
   background-color: transparent;
@@ -3841,13 +4206,34 @@ exports[`Button renders snapshot of isLoading variants variant secondary and siz
 }
 
 .emotion-1 {
+  opacity: 0;
+  height: 0;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.emotion-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-4 {
   width: 16px;
   -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
-.emotion-2 {
+.emotion-5 {
   -webkit-clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
@@ -3855,22 +4241,20 @@ exports[`Button renders snapshot of isLoading variants variant secondary and siz
   will-change: clip-path;
 }
 
-.emotion-3 {
+.emotion-6 {
   display: block;
   stroke: #000820;
+  width: 100%;
+  height: 100%;
   stroke: #FFFFFF;
 }
 
-.emotion-4 {
+.emotion-7 {
   -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   stroke-dasharray: 9800;
   stroke-dashoffset: 9800;
   will-change: stroke-dashoffset;
-}
-
-.emotion-5 {
-  padding-left: 8px;
 }
 
 <button
@@ -3879,31 +4263,39 @@ exports[`Button renders snapshot of isLoading variants variant secondary and siz
 >
   <div
     class="emotion-1"
-    data-testid="loader-wrapper"
   >
-    <div
+    <span
       class="emotion-2"
     >
-      <svg
-        class="emotion-3"
-        viewBox="0 0 2640 3444"
-        width="16px"
+      Test
+    </span>
+  </div>
+  <div
+    class="emotion-3"
+  >
+    <div
+      class="emotion-4"
+      data-testid="loader-wrapper"
+    >
+      <div
+        class="emotion-5"
       >
-        <path
-          class="emotion-4"
-          d="M0 0 M2569 1056L143 2447V149l1175 673v1867l1248 715"
-          fill="none"
-          stroke-linejoin="round"
-          stroke-width="300"
-        />
-      </svg>
+        <svg
+          class="emotion-6"
+          viewBox="0 0 2640 3444"
+          width="16px"
+        >
+          <path
+            class="emotion-7"
+            d="M0 0 M2569 1056L143 2447V149l1175 673v1867l1248 715"
+            fill="none"
+            stroke-linejoin="round"
+            stroke-width="300"
+          />
+        </svg>
+      </div>
     </div>
   </div>
-  <span
-    class="emotion-5"
-  >
-    Test
-  </span>
 </button>
 `;
 
@@ -3989,8 +4381,9 @@ exports[`Button renders snapshot of isLoading variants variant secondary and siz
   height: 28px;
   min-width: 28px;
   width: auto;
-  padding-left: 8px;
-  padding-right: 8px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 12px;
   color: #FFFFFF;
   background-color: transparent;
@@ -4027,13 +4420,34 @@ exports[`Button renders snapshot of isLoading variants variant secondary and siz
 }
 
 .emotion-1 {
+  opacity: 0;
+  height: 0;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.emotion-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-4 {
   width: 12px;
   -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
-.emotion-2 {
+.emotion-5 {
   -webkit-clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
@@ -4041,22 +4455,20 @@ exports[`Button renders snapshot of isLoading variants variant secondary and siz
   will-change: clip-path;
 }
 
-.emotion-3 {
+.emotion-6 {
   display: block;
   stroke: #000820;
+  width: 100%;
+  height: 100%;
   stroke: #FFFFFF;
 }
 
-.emotion-4 {
+.emotion-7 {
   -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   stroke-dasharray: 9800;
   stroke-dashoffset: 9800;
   will-change: stroke-dashoffset;
-}
-
-.emotion-5 {
-  padding-left: 4px;
 }
 
 <button
@@ -4065,31 +4477,39 @@ exports[`Button renders snapshot of isLoading variants variant secondary and siz
 >
   <div
     class="emotion-1"
-    data-testid="loader-wrapper"
   >
-    <div
+    <span
       class="emotion-2"
     >
-      <svg
-        class="emotion-3"
-        viewBox="0 0 2640 3444"
-        width="12px"
+      Test
+    </span>
+  </div>
+  <div
+    class="emotion-3"
+  >
+    <div
+      class="emotion-4"
+      data-testid="loader-wrapper"
+    >
+      <div
+        class="emotion-5"
       >
-        <path
-          class="emotion-4"
-          d="M0 0 M2569 1056L143 2447V149l1175 673v1867l1248 715"
-          fill="none"
-          stroke-linejoin="round"
-          stroke-width="300"
-        />
-      </svg>
+        <svg
+          class="emotion-6"
+          viewBox="0 0 2640 3444"
+          width="12px"
+        >
+          <path
+            class="emotion-7"
+            d="M0 0 M2569 1056L143 2447V149l1175 673v1867l1248 715"
+            fill="none"
+            stroke-linejoin="round"
+            stroke-width="300"
+          />
+        </svg>
+      </div>
     </div>
   </div>
-  <span
-    class="emotion-5"
-  >
-    Test
-  </span>
 </button>
 `;
 
@@ -4175,8 +4595,9 @@ exports[`Button renders snapshot of isLoading variants variant upgrade and size 
   height: 48px;
   min-width: 48px;
   width: auto;
-  padding-left: 16px;
-  padding-right: 16px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 14px;
   color: #FFFFFF;
   background-color: #7933FF;
@@ -4213,13 +4634,34 @@ exports[`Button renders snapshot of isLoading variants variant upgrade and size 
 }
 
 .emotion-1 {
+  opacity: 0;
+  height: 0;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.emotion-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-4 {
   width: 16px;
   -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
-.emotion-2 {
+.emotion-5 {
   -webkit-clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
@@ -4227,22 +4669,20 @@ exports[`Button renders snapshot of isLoading variants variant upgrade and size 
   will-change: clip-path;
 }
 
-.emotion-3 {
+.emotion-6 {
   display: block;
   stroke: #000820;
+  width: 100%;
+  height: 100%;
   stroke: #FFFFFF;
 }
 
-.emotion-4 {
+.emotion-7 {
   -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   stroke-dasharray: 9800;
   stroke-dashoffset: 9800;
   will-change: stroke-dashoffset;
-}
-
-.emotion-5 {
-  padding-left: 8px;
 }
 
 <button
@@ -4251,31 +4691,39 @@ exports[`Button renders snapshot of isLoading variants variant upgrade and size 
 >
   <div
     class="emotion-1"
-    data-testid="loader-wrapper"
   >
-    <div
+    <span
       class="emotion-2"
     >
-      <svg
-        class="emotion-3"
-        viewBox="0 0 2640 3444"
-        width="16px"
+      Test
+    </span>
+  </div>
+  <div
+    class="emotion-3"
+  >
+    <div
+      class="emotion-4"
+      data-testid="loader-wrapper"
+    >
+      <div
+        class="emotion-5"
       >
-        <path
-          class="emotion-4"
-          d="M0 0 M2569 1056L143 2447V149l1175 673v1867l1248 715"
-          fill="none"
-          stroke-linejoin="round"
-          stroke-width="300"
-        />
-      </svg>
+        <svg
+          class="emotion-6"
+          viewBox="0 0 2640 3444"
+          width="16px"
+        >
+          <path
+            class="emotion-7"
+            d="M0 0 M2569 1056L143 2447V149l1175 673v1867l1248 715"
+            fill="none"
+            stroke-linejoin="round"
+            stroke-width="300"
+          />
+        </svg>
+      </div>
     </div>
   </div>
-  <span
-    class="emotion-5"
-  >
-    Test
-  </span>
 </button>
 `;
 
@@ -4361,8 +4809,9 @@ exports[`Button renders snapshot of isLoading variants variant upgrade and size 
   height: 36px;
   min-width: 36px;
   width: auto;
-  padding-left: 16px;
-  padding-right: 16px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 14px;
   color: #FFFFFF;
   background-color: #7933FF;
@@ -4399,13 +4848,34 @@ exports[`Button renders snapshot of isLoading variants variant upgrade and size 
 }
 
 .emotion-1 {
+  opacity: 0;
+  height: 0;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.emotion-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-4 {
   width: 16px;
   -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
-.emotion-2 {
+.emotion-5 {
   -webkit-clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
@@ -4413,22 +4883,20 @@ exports[`Button renders snapshot of isLoading variants variant upgrade and size 
   will-change: clip-path;
 }
 
-.emotion-3 {
+.emotion-6 {
   display: block;
   stroke: #000820;
+  width: 100%;
+  height: 100%;
   stroke: #FFFFFF;
 }
 
-.emotion-4 {
+.emotion-7 {
   -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   stroke-dasharray: 9800;
   stroke-dashoffset: 9800;
   will-change: stroke-dashoffset;
-}
-
-.emotion-5 {
-  padding-left: 8px;
 }
 
 <button
@@ -4437,31 +4905,39 @@ exports[`Button renders snapshot of isLoading variants variant upgrade and size 
 >
   <div
     class="emotion-1"
-    data-testid="loader-wrapper"
   >
-    <div
+    <span
       class="emotion-2"
     >
-      <svg
-        class="emotion-3"
-        viewBox="0 0 2640 3444"
-        width="16px"
+      Test
+    </span>
+  </div>
+  <div
+    class="emotion-3"
+  >
+    <div
+      class="emotion-4"
+      data-testid="loader-wrapper"
+    >
+      <div
+        class="emotion-5"
       >
-        <path
-          class="emotion-4"
-          d="M0 0 M2569 1056L143 2447V149l1175 673v1867l1248 715"
-          fill="none"
-          stroke-linejoin="round"
-          stroke-width="300"
-        />
-      </svg>
+        <svg
+          class="emotion-6"
+          viewBox="0 0 2640 3444"
+          width="16px"
+        >
+          <path
+            class="emotion-7"
+            d="M0 0 M2569 1056L143 2447V149l1175 673v1867l1248 715"
+            fill="none"
+            stroke-linejoin="round"
+            stroke-width="300"
+          />
+        </svg>
+      </div>
     </div>
   </div>
-  <span
-    class="emotion-5"
-  >
-    Test
-  </span>
 </button>
 `;
 
@@ -4547,8 +5023,9 @@ exports[`Button renders snapshot of isLoading variants variant upgrade and size 
   height: 28px;
   min-width: 28px;
   width: auto;
-  padding-left: 8px;
-  padding-right: 8px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 12px;
   color: #FFFFFF;
   background-color: #7933FF;
@@ -4585,13 +5062,34 @@ exports[`Button renders snapshot of isLoading variants variant upgrade and size 
 }
 
 .emotion-1 {
+  opacity: 0;
+  height: 0;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.emotion-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-4 {
   width: 12px;
   -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
-.emotion-2 {
+.emotion-5 {
   -webkit-clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
@@ -4599,22 +5097,20 @@ exports[`Button renders snapshot of isLoading variants variant upgrade and size 
   will-change: clip-path;
 }
 
-.emotion-3 {
+.emotion-6 {
   display: block;
   stroke: #000820;
+  width: 100%;
+  height: 100%;
   stroke: #FFFFFF;
 }
 
-.emotion-4 {
+.emotion-7 {
   -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   stroke-dasharray: 9800;
   stroke-dashoffset: 9800;
   will-change: stroke-dashoffset;
-}
-
-.emotion-5 {
-  padding-left: 4px;
 }
 
 <button
@@ -4623,31 +5119,39 @@ exports[`Button renders snapshot of isLoading variants variant upgrade and size 
 >
   <div
     class="emotion-1"
-    data-testid="loader-wrapper"
   >
-    <div
+    <span
       class="emotion-2"
     >
-      <svg
-        class="emotion-3"
-        viewBox="0 0 2640 3444"
-        width="12px"
+      Test
+    </span>
+  </div>
+  <div
+    class="emotion-3"
+  >
+    <div
+      class="emotion-4"
+      data-testid="loader-wrapper"
+    >
+      <div
+        class="emotion-5"
       >
-        <path
-          class="emotion-4"
-          d="M0 0 M2569 1056L143 2447V149l1175 673v1867l1248 715"
-          fill="none"
-          stroke-linejoin="round"
-          stroke-width="300"
-        />
-      </svg>
+        <svg
+          class="emotion-6"
+          viewBox="0 0 2640 3444"
+          width="12px"
+        >
+          <path
+            class="emotion-7"
+            d="M0 0 M2569 1056L143 2447V149l1175 673v1867l1248 715"
+            fill="none"
+            stroke-linejoin="round"
+            stroke-width="300"
+          />
+        </svg>
+      </div>
     </div>
   </div>
-  <span
-    class="emotion-5"
-  >
-    Test
-  </span>
 </button>
 `;
 
@@ -4731,11 +5235,15 @@ exports[`Button renders snapshot of variant destructive and size large 1`] = `
 <button
   class="emotion-0"
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -4819,11 +5327,15 @@ exports[`Button renders snapshot of variant destructive and size medium 1`] = `
 <button
   class="emotion-0"
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -4907,11 +5419,15 @@ exports[`Button renders snapshot of variant destructive and size small 1`] = `
 <button
   class="emotion-0"
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -4995,11 +5511,15 @@ exports[`Button renders snapshot of variant plain and size large 1`] = `
 <button
   class="emotion-0"
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -5083,11 +5603,15 @@ exports[`Button renders snapshot of variant plain and size medium 1`] = `
 <button
   class="emotion-0"
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -5171,11 +5695,15 @@ exports[`Button renders snapshot of variant plain and size small 1`] = `
 <button
   class="emotion-0"
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -5259,11 +5787,15 @@ exports[`Button renders snapshot of variant primary and size large 1`] = `
 <button
   class="emotion-0"
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -5347,11 +5879,15 @@ exports[`Button renders snapshot of variant primary and size medium 1`] = `
 <button
   class="emotion-0"
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -5435,11 +5971,15 @@ exports[`Button renders snapshot of variant primary and size small 1`] = `
 <button
   class="emotion-0"
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -5523,11 +6063,15 @@ exports[`Button renders snapshot of variant secondary and size large 1`] = `
 <button
   class="emotion-0"
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -5611,11 +6155,15 @@ exports[`Button renders snapshot of variant secondary and size medium 1`] = `
 <button
   class="emotion-0"
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -5699,11 +6247,15 @@ exports[`Button renders snapshot of variant secondary and size small 1`] = `
 <button
   class="emotion-0"
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -5787,11 +6339,15 @@ exports[`Button renders snapshot of variant upgrade and size large 1`] = `
 <button
   class="emotion-0"
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -5875,11 +6431,15 @@ exports[`Button renders snapshot of variant upgrade and size medium 1`] = `
 <button
   class="emotion-0"
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;
 
@@ -5963,10 +6523,14 @@ exports[`Button renders snapshot of variant upgrade and size small 1`] = `
 <button
   class="emotion-0"
 >
-  <span
+  <div
     class="emotion-1"
   >
-    Test
-  </span>
+    <span
+      class="emotion-2"
+    >
+      Test
+    </span>
+  </div>
 </button>
 `;

@@ -243,11 +243,15 @@ exports[`Dialog renders snapshot 1`] = `
       <button
         class="emotion-9"
       >
-        <span
+        <div
           class="emotion-10"
         >
-          Button
-        </span>
+          <span
+            class="emotion-11"
+          >
+            Button
+          </span>
+        </div>
       </button>
     </div>
   </div>
@@ -497,11 +501,15 @@ exports[`Dialog renders snapshot in inverted 1`] = `
       <button
         class="emotion-9"
       >
-        <span
+        <div
           class="emotion-10"
         >
-          Button
-        </span>
+          <span
+            class="emotion-11"
+          >
+            Button
+          </span>
+        </div>
       </button>
     </div>
   </div>
@@ -751,11 +759,15 @@ exports[`Dialog renders snapshot in vertical orientation 1`] = `
       <button
         class="emotion-9"
       >
-        <span
+        <div
           class="emotion-10"
         >
-          Button
-        </span>
+          <span
+            class="emotion-11"
+          >
+            Button
+          </span>
+        </div>
       </button>
     </div>
   </div>
@@ -1005,11 +1017,15 @@ exports[`Dialog renders snapshot in vertical orientation and inverted 1`] = `
       <button
         class="emotion-9"
       >
-        <span
+        <div
           class="emotion-10"
         >
-          Button
-        </span>
+          <span
+            class="emotion-11"
+          >
+            Button
+          </span>
+        </div>
       </button>
     </div>
   </div>
