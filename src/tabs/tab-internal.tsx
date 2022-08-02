@@ -10,7 +10,7 @@ type TabBaseProps = {
   /* The label displayed on the tab. */
   label: string;
   /* Content of a tab panel displayed below corresponding tab. */
-  children: React.ReactNode;
+  children?: React.ReactNode;
   /* An icon displayed to the left of the label. Could be any [icon](/components/icon) from Waffles (use `xsmall` size) or a custom component. */
   icon?: React.ReactNode;
   /* [skip docs] */
