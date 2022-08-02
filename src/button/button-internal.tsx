@@ -9,7 +9,6 @@ import {
   innerContentStyle,
   loaderStyle,
   loaderWrapperStyle,
-  wrapperStyle,
 } from './styles';
 
 import type { PolymorphicRef, PolymorphicComponentProps } from '../helpers';
@@ -94,31 +93,30 @@ function ButtonInternal<T extends React.ElementType = 'button'>(
         size,
         inverted,
         fullWidth,
-        hasIconOrIsLoading: !!icon || isLoading,
+        hasIcon: !!icon,
+        isLoading,
         isFocusVisible,
       })}
     >
-      <div css={wrapperStyle({ size, isLoading })}>
-        {icon ? (
-          renderIcon(icon)
-        ) : (
-          <>
-            {iconLeft && !isLoading && renderIcon(iconLeft)}
-            {children && (
-              <span
-                css={innerContentStyle({
-                  hasLeftIcon: !!iconLeft,
-                  hasRightIcon: !!iconRight,
-                  size,
-                })}
-              >
-                {children}
-              </span>
-            )}
-            {iconRight && renderIcon(iconRight)}
-          </>
-        )}
-      </div>
+      {icon ? (
+        renderIcon(icon)
+      ) : (
+        <>
+          {iconLeft && !isLoading && renderIcon(iconLeft)}
+          {children && (
+            <span
+              css={innerContentStyle({
+                hasLeftIcon: !!iconLeft,
+                hasRightIcon: !!iconRight,
+                size,
+              })}
+            >
+              {children}
+            </span>
+          )}
+          {iconRight && renderIcon(iconRight)}
+        </>
+      )}
       {isLoading && (
         <div
           css={loaderWrapperStyle({ size, hasLoadingLabel: !!loadingLabel })}

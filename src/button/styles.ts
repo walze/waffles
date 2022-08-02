@@ -144,7 +144,8 @@ type ButtonStyleOptions = {
   variant: NonNullable<React.ComponentProps<typeof Button>['variant']>;
   inverted: boolean;
   fullWidth: boolean;
-  hasIconOrIsLoading: boolean;
+  hasIcon: boolean;
+  isLoading: boolean;
   isFocusVisible: boolean;
 };
 
@@ -153,7 +154,8 @@ export function buttonStyle({
   variant,
   inverted,
   fullWidth,
-  hasIconOrIsLoading,
+  hasIcon,
+  isLoading,
   isFocusVisible,
 }: ButtonStyleOptions) {
   const variantMap = inverted ? invertedVariantMap : regularVariantMap;
@@ -163,9 +165,9 @@ export function buttonStyle({
     height: ${sizeMap[size].sizing};
     min-width: ${sizeMap[size].sizing};
     width: ${fullWidth ? '100%' : 'auto'};
-    padding-left: ${!hasIconOrIsLoading && sizeMap[size].spacing};
-    padding-right: ${!hasIconOrIsLoading && sizeMap[size].spacing};
-    flex-direction: ${hasIconOrIsLoading ? 'column' : 'row'};
+    padding-left: ${!hasIcon && sizeMap[size].spacing};
+    padding-right: ${!hasIcon && sizeMap[size].spacing};
+    flex-direction: ${isLoading ? 'column' : 'row'};
     font-size: ${sizeMap[size].fontSize};
     color: ${variantMap[variant].color};
     background-color: ${variantMap[variant].backgroundColor};
@@ -184,6 +186,15 @@ export function buttonStyle({
       cursor: default;
     }
 
+    // Hide all direct descendants, except the wrapper for the loader
+    ${isLoading &&
+    css`
+      & > *:not(div) {
+        opacity: 0;
+        height: 0;
+      }
+    `}
+
     ${isFocusVisible &&
     css`
       &::after {
@@ -198,18 +209,15 @@ export function buttonStyle({
 }
 
 type WrapperStyleOptions = {
-  size: NonNullable<React.ComponentProps<typeof Button>['size']>;
   isLoading: NonNullable<React.ComponentProps<typeof Button>['isLoading']>;
 };
 
-export function wrapperStyle({ isLoading, size }: WrapperStyleOptions) {
+export function wrapperStyle({ isLoading }: WrapperStyleOptions) {
   return css`
     ${isLoading &&
     css`
       opacity: 0;
       height: 0;
-      padding-left: ${sizeMap[size].spacing};
-      padding-right: ${sizeMap[size].spacing};
     `}
   `;
 }

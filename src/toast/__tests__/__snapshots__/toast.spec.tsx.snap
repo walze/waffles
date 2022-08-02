@@ -166,9 +166,9 @@ exports[`Toast render snapshot of default toast 1`] = `
   height: 28px;
   min-width: 28px;
   width: auto;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   font-size: 12px;
   color: #0075AD;
   background-color: transparent;
@@ -255,21 +255,17 @@ exports[`Toast render snapshot of default toast 1`] = `
     aria-label="Close notification"
     class="emotion-8"
   >
-    <div
-      class="emotion-9"
+    <svg
+      aria-hidden="true"
+      height="12"
+      viewBox="0 0 18 18"
+      width="12"
     >
-      <svg
-        aria-hidden="true"
-        height="12"
-        viewBox="0 0 18 18"
-        width="12"
-      >
-        <path
-          d="m9.005 7.625 4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84Z"
-          fill="currentColor"
-        />
-      </svg>
-    </div>
+      <path
+        d="m9.005 7.625 4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84Z"
+        fill="currentColor"
+      />
+    </svg>
   </button>
 </section>
 `;
@@ -453,9 +449,9 @@ exports[`Toast render snapshot of error toast 1`] = `
   height: 28px;
   min-width: 28px;
   width: auto;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   font-size: 12px;
   color: #0075AD;
   background-color: transparent;
@@ -547,21 +543,17 @@ exports[`Toast render snapshot of error toast 1`] = `
     aria-label="Close notification"
     class="emotion-9"
   >
-    <div
-      class="emotion-10"
+    <svg
+      aria-hidden="true"
+      height="12"
+      viewBox="0 0 18 18"
+      width="12"
     >
-      <svg
-        aria-hidden="true"
-        height="12"
-        viewBox="0 0 18 18"
-        width="12"
-      >
-        <path
-          d="m9.005 7.625 4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84Z"
-          fill="currentColor"
-        />
-      </svg>
-    </div>
+      <path
+        d="m9.005 7.625 4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84Z"
+        fill="currentColor"
+      />
+    </svg>
   </button>
 </section>
 `;
@@ -729,9 +721,9 @@ exports[`Toast render snapshot of success toast 1`] = `
   height: 28px;
   min-width: 28px;
   width: auto;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   font-size: 12px;
   color: #0075AD;
   background-color: transparent;
@@ -818,21 +810,17 @@ exports[`Toast render snapshot of success toast 1`] = `
     aria-label="Close notification"
     class="emotion-8"
   >
-    <div
-      class="emotion-9"
+    <svg
+      aria-hidden="true"
+      height="12"
+      viewBox="0 0 18 18"
+      width="12"
     >
-      <svg
-        aria-hidden="true"
-        height="12"
-        viewBox="0 0 18 18"
-        width="12"
-      >
-        <path
-          d="m9.005 7.625 4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84Z"
-          fill="currentColor"
-        />
-      </svg>
-    </div>
+      <path
+        d="m9.005 7.625 4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84Z"
+        fill="currentColor"
+      />
+    </svg>
   </button>
 </section>
 `;
@@ -1001,9 +989,9 @@ exports[`Toast render snapshot of warning toast 1`] = `
   height: 28px;
   min-width: 28px;
   width: auto;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   font-size: 12px;
   color: #0075AD;
   background-color: transparent;
@@ -1092,21 +1080,17 @@ exports[`Toast render snapshot of warning toast 1`] = `
     aria-label="Close notification"
     class="emotion-8"
   >
-    <div
-      class="emotion-9"
+    <svg
+      aria-hidden="true"
+      height="12"
+      viewBox="0 0 18 18"
+      width="12"
     >
-      <svg
-        aria-hidden="true"
-        height="12"
-        viewBox="0 0 18 18"
-        width="12"
-      >
-        <path
-          d="m9.005 7.625 4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84Z"
-          fill="currentColor"
-        />
-      </svg>
-    </div>
+      <path
+        d="m9.005 7.625 4.83-4.83a.976.976 0 0 1 1.38 1.38l-4.83 4.83 4.82 4.82a.976.976 0 1 1-1.38 1.38l-4.82-4.82-4.83 4.83a.976.976 0 0 1-1.38-1.38l4.83-4.83-4.84-4.84a.976.976 0 1 1 1.38-1.38l4.84 4.84Z"
+        fill="currentColor"
+      />
+    </svg>
   </button>
 </section>
 `;
