@@ -191,6 +191,9 @@ exports[`Notification renders snapshot of inverted notification with all optiona
   width: auto;
   padding-left: 8px;
   padding-right: 8px;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   font-size: 12px;
   color: #06BDFC;
   background-color: transparent;
@@ -593,6 +596,9 @@ exports[`Notification renders snapshot of regular notification with all optional
   width: auto;
   padding-left: 8px;
   padding-right: 8px;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   font-size: 12px;
   color: #0075AD;
   background-color: transparent;

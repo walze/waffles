@@ -165,7 +165,7 @@ export function buttonStyle({
     width: ${fullWidth ? '100%' : 'auto'};
     padding-left: ${!hasIconOrIsLoading && sizeMap[size].spacing};
     padding-right: ${!hasIconOrIsLoading && sizeMap[size].spacing};
-    flex-direction: ${hasIconOrIsLoading && 'column'};
+    flex-direction: ${hasIconOrIsLoading ? 'column' : 'row'};
     font-size: ${sizeMap[size].fontSize};
     color: ${variantMap[variant].color};
     background-color: ${variantMap[variant].backgroundColor};
@@ -250,8 +250,6 @@ type LoaderStyleOptions = {
 export function loaderStyle({ variant, inverted }: LoaderStyleOptions) {
   const variantMap = inverted ? invertedVariantMap : regularVariantMap;
   return css`
-    width: 100%;
-    height: 100%;
     stroke: ${variantMap[variant].color};
   `;
 }

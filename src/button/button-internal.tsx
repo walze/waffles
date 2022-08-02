@@ -125,7 +125,7 @@ function ButtonInternal<T extends React.ElementType = 'button'>(
         >
           <Loader
             css={loaderStyle({ variant, inverted })}
-            width={size === 'small' ? '12px' : '16px'} // Setting width prop here so that it gets passed to the loader as restProps for the svg element
+            width={size === 'small' ? '12' : '16'} // Setting width prop here so that it gets passed to the loader as restProps for the svg element
           />
           {loadingLabel && <span>{loadingLabel}</span>}
         </div>

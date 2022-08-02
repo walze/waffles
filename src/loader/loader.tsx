@@ -13,16 +13,8 @@ type LoaderProps = {
 } & React.SVGAttributes<SVGElement>;
 
 function Loader({ inverted = false, ...restProps }: LoaderProps) {
-  const { height, width } = restProps;
-
   return (
-    <div
-      css={wrapperStyle({
-        height: parseInt(height as string, 10),
-        width: parseInt(width as string, 10),
-      })}
-      data-testid="loader-wrapper"
-    >
+    <div css={wrapperStyle()} data-testid="loader-wrapper">
       <div css={loaderSvgWrapperStyle}>
         <svg
           viewBox="0 0 2569 3403"

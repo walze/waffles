@@ -233,6 +233,9 @@ exports[`Dialog renders snapshot 1`] = `
   width: auto;
   padding-left: 16px;
   padding-right: 16px;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   font-size: 14px;
   color: #05192D;
   background-color: #03EF62;
@@ -316,6 +319,9 @@ exports[`Dialog renders snapshot 1`] = `
   width: auto;
   padding-left: 16px;
   padding-right: 16px;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   font-size: 14px;
   color: #05192D;
   background-color: #03EF62;

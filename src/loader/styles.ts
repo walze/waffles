@@ -7,21 +7,8 @@ import { loaderEndMask, loaderStartMask, stroke } from './keyframes';
 
 const animationSettings = '5s infinite alternate';
 
-type WrapperStyleOptions = {
-  height: number;
-  width: number;
-};
-
-export function wrapperStyle({ height, width }: WrapperStyleOptions) {
+export function wrapperStyle() {
   return css`
-    ${width &&
-    css`
-      width: ${width}px;
-    `};
-    ${height &&
-    css`
-      height: ${height}px;
-    `};
     animation: ${loaderStartMask} cubic-bezier(0.65, 0, 0.55, 1)
       ${animationSettings};
     will-change: clip-path;
@@ -42,6 +29,7 @@ export function loaderSvgStyle({ inverted }: LoaderSvgStyleOptions) {
   return css`
     display: block;
     stroke: ${inverted ? tokens.colors.white : tokens.colors.navyDark};
+    overflow: visible;
   `;
 }
 
