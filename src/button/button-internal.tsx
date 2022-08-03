@@ -70,8 +70,8 @@ function ButtonInternal<T extends React.ElementType = 'button'>(
   ref?: PolymorphicRef<T>,
 ) {
   const Element = as || 'button';
-
   const { focusProps, isFocusVisible } = useFocusRing();
+  const { 'aria-label': ariaLabel } = restProps;
 
   function renderIcon(originalIcon: JSX.Element) {
     // Check if the icon has a provided custom size prop already
@@ -86,7 +86,10 @@ function ButtonInternal<T extends React.ElementType = 'button'>(
   return (
     <Element
       {...mergeProps(focusProps, restProps)}
-      {...(isLoading && { disabled: true })}
+      {...(isLoading && {
+        disabled: true,
+        'aria-label': (ariaLabel as string)?.concat(' ', 'Loading…'),
+      })}
       ref={ref}
       css={buttonStyle({
         variant,
@@ -118,14 +121,12 @@ function ButtonInternal<T extends React.ElementType = 'button'>(
         </>
       )}
       {isLoading && (
-        <div
-          css={loaderWrapperStyle({ size, hasLoadingLabel: !!loadingLabel })}
-        >
+        <div css={loaderWrapperStyle({ size, hasLoadingLabel: !icon })}>
           <Loader
             css={loaderStyle({ variant, inverted })}
             width={size === 'small' ? '12' : '16'} // Setting width prop here so that it gets passed to the loader as restProps for the svg element
           />
-          {loadingLabel && <span>{loadingLabel}</span>}
+          {!icon && <span>Loading…</span>}
         </div>
       )}
     </Element>

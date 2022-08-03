@@ -5,7 +5,7 @@ import { tokens } from '../tokens';
 import Loader from './loader';
 import { loaderEndMask, loaderStartMask, stroke } from './keyframes';
 
-const animationSettings = '5s infinite alternate';
+const animationSettings = '2s infinite alternate';
 
 export function wrapperStyle() {
   return css`

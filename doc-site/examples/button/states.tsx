@@ -1,5 +1,6 @@
 import { css } from '@emotion/react';
 import { tokens } from '@datacamp/waffles/tokens';
+import { AddCircle } from '@datacamp/waffles/icon';
 import { Button } from '@datacamp/waffles/button';
 
 function Example() {
@@ -12,10 +13,8 @@ function Example() {
     >
       <Button>No State</Button>
       <Button disabled>Disabled</Button>
-      <Button isLoading loadingLabel="Loading…">
-        Normal Label
-      </Button>
-      <Button isLoading />
+      <Button isLoading>Original Label</Button>
+      <Button isLoading icon={<AddCircle />} aria-label="Icon-only Button" />
     </div>
   );
 }
