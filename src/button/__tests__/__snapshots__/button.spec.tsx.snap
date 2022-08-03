@@ -1927,25 +1927,25 @@ exports[`Button renders snapshot of inverted variant upgrade and size small 1`] 
 exports[`Button renders snapshot of isLoading variants variant destructive and size large 1`] = `
 @keyframes animation-0 {
   0%, 6% {
-    -webkit-clip-path: polygon(0% -5%, 0% 178%, 188% 106%, 178% 69%);
-    clip-path: polygon(0% -5%, 0% 178%, 188% 106%, 178% 69%);
+    -webkit-clip-path: polygon(-10% -5%, 0% 178%, 188% 106%, 178% 69%);
+    clip-path: polygon(-10% -5%, 0% 178%, 188% 106%, 178% 69%);
   }
 
   100% {
-    -webkit-clip-path: polygon(0% -5%, 0% 197%, 188% 300%, 178% 69%);
-    clip-path: polygon(0% -5%, 0% 197%, 188% 300%, 178% 69%);
+    -webkit-clip-path: polygon(-10% -5%, 0% 197%, 188% 300%, 178% 69%);
+    clip-path: polygon(-10% -5%, 0% 197%, 188% 300%, 178% 69%);
   }
 }
 
 @keyframes animation-1 {
   0%, 71% {
-    -webkit-clip-path: polygon(0% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
-    clip-path: polygon(0% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
+    -webkit-clip-path: polygon(-10% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
+    clip-path: polygon(-10% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
   }
 
   96%, 100% {
-    -webkit-clip-path: polygon(0% 0%, 0% 150%, 100% 94%, 100% -84%);
-    clip-path: polygon(0% 0%, 0% 150%, 100% 94%, 100% -84%);
+    -webkit-clip-path: polygon(-10% 0%, 0% 150%, 100% 94%, 100% -84%);
+    clip-path: polygon(-10% 0%, 0% 150%, 100% 94%, 100% -84%);
   }
 }
 
@@ -2051,19 +2051,25 @@ exports[`Button renders snapshot of isLoading variants variant destructive and s
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.emotion-2 span {
+  padding-left: 8px;
 }
 
 .emotion-3 {
-  -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
-  animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
+  -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
+  animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
 .emotion-4 {
   -webkit-clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
-  -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 5s infinite alternate;
-  animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 5s infinite alternate;
+  -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
+  animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
@@ -2075,8 +2081,8 @@ exports[`Button renders snapshot of isLoading variants variant destructive and s
 }
 
 .emotion-6 {
-  -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
-  animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
+  -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
+  animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   stroke-dasharray: 9800;
   stroke-dashoffset: 9800;
   will-change: stroke-dashoffset;
@@ -2116,6 +2122,9 @@ exports[`Button renders snapshot of isLoading variants variant destructive and s
         </svg>
       </div>
     </div>
+    <span>
+      Loading…
+    </span>
   </div>
 </button>
 `;
@@ -2123,25 +2132,25 @@ exports[`Button renders snapshot of isLoading variants variant destructive and s
 exports[`Button renders snapshot of isLoading variants variant destructive and size medium 1`] = `
 @keyframes animation-0 {
   0%, 6% {
-    -webkit-clip-path: polygon(0% -5%, 0% 178%, 188% 106%, 178% 69%);
-    clip-path: polygon(0% -5%, 0% 178%, 188% 106%, 178% 69%);
+    -webkit-clip-path: polygon(-10% -5%, 0% 178%, 188% 106%, 178% 69%);
+    clip-path: polygon(-10% -5%, 0% 178%, 188% 106%, 178% 69%);
   }
 
   100% {
-    -webkit-clip-path: polygon(0% -5%, 0% 197%, 188% 300%, 178% 69%);
-    clip-path: polygon(0% -5%, 0% 197%, 188% 300%, 178% 69%);
+    -webkit-clip-path: polygon(-10% -5%, 0% 197%, 188% 300%, 178% 69%);
+    clip-path: polygon(-10% -5%, 0% 197%, 188% 300%, 178% 69%);
   }
 }
 
 @keyframes animation-1 {
   0%, 71% {
-    -webkit-clip-path: polygon(0% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
-    clip-path: polygon(0% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
+    -webkit-clip-path: polygon(-10% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
+    clip-path: polygon(-10% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
   }
 
   96%, 100% {
-    -webkit-clip-path: polygon(0% 0%, 0% 150%, 100% 94%, 100% -84%);
-    clip-path: polygon(0% 0%, 0% 150%, 100% 94%, 100% -84%);
+    -webkit-clip-path: polygon(-10% 0%, 0% 150%, 100% 94%, 100% -84%);
+    clip-path: polygon(-10% 0%, 0% 150%, 100% 94%, 100% -84%);
   }
 }
 
@@ -2247,19 +2256,25 @@ exports[`Button renders snapshot of isLoading variants variant destructive and s
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.emotion-2 span {
+  padding-left: 8px;
 }
 
 .emotion-3 {
-  -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
-  animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
+  -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
+  animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
 .emotion-4 {
   -webkit-clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
-  -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 5s infinite alternate;
-  animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 5s infinite alternate;
+  -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
+  animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
@@ -2271,8 +2286,8 @@ exports[`Button renders snapshot of isLoading variants variant destructive and s
 }
 
 .emotion-6 {
-  -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
-  animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
+  -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
+  animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   stroke-dasharray: 9800;
   stroke-dashoffset: 9800;
   will-change: stroke-dashoffset;
@@ -2312,6 +2327,9 @@ exports[`Button renders snapshot of isLoading variants variant destructive and s
         </svg>
       </div>
     </div>
+    <span>
+      Loading…
+    </span>
   </div>
 </button>
 `;
@@ -2319,25 +2337,25 @@ exports[`Button renders snapshot of isLoading variants variant destructive and s
 exports[`Button renders snapshot of isLoading variants variant destructive and size small 1`] = `
 @keyframes animation-0 {
   0%, 6% {
-    -webkit-clip-path: polygon(0% -5%, 0% 178%, 188% 106%, 178% 69%);
-    clip-path: polygon(0% -5%, 0% 178%, 188% 106%, 178% 69%);
+    -webkit-clip-path: polygon(-10% -5%, 0% 178%, 188% 106%, 178% 69%);
+    clip-path: polygon(-10% -5%, 0% 178%, 188% 106%, 178% 69%);
   }
 
   100% {
-    -webkit-clip-path: polygon(0% -5%, 0% 197%, 188% 300%, 178% 69%);
-    clip-path: polygon(0% -5%, 0% 197%, 188% 300%, 178% 69%);
+    -webkit-clip-path: polygon(-10% -5%, 0% 197%, 188% 300%, 178% 69%);
+    clip-path: polygon(-10% -5%, 0% 197%, 188% 300%, 178% 69%);
   }
 }
 
 @keyframes animation-1 {
   0%, 71% {
-    -webkit-clip-path: polygon(0% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
-    clip-path: polygon(0% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
+    -webkit-clip-path: polygon(-10% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
+    clip-path: polygon(-10% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
   }
 
   96%, 100% {
-    -webkit-clip-path: polygon(0% 0%, 0% 150%, 100% 94%, 100% -84%);
-    clip-path: polygon(0% 0%, 0% 150%, 100% 94%, 100% -84%);
+    -webkit-clip-path: polygon(-10% 0%, 0% 150%, 100% 94%, 100% -84%);
+    clip-path: polygon(-10% 0%, 0% 150%, 100% 94%, 100% -84%);
   }
 }
 
@@ -2443,19 +2461,25 @@ exports[`Button renders snapshot of isLoading variants variant destructive and s
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.emotion-2 span {
+  padding-left: 4px;
 }
 
 .emotion-3 {
-  -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
-  animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
+  -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
+  animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
 .emotion-4 {
   -webkit-clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
-  -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 5s infinite alternate;
-  animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 5s infinite alternate;
+  -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
+  animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
@@ -2467,8 +2491,8 @@ exports[`Button renders snapshot of isLoading variants variant destructive and s
 }
 
 .emotion-6 {
-  -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
-  animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
+  -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
+  animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   stroke-dasharray: 9800;
   stroke-dashoffset: 9800;
   will-change: stroke-dashoffset;
@@ -2508,6 +2532,9 @@ exports[`Button renders snapshot of isLoading variants variant destructive and s
         </svg>
       </div>
     </div>
+    <span>
+      Loading…
+    </span>
   </div>
 </button>
 `;
@@ -2515,25 +2542,25 @@ exports[`Button renders snapshot of isLoading variants variant destructive and s
 exports[`Button renders snapshot of isLoading variants variant plain and size large 1`] = `
 @keyframes animation-0 {
   0%, 6% {
-    -webkit-clip-path: polygon(0% -5%, 0% 178%, 188% 106%, 178% 69%);
-    clip-path: polygon(0% -5%, 0% 178%, 188% 106%, 178% 69%);
+    -webkit-clip-path: polygon(-10% -5%, 0% 178%, 188% 106%, 178% 69%);
+    clip-path: polygon(-10% -5%, 0% 178%, 188% 106%, 178% 69%);
   }
 
   100% {
-    -webkit-clip-path: polygon(0% -5%, 0% 197%, 188% 300%, 178% 69%);
-    clip-path: polygon(0% -5%, 0% 197%, 188% 300%, 178% 69%);
+    -webkit-clip-path: polygon(-10% -5%, 0% 197%, 188% 300%, 178% 69%);
+    clip-path: polygon(-10% -5%, 0% 197%, 188% 300%, 178% 69%);
   }
 }
 
 @keyframes animation-1 {
   0%, 71% {
-    -webkit-clip-path: polygon(0% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
-    clip-path: polygon(0% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
+    -webkit-clip-path: polygon(-10% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
+    clip-path: polygon(-10% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
   }
 
   96%, 100% {
-    -webkit-clip-path: polygon(0% 0%, 0% 150%, 100% 94%, 100% -84%);
-    clip-path: polygon(0% 0%, 0% 150%, 100% 94%, 100% -84%);
+    -webkit-clip-path: polygon(-10% 0%, 0% 150%, 100% 94%, 100% -84%);
+    clip-path: polygon(-10% 0%, 0% 150%, 100% 94%, 100% -84%);
   }
 }
 
@@ -2639,19 +2666,25 @@ exports[`Button renders snapshot of isLoading variants variant plain and size la
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.emotion-2 span {
+  padding-left: 8px;
 }
 
 .emotion-3 {
-  -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
-  animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
+  -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
+  animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
 .emotion-4 {
   -webkit-clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
-  -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 5s infinite alternate;
-  animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 5s infinite alternate;
+  -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
+  animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
@@ -2663,8 +2696,8 @@ exports[`Button renders snapshot of isLoading variants variant plain and size la
 }
 
 .emotion-6 {
-  -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
-  animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
+  -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
+  animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   stroke-dasharray: 9800;
   stroke-dashoffset: 9800;
   will-change: stroke-dashoffset;
@@ -2704,6 +2737,9 @@ exports[`Button renders snapshot of isLoading variants variant plain and size la
         </svg>
       </div>
     </div>
+    <span>
+      Loading…
+    </span>
   </div>
 </button>
 `;
@@ -2711,25 +2747,25 @@ exports[`Button renders snapshot of isLoading variants variant plain and size la
 exports[`Button renders snapshot of isLoading variants variant plain and size medium 1`] = `
 @keyframes animation-0 {
   0%, 6% {
-    -webkit-clip-path: polygon(0% -5%, 0% 178%, 188% 106%, 178% 69%);
-    clip-path: polygon(0% -5%, 0% 178%, 188% 106%, 178% 69%);
+    -webkit-clip-path: polygon(-10% -5%, 0% 178%, 188% 106%, 178% 69%);
+    clip-path: polygon(-10% -5%, 0% 178%, 188% 106%, 178% 69%);
   }
 
   100% {
-    -webkit-clip-path: polygon(0% -5%, 0% 197%, 188% 300%, 178% 69%);
-    clip-path: polygon(0% -5%, 0% 197%, 188% 300%, 178% 69%);
+    -webkit-clip-path: polygon(-10% -5%, 0% 197%, 188% 300%, 178% 69%);
+    clip-path: polygon(-10% -5%, 0% 197%, 188% 300%, 178% 69%);
   }
 }
 
 @keyframes animation-1 {
   0%, 71% {
-    -webkit-clip-path: polygon(0% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
-    clip-path: polygon(0% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
+    -webkit-clip-path: polygon(-10% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
+    clip-path: polygon(-10% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
   }
 
   96%, 100% {
-    -webkit-clip-path: polygon(0% 0%, 0% 150%, 100% 94%, 100% -84%);
-    clip-path: polygon(0% 0%, 0% 150%, 100% 94%, 100% -84%);
+    -webkit-clip-path: polygon(-10% 0%, 0% 150%, 100% 94%, 100% -84%);
+    clip-path: polygon(-10% 0%, 0% 150%, 100% 94%, 100% -84%);
   }
 }
 
@@ -2835,19 +2871,25 @@ exports[`Button renders snapshot of isLoading variants variant plain and size me
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.emotion-2 span {
+  padding-left: 8px;
 }
 
 .emotion-3 {
-  -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
-  animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
+  -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
+  animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
 .emotion-4 {
   -webkit-clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
-  -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 5s infinite alternate;
-  animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 5s infinite alternate;
+  -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
+  animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
@@ -2859,8 +2901,8 @@ exports[`Button renders snapshot of isLoading variants variant plain and size me
 }
 
 .emotion-6 {
-  -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
-  animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
+  -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
+  animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   stroke-dasharray: 9800;
   stroke-dashoffset: 9800;
   will-change: stroke-dashoffset;
@@ -2900,6 +2942,9 @@ exports[`Button renders snapshot of isLoading variants variant plain and size me
         </svg>
       </div>
     </div>
+    <span>
+      Loading…
+    </span>
   </div>
 </button>
 `;
@@ -2907,25 +2952,25 @@ exports[`Button renders snapshot of isLoading variants variant plain and size me
 exports[`Button renders snapshot of isLoading variants variant plain and size small 1`] = `
 @keyframes animation-0 {
   0%, 6% {
-    -webkit-clip-path: polygon(0% -5%, 0% 178%, 188% 106%, 178% 69%);
-    clip-path: polygon(0% -5%, 0% 178%, 188% 106%, 178% 69%);
+    -webkit-clip-path: polygon(-10% -5%, 0% 178%, 188% 106%, 178% 69%);
+    clip-path: polygon(-10% -5%, 0% 178%, 188% 106%, 178% 69%);
   }
 
   100% {
-    -webkit-clip-path: polygon(0% -5%, 0% 197%, 188% 300%, 178% 69%);
-    clip-path: polygon(0% -5%, 0% 197%, 188% 300%, 178% 69%);
+    -webkit-clip-path: polygon(-10% -5%, 0% 197%, 188% 300%, 178% 69%);
+    clip-path: polygon(-10% -5%, 0% 197%, 188% 300%, 178% 69%);
   }
 }
 
 @keyframes animation-1 {
   0%, 71% {
-    -webkit-clip-path: polygon(0% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
-    clip-path: polygon(0% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
+    -webkit-clip-path: polygon(-10% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
+    clip-path: polygon(-10% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
   }
 
   96%, 100% {
-    -webkit-clip-path: polygon(0% 0%, 0% 150%, 100% 94%, 100% -84%);
-    clip-path: polygon(0% 0%, 0% 150%, 100% 94%, 100% -84%);
+    -webkit-clip-path: polygon(-10% 0%, 0% 150%, 100% 94%, 100% -84%);
+    clip-path: polygon(-10% 0%, 0% 150%, 100% 94%, 100% -84%);
   }
 }
 
@@ -3031,19 +3076,25 @@ exports[`Button renders snapshot of isLoading variants variant plain and size sm
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.emotion-2 span {
+  padding-left: 4px;
 }
 
 .emotion-3 {
-  -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
-  animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
+  -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
+  animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
 .emotion-4 {
   -webkit-clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
-  -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 5s infinite alternate;
-  animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 5s infinite alternate;
+  -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
+  animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
@@ -3055,8 +3106,8 @@ exports[`Button renders snapshot of isLoading variants variant plain and size sm
 }
 
 .emotion-6 {
-  -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
-  animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
+  -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
+  animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   stroke-dasharray: 9800;
   stroke-dashoffset: 9800;
   will-change: stroke-dashoffset;
@@ -3096,6 +3147,9 @@ exports[`Button renders snapshot of isLoading variants variant plain and size sm
         </svg>
       </div>
     </div>
+    <span>
+      Loading…
+    </span>
   </div>
 </button>
 `;
@@ -3103,25 +3157,25 @@ exports[`Button renders snapshot of isLoading variants variant plain and size sm
 exports[`Button renders snapshot of isLoading variants variant primary and size large 1`] = `
 @keyframes animation-0 {
   0%, 6% {
-    -webkit-clip-path: polygon(0% -5%, 0% 178%, 188% 106%, 178% 69%);
-    clip-path: polygon(0% -5%, 0% 178%, 188% 106%, 178% 69%);
+    -webkit-clip-path: polygon(-10% -5%, 0% 178%, 188% 106%, 178% 69%);
+    clip-path: polygon(-10% -5%, 0% 178%, 188% 106%, 178% 69%);
   }
 
   100% {
-    -webkit-clip-path: polygon(0% -5%, 0% 197%, 188% 300%, 178% 69%);
-    clip-path: polygon(0% -5%, 0% 197%, 188% 300%, 178% 69%);
+    -webkit-clip-path: polygon(-10% -5%, 0% 197%, 188% 300%, 178% 69%);
+    clip-path: polygon(-10% -5%, 0% 197%, 188% 300%, 178% 69%);
   }
 }
 
 @keyframes animation-1 {
   0%, 71% {
-    -webkit-clip-path: polygon(0% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
-    clip-path: polygon(0% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
+    -webkit-clip-path: polygon(-10% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
+    clip-path: polygon(-10% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
   }
 
   96%, 100% {
-    -webkit-clip-path: polygon(0% 0%, 0% 150%, 100% 94%, 100% -84%);
-    clip-path: polygon(0% 0%, 0% 150%, 100% 94%, 100% -84%);
+    -webkit-clip-path: polygon(-10% 0%, 0% 150%, 100% 94%, 100% -84%);
+    clip-path: polygon(-10% 0%, 0% 150%, 100% 94%, 100% -84%);
   }
 }
 
@@ -3227,19 +3281,25 @@ exports[`Button renders snapshot of isLoading variants variant primary and size 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.emotion-2 span {
+  padding-left: 8px;
 }
 
 .emotion-3 {
-  -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
-  animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
+  -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
+  animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
 .emotion-4 {
   -webkit-clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
-  -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 5s infinite alternate;
-  animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 5s infinite alternate;
+  -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
+  animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
@@ -3251,8 +3311,8 @@ exports[`Button renders snapshot of isLoading variants variant primary and size 
 }
 
 .emotion-6 {
-  -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
-  animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
+  -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
+  animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   stroke-dasharray: 9800;
   stroke-dashoffset: 9800;
   will-change: stroke-dashoffset;
@@ -3292,6 +3352,9 @@ exports[`Button renders snapshot of isLoading variants variant primary and size 
         </svg>
       </div>
     </div>
+    <span>
+      Loading…
+    </span>
   </div>
 </button>
 `;
@@ -3299,25 +3362,25 @@ exports[`Button renders snapshot of isLoading variants variant primary and size 
 exports[`Button renders snapshot of isLoading variants variant primary and size medium 1`] = `
 @keyframes animation-0 {
   0%, 6% {
-    -webkit-clip-path: polygon(0% -5%, 0% 178%, 188% 106%, 178% 69%);
-    clip-path: polygon(0% -5%, 0% 178%, 188% 106%, 178% 69%);
+    -webkit-clip-path: polygon(-10% -5%, 0% 178%, 188% 106%, 178% 69%);
+    clip-path: polygon(-10% -5%, 0% 178%, 188% 106%, 178% 69%);
   }
 
   100% {
-    -webkit-clip-path: polygon(0% -5%, 0% 197%, 188% 300%, 178% 69%);
-    clip-path: polygon(0% -5%, 0% 197%, 188% 300%, 178% 69%);
+    -webkit-clip-path: polygon(-10% -5%, 0% 197%, 188% 300%, 178% 69%);
+    clip-path: polygon(-10% -5%, 0% 197%, 188% 300%, 178% 69%);
   }
 }
 
 @keyframes animation-1 {
   0%, 71% {
-    -webkit-clip-path: polygon(0% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
-    clip-path: polygon(0% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
+    -webkit-clip-path: polygon(-10% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
+    clip-path: polygon(-10% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
   }
 
   96%, 100% {
-    -webkit-clip-path: polygon(0% 0%, 0% 150%, 100% 94%, 100% -84%);
-    clip-path: polygon(0% 0%, 0% 150%, 100% 94%, 100% -84%);
+    -webkit-clip-path: polygon(-10% 0%, 0% 150%, 100% 94%, 100% -84%);
+    clip-path: polygon(-10% 0%, 0% 150%, 100% 94%, 100% -84%);
   }
 }
 
@@ -3423,19 +3486,25 @@ exports[`Button renders snapshot of isLoading variants variant primary and size 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.emotion-2 span {
+  padding-left: 8px;
 }
 
 .emotion-3 {
-  -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
-  animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
+  -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
+  animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
 .emotion-4 {
   -webkit-clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
-  -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 5s infinite alternate;
-  animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 5s infinite alternate;
+  -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
+  animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
@@ -3447,8 +3516,8 @@ exports[`Button renders snapshot of isLoading variants variant primary and size 
 }
 
 .emotion-6 {
-  -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
-  animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
+  -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
+  animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   stroke-dasharray: 9800;
   stroke-dashoffset: 9800;
   will-change: stroke-dashoffset;
@@ -3488,6 +3557,9 @@ exports[`Button renders snapshot of isLoading variants variant primary and size 
         </svg>
       </div>
     </div>
+    <span>
+      Loading…
+    </span>
   </div>
 </button>
 `;
@@ -3495,25 +3567,25 @@ exports[`Button renders snapshot of isLoading variants variant primary and size 
 exports[`Button renders snapshot of isLoading variants variant primary and size small 1`] = `
 @keyframes animation-0 {
   0%, 6% {
-    -webkit-clip-path: polygon(0% -5%, 0% 178%, 188% 106%, 178% 69%);
-    clip-path: polygon(0% -5%, 0% 178%, 188% 106%, 178% 69%);
+    -webkit-clip-path: polygon(-10% -5%, 0% 178%, 188% 106%, 178% 69%);
+    clip-path: polygon(-10% -5%, 0% 178%, 188% 106%, 178% 69%);
   }
 
   100% {
-    -webkit-clip-path: polygon(0% -5%, 0% 197%, 188% 300%, 178% 69%);
-    clip-path: polygon(0% -5%, 0% 197%, 188% 300%, 178% 69%);
+    -webkit-clip-path: polygon(-10% -5%, 0% 197%, 188% 300%, 178% 69%);
+    clip-path: polygon(-10% -5%, 0% 197%, 188% 300%, 178% 69%);
   }
 }
 
 @keyframes animation-1 {
   0%, 71% {
-    -webkit-clip-path: polygon(0% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
-    clip-path: polygon(0% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
+    -webkit-clip-path: polygon(-10% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
+    clip-path: polygon(-10% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
   }
 
   96%, 100% {
-    -webkit-clip-path: polygon(0% 0%, 0% 150%, 100% 94%, 100% -84%);
-    clip-path: polygon(0% 0%, 0% 150%, 100% 94%, 100% -84%);
+    -webkit-clip-path: polygon(-10% 0%, 0% 150%, 100% 94%, 100% -84%);
+    clip-path: polygon(-10% 0%, 0% 150%, 100% 94%, 100% -84%);
   }
 }
 
@@ -3619,19 +3691,25 @@ exports[`Button renders snapshot of isLoading variants variant primary and size 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.emotion-2 span {
+  padding-left: 4px;
 }
 
 .emotion-3 {
-  -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
-  animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
+  -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
+  animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
 .emotion-4 {
   -webkit-clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
-  -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 5s infinite alternate;
-  animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 5s infinite alternate;
+  -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
+  animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
@@ -3643,8 +3721,8 @@ exports[`Button renders snapshot of isLoading variants variant primary and size 
 }
 
 .emotion-6 {
-  -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
-  animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
+  -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
+  animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   stroke-dasharray: 9800;
   stroke-dashoffset: 9800;
   will-change: stroke-dashoffset;
@@ -3684,6 +3762,9 @@ exports[`Button renders snapshot of isLoading variants variant primary and size 
         </svg>
       </div>
     </div>
+    <span>
+      Loading…
+    </span>
   </div>
 </button>
 `;
@@ -3691,25 +3772,25 @@ exports[`Button renders snapshot of isLoading variants variant primary and size 
 exports[`Button renders snapshot of isLoading variants variant secondary and size large 1`] = `
 @keyframes animation-0 {
   0%, 6% {
-    -webkit-clip-path: polygon(0% -5%, 0% 178%, 188% 106%, 178% 69%);
-    clip-path: polygon(0% -5%, 0% 178%, 188% 106%, 178% 69%);
+    -webkit-clip-path: polygon(-10% -5%, 0% 178%, 188% 106%, 178% 69%);
+    clip-path: polygon(-10% -5%, 0% 178%, 188% 106%, 178% 69%);
   }
 
   100% {
-    -webkit-clip-path: polygon(0% -5%, 0% 197%, 188% 300%, 178% 69%);
-    clip-path: polygon(0% -5%, 0% 197%, 188% 300%, 178% 69%);
+    -webkit-clip-path: polygon(-10% -5%, 0% 197%, 188% 300%, 178% 69%);
+    clip-path: polygon(-10% -5%, 0% 197%, 188% 300%, 178% 69%);
   }
 }
 
 @keyframes animation-1 {
   0%, 71% {
-    -webkit-clip-path: polygon(0% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
-    clip-path: polygon(0% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
+    -webkit-clip-path: polygon(-10% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
+    clip-path: polygon(-10% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
   }
 
   96%, 100% {
-    -webkit-clip-path: polygon(0% 0%, 0% 150%, 100% 94%, 100% -84%);
-    clip-path: polygon(0% 0%, 0% 150%, 100% 94%, 100% -84%);
+    -webkit-clip-path: polygon(-10% 0%, 0% 150%, 100% 94%, 100% -84%);
+    clip-path: polygon(-10% 0%, 0% 150%, 100% 94%, 100% -84%);
   }
 }
 
@@ -3815,19 +3896,25 @@ exports[`Button renders snapshot of isLoading variants variant secondary and siz
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.emotion-2 span {
+  padding-left: 8px;
 }
 
 .emotion-3 {
-  -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
-  animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
+  -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
+  animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
 .emotion-4 {
   -webkit-clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
-  -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 5s infinite alternate;
-  animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 5s infinite alternate;
+  -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
+  animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
@@ -3839,8 +3926,8 @@ exports[`Button renders snapshot of isLoading variants variant secondary and siz
 }
 
 .emotion-6 {
-  -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
-  animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
+  -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
+  animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   stroke-dasharray: 9800;
   stroke-dashoffset: 9800;
   will-change: stroke-dashoffset;
@@ -3880,6 +3967,9 @@ exports[`Button renders snapshot of isLoading variants variant secondary and siz
         </svg>
       </div>
     </div>
+    <span>
+      Loading…
+    </span>
   </div>
 </button>
 `;
@@ -3887,25 +3977,25 @@ exports[`Button renders snapshot of isLoading variants variant secondary and siz
 exports[`Button renders snapshot of isLoading variants variant secondary and size medium 1`] = `
 @keyframes animation-0 {
   0%, 6% {
-    -webkit-clip-path: polygon(0% -5%, 0% 178%, 188% 106%, 178% 69%);
-    clip-path: polygon(0% -5%, 0% 178%, 188% 106%, 178% 69%);
+    -webkit-clip-path: polygon(-10% -5%, 0% 178%, 188% 106%, 178% 69%);
+    clip-path: polygon(-10% -5%, 0% 178%, 188% 106%, 178% 69%);
   }
 
   100% {
-    -webkit-clip-path: polygon(0% -5%, 0% 197%, 188% 300%, 178% 69%);
-    clip-path: polygon(0% -5%, 0% 197%, 188% 300%, 178% 69%);
+    -webkit-clip-path: polygon(-10% -5%, 0% 197%, 188% 300%, 178% 69%);
+    clip-path: polygon(-10% -5%, 0% 197%, 188% 300%, 178% 69%);
   }
 }
 
 @keyframes animation-1 {
   0%, 71% {
-    -webkit-clip-path: polygon(0% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
-    clip-path: polygon(0% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
+    -webkit-clip-path: polygon(-10% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
+    clip-path: polygon(-10% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
   }
 
   96%, 100% {
-    -webkit-clip-path: polygon(0% 0%, 0% 150%, 100% 94%, 100% -84%);
-    clip-path: polygon(0% 0%, 0% 150%, 100% 94%, 100% -84%);
+    -webkit-clip-path: polygon(-10% 0%, 0% 150%, 100% 94%, 100% -84%);
+    clip-path: polygon(-10% 0%, 0% 150%, 100% 94%, 100% -84%);
   }
 }
 
@@ -4011,19 +4101,25 @@ exports[`Button renders snapshot of isLoading variants variant secondary and siz
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.emotion-2 span {
+  padding-left: 8px;
 }
 
 .emotion-3 {
-  -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
-  animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
+  -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
+  animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
 .emotion-4 {
   -webkit-clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
-  -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 5s infinite alternate;
-  animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 5s infinite alternate;
+  -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
+  animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
@@ -4035,8 +4131,8 @@ exports[`Button renders snapshot of isLoading variants variant secondary and siz
 }
 
 .emotion-6 {
-  -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
-  animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
+  -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
+  animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   stroke-dasharray: 9800;
   stroke-dashoffset: 9800;
   will-change: stroke-dashoffset;
@@ -4076,6 +4172,9 @@ exports[`Button renders snapshot of isLoading variants variant secondary and siz
         </svg>
       </div>
     </div>
+    <span>
+      Loading…
+    </span>
   </div>
 </button>
 `;
@@ -4083,25 +4182,25 @@ exports[`Button renders snapshot of isLoading variants variant secondary and siz
 exports[`Button renders snapshot of isLoading variants variant secondary and size small 1`] = `
 @keyframes animation-0 {
   0%, 6% {
-    -webkit-clip-path: polygon(0% -5%, 0% 178%, 188% 106%, 178% 69%);
-    clip-path: polygon(0% -5%, 0% 178%, 188% 106%, 178% 69%);
+    -webkit-clip-path: polygon(-10% -5%, 0% 178%, 188% 106%, 178% 69%);
+    clip-path: polygon(-10% -5%, 0% 178%, 188% 106%, 178% 69%);
   }
 
   100% {
-    -webkit-clip-path: polygon(0% -5%, 0% 197%, 188% 300%, 178% 69%);
-    clip-path: polygon(0% -5%, 0% 197%, 188% 300%, 178% 69%);
+    -webkit-clip-path: polygon(-10% -5%, 0% 197%, 188% 300%, 178% 69%);
+    clip-path: polygon(-10% -5%, 0% 197%, 188% 300%, 178% 69%);
   }
 }
 
 @keyframes animation-1 {
   0%, 71% {
-    -webkit-clip-path: polygon(0% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
-    clip-path: polygon(0% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
+    -webkit-clip-path: polygon(-10% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
+    clip-path: polygon(-10% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
   }
 
   96%, 100% {
-    -webkit-clip-path: polygon(0% 0%, 0% 150%, 100% 94%, 100% -84%);
-    clip-path: polygon(0% 0%, 0% 150%, 100% 94%, 100% -84%);
+    -webkit-clip-path: polygon(-10% 0%, 0% 150%, 100% 94%, 100% -84%);
+    clip-path: polygon(-10% 0%, 0% 150%, 100% 94%, 100% -84%);
   }
 }
 
@@ -4207,19 +4306,25 @@ exports[`Button renders snapshot of isLoading variants variant secondary and siz
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.emotion-2 span {
+  padding-left: 4px;
 }
 
 .emotion-3 {
-  -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
-  animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
+  -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
+  animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
 .emotion-4 {
   -webkit-clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
-  -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 5s infinite alternate;
-  animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 5s infinite alternate;
+  -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
+  animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
@@ -4231,8 +4336,8 @@ exports[`Button renders snapshot of isLoading variants variant secondary and siz
 }
 
 .emotion-6 {
-  -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
-  animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
+  -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
+  animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   stroke-dasharray: 9800;
   stroke-dashoffset: 9800;
   will-change: stroke-dashoffset;
@@ -4272,6 +4377,9 @@ exports[`Button renders snapshot of isLoading variants variant secondary and siz
         </svg>
       </div>
     </div>
+    <span>
+      Loading…
+    </span>
   </div>
 </button>
 `;
@@ -4279,25 +4387,25 @@ exports[`Button renders snapshot of isLoading variants variant secondary and siz
 exports[`Button renders snapshot of isLoading variants variant upgrade and size large 1`] = `
 @keyframes animation-0 {
   0%, 6% {
-    -webkit-clip-path: polygon(0% -5%, 0% 178%, 188% 106%, 178% 69%);
-    clip-path: polygon(0% -5%, 0% 178%, 188% 106%, 178% 69%);
+    -webkit-clip-path: polygon(-10% -5%, 0% 178%, 188% 106%, 178% 69%);
+    clip-path: polygon(-10% -5%, 0% 178%, 188% 106%, 178% 69%);
   }
 
   100% {
-    -webkit-clip-path: polygon(0% -5%, 0% 197%, 188% 300%, 178% 69%);
-    clip-path: polygon(0% -5%, 0% 197%, 188% 300%, 178% 69%);
+    -webkit-clip-path: polygon(-10% -5%, 0% 197%, 188% 300%, 178% 69%);
+    clip-path: polygon(-10% -5%, 0% 197%, 188% 300%, 178% 69%);
   }
 }
 
 @keyframes animation-1 {
   0%, 71% {
-    -webkit-clip-path: polygon(0% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
-    clip-path: polygon(0% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
+    -webkit-clip-path: polygon(-10% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
+    clip-path: polygon(-10% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
   }
 
   96%, 100% {
-    -webkit-clip-path: polygon(0% 0%, 0% 150%, 100% 94%, 100% -84%);
-    clip-path: polygon(0% 0%, 0% 150%, 100% 94%, 100% -84%);
+    -webkit-clip-path: polygon(-10% 0%, 0% 150%, 100% 94%, 100% -84%);
+    clip-path: polygon(-10% 0%, 0% 150%, 100% 94%, 100% -84%);
   }
 }
 
@@ -4403,19 +4511,25 @@ exports[`Button renders snapshot of isLoading variants variant upgrade and size 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.emotion-2 span {
+  padding-left: 8px;
 }
 
 .emotion-3 {
-  -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
-  animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
+  -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
+  animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
 .emotion-4 {
   -webkit-clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
-  -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 5s infinite alternate;
-  animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 5s infinite alternate;
+  -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
+  animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
@@ -4427,8 +4541,8 @@ exports[`Button renders snapshot of isLoading variants variant upgrade and size 
 }
 
 .emotion-6 {
-  -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
-  animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
+  -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
+  animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   stroke-dasharray: 9800;
   stroke-dashoffset: 9800;
   will-change: stroke-dashoffset;
@@ -4468,6 +4582,9 @@ exports[`Button renders snapshot of isLoading variants variant upgrade and size 
         </svg>
       </div>
     </div>
+    <span>
+      Loading…
+    </span>
   </div>
 </button>
 `;
@@ -4475,25 +4592,25 @@ exports[`Button renders snapshot of isLoading variants variant upgrade and size 
 exports[`Button renders snapshot of isLoading variants variant upgrade and size medium 1`] = `
 @keyframes animation-0 {
   0%, 6% {
-    -webkit-clip-path: polygon(0% -5%, 0% 178%, 188% 106%, 178% 69%);
-    clip-path: polygon(0% -5%, 0% 178%, 188% 106%, 178% 69%);
+    -webkit-clip-path: polygon(-10% -5%, 0% 178%, 188% 106%, 178% 69%);
+    clip-path: polygon(-10% -5%, 0% 178%, 188% 106%, 178% 69%);
   }
 
   100% {
-    -webkit-clip-path: polygon(0% -5%, 0% 197%, 188% 300%, 178% 69%);
-    clip-path: polygon(0% -5%, 0% 197%, 188% 300%, 178% 69%);
+    -webkit-clip-path: polygon(-10% -5%, 0% 197%, 188% 300%, 178% 69%);
+    clip-path: polygon(-10% -5%, 0% 197%, 188% 300%, 178% 69%);
   }
 }
 
 @keyframes animation-1 {
   0%, 71% {
-    -webkit-clip-path: polygon(0% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
-    clip-path: polygon(0% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
+    -webkit-clip-path: polygon(-10% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
+    clip-path: polygon(-10% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
   }
 
   96%, 100% {
-    -webkit-clip-path: polygon(0% 0%, 0% 150%, 100% 94%, 100% -84%);
-    clip-path: polygon(0% 0%, 0% 150%, 100% 94%, 100% -84%);
+    -webkit-clip-path: polygon(-10% 0%, 0% 150%, 100% 94%, 100% -84%);
+    clip-path: polygon(-10% 0%, 0% 150%, 100% 94%, 100% -84%);
   }
 }
 
@@ -4599,19 +4716,25 @@ exports[`Button renders snapshot of isLoading variants variant upgrade and size 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.emotion-2 span {
+  padding-left: 8px;
 }
 
 .emotion-3 {
-  -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
-  animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
+  -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
+  animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
 .emotion-4 {
   -webkit-clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
-  -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 5s infinite alternate;
-  animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 5s infinite alternate;
+  -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
+  animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
@@ -4623,8 +4746,8 @@ exports[`Button renders snapshot of isLoading variants variant upgrade and size 
 }
 
 .emotion-6 {
-  -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
-  animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
+  -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
+  animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   stroke-dasharray: 9800;
   stroke-dashoffset: 9800;
   will-change: stroke-dashoffset;
@@ -4664,6 +4787,9 @@ exports[`Button renders snapshot of isLoading variants variant upgrade and size 
         </svg>
       </div>
     </div>
+    <span>
+      Loading…
+    </span>
   </div>
 </button>
 `;
@@ -4671,25 +4797,25 @@ exports[`Button renders snapshot of isLoading variants variant upgrade and size 
 exports[`Button renders snapshot of isLoading variants variant upgrade and size small 1`] = `
 @keyframes animation-0 {
   0%, 6% {
-    -webkit-clip-path: polygon(0% -5%, 0% 178%, 188% 106%, 178% 69%);
-    clip-path: polygon(0% -5%, 0% 178%, 188% 106%, 178% 69%);
+    -webkit-clip-path: polygon(-10% -5%, 0% 178%, 188% 106%, 178% 69%);
+    clip-path: polygon(-10% -5%, 0% 178%, 188% 106%, 178% 69%);
   }
 
   100% {
-    -webkit-clip-path: polygon(0% -5%, 0% 197%, 188% 300%, 178% 69%);
-    clip-path: polygon(0% -5%, 0% 197%, 188% 300%, 178% 69%);
+    -webkit-clip-path: polygon(-10% -5%, 0% 197%, 188% 300%, 178% 69%);
+    clip-path: polygon(-10% -5%, 0% 197%, 188% 300%, 178% 69%);
   }
 }
 
 @keyframes animation-1 {
   0%, 71% {
-    -webkit-clip-path: polygon(0% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
-    clip-path: polygon(0% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
+    -webkit-clip-path: polygon(-10% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
+    clip-path: polygon(-10% 0%, 0% 88.5%, 100% 38.5%, 100% -54%);
   }
 
   96%, 100% {
-    -webkit-clip-path: polygon(0% 0%, 0% 150%, 100% 94%, 100% -84%);
-    clip-path: polygon(0% 0%, 0% 150%, 100% 94%, 100% -84%);
+    -webkit-clip-path: polygon(-10% 0%, 0% 150%, 100% 94%, 100% -84%);
+    clip-path: polygon(-10% 0%, 0% 150%, 100% 94%, 100% -84%);
   }
 }
 
@@ -4795,19 +4921,25 @@ exports[`Button renders snapshot of isLoading variants variant upgrade and size 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.emotion-2 span {
+  padding-left: 4px;
 }
 
 .emotion-3 {
-  -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
-  animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
+  -webkit-animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
+  animation: animation-0 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
 .emotion-4 {
   -webkit-clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
   clip-path: polygon(-0.1% -10%, 169% 65%, -0.1% 139%);
-  -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 5s infinite alternate;
-  animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 5s infinite alternate;
+  -webkit-animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
+  animation: animation-1 cubic-bezier(0, 0, 0.85, 1) 2s infinite alternate;
   will-change: clip-path;
 }
 
@@ -4819,8 +4951,8 @@ exports[`Button renders snapshot of isLoading variants variant upgrade and size 
 }
 
 .emotion-6 {
-  -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
-  animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 5s infinite alternate;
+  -webkit-animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
+  animation: animation-2 cubic-bezier(0.65, 0, 0.55, 1) 2s infinite alternate;
   stroke-dasharray: 9800;
   stroke-dashoffset: 9800;
   will-change: stroke-dashoffset;
@@ -4860,6 +4992,9 @@ exports[`Button renders snapshot of isLoading variants variant upgrade and size 
         </svg>
       </div>
     </div>
+    <span>
+      Loading…
+    </span>
   </div>
 </button>
 `;
