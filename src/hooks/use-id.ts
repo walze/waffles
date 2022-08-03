@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useMemo } from 'react';
 import { nanoid } from 'nanoid';
 
 /**
@@ -6,17 +6,13 @@ import { nanoid } from 'nanoid';
  *
  * For a components which are part of server-side initial render it may be required to provide IDs manually to avoid client-server values mismatch.
  *
- * @param prefix Custom prefix for an ID
+ * @param prefix Optional custom prefix for an ID
  * @returns Random ID with a prefix
  */
-function useId(prefix: string) {
-  const [id, setId] = useState(`${prefix}-0`);
+function useId(prefix?: string) {
+  const id = useMemo(() => nanoid(6), []);
 
-  useEffect(() => {
-    setId(nanoid(6));
-  }, []);
-
-  return `${prefix}-${id}`;
+  return prefix == null ? id : `${prefix}-${id}`;
 }
 
 export default useId;

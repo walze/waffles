@@ -10,11 +10,20 @@ const errorStyle = css`
 `;
 
 function Example() {
+  const descriptionId = useId();
   const errorId = useId('input-error');
 
   return (
     <>
-      <Input aria-errormessage={errorId} error placeholder="Error" />
+      <Text id={descriptionId} as="p">
+        Description
+      </Text>
+      <Input
+        aria-errormessage={errorId}
+        aria-describedby={descriptionId}
+        error
+        placeholder="Error"
+      />
       <Text id={errorId} as="p" css={errorStyle}>
         Error message
       </Text>
