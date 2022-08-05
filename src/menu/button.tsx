@@ -40,6 +40,7 @@ function MenuButton<T extends React.ElementType = 'button'>({
   }
 
   return (
+    // @ts-expect-error: spread props out of sync
     <Button
       {...getItemProps({
         onClick: handleClick,

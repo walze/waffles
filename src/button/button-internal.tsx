@@ -2,14 +2,8 @@ import React, { cloneElement } from 'react';
 import { mergeProps } from '@react-aria/utils';
 import { useFocusRing } from '@react-aria/focus';
 
-import { Loader } from '../loader';
-
-import {
-  buttonStyle,
-  innerContentStyle,
-  loaderStyle,
-  loaderWrapperStyle,
-} from './styles';
+import { buttonStyle, innerContentStyle } from './styles';
+import ButtonLoader from './loader';
 
 import type { PolymorphicRef, PolymorphicComponentProps } from '../helpers';
 
@@ -20,8 +14,6 @@ type ButtonBaseProps = {
   size?: 'small' | 'medium' | 'large';
   /* Whether the button is in it's loading state. The button will maintain the width of it's child content, unless `loadingLabel` is provided and longer than the original content. */
   isLoading?: boolean;
-  /* An optional label to be shown whilst `isLoading` is set to true. */
-  loadingLabel?: React.ReactNode;
   /* Allows button to grow to the width of its container. */
   fullWidth?: boolean;
   /* Sets the style of the button suitable for dark backgrounds. */
@@ -40,7 +32,7 @@ type ButtonIconOnlyProps = {
 type ButtonNoIconProps = {
   icon?: never;
   /* The content inside the button. Most of the time should be a plain text. */
-  children?: React.ReactNode;
+  children: React.ReactNode;
   /* An icon displayed to the left. Could be any [icon](/components/icon) from Waffles (use default `medium` size) or a custom component. */
   iconLeft?: JSX.Element;
   /* An icon displayed to the right. Could be any [icon](/components/icon) from Waffles (use default `medium` size) or a custom component. */
@@ -103,30 +95,18 @@ function ButtonInternal<T extends React.ElementType = 'button'>(
       {icon ? (
         renderIcon(icon)
       ) : (
-        <>
-          {iconLeft && !isLoading && renderIcon(iconLeft)}
-          {children && (
-            <span
-              css={innerContentStyle({
-                hasLeftIcon: !!iconLeft,
-                hasRightIcon: !!iconRight,
-                size,
-              })}
-            >
-              {children}
-            </span>
-          )}
+        <span
+          css={innerContentStyle({
+            size,
+          })}
+        >
+          {iconLeft && renderIcon(iconLeft)}
+          {children}
           {iconRight && renderIcon(iconRight)}
-        </>
+        </span>
       )}
       {isLoading && (
-        <div css={loaderWrapperStyle({ size, hasLoadingLabel: !icon })}>
-          <Loader
-            css={loaderStyle({ variant, inverted })}
-            width={size === 'small' ? '12' : '16'} // Setting width prop here so that it gets passed to the loader as restProps for the svg element
-          />
-          {!icon && <span>Loading…</span>}
-        </div>
+        <ButtonLoader size={size} variant={variant} inverted hasIcon={!!icon} />
       )}
     </Element>
   );

@@ -233,7 +233,6 @@ export function loaderWrapperStyle({
 }: LoaderWrapperStyleOptions) {
   return css`
     display: flex;
-    flex-direction: row;
     align-items: center;
 
     ${hasLoadingLabel &&
@@ -262,24 +261,13 @@ export function loaderStyle({ variant, inverted }: LoaderStyleOptions) {
 // Generate button inner wrapper style based on provided options
 
 type InnerContentStyleOptions = {
-  hasLeftIcon: boolean;
-  hasRightIcon: boolean;
   size: NonNullable<React.ComponentProps<typeof Button>['size']>;
 };
 
-export function innerContentStyle({
-  hasLeftIcon,
-  hasRightIcon,
-  size,
-}: InnerContentStyleOptions) {
+export function innerContentStyle({ size }: InnerContentStyleOptions) {
   return css`
-    ${hasLeftIcon &&
-    `padding-left: ${
-      size === 'small' ? tokens.spacing.xsmall : tokens.spacing.small
-    };`}
-    ${hasRightIcon &&
-    `padding-right: ${
-      size === 'small' ? tokens.spacing.xsmall : tokens.spacing.small
-    };`}
+    display: flex;
+    gap: ${size === 'small' ? tokens.spacing.xsmall : tokens.spacing.small};
+    align-items: center;
   `;
 }

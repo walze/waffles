@@ -199,6 +199,18 @@ exports[`Dialog renders snapshot 1`] = `
   cursor: default;
 }
 
+.emotion-10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 <div>
   <div
     class="emotion-0"
@@ -454,6 +466,18 @@ exports[`Dialog renders snapshot in inverted 1`] = `
 .emotion-9:disabled {
   opacity: 0.6;
   cursor: default;
+}
+
+.emotion-10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 <div>
@@ -713,6 +737,18 @@ exports[`Dialog renders snapshot in vertical orientation 1`] = `
   cursor: default;
 }
 
+.emotion-10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 <div>
   <div
     class="emotion-0"
@@ -968,6 +1004,18 @@ exports[`Dialog renders snapshot in vertical orientation and inverted 1`] = `
 .emotion-9:disabled {
   opacity: 0.6;
   cursor: default;
+}
+
+.emotion-10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 <div>

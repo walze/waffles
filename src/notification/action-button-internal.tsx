@@ -25,6 +25,7 @@ function ActionButtonInternal<T extends React.ElementType = 'button'>(
   ref?: PolymorphicRef<T>,
 ) {
   return (
+    // @ts-expect-error: spread props out of sync
     <Button
       {...restProps}
       ref={ref}

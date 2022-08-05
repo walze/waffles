@@ -348,6 +348,18 @@ exports[`Drawer renders snapshot when drawer is placed to the left 1`] = `
   margin-right: auto;
 }
 
+.emotion-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 .emotion-7 {
   position: relative;
   display: -webkit-inline-box;
@@ -838,6 +850,18 @@ exports[`Drawer renders snapshot when drawer is placed to the right 1`] = `
 
 .emotion-5:first-of-type {
   margin-right: auto;
+}
+
+.emotion-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .emotion-7 {

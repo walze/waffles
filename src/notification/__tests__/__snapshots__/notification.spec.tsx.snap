@@ -229,6 +229,18 @@ exports[`Notification renders snapshot of inverted notification with all optiona
   cursor: default;
 }
 
+.emotion-12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 .emotion-13 {
   position: relative;
   display: -webkit-inline-box;
@@ -624,6 +636,18 @@ exports[`Notification renders snapshot of regular notification with all optional
 .emotion-11:disabled {
   opacity: 0.6;
   cursor: default;
+}
+
+.emotion-12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .emotion-13 {
