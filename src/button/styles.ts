@@ -238,9 +238,6 @@ export function loaderWrapperStyle({
 
     ${hasLoadingLabel &&
     css`
-      padding-left: ${sizeMap[size].spacing};
-      padding-right: ${sizeMap[size].spacing};
-
       span {
         padding-left: ${size === 'small'
           ? tokens.spacing.xsmall

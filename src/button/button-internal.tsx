@@ -60,18 +60,17 @@ function ButtonInternal<T extends React.ElementType = 'button'>(
     isLoading = false,
     inverted = false,
     fullWidth = false,
-    loadingLabel,
     icon,
     iconLeft,
     iconRight,
     children,
+    'aria-label': ariaLabel,
     ...restProps
   }: ButtonProps<T>,
   ref?: PolymorphicRef<T>,
 ) {
   const Element = as || 'button';
   const { focusProps, isFocusVisible } = useFocusRing();
-  const { 'aria-label': ariaLabel } = restProps;
 
   function renderIcon(originalIcon: JSX.Element) {
     // Check if the icon has a provided custom size prop already
@@ -88,8 +87,8 @@ function ButtonInternal<T extends React.ElementType = 'button'>(
       {...mergeProps(focusProps, restProps)}
       {...(isLoading && {
         disabled: true,
-        'aria-label': (ariaLabel as string)?.concat(' ', 'Loading…'),
       })}
+      aria-label={isLoading ? ariaLabel?.concat(' ', 'Loading') : ariaLabel}
       ref={ref}
       css={buttonStyle({
         variant,
