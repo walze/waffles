@@ -9,8 +9,6 @@ import { Heading } from '@datacamp/waffles/heading';
 import { ErrorBoundary } from '@datacamp/waffles/error-boundary';
 import { ContentContainer } from '@datacamp/waffles/content-container';
 
-import { ARTICLE_CONTENT_WIDTH } from '../components/constants';
-
 const heroStyle = css`
   height: 480px;
   width: 100%;
@@ -73,8 +71,14 @@ const higlightStyle = css`
   } ;
 `;
 
-const articleStyle = css`
-  max-width: ${ARTICLE_CONTENT_WIDTH};
+const containerStyle = css`
+  display: block;
+
+  ${mediaQuery.aboveLarge} {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 0 ${tokens.spacing.xlarge};
+  }
 `;
 
 const cardsLayoutStyle = css`
@@ -109,8 +113,8 @@ export default function Home() {
           </Paragraph>
         </div>
       </section>
-      <ContentContainer>
-        <article css={articleStyle}>
+      <ContentContainer css={containerStyle}>
+        <article>
           <Heading size="xlarge">Core Principles</Heading>
           <div css={cardsLayoutStyle}>
             <LandingPageCard imageUrl="images/waffles-components-mini.svg">
