@@ -6,7 +6,6 @@ exports[`ContentContainer renders correctly 1`] = `
   margin-right: auto;
   max-width: 1200px;
   padding: 16px;
-  overflow: hidden;
 }
 
 @media screen and (min-width: 820px) {
