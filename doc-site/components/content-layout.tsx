@@ -13,7 +13,6 @@ import { TableOfContentsProvider } from '../context/table-of-contents-context';
 
 import TableOfContents from './table-of-contents';
 import PageHeader from './page-header';
-import { ARTICLE_CONTENT_WIDTH } from './constants';
 import BackToTop from './back-to-top';
 
 const GITHUB_EDIT_URL =
@@ -22,33 +21,19 @@ const GITHUB_EDIT_URL =
 const containerStyle = css`
   display: block;
   padding-top: 0;
-  overflow: unset;
 
   ${mediaQuery.aboveMedium} {
     padding-top: 0;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 0 ${tokens.spacing.xlarge};
   }
-
-  ${mediaQuery.aboveLarge} {
-    display: flex;
-  }
-`;
-
-const articleStyle = css`
-  max-width: ${ARTICLE_CONTENT_WIDTH};
-  flex-grow: 1;
 `;
 
 const footerStyle = css`
   display: flex;
   justify-content: flex-end;
   margin-top: ${tokens.spacing.large};
-`;
-
-const asideStyle = css`
-  position: sticky;
-  padding-left: ${tokens.spacing.xlarge};
-  top: 54px;
-  align-self: flex-start;
 `;
 
 type ContentLayoutProps = {
@@ -65,9 +50,9 @@ function ContentLayout({ title, description, children }: ContentLayoutProps) {
   return (
     <ErrorBoundary>
       <PageHeader title={title} description={description} />
-      <ContentContainer css={containerStyle}>
-        <TableOfContentsProvider>
-          <article css={articleStyle}>
+      <TableOfContentsProvider>
+        <ContentContainer css={containerStyle}>
+          <article>
             {children}
             <footer css={footerStyle}>
               <Button
@@ -82,13 +67,13 @@ function ContentLayout({ title, description, children }: ContentLayoutProps) {
             </footer>
           </article>
           {isAboveLarge && (
-            <aside css={asideStyle}>
+            <aside>
               <TableOfContents />
               <BackToTop />
             </aside>
           )}
-        </TableOfContentsProvider>
-      </ContentContainer>
+        </ContentContainer>
+      </TableOfContentsProvider>
     </ErrorBoundary>
   );
 }

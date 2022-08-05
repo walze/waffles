@@ -28,7 +28,7 @@ type PageLayoutProps = {
 };
 
 // Streamlined layout for each page
-// On desktop classic two column layout: side navigation to the left and main content to the right
+// On desktop classic two column layout: main content to the right, and side navigation to the left
 // On mobile one column layout: single content column and fixed positioned side navigation
 
 function PageLayout({ children }: PageLayoutProps) {

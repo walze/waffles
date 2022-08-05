@@ -8,10 +8,12 @@ import { Button } from '@datacamp/waffles/button';
 import slugify from '../helpers/slugify';
 import { useTableOfContentsEntries } from '../context/table-of-contents-context';
 
+import { HEADER_HEIGHT } from './constants';
+
 const contentsTableStyle = css`
-  padding-top: ${tokens.spacing.large};
-  margin: 0;
-  max-width: 240px;
+  position: sticky;
+  top: ${HEADER_HEIGHT};
+  padding-top: ${tokens.spacing.xlarge};
 `;
 
 const headingStyle = css`
