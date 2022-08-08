@@ -1,0 +1,48 @@
+import * as ProgressExports from '@datacamp/waffles/progress';
+
+import Layout from '../../components/content-layout';
+import Example from '../../components/example';
+import Playground from '../../components/playground';
+import PropsTable from '../../components/props-table';
+import Imports from '../../components/imports';
+
+import playgroundConfig from '../../examples/progress/playground-config';
+import BasicUsage from '../../examples/progress/basic-usage';
+import Steps from '../../examples/progress/steps';
+import Inverted from '../../examples/progress/inverted';
+
+<Layout title="Progress" description="🚧 This page is under construction">
+
+## Examples
+
+<Example title="Basic Usage" path="progress/basic-usage">
+  <BasicUsage />
+</Example>
+
+<Example title="With Steps" path="progress/steps">
+  <Steps />
+</Example>
+
+<Example title="Inverted" path="progress/inverted" darkPreview>
+  <Inverted />
+</Example>
+
+## Playground
+
+<Playground {...playgroundConfig} />
+
+## Props
+
+### Progress
+
+<PropsTable
+  metadata={require('!!extract-react-types-loader!../../../src/progress/progress')}
+/>
+
+## Imports
+
+You can import following components or utilities from this module:
+
+<Imports module={ProgressExports} path="@datacamp/waffles/progress" />
+
+</Layout>

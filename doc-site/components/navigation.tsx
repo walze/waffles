@@ -104,6 +104,9 @@ function Navigation({ isOpen, onClose }: NavigationProps) {
               <Item href="/components/hooks">Hooks</Item>
               <Item href="/components/loader">Loader</Item>
               <Item href="/components/portal">Portal</Item>
+              <Item href="/components/progress" isNew>
+                Progress
+              </Item>
               <Item href="/components/resizable" isNew>
                 Resizable
               </Item>
