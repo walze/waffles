@@ -44,14 +44,9 @@ const textStyle = css`
 type PageHeaderProps = {
   title: string;
   description?: React.ReactNode;
-  underConstruction?: boolean;
 };
 
-function PageHeader({
-  title,
-  description,
-  underConstruction,
-}: PageHeaderProps) {
+function PageHeader({ title, description }: PageHeaderProps) {
   // Obtain the category based on the current url path
   const category = useRouter().pathname.split('/')[1];
 
@@ -68,11 +63,6 @@ function PageHeader({
               {title}
             </Heading>
             <Text css={textStyle}>{description}</Text>
-            {underConstruction && (
-              <Text css={textStyle}>
-                🚧 This page is <strong>under construction</strong>.
-              </Text>
-            )}
           </div>
         </ContentContainer>
       </header>
