@@ -90,6 +90,7 @@ function MenuInternal({
       id: triggerId,
       'aria-haspopup': 'menu',
       ...(isOpen && { 'aria-expanded': true }),
+      ...(inverted && { inverted }),
     }),
   );
 
