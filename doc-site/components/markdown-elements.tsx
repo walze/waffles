@@ -103,6 +103,7 @@ const codeBlockStyle = css`
     white-space: pre;
     margin: 0;
     padding: 0;
+    background-color: transparent;
   }
 `;
 
