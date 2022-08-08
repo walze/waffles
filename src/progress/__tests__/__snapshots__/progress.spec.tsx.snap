@@ -6,15 +6,12 @@ exports[`Progress renders snapshot of a progress 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   gap: 8px;
+  width: 100%;
 }
 
 .emotion-1 {
@@ -30,8 +27,8 @@ exports[`Progress renders snapshot of a progress 1`] = `
   background-color: rgba(5, 25, 45, 0.15);
   border: none;
   border-radius: 4px;
-  -webkit-clip-path: url(#progress-uhTXNP-clip);
-  clip-path: url(#progress-uhTXNP-clip);
+  -webkit-clip-path: url(#progress-jy12B0-clip);
+  clip-path: url(#progress-jy12B0-clip);
   -webkit-appearance: none;
   -moz-appearance: none;
   -ms-appearance: none;
@@ -75,14 +72,14 @@ exports[`Progress renders snapshot of a progress 1`] = `
   >
     <progress
       class="emotion-2"
-      id="progress-uhTXNP"
+      id="progress-jy12B0"
       max="100"
       value="40"
     />
   </div>
   <label
     class="emotion-3"
-    for="progress-uhTXNP"
+    for="progress-jy12B0"
   >
     40%
   </label>
@@ -95,15 +92,12 @@ exports[`Progress renders snapshot of a progress with steps 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   gap: 8px;
+  width: 100%;
 }
 
 .emotion-1 {
@@ -117,6 +111,14 @@ exports[`Progress renders snapshot of a progress with steps 1`] = `
 
 .emotion-2 {
   position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
   width: 100%;
   height: 1px;
 }
@@ -155,8 +157,8 @@ exports[`Progress renders snapshot of a progress with steps 1`] = `
   background-color: rgba(5, 25, 45, 0.15);
   border: none;
   border-radius: 4px;
-  -webkit-clip-path: url(#progress-IIzHra-clip);
-  clip-path: url(#progress-IIzHra-clip);
+  -webkit-clip-path: url(#progress-b5fYm8-clip);
+  clip-path: url(#progress-b5fYm8-clip);
   -webkit-appearance: none;
   -moz-appearance: none;
   -ms-appearance: none;
@@ -203,7 +205,7 @@ exports[`Progress renders snapshot of a progress with steps 1`] = `
     >
       <defs>
         <clippath
-          id="progress-IIzHra-clip"
+          id="progress-b5fYm8-clip"
         >
           <rect
             class="emotion-3"
@@ -230,14 +232,14 @@ exports[`Progress renders snapshot of a progress with steps 1`] = `
     </svg>
     <progress
       class="emotion-8"
-      id="progress-IIzHra"
+      id="progress-b5fYm8"
       max="5"
       value="2"
     />
   </div>
   <label
     class="emotion-9"
-    for="progress-IIzHra"
+    for="progress-b5fYm8"
   >
     2/5
   </label>
@@ -250,15 +252,12 @@ exports[`Progress renders snapshot of an inverted progress 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   gap: 8px;
+  width: 100%;
 }
 
 .emotion-1 {
@@ -274,8 +273,8 @@ exports[`Progress renders snapshot of an inverted progress 1`] = `
   background-color: rgba(255, 255, 255, 0.2);
   border: none;
   border-radius: 4px;
-  -webkit-clip-path: url(#progress-870DHg-clip);
-  clip-path: url(#progress-870DHg-clip);
+  -webkit-clip-path: url(#progress-ZOVhF8-clip);
+  clip-path: url(#progress-ZOVhF8-clip);
   -webkit-appearance: none;
   -moz-appearance: none;
   -ms-appearance: none;
@@ -319,14 +318,14 @@ exports[`Progress renders snapshot of an inverted progress 1`] = `
   >
     <progress
       class="emotion-2"
-      id="progress-870DHg"
+      id="progress-ZOVhF8"
       max="100"
       value="40"
     />
   </div>
   <label
     class="emotion-3"
-    for="progress-870DHg"
+    for="progress-ZOVhF8"
   >
     40%
   </label>

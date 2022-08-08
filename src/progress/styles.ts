@@ -21,9 +21,9 @@ export const sizeMap = {
 export function wrapperStyle() {
   return css`
     display: flex;
-    flex-wrap: nowrap;
     align-items: center;
     gap: ${tokens.spacing.small};
+    width: 100%;
   `;
 }
 
@@ -38,6 +38,8 @@ export function progressWrapperStyle() {
 export function stepClipWrapperStyle() {
   return css`
     position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
     width: 100%;
     height: 1px;
   `;
