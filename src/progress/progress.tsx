@@ -1,73 +1,50 @@
-import React from 'react';
-
 import { useId } from '../hooks';
 
 import {
-  stepClipStyle,
   labelStyle,
   progressStyle,
   wrapperStyle,
   progressWrapperStyle,
-  stepClipWrapperStyle,
-  sizeMap,
 } from './styles';
+import ProgressSteps from './steps';
 
 type ProgressProps = {
-  /* The size of the progress bar. */
+  /* The size of the progress. */
   size?: 'small' | 'medium';
-  /* Whether the progress bar should be split into individual steps. If so, `max` and value` are treat as the total and current steps respectively. */
+  /* The current value of the progress. This is in relation to the `max` property. */
+  value: number;
+  /* The maximum value of the progress. Must be greater than `value`. The default is 100. */
+  max: number;
+  /* Whether the progress should be split into individual steps. If so, `max` and value` are treat as the total and current steps respectively. */
   showSteps?: boolean;
-  /* Whether the progress bar is inverted in color or not. */
+  /* Whether the progress is inverted in color or not. */
   inverted?: boolean;
-} & React.ProgressHTMLAttributes<HTMLElement>;
+} & React.HTMLAttributes<HTMLProgressElement>;
 
 function Progress({
   size = 'medium',
   showSteps = false,
   inverted = false,
+  max = 100,
+  value = 0,
   ...restProps
 }: ProgressProps) {
-  const generatedId = useId('progress-bar');
-  const { max, value } = restProps;
-
-  function getStepClipRect(index: number) {
-    return (
-      <rect
-        key={index}
-        css={stepClipStyle({
-          size,
-          index,
-          max: max as number,
-        })}
-        rx={parseInt(sizeMap[size].sizing) / 2}
-      />
-    );
-  }
+  const generatedId = useId('progress');
 
   return (
-    <div css={wrapperStyle()}>
+    <div data-testid="progress-wrapper" css={wrapperStyle()}>
       <div css={progressWrapperStyle()}>
-        {showSteps && (
-          <svg css={stepClipWrapperStyle()}>
-            <defs>
-              <clipPath id={`${generatedId}-clip`}>
-                {Array.from({ length: max as number }, (_, index) => {
-                  return getStepClipRect(index);
-                })}
-              </clipPath>
-            </defs>
-          </svg>
-        )}
+        {showSteps && <ProgressSteps id={generatedId} max={max} size={size} />}
         <progress
           id={generatedId}
           css={progressStyle({ size, inverted, clipId: `${generatedId}-clip` })}
+          max={max}
+          value={value}
           {...restProps}
         />
       </div>
       <label css={labelStyle({ size, inverted })} htmlFor={generatedId}>
-        {showSteps
-          ? `${value}/${max}`
-          : `${((value as number) / (max as number)) * 100}%`}
+        {showSteps ? `${value}/${max}` : `${(value / max) * 100}%`}
       </label>
     </div>
   );
