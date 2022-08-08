@@ -12,7 +12,7 @@ type ProgressProps = {
   /* The size of the progress. */
   size?: 'small' | 'medium';
   /* The current value of the progress. This is in relation to the `max` property. */
-  value: number;
+  value?: number;
   /* The maximum value of the progress. Must be greater than `value`. The default is 100. */
   max?: number;
   /* Whether the progress should be split into individual steps. If so, `max` and value` are treat as the total and current steps respectively. */
@@ -25,7 +25,7 @@ function Progress({
   size = 'medium',
   showSteps = false,
   inverted = false,
-  value,
+  value = 0,
   max = 100,
   ...restProps
 }: ProgressProps) {
