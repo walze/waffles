@@ -144,7 +144,7 @@ type ButtonStyleOptions = {
   variant: NonNullable<React.ComponentProps<typeof Button>['variant']>;
   inverted: boolean;
   fullWidth: boolean;
-  hasIcon: boolean;
+  isIconOnly: boolean;
   isLoading: boolean;
   isFocusVisible: boolean;
 };
@@ -154,7 +154,7 @@ export function buttonStyle({
   variant,
   inverted,
   fullWidth,
-  hasIcon,
+  isIconOnly,
   isLoading,
   isFocusVisible,
 }: ButtonStyleOptions) {
@@ -165,9 +165,9 @@ export function buttonStyle({
     height: ${sizeMap[size].sizing};
     min-width: ${sizeMap[size].sizing};
     width: ${fullWidth ? '100%' : 'auto'};
-    padding-left: ${!hasIcon && sizeMap[size].spacing};
-    padding-right: ${!hasIcon && sizeMap[size].spacing};
-    flex-direction: ${isLoading ? 'column' : 'row'};
+    padding-left: ${!isIconOnly && sizeMap[size].spacing};
+    padding-right: ${!isIconOnly && sizeMap[size].spacing};
+    flex-direction: column;
     font-size: ${sizeMap[size].fontSize};
     color: ${variantMap[variant].color};
     background-color: ${variantMap[variant].backgroundColor};
@@ -189,7 +189,7 @@ export function buttonStyle({
     // Hide all direct descendants, except the wrapper for the loader
     ${isLoading &&
     css`
-      & > *:not(div) {
+      & > * {
         opacity: 0;
         height: 0;
       }
@@ -234,6 +234,7 @@ export function loaderWrapperStyle({
   return css`
     display: flex;
     align-items: center;
+    opacity: 1;
 
     ${hasLoadingLabel &&
     css`

@@ -9,18 +9,23 @@ type ButtonLoaderProps = {
   size: NonNullable<React.ComponentProps<typeof Button>['size']>;
   variant: NonNullable<React.ComponentProps<typeof Button>['variant']>;
   inverted: NonNullable<React.ComponentProps<typeof Button>['inverted']>;
-  hasIcon: boolean;
+  isIconOnly: boolean;
 };
 
-function ButtonLoader({ size, variant, inverted, hasIcon }: ButtonLoaderProps) {
+function ButtonLoader({
+  size,
+  variant,
+  inverted,
+  isIconOnly,
+}: ButtonLoaderProps) {
   return (
-    <div css={loaderWrapperStyle({ size, hasLoadingLabel: !hasIcon })}>
+    <span css={loaderWrapperStyle({ size, hasLoadingLabel: !isIconOnly })}>
       <Loader
         css={loaderStyle({ variant, inverted })}
         width={size === 'small' ? '12' : '16'} // Setting width prop here so that it gets passed to the loader as restProps for the svg element
       />
-      {!hasIcon && <span>Loading…</span>}
-    </div>
+      {!isIconOnly && <span>Loading…</span>}
+    </span>
   );
 }
 

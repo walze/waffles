@@ -92,9 +92,9 @@ exports[`Dialog renders snapshot 1`] = `
   height: 36px;
   min-width: 36px;
   width: auto;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 14px;
   color: #0075AD;
   background-color: transparent;
@@ -233,9 +233,9 @@ exports[`Dialog renders snapshot 1`] = `
   width: auto;
   padding-left: 16px;
   padding-right: 16px;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 14px;
   color: #05192D;
   background-color: #03EF62;
@@ -331,9 +331,9 @@ exports[`Dialog renders snapshot 1`] = `
   width: auto;
   padding-left: 16px;
   padding-right: 16px;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 14px;
   color: #05192D;
   background-color: #03EF62;

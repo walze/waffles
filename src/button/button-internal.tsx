@@ -87,7 +87,7 @@ function ButtonInternal<T extends React.ElementType = 'button'>(
         size,
         inverted,
         fullWidth,
-        hasIcon: !!icon,
+        isIconOnly: !!icon,
         isLoading,
         isFocusVisible,
       })}
@@ -106,7 +106,7 @@ function ButtonInternal<T extends React.ElementType = 'button'>(
         </span>
       )}
       {isLoading && (
-        <ButtonLoader size={size} variant={variant} inverted hasIcon={!!icon} />
+        <ButtonLoader {...{ size, variant, inverted, isIconOnly: !!icon }} />
       )}
     </Element>
   );
