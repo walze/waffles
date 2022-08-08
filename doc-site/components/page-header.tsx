@@ -19,9 +19,10 @@ const headerStyle = css`
 const containerStyle = css`
   display: block;
 
-  ${mediaQuery.aboveLarge} {
-    display: flex;
-    flex-direction: column;
+  ${mediaQuery.aboveMedium} {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: ${tokens.spacing.xlarge};
   }
 `;
 
@@ -61,16 +62,18 @@ function PageHeader({
       </Head>
       <header css={headerStyle}>
         <ContentContainer css={containerStyle}>
-          <Chapeau css={chapeauStyle}>{category}</Chapeau>
-          <Heading css={headingStyle} size="xxlarge">
-            {title}
-          </Heading>
-          <Text css={textStyle}>{description}</Text>
-          {underConstruction && (
-            <Text css={textStyle}>
-              🚧 This page is <strong>under construction</strong>.
-            </Text>
-          )}
+          <div>
+            <Chapeau css={chapeauStyle}>{category}</Chapeau>
+            <Heading css={headingStyle} size="xxlarge">
+              {title}
+            </Heading>
+            <Text css={textStyle}>{description}</Text>
+            {underConstruction && (
+              <Text css={textStyle}>
+                🚧 This page is <strong>under construction</strong>.
+              </Text>
+            )}
+          </div>
         </ContentContainer>
       </header>
     </ErrorBoundary>
