@@ -12,9 +12,9 @@ type ButtonBaseProps = {
   variant?: 'primary' | 'secondary' | 'plain' | 'destructive' | 'upgrade';
   /* Defines the size of the button. In most cases default `medium` size should be used. */
   size?: 'small' | 'medium' | 'large';
-  /* Whether the button is in it's loading state. The button will maintain the width of it's child content, unless `loadingLabel` is provided and longer than the original content. */
+  /* Whether the button is in it's loading state. The button will maintain the minimum width of it's child content. */
   isLoading?: boolean;
-  /* Allows button to grow to the width of its container. */
+  /* Allows the button to grow to the width of its container. */
   fullWidth?: boolean;
   /* Sets the style of the button suitable for dark backgrounds. */
   inverted?: boolean;
