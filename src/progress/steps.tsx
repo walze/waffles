@@ -9,6 +9,8 @@ type ProgressProps = {
 
 function ProgressSteps({ id, max, size }: ProgressProps) {
   function getStepClipRect(index: number) {
+    const width = `${100 / max}%`;
+
     return (
       <rect
         key={index}
@@ -18,6 +20,7 @@ function ProgressSteps({ id, max, size }: ProgressProps) {
           max,
         })}
         rx={parseInt(sizeMap[size].sizing) / 2}
+        width={width} // Width required here for Chrome
       />
     );
   }
