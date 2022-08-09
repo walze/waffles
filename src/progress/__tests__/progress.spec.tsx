@@ -2,6 +2,16 @@ import { render } from '@testing-library/react';
 
 import { Progress } from '../index';
 
+const MOCKED_ID = '123abC';
+
+jest.mock('../../hooks', () => {
+  return {
+    useId: (prefix: string) => {
+      return `${prefix}-${MOCKED_ID}`;
+    },
+  };
+});
+
 describe('Progress', () => {
   it('renders svg alongside progress when showSteps is true', () => {
     const { getByTestId } = render(<Progress value={40} max={100} showSteps />);
