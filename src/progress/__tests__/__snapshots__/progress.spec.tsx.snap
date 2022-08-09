@@ -27,8 +27,8 @@ exports[`Progress renders snapshot of a progress 1`] = `
   background-color: rgba(5, 25, 45, 0.15);
   border: none;
   border-radius: 4px;
-  -webkit-clip-path: url(#progress-jy12B0-clip);
-  clip-path: url(#progress-jy12B0-clip);
+  -webkit-clip-path: url(#progress-j9GPmN-clip);
+  clip-path: url(#progress-j9GPmN-clip);
   -webkit-appearance: none;
   -moz-appearance: none;
   -ms-appearance: none;
@@ -72,14 +72,14 @@ exports[`Progress renders snapshot of a progress 1`] = `
   >
     <progress
       class="emotion-2"
-      id="progress-jy12B0"
+      id="progress-j9GPmN"
       max="100"
       value="40"
     />
   </div>
   <label
     class="emotion-3"
-    for="progress-jy12B0"
+    for="progress-j9GPmN"
   >
     40%
   </label>
@@ -157,8 +157,8 @@ exports[`Progress renders snapshot of a progress with steps 1`] = `
   background-color: rgba(5, 25, 45, 0.15);
   border: none;
   border-radius: 4px;
-  -webkit-clip-path: url(#progress-b5fYm8-clip);
-  clip-path: url(#progress-b5fYm8-clip);
+  -webkit-clip-path: url(#progress-iMrMv--clip);
+  clip-path: url(#progress-iMrMv--clip);
   -webkit-appearance: none;
   -moz-appearance: none;
   -ms-appearance: none;
@@ -205,7 +205,7 @@ exports[`Progress renders snapshot of a progress with steps 1`] = `
     >
       <defs>
         <clippath
-          id="progress-b5fYm8-clip"
+          id="progress-iMrMv--clip"
         >
           <rect
             class="emotion-3"
@@ -232,14 +232,14 @@ exports[`Progress renders snapshot of a progress with steps 1`] = `
     </svg>
     <progress
       class="emotion-8"
-      id="progress-b5fYm8"
+      id="progress-iMrMv-"
       max="5"
       value="2"
     />
   </div>
   <label
     class="emotion-9"
-    for="progress-b5fYm8"
+    for="progress-iMrMv-"
   >
     2/5
   </label>
@@ -273,8 +273,8 @@ exports[`Progress renders snapshot of an inverted progress 1`] = `
   background-color: rgba(255, 255, 255, 0.2);
   border: none;
   border-radius: 4px;
-  -webkit-clip-path: url(#progress-ZOVhF8-clip);
-  clip-path: url(#progress-ZOVhF8-clip);
+  -webkit-clip-path: url(#progress-X6vqOc-clip);
+  clip-path: url(#progress-X6vqOc-clip);
   -webkit-appearance: none;
   -moz-appearance: none;
   -ms-appearance: none;
@@ -318,14 +318,14 @@ exports[`Progress renders snapshot of an inverted progress 1`] = `
   >
     <progress
       class="emotion-2"
-      id="progress-ZOVhF8"
+      id="progress-X6vqOc"
       max="100"
       value="40"
     />
   </div>
   <label
     class="emotion-3"
-    for="progress-ZOVhF8"
+    for="progress-X6vqOc"
   >
     40%
   </label>
