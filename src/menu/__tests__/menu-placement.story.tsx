@@ -7,9 +7,28 @@ import { Radio } from '../../radio';
 import { Code, Edit, Copy } from '../../icon';
 import { Button } from '../../button';
 
+type Placement = React.ComponentProps<typeof Menu>['placement'];
+
+type PlacementRadioProps = {
+  placement: Placement;
+};
+
 function Story() {
-  const [placement, setPlacement] =
-    useState<React.ComponentProps<typeof Menu>['placement']>('right');
+  const [currentPlacement, setCurrentPlacement] =
+    useState<Placement>('bottomRight');
+
+  function PlacementRadio({ placement }: PlacementRadioProps) {
+    return (
+      <Radio
+        name="menuPlacement"
+        value={placement}
+        checked={placement === currentPlacement}
+        onChange={() => setCurrentPlacement(placement)}
+      >
+        {placement}
+      </Radio>
+    );
+  }
 
   return (
     <div
@@ -23,38 +42,14 @@ function Story() {
           gap: ${tokens.spacing.medium};
         `}
       >
-        <Radio
-          name="menuPlacement"
-          value="right"
-          checked={placement === 'right'}
-          onChange={() => setPlacement('right')}
-        >
-          right
-        </Radio>
-        <Radio
-          name="menuPlacement"
-          value="left"
-          checked={placement === 'left'}
-          onChange={() => setPlacement('left')}
-        >
-          left
-        </Radio>
-        <Radio
-          name="menuPlacement"
-          value="top"
-          checked={placement === 'top'}
-          onChange={() => setPlacement('top')}
-        >
-          top
-        </Radio>
-        <Radio
-          name="menuPlacement"
-          value="bottom"
-          checked={placement === 'bottom'}
-          onChange={() => setPlacement('bottom')}
-        >
-          bottom
-        </Radio>
+        <PlacementRadio placement="bottomRight" />
+        <PlacementRadio placement="bottom" />
+        <PlacementRadio placement="bottomLeft" />
+        <PlacementRadio placement="topRight" />
+        <PlacementRadio placement="top" />
+        <PlacementRadio placement="topLeft" />
+        <PlacementRadio placement="right" />
+        <PlacementRadio placement="left" />
       </div>
       <div
         css={css`
@@ -64,7 +59,7 @@ function Story() {
       >
         <Menu
           trigger={<Button variant="secondary">Open Menu</Button>}
-          placement={placement}
+          placement={currentPlacement}
         >
           <Menu.Item label="Edit" iconLeft={<Code />} />
           <Menu.Item label="Rename" iconLeft={<Edit />} />

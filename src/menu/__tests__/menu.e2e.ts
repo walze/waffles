@@ -1,4 +1,13 @@
-const placement = ['right', 'left', 'top', 'bottom'] as const;
+const placement = [
+  'bottomRight',
+  'bottom',
+  'bottomLeft',
+  'topRight',
+  'top',
+  'topLeft',
+  'right',
+  'left',
+] as const;
 
 describe('Menu', () => {
   it('render basic menu with one link menu item', () => {
