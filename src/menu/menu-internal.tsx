@@ -26,11 +26,16 @@ import { dropdownStyle } from './styles';
 import { MenuProvider } from './menu-context';
 import Category from './category';
 
+// Mapping between Waffles and floating-ui placement
 const placementMap = {
-  bottom: 'bottom-end',
-  top: 'top-end',
+  bottom: 'bottom',
+  top: 'top',
   right: 'right-start',
   left: 'left-start',
+  bottomLeft: 'bottom-start',
+  bottomRight: 'bottom-end',
+  topLeft: 'top-start',
+  topRight: 'top-end',
 } as const;
 
 type MenuProps = {
@@ -38,8 +43,16 @@ type MenuProps = {
   trigger: JSX.Element;
   /* Content of the menu, either `Menu.Category` or custom components. */
   children: React.ReactNode;
-  /* Sets the menu dropdown's position relative to the trigger. Defaults to `bottom`. */
-  placement?: 'bottom' | 'top' | 'right' | 'left';
+  /* Sets the menu dropdown's position relative to the trigger. Default is `bottomRight`. */
+  placement?:
+    | 'bottom'
+    | 'top'
+    | 'right'
+    | 'left'
+    | 'bottomLeft'
+    | 'bottomRight'
+    | 'topLeft'
+    | 'topRight';
   /* Sets the distance between menu dropdown and its trigger. By default `tokens.spacing.small` [design token](/foundation/design-tokens/) is used. */
   offset?: string;
   /* Sets the style of all menu elements suitable for dark backgrounds. */
@@ -49,7 +62,7 @@ type MenuProps = {
 function MenuInternal({
   trigger,
   children,
-  placement = 'bottom',
+  placement = 'bottomRight',
   offset = tokens.spacing.small,
   inverted = false,
   ...restProps
