@@ -12,7 +12,7 @@ function Example() {
       trigger={
         <Button variant="secondary" icon={<More />} aria-label="More options" />
       }
-      placement={isAboveSmall ? 'right' : 'bottom'}
+      placement={isAboveSmall ? 'right' : 'bottomLeft'}
     >
       <Menu.Category noDivider>
         <Menu.Item label="Edit" iconLeft={<Code />} />

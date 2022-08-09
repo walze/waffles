@@ -44,7 +44,7 @@ function Example() {
   return (
     <Menu
       trigger={<MenuTrigger />}
-      placement={isAboveSmall ? 'right' : 'bottom'}
+      placement={isAboveSmall ? 'right' : 'bottomLeft'}
     >
       <Menu.Category noDivider>
         <Menu.Item
