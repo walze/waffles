@@ -150,6 +150,7 @@ export { default as Minus } from './generated/minus';
 export { default as Mobile } from './generated/mobile';
 export { default as Moon } from './generated/moon';
 export { default as More } from './generated/more';
+export { default as Multidoc } from './generated/multidoc';
 export { default as Mute } from './generated/mute';
 export { default as NineDots } from './generated/nine-dots';
 export { default as Pause } from './generated/pause';
