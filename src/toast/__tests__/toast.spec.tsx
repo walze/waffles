@@ -8,6 +8,7 @@ function ToastTest() {
   return (
     <div>
       <button
+        type="button"
         onClick={() =>
           toast({
             title: 'Default Toast Title',
@@ -18,6 +19,7 @@ function ToastTest() {
         Show Default Toast
       </button>
       <button
+        type="button"
         onClick={() =>
           toast({
             title: 'Success!',
@@ -28,6 +30,7 @@ function ToastTest() {
         Show Success Toast
       </button>
       <button
+        type="button"
         onClick={() =>
           toast({
             title: 'Warning Toast Title',
@@ -38,6 +41,7 @@ function ToastTest() {
         Show Warning Toast
       </button>
       <button
+        type="button"
         onClick={() =>
           toast({
             title: 'Oops, Something Went Wrong',

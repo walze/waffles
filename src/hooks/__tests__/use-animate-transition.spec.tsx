@@ -9,7 +9,9 @@ function TestComponent() {
 
   return (
     <>
-      <button onClick={() => setIsVisible(!isVisible)}>Toggle Animation</button>
+      <button type="button" onClick={() => setIsVisible(!isVisible)}>
+        Toggle Animation
+      </button>
       {isAnimating ? <div>Animating Element</div> : <div>Initial Element</div>}
     </>
   );

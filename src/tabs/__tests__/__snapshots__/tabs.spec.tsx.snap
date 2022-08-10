@@ -157,6 +157,7 @@ exports[`Tabs renders snapshot 1`] = `
       id="tabs-123abC-tab-0"
       role="tab"
       tabindex="0"
+      type="button"
     >
       <span
         class="emotion-3"
@@ -177,6 +178,7 @@ exports[`Tabs renders snapshot 1`] = `
       id="tabs-123abC-tab-1"
       role="tab"
       tabindex="-1"
+      type="button"
     >
       <span
         class="emotion-3"
@@ -351,6 +353,7 @@ exports[`Tabs renders snapshot of inverted 1`] = `
       id="tabs-123abC-tab-0"
       role="tab"
       tabindex="0"
+      type="button"
     >
       <span
         class="emotion-3"
@@ -371,6 +374,7 @@ exports[`Tabs renders snapshot of inverted 1`] = `
       id="tabs-123abC-tab-1"
       role="tab"
       tabindex="-1"
+      type="button"
     >
       <span
         class="emotion-3"

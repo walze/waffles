@@ -394,6 +394,7 @@ exports[`Dialog renders snapshot 1`] = `
   <button
     aria-label="Close"
     class="emotion-1"
+    type="button"
   >
     CrossIcon
   </button>
@@ -413,6 +414,7 @@ exports[`Dialog renders snapshot 1`] = `
   >
     <button
       class="emotion-5"
+      type="button"
     >
       <span
         class="emotion-6"
@@ -423,6 +425,7 @@ exports[`Dialog renders snapshot 1`] = `
     <button
       class="emotion-7"
       data-autofocus="true"
+      type="button"
     >
       <span
         class="emotion-6"

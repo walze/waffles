@@ -197,6 +197,7 @@ exports[`NotificationCard renders snapshot of inverted variant default 1`] = `
   <button
     aria-label="Close notification"
     class="emotion-6"
+    type="button"
   >
     <svg
       aria-hidden="true"
@@ -410,6 +411,7 @@ exports[`NotificationCard renders snapshot of inverted variant error 1`] = `
   <button
     aria-label="Close notification"
     class="emotion-6"
+    type="button"
   >
     <svg
       aria-hidden="true"
@@ -623,6 +625,7 @@ exports[`NotificationCard renders snapshot of inverted variant success 1`] = `
   <button
     aria-label="Close notification"
     class="emotion-6"
+    type="button"
   >
     <svg
       aria-hidden="true"
@@ -838,6 +841,7 @@ exports[`NotificationCard renders snapshot of inverted variant upgrade 1`] = `
   <button
     aria-label="Close notification"
     class="emotion-6"
+    type="button"
   >
     <svg
       aria-hidden="true"
@@ -1054,6 +1058,7 @@ exports[`NotificationCard renders snapshot of inverted variant warning 1`] = `
   <button
     aria-label="Close notification"
     class="emotion-6"
+    type="button"
   >
     <svg
       aria-hidden="true"
@@ -1267,6 +1272,7 @@ exports[`NotificationCard renders snapshot of variant default 1`] = `
   <button
     aria-label="Close notification"
     class="emotion-6"
+    type="button"
   >
     <svg
       aria-hidden="true"
@@ -1480,6 +1486,7 @@ exports[`NotificationCard renders snapshot of variant error 1`] = `
   <button
     aria-label="Close notification"
     class="emotion-6"
+    type="button"
   >
     <svg
       aria-hidden="true"
@@ -1693,6 +1700,7 @@ exports[`NotificationCard renders snapshot of variant success 1`] = `
   <button
     aria-label="Close notification"
     class="emotion-6"
+    type="button"
   >
     <svg
       aria-hidden="true"
@@ -1908,6 +1916,7 @@ exports[`NotificationCard renders snapshot of variant upgrade 1`] = `
   <button
     aria-label="Close notification"
     class="emotion-6"
+    type="button"
   >
     <svg
       aria-hidden="true"
@@ -2124,6 +2133,7 @@ exports[`NotificationCard renders snapshot of variant warning 1`] = `
   <button
     aria-label="Close notification"
     class="emotion-6"
+    type="button"
   >
     <svg
       aria-hidden="true"

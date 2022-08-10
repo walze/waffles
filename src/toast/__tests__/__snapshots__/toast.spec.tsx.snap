@@ -254,6 +254,7 @@ exports[`Toast render snapshot of default toast 1`] = `
   <button
     aria-label="Close notification"
     class="emotion-8"
+    type="button"
   >
     <svg
       aria-hidden="true"
@@ -542,6 +543,7 @@ exports[`Toast render snapshot of error toast 1`] = `
   <button
     aria-label="Close notification"
     class="emotion-9"
+    type="button"
   >
     <svg
       aria-hidden="true"
@@ -809,6 +811,7 @@ exports[`Toast render snapshot of success toast 1`] = `
   <button
     aria-label="Close notification"
     class="emotion-8"
+    type="button"
   >
     <svg
       aria-hidden="true"
@@ -1079,6 +1082,7 @@ exports[`Toast render snapshot of warning toast 1`] = `
   <button
     aria-label="Close notification"
     class="emotion-8"
+    type="button"
   >
     <svg
       aria-hidden="true"

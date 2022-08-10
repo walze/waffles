@@ -380,6 +380,7 @@ exports[`Notification renders snapshot of inverted notification with all optiona
       >
         <button
           class="emotion-11"
+          type="button"
         >
           <span
             class="emotion-12"
@@ -393,6 +394,7 @@ exports[`Notification renders snapshot of inverted notification with all optiona
   <button
     aria-label="Close notification"
     class="emotion-13"
+    type="button"
   >
     <svg
       aria-hidden="true"
@@ -789,6 +791,7 @@ exports[`Notification renders snapshot of regular notification with all optional
       >
         <button
           class="emotion-11"
+          type="button"
         >
           <span
             class="emotion-12"
@@ -802,6 +805,7 @@ exports[`Notification renders snapshot of regular notification with all optional
   <button
     aria-label="Close notification"
     class="emotion-13"
+    type="button"
   >
     <svg
       aria-hidden="true"

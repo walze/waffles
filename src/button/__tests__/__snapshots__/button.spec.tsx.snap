@@ -95,6 +95,7 @@ exports[`Button renders snapshot of disabled medium variant destructive 1`] = `
 <button
   class="emotion-0"
   disabled=""
+  type="button"
 >
   <span
     class="emotion-1"
@@ -199,6 +200,7 @@ exports[`Button renders snapshot of disabled medium variant plain 1`] = `
 <button
   class="emotion-0"
   disabled=""
+  type="button"
 >
   <span
     class="emotion-1"
@@ -303,6 +305,7 @@ exports[`Button renders snapshot of disabled medium variant primary 1`] = `
 <button
   class="emotion-0"
   disabled=""
+  type="button"
 >
   <span
     class="emotion-1"
@@ -407,6 +410,7 @@ exports[`Button renders snapshot of disabled medium variant secondary 1`] = `
 <button
   class="emotion-0"
   disabled=""
+  type="button"
 >
   <span
     class="emotion-1"
@@ -511,6 +515,7 @@ exports[`Button renders snapshot of disabled medium variant upgrade 1`] = `
 <button
   class="emotion-0"
   disabled=""
+  type="button"
 >
   <span
     class="emotion-1"
@@ -622,6 +627,7 @@ exports[`Button renders snapshot of focused state 1`] = `
 
 <button
   class="emotion-0"
+  type="button"
 >
   <span
     class="emotion-1"
@@ -725,6 +731,7 @@ exports[`Button renders snapshot of inverted variant destructive and size large 
 
 <button
   class="emotion-0"
+  type="button"
 >
   <span
     class="emotion-1"
@@ -828,6 +835,7 @@ exports[`Button renders snapshot of inverted variant destructive and size medium
 
 <button
   class="emotion-0"
+  type="button"
 >
   <span
     class="emotion-1"
@@ -931,6 +939,7 @@ exports[`Button renders snapshot of inverted variant destructive and size small 
 
 <button
   class="emotion-0"
+  type="button"
 >
   <span
     class="emotion-1"
@@ -1034,6 +1043,7 @@ exports[`Button renders snapshot of inverted variant plain and size large 1`] = 
 
 <button
   class="emotion-0"
+  type="button"
 >
   <span
     class="emotion-1"
@@ -1137,6 +1147,7 @@ exports[`Button renders snapshot of inverted variant plain and size medium 1`] =
 
 <button
   class="emotion-0"
+  type="button"
 >
   <span
     class="emotion-1"
@@ -1240,6 +1251,7 @@ exports[`Button renders snapshot of inverted variant plain and size small 1`] = 
 
 <button
   class="emotion-0"
+  type="button"
 >
   <span
     class="emotion-1"
@@ -1343,6 +1355,7 @@ exports[`Button renders snapshot of inverted variant primary and size large 1`] 
 
 <button
   class="emotion-0"
+  type="button"
 >
   <span
     class="emotion-1"
@@ -1446,6 +1459,7 @@ exports[`Button renders snapshot of inverted variant primary and size medium 1`]
 
 <button
   class="emotion-0"
+  type="button"
 >
   <span
     class="emotion-1"
@@ -1549,6 +1563,7 @@ exports[`Button renders snapshot of inverted variant primary and size small 1`] 
 
 <button
   class="emotion-0"
+  type="button"
 >
   <span
     class="emotion-1"
@@ -1652,6 +1667,7 @@ exports[`Button renders snapshot of inverted variant secondary and size large 1`
 
 <button
   class="emotion-0"
+  type="button"
 >
   <span
     class="emotion-1"
@@ -1755,6 +1771,7 @@ exports[`Button renders snapshot of inverted variant secondary and size medium 1
 
 <button
   class="emotion-0"
+  type="button"
 >
   <span
     class="emotion-1"
@@ -1858,6 +1875,7 @@ exports[`Button renders snapshot of inverted variant secondary and size small 1`
 
 <button
   class="emotion-0"
+  type="button"
 >
   <span
     class="emotion-1"
@@ -1961,6 +1979,7 @@ exports[`Button renders snapshot of inverted variant upgrade and size large 1`] 
 
 <button
   class="emotion-0"
+  type="button"
 >
   <span
     class="emotion-1"
@@ -2064,6 +2083,7 @@ exports[`Button renders snapshot of inverted variant upgrade and size medium 1`]
 
 <button
   class="emotion-0"
+  type="button"
 >
   <span
     class="emotion-1"
@@ -2167,6 +2187,7 @@ exports[`Button renders snapshot of inverted variant upgrade and size small 1`] 
 
 <button
   class="emotion-0"
+  type="button"
 >
   <span
     class="emotion-1"
@@ -2351,6 +2372,7 @@ exports[`Button renders snapshot of isLoading variants variant destructive and s
 <button
   class="emotion-0"
   disabled=""
+  type="button"
 >
   <span
     class="emotion-1"
@@ -2564,6 +2586,7 @@ exports[`Button renders snapshot of isLoading variants variant destructive and s
 <button
   class="emotion-0"
   disabled=""
+  type="button"
 >
   <span
     class="emotion-1"
@@ -2777,6 +2800,7 @@ exports[`Button renders snapshot of isLoading variants variant destructive and s
 <button
   class="emotion-0"
   disabled=""
+  type="button"
 >
   <span
     class="emotion-1"
@@ -2990,6 +3014,7 @@ exports[`Button renders snapshot of isLoading variants variant plain and size la
 <button
   class="emotion-0"
   disabled=""
+  type="button"
 >
   <span
     class="emotion-1"
@@ -3203,6 +3228,7 @@ exports[`Button renders snapshot of isLoading variants variant plain and size me
 <button
   class="emotion-0"
   disabled=""
+  type="button"
 >
   <span
     class="emotion-1"
@@ -3416,6 +3442,7 @@ exports[`Button renders snapshot of isLoading variants variant plain and size sm
 <button
   class="emotion-0"
   disabled=""
+  type="button"
 >
   <span
     class="emotion-1"
@@ -3629,6 +3656,7 @@ exports[`Button renders snapshot of isLoading variants variant primary and size 
 <button
   class="emotion-0"
   disabled=""
+  type="button"
 >
   <span
     class="emotion-1"
@@ -3842,6 +3870,7 @@ exports[`Button renders snapshot of isLoading variants variant primary and size 
 <button
   class="emotion-0"
   disabled=""
+  type="button"
 >
   <span
     class="emotion-1"
@@ -4055,6 +4084,7 @@ exports[`Button renders snapshot of isLoading variants variant primary and size 
 <button
   class="emotion-0"
   disabled=""
+  type="button"
 >
   <span
     class="emotion-1"
@@ -4268,6 +4298,7 @@ exports[`Button renders snapshot of isLoading variants variant secondary and siz
 <button
   class="emotion-0"
   disabled=""
+  type="button"
 >
   <span
     class="emotion-1"
@@ -4481,6 +4512,7 @@ exports[`Button renders snapshot of isLoading variants variant secondary and siz
 <button
   class="emotion-0"
   disabled=""
+  type="button"
 >
   <span
     class="emotion-1"
@@ -4694,6 +4726,7 @@ exports[`Button renders snapshot of isLoading variants variant secondary and siz
 <button
   class="emotion-0"
   disabled=""
+  type="button"
 >
   <span
     class="emotion-1"
@@ -4907,6 +4940,7 @@ exports[`Button renders snapshot of isLoading variants variant upgrade and size 
 <button
   class="emotion-0"
   disabled=""
+  type="button"
 >
   <span
     class="emotion-1"
@@ -5120,6 +5154,7 @@ exports[`Button renders snapshot of isLoading variants variant upgrade and size 
 <button
   class="emotion-0"
   disabled=""
+  type="button"
 >
   <span
     class="emotion-1"
@@ -5333,6 +5368,7 @@ exports[`Button renders snapshot of isLoading variants variant upgrade and size 
 <button
   class="emotion-0"
   disabled=""
+  type="button"
 >
   <span
     class="emotion-1"
@@ -5465,6 +5501,7 @@ exports[`Button renders snapshot of variant destructive and size large 1`] = `
 
 <button
   class="emotion-0"
+  type="button"
 >
   <span
     class="emotion-1"
@@ -5568,6 +5605,7 @@ exports[`Button renders snapshot of variant destructive and size medium 1`] = `
 
 <button
   class="emotion-0"
+  type="button"
 >
   <span
     class="emotion-1"
@@ -5671,6 +5709,7 @@ exports[`Button renders snapshot of variant destructive and size small 1`] = `
 
 <button
   class="emotion-0"
+  type="button"
 >
   <span
     class="emotion-1"
@@ -5774,6 +5813,7 @@ exports[`Button renders snapshot of variant plain and size large 1`] = `
 
 <button
   class="emotion-0"
+  type="button"
 >
   <span
     class="emotion-1"
@@ -5877,6 +5917,7 @@ exports[`Button renders snapshot of variant plain and size medium 1`] = `
 
 <button
   class="emotion-0"
+  type="button"
 >
   <span
     class="emotion-1"
@@ -5980,6 +6021,7 @@ exports[`Button renders snapshot of variant plain and size small 1`] = `
 
 <button
   class="emotion-0"
+  type="button"
 >
   <span
     class="emotion-1"
@@ -6083,6 +6125,7 @@ exports[`Button renders snapshot of variant primary and size large 1`] = `
 
 <button
   class="emotion-0"
+  type="button"
 >
   <span
     class="emotion-1"
@@ -6186,6 +6229,7 @@ exports[`Button renders snapshot of variant primary and size medium 1`] = `
 
 <button
   class="emotion-0"
+  type="button"
 >
   <span
     class="emotion-1"
@@ -6289,6 +6333,7 @@ exports[`Button renders snapshot of variant primary and size small 1`] = `
 
 <button
   class="emotion-0"
+  type="button"
 >
   <span
     class="emotion-1"
@@ -6392,6 +6437,7 @@ exports[`Button renders snapshot of variant secondary and size large 1`] = `
 
 <button
   class="emotion-0"
+  type="button"
 >
   <span
     class="emotion-1"
@@ -6495,6 +6541,7 @@ exports[`Button renders snapshot of variant secondary and size medium 1`] = `
 
 <button
   class="emotion-0"
+  type="button"
 >
   <span
     class="emotion-1"
@@ -6598,6 +6645,7 @@ exports[`Button renders snapshot of variant secondary and size small 1`] = `
 
 <button
   class="emotion-0"
+  type="button"
 >
   <span
     class="emotion-1"
@@ -6701,6 +6749,7 @@ exports[`Button renders snapshot of variant upgrade and size large 1`] = `
 
 <button
   class="emotion-0"
+  type="button"
 >
   <span
     class="emotion-1"
@@ -6804,6 +6853,7 @@ exports[`Button renders snapshot of variant upgrade and size medium 1`] = `
 
 <button
   class="emotion-0"
+  type="button"
 >
   <span
     class="emotion-1"
@@ -6907,6 +6957,7 @@ exports[`Button renders snapshot of variant upgrade and size small 1`] = `
 
 <button
   class="emotion-0"
+  type="button"
 >
   <span
     class="emotion-1"

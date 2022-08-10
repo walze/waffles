@@ -25,7 +25,7 @@ function MenuTriggerInternal(
   const { isOpen } = useMenu();
 
   return (
-    <button {...restProps} ref={ref} data-testid="menu-trigger">
+    <button type="button" {...restProps} ref={ref} data-testid="menu-trigger">
       {isOpen ? 'Close' : 'Open'} Menu
     </button>
   );

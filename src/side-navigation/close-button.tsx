@@ -8,6 +8,7 @@ function CloseButton() {
 
   return (
     <button
+      type="button"
       aria-label="Close"
       onClick={onClose}
       css={closeButtonStyle({ isVisible: isOpen })}

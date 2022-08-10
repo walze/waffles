@@ -318,6 +318,7 @@ exports[`AlertDialogTest renders snapshot 1`] = `
   <button
     aria-label="Close"
     class="emotion-1"
+    type="button"
   >
     CrossIcon
   </button>
@@ -338,6 +339,7 @@ exports[`AlertDialogTest renders snapshot 1`] = `
     <button
       class="emotion-5"
       data-autofocus="true"
+      type="button"
     >
       <span
         class="emotion-6"

@@ -464,6 +464,7 @@ exports[`Drawer renders snapshot when drawer is placed to the left 1`] = `
   <button
     aria-label="Close"
     class="emotion-1"
+    type="button"
   >
     CrossIcon
   </button>
@@ -483,6 +484,7 @@ exports[`Drawer renders snapshot when drawer is placed to the left 1`] = `
   >
     <button
       class="emotion-5"
+      type="button"
     >
       <span
         class="emotion-6"
@@ -493,6 +495,7 @@ exports[`Drawer renders snapshot when drawer is placed to the left 1`] = `
     <button
       class="emotion-7"
       data-autofocus="true"
+      type="button"
     >
       <span
         class="emotion-6"
@@ -968,6 +971,7 @@ exports[`Drawer renders snapshot when drawer is placed to the right 1`] = `
   <button
     aria-label="Close"
     class="emotion-1"
+    type="button"
   >
     CrossIcon
   </button>
@@ -987,6 +991,7 @@ exports[`Drawer renders snapshot when drawer is placed to the right 1`] = `
   >
     <button
       class="emotion-5"
+      type="button"
     >
       <span
         class="emotion-6"
@@ -997,6 +1002,7 @@ exports[`Drawer renders snapshot when drawer is placed to the right 1`] = `
     <button
       class="emotion-7"
       data-autofocus="true"
+      type="button"
     >
       <span
         class="emotion-6"

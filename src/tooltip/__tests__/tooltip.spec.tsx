@@ -20,7 +20,9 @@ function TestRefTooltip() {
 
   return (
     <Tooltip content="Follow Taylor Swift">
-      <button ref={buttonRef}>Tooltip Trigger</button>
+      <button type="button" ref={buttonRef}>
+        Tooltip Trigger
+      </button>
     </Tooltip>
   );
 }
@@ -29,7 +31,7 @@ describe('Tooltip', () => {
   it('renders a tooltip after trigger got focused', async () => {
     const { getByRole, getByText } = render(
       <Tooltip content="Follow Taylor Swift">
-        <button>Show Swift Tooltip</button>
+        <button type="button">Show Swift Tooltip</button>
       </Tooltip>,
     );
 
@@ -48,7 +50,7 @@ describe('Tooltip', () => {
   it('renders a tooltip after mouse hovered over trigger', async () => {
     const { getByText } = render(
       <Tooltip content="Follow Taylor Swift">
-        <button>Show Swift Tooltip</button>
+        <button type="button">Show Swift Tooltip</button>
       </Tooltip>,
     );
 
@@ -66,7 +68,7 @@ describe('Tooltip', () => {
   it('trigger and tooltip are associated by the same ID', async () => {
     const { getByText } = render(
       <Tooltip content="Follow Taylor Swift">
-        <button>Show Swift Tooltip</button>
+        <button type="button">Show Swift Tooltip</button>
       </Tooltip>,
     );
 
@@ -86,7 +88,9 @@ describe('Tooltip', () => {
     const handleClick = jest.fn();
     const { getByText } = render(
       <Tooltip content="Follow Taylor Swift">
-        <button onClick={handleClick}>Show Swift Tooltip</button>
+        <button type="button" onClick={handleClick}>
+          Show Swift Tooltip
+        </button>
       </Tooltip>,
     );
 
@@ -99,7 +103,7 @@ describe('Tooltip', () => {
   it('sets the data attribute on the tooltip', async () => {
     const { getByText, getByTestId } = render(
       <Tooltip content="Follow Taylor Swift" data-testid="test-tooltip">
-        <button>Show Swift Tooltip</button>
+        <button type="button">Show Swift Tooltip</button>
       </Tooltip>,
     );
 
@@ -118,7 +122,9 @@ describe('Tooltip', () => {
     const handleFocus = jest.fn();
     const { getByText } = render(
       <Tooltip content="Follow Taylor Swift">
-        <button onFocus={handleFocus}>Show Swift Tooltip</button>
+        <button type="button" onFocus={handleFocus}>
+          Show Swift Tooltip
+        </button>
       </Tooltip>,
     );
 
@@ -144,7 +150,7 @@ describe('Tooltip', () => {
   it('renders snapshot', async () => {
     const { getByRole, getByText } = render(
       <Tooltip content="Tooltip">
-        <button>Test</button>
+        <button type="button">Test</button>
       </Tooltip>,
     );
 
@@ -161,7 +167,7 @@ describe('Tooltip', () => {
   it('renders snapshot of inverted variant', async () => {
     const { getByRole, getByText } = render(
       <Tooltip content="Tooltip" inverted>
-        <button>Test</button>
+        <button type="button">Test</button>
       </Tooltip>,
     );
 
