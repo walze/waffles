@@ -119,10 +119,11 @@ export function avatarStyle({
     color: ${variantMap[variant].color};
     border-radius: ${sizeMap[size].sizing};
     font-size: ${sizeMap[size].fontSize};
+    font-family: ${tokens.fontFamilies.sansSerif};
     line-height: ${sizeMap[size].sizing};
     width: ${sizeMap[size].sizing};
     height: ${sizeMap[size].sizing};
-    font-family: ${tokens.fontFamilies.sansSerif};
+    flex-shrink: 0;
     overflow: hidden;
   `;
 }

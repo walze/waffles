@@ -6,10 +6,13 @@ exports[`Avatar renders snapshot of variant blue and size huge 1`] = `
   color: #05192D;
   border-radius: 160px;
   font-size: 116px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 160px;
   width: 160px;
   height: 160px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -88,10 +91,13 @@ exports[`Avatar renders snapshot of variant blue and size large 1`] = `
   color: #05192D;
   border-radius: 64px;
   font-size: 36px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 64px;
   width: 64px;
   height: 64px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -170,10 +176,13 @@ exports[`Avatar renders snapshot of variant blue and size medium 1`] = `
   color: #05192D;
   border-radius: 40px;
   font-size: 20px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 40px;
   width: 40px;
   height: 40px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -252,10 +261,13 @@ exports[`Avatar renders snapshot of variant blue and size small 1`] = `
   color: #05192D;
   border-radius: 32px;
   font-size: 16px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 32px;
   width: 32px;
   height: 32px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -334,10 +346,13 @@ exports[`Avatar renders snapshot of variant blue and size xlarge 1`] = `
   color: #05192D;
   border-radius: 96px;
   font-size: 64px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 96px;
   width: 96px;
   height: 96px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -416,10 +431,13 @@ exports[`Avatar renders snapshot of variant blue and size xsmall 1`] = `
   color: #05192D;
   border-radius: 24px;
   font-size: 12px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 24px;
   width: 24px;
   height: 24px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -498,10 +516,13 @@ exports[`Avatar renders snapshot of variant blue and size xxlarge 1`] = `
   color: #05192D;
   border-radius: 128px;
   font-size: 96px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 128px;
   width: 128px;
   height: 128px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -580,10 +601,13 @@ exports[`Avatar renders snapshot of variant blue and size xxsmall 1`] = `
   color: #05192D;
   border-radius: 16px;
   font-size: 8px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 16px;
   width: 16px;
   height: 16px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -662,10 +686,13 @@ exports[`Avatar renders snapshot of variant green and size huge 1`] = `
   color: #05192D;
   border-radius: 160px;
   font-size: 116px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 160px;
   width: 160px;
   height: 160px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -744,10 +771,13 @@ exports[`Avatar renders snapshot of variant green and size large 1`] = `
   color: #05192D;
   border-radius: 64px;
   font-size: 36px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 64px;
   width: 64px;
   height: 64px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -826,10 +856,13 @@ exports[`Avatar renders snapshot of variant green and size medium 1`] = `
   color: #05192D;
   border-radius: 40px;
   font-size: 20px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 40px;
   width: 40px;
   height: 40px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -908,10 +941,13 @@ exports[`Avatar renders snapshot of variant green and size small 1`] = `
   color: #05192D;
   border-radius: 32px;
   font-size: 16px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 32px;
   width: 32px;
   height: 32px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -990,10 +1026,13 @@ exports[`Avatar renders snapshot of variant green and size xlarge 1`] = `
   color: #05192D;
   border-radius: 96px;
   font-size: 64px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 96px;
   width: 96px;
   height: 96px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -1072,10 +1111,13 @@ exports[`Avatar renders snapshot of variant green and size xsmall 1`] = `
   color: #05192D;
   border-radius: 24px;
   font-size: 12px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 24px;
   width: 24px;
   height: 24px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -1154,10 +1196,13 @@ exports[`Avatar renders snapshot of variant green and size xxlarge 1`] = `
   color: #05192D;
   border-radius: 128px;
   font-size: 96px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 128px;
   width: 128px;
   height: 128px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -1236,10 +1281,13 @@ exports[`Avatar renders snapshot of variant green and size xxsmall 1`] = `
   color: #05192D;
   border-radius: 16px;
   font-size: 8px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 16px;
   width: 16px;
   height: 16px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -1318,10 +1366,13 @@ exports[`Avatar renders snapshot of variant grey and size huge 1`] = `
   color: #05192D;
   border-radius: 160px;
   font-size: 116px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 160px;
   width: 160px;
   height: 160px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -1400,10 +1451,13 @@ exports[`Avatar renders snapshot of variant grey and size large 1`] = `
   color: #05192D;
   border-radius: 64px;
   font-size: 36px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 64px;
   width: 64px;
   height: 64px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -1482,10 +1536,13 @@ exports[`Avatar renders snapshot of variant grey and size medium 1`] = `
   color: #05192D;
   border-radius: 40px;
   font-size: 20px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 40px;
   width: 40px;
   height: 40px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -1564,10 +1621,13 @@ exports[`Avatar renders snapshot of variant grey and size small 1`] = `
   color: #05192D;
   border-radius: 32px;
   font-size: 16px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 32px;
   width: 32px;
   height: 32px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -1646,10 +1706,13 @@ exports[`Avatar renders snapshot of variant grey and size xlarge 1`] = `
   color: #05192D;
   border-radius: 96px;
   font-size: 64px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 96px;
   width: 96px;
   height: 96px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -1728,10 +1791,13 @@ exports[`Avatar renders snapshot of variant grey and size xsmall 1`] = `
   color: #05192D;
   border-radius: 24px;
   font-size: 12px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 24px;
   width: 24px;
   height: 24px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -1810,10 +1876,13 @@ exports[`Avatar renders snapshot of variant grey and size xxlarge 1`] = `
   color: #05192D;
   border-radius: 128px;
   font-size: 96px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 128px;
   width: 128px;
   height: 128px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -1892,10 +1961,13 @@ exports[`Avatar renders snapshot of variant grey and size xxsmall 1`] = `
   color: #05192D;
   border-radius: 16px;
   font-size: 8px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 16px;
   width: 16px;
   height: 16px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -1974,10 +2046,13 @@ exports[`Avatar renders snapshot of variant greySubtle and size huge 1`] = `
   color: #626D79;
   border-radius: 160px;
   font-size: 116px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 160px;
   width: 160px;
   height: 160px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -2056,10 +2131,13 @@ exports[`Avatar renders snapshot of variant greySubtle and size large 1`] = `
   color: #626D79;
   border-radius: 64px;
   font-size: 36px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 64px;
   width: 64px;
   height: 64px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -2138,10 +2216,13 @@ exports[`Avatar renders snapshot of variant greySubtle and size medium 1`] = `
   color: #626D79;
   border-radius: 40px;
   font-size: 20px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 40px;
   width: 40px;
   height: 40px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -2220,10 +2301,13 @@ exports[`Avatar renders snapshot of variant greySubtle and size small 1`] = `
   color: #626D79;
   border-radius: 32px;
   font-size: 16px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 32px;
   width: 32px;
   height: 32px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -2302,10 +2386,13 @@ exports[`Avatar renders snapshot of variant greySubtle and size xlarge 1`] = `
   color: #626D79;
   border-radius: 96px;
   font-size: 64px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 96px;
   width: 96px;
   height: 96px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -2384,10 +2471,13 @@ exports[`Avatar renders snapshot of variant greySubtle and size xsmall 1`] = `
   color: #626D79;
   border-radius: 24px;
   font-size: 12px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 24px;
   width: 24px;
   height: 24px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -2466,10 +2556,13 @@ exports[`Avatar renders snapshot of variant greySubtle and size xxlarge 1`] = `
   color: #626D79;
   border-radius: 128px;
   font-size: 96px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 128px;
   width: 128px;
   height: 128px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -2548,10 +2641,13 @@ exports[`Avatar renders snapshot of variant greySubtle and size xxsmall 1`] = `
   color: #626D79;
   border-radius: 16px;
   font-size: 8px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 16px;
   width: 16px;
   height: 16px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -2630,10 +2726,13 @@ exports[`Avatar renders snapshot of variant navy and size huge 1`] = `
   color: #FFFFFF;
   border-radius: 160px;
   font-size: 116px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 160px;
   width: 160px;
   height: 160px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -2712,10 +2811,13 @@ exports[`Avatar renders snapshot of variant navy and size large 1`] = `
   color: #FFFFFF;
   border-radius: 64px;
   font-size: 36px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 64px;
   width: 64px;
   height: 64px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -2794,10 +2896,13 @@ exports[`Avatar renders snapshot of variant navy and size medium 1`] = `
   color: #FFFFFF;
   border-radius: 40px;
   font-size: 20px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 40px;
   width: 40px;
   height: 40px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -2876,10 +2981,13 @@ exports[`Avatar renders snapshot of variant navy and size small 1`] = `
   color: #FFFFFF;
   border-radius: 32px;
   font-size: 16px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 32px;
   width: 32px;
   height: 32px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -2958,10 +3066,13 @@ exports[`Avatar renders snapshot of variant navy and size xlarge 1`] = `
   color: #FFFFFF;
   border-radius: 96px;
   font-size: 64px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 96px;
   width: 96px;
   height: 96px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -3040,10 +3151,13 @@ exports[`Avatar renders snapshot of variant navy and size xsmall 1`] = `
   color: #FFFFFF;
   border-radius: 24px;
   font-size: 12px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 24px;
   width: 24px;
   height: 24px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -3122,10 +3236,13 @@ exports[`Avatar renders snapshot of variant navy and size xxlarge 1`] = `
   color: #FFFFFF;
   border-radius: 128px;
   font-size: 96px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 128px;
   width: 128px;
   height: 128px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -3204,10 +3321,13 @@ exports[`Avatar renders snapshot of variant navy and size xxsmall 1`] = `
   color: #FFFFFF;
   border-radius: 16px;
   font-size: 8px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 16px;
   width: 16px;
   height: 16px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -3286,10 +3406,13 @@ exports[`Avatar renders snapshot of variant orange and size huge 1`] = `
   color: #05192D;
   border-radius: 160px;
   font-size: 116px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 160px;
   width: 160px;
   height: 160px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -3368,10 +3491,13 @@ exports[`Avatar renders snapshot of variant orange and size large 1`] = `
   color: #05192D;
   border-radius: 64px;
   font-size: 36px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 64px;
   width: 64px;
   height: 64px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -3450,10 +3576,13 @@ exports[`Avatar renders snapshot of variant orange and size medium 1`] = `
   color: #05192D;
   border-radius: 40px;
   font-size: 20px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 40px;
   width: 40px;
   height: 40px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -3532,10 +3661,13 @@ exports[`Avatar renders snapshot of variant orange and size small 1`] = `
   color: #05192D;
   border-radius: 32px;
   font-size: 16px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 32px;
   width: 32px;
   height: 32px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -3614,10 +3746,13 @@ exports[`Avatar renders snapshot of variant orange and size xlarge 1`] = `
   color: #05192D;
   border-radius: 96px;
   font-size: 64px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 96px;
   width: 96px;
   height: 96px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -3696,10 +3831,13 @@ exports[`Avatar renders snapshot of variant orange and size xsmall 1`] = `
   color: #05192D;
   border-radius: 24px;
   font-size: 12px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 24px;
   width: 24px;
   height: 24px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -3778,10 +3916,13 @@ exports[`Avatar renders snapshot of variant orange and size xxlarge 1`] = `
   color: #05192D;
   border-radius: 128px;
   font-size: 96px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 128px;
   width: 128px;
   height: 128px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -3860,10 +4001,13 @@ exports[`Avatar renders snapshot of variant orange and size xxsmall 1`] = `
   color: #05192D;
   border-radius: 16px;
   font-size: 8px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 16px;
   width: 16px;
   height: 16px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -3942,10 +4086,13 @@ exports[`Avatar renders snapshot of variant pink and size huge 1`] = `
   color: #05192D;
   border-radius: 160px;
   font-size: 116px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 160px;
   width: 160px;
   height: 160px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -4024,10 +4171,13 @@ exports[`Avatar renders snapshot of variant pink and size large 1`] = `
   color: #05192D;
   border-radius: 64px;
   font-size: 36px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 64px;
   width: 64px;
   height: 64px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -4106,10 +4256,13 @@ exports[`Avatar renders snapshot of variant pink and size medium 1`] = `
   color: #05192D;
   border-radius: 40px;
   font-size: 20px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 40px;
   width: 40px;
   height: 40px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -4188,10 +4341,13 @@ exports[`Avatar renders snapshot of variant pink and size small 1`] = `
   color: #05192D;
   border-radius: 32px;
   font-size: 16px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 32px;
   width: 32px;
   height: 32px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -4270,10 +4426,13 @@ exports[`Avatar renders snapshot of variant pink and size xlarge 1`] = `
   color: #05192D;
   border-radius: 96px;
   font-size: 64px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 96px;
   width: 96px;
   height: 96px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -4352,10 +4511,13 @@ exports[`Avatar renders snapshot of variant pink and size xsmall 1`] = `
   color: #05192D;
   border-radius: 24px;
   font-size: 12px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 24px;
   width: 24px;
   height: 24px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -4434,10 +4596,13 @@ exports[`Avatar renders snapshot of variant pink and size xxlarge 1`] = `
   color: #05192D;
   border-radius: 128px;
   font-size: 96px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 128px;
   width: 128px;
   height: 128px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -4516,10 +4681,13 @@ exports[`Avatar renders snapshot of variant pink and size xxsmall 1`] = `
   color: #05192D;
   border-radius: 16px;
   font-size: 8px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 16px;
   width: 16px;
   height: 16px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -4598,10 +4766,13 @@ exports[`Avatar renders snapshot of variant purple and size huge 1`] = `
   color: #FFFFFF;
   border-radius: 160px;
   font-size: 116px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 160px;
   width: 160px;
   height: 160px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -4680,10 +4851,13 @@ exports[`Avatar renders snapshot of variant purple and size large 1`] = `
   color: #FFFFFF;
   border-radius: 64px;
   font-size: 36px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 64px;
   width: 64px;
   height: 64px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -4762,10 +4936,13 @@ exports[`Avatar renders snapshot of variant purple and size medium 1`] = `
   color: #FFFFFF;
   border-radius: 40px;
   font-size: 20px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 40px;
   width: 40px;
   height: 40px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -4844,10 +5021,13 @@ exports[`Avatar renders snapshot of variant purple and size small 1`] = `
   color: #FFFFFF;
   border-radius: 32px;
   font-size: 16px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 32px;
   width: 32px;
   height: 32px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -4926,10 +5106,13 @@ exports[`Avatar renders snapshot of variant purple and size xlarge 1`] = `
   color: #FFFFFF;
   border-radius: 96px;
   font-size: 64px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 96px;
   width: 96px;
   height: 96px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -5008,10 +5191,13 @@ exports[`Avatar renders snapshot of variant purple and size xsmall 1`] = `
   color: #FFFFFF;
   border-radius: 24px;
   font-size: 12px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 24px;
   width: 24px;
   height: 24px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -5090,10 +5276,13 @@ exports[`Avatar renders snapshot of variant purple and size xxlarge 1`] = `
   color: #FFFFFF;
   border-radius: 128px;
   font-size: 96px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 128px;
   width: 128px;
   height: 128px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -5172,10 +5361,13 @@ exports[`Avatar renders snapshot of variant purple and size xxsmall 1`] = `
   color: #FFFFFF;
   border-radius: 16px;
   font-size: 8px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 16px;
   width: 16px;
   height: 16px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -5254,10 +5446,13 @@ exports[`Avatar renders snapshot of variant red and size huge 1`] = `
   color: #05192D;
   border-radius: 160px;
   font-size: 116px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 160px;
   width: 160px;
   height: 160px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -5336,10 +5531,13 @@ exports[`Avatar renders snapshot of variant red and size large 1`] = `
   color: #05192D;
   border-radius: 64px;
   font-size: 36px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 64px;
   width: 64px;
   height: 64px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -5418,10 +5616,13 @@ exports[`Avatar renders snapshot of variant red and size medium 1`] = `
   color: #05192D;
   border-radius: 40px;
   font-size: 20px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 40px;
   width: 40px;
   height: 40px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -5500,10 +5701,13 @@ exports[`Avatar renders snapshot of variant red and size small 1`] = `
   color: #05192D;
   border-radius: 32px;
   font-size: 16px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 32px;
   width: 32px;
   height: 32px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -5582,10 +5786,13 @@ exports[`Avatar renders snapshot of variant red and size xlarge 1`] = `
   color: #05192D;
   border-radius: 96px;
   font-size: 64px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 96px;
   width: 96px;
   height: 96px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -5664,10 +5871,13 @@ exports[`Avatar renders snapshot of variant red and size xsmall 1`] = `
   color: #05192D;
   border-radius: 24px;
   font-size: 12px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 24px;
   width: 24px;
   height: 24px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -5746,10 +5956,13 @@ exports[`Avatar renders snapshot of variant red and size xxlarge 1`] = `
   color: #05192D;
   border-radius: 128px;
   font-size: 96px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 128px;
   width: 128px;
   height: 128px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -5828,10 +6041,13 @@ exports[`Avatar renders snapshot of variant red and size xxsmall 1`] = `
   color: #05192D;
   border-radius: 16px;
   font-size: 8px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 16px;
   width: 16px;
   height: 16px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -5910,10 +6126,13 @@ exports[`Avatar renders snapshot of variant white and size huge 1`] = `
   color: #05192D;
   border-radius: 160px;
   font-size: 116px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 160px;
   width: 160px;
   height: 160px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -5992,10 +6211,13 @@ exports[`Avatar renders snapshot of variant white and size large 1`] = `
   color: #05192D;
   border-radius: 64px;
   font-size: 36px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 64px;
   width: 64px;
   height: 64px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -6074,10 +6296,13 @@ exports[`Avatar renders snapshot of variant white and size medium 1`] = `
   color: #05192D;
   border-radius: 40px;
   font-size: 20px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 40px;
   width: 40px;
   height: 40px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -6156,10 +6381,13 @@ exports[`Avatar renders snapshot of variant white and size small 1`] = `
   color: #05192D;
   border-radius: 32px;
   font-size: 16px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 32px;
   width: 32px;
   height: 32px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -6238,10 +6466,13 @@ exports[`Avatar renders snapshot of variant white and size xlarge 1`] = `
   color: #05192D;
   border-radius: 96px;
   font-size: 64px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 96px;
   width: 96px;
   height: 96px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -6320,10 +6551,13 @@ exports[`Avatar renders snapshot of variant white and size xsmall 1`] = `
   color: #05192D;
   border-radius: 24px;
   font-size: 12px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 24px;
   width: 24px;
   height: 24px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -6402,10 +6636,13 @@ exports[`Avatar renders snapshot of variant white and size xxlarge 1`] = `
   color: #05192D;
   border-radius: 128px;
   font-size: 96px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 128px;
   width: 128px;
   height: 128px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -6484,10 +6721,13 @@ exports[`Avatar renders snapshot of variant white and size xxsmall 1`] = `
   color: #05192D;
   border-radius: 16px;
   font-size: 8px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 16px;
   width: 16px;
   height: 16px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -6566,10 +6806,13 @@ exports[`Avatar renders snapshot of variant yellow and size huge 1`] = `
   color: #05192D;
   border-radius: 160px;
   font-size: 116px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 160px;
   width: 160px;
   height: 160px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -6648,10 +6891,13 @@ exports[`Avatar renders snapshot of variant yellow and size large 1`] = `
   color: #05192D;
   border-radius: 64px;
   font-size: 36px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 64px;
   width: 64px;
   height: 64px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -6730,10 +6976,13 @@ exports[`Avatar renders snapshot of variant yellow and size medium 1`] = `
   color: #05192D;
   border-radius: 40px;
   font-size: 20px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 40px;
   width: 40px;
   height: 40px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -6812,10 +7061,13 @@ exports[`Avatar renders snapshot of variant yellow and size small 1`] = `
   color: #05192D;
   border-radius: 32px;
   font-size: 16px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 32px;
   width: 32px;
   height: 32px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -6894,10 +7146,13 @@ exports[`Avatar renders snapshot of variant yellow and size xlarge 1`] = `
   color: #05192D;
   border-radius: 96px;
   font-size: 64px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 96px;
   width: 96px;
   height: 96px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -6976,10 +7231,13 @@ exports[`Avatar renders snapshot of variant yellow and size xsmall 1`] = `
   color: #05192D;
   border-radius: 24px;
   font-size: 12px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 24px;
   width: 24px;
   height: 24px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -7058,10 +7316,13 @@ exports[`Avatar renders snapshot of variant yellow and size xxlarge 1`] = `
   color: #05192D;
   border-radius: 128px;
   font-size: 96px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 128px;
   width: 128px;
   height: 128px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
@@ -7140,10 +7401,13 @@ exports[`Avatar renders snapshot of variant yellow and size xxsmall 1`] = `
   color: #05192D;
   border-radius: 16px;
   font-size: 8px;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
   line-height: 16px;
   width: 16px;
   height: 16px;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   overflow: hidden;
 }
 
