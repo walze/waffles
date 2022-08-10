@@ -210,22 +210,27 @@ exports[`Progress renders snapshot of a progress with steps 1`] = `
           <rect
             class="emotion-3"
             rx="4"
+            width="20%"
           />
           <rect
             class="emotion-4"
             rx="4"
+            width="20%"
           />
           <rect
             class="emotion-5"
             rx="4"
+            width="20%"
           />
           <rect
             class="emotion-6"
             rx="4"
+            width="20%"
           />
           <rect
             class="emotion-7"
             rx="4"
+            width="20%"
           />
         </clippath>
       </defs>
