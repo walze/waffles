@@ -1,12 +1,12 @@
 const placement = [
+  'bottomLeft',
   'bottomRight',
   'bottom',
-  'bottomLeft',
+  'topLeft',
   'topRight',
   'top',
-  'topLeft',
-  'right',
   'left',
+  'right',
 ] as const;
 
 describe('Menu', () => {

@@ -7,28 +7,9 @@ import { Radio } from '../../radio';
 import { Code, Edit, Copy } from '../../icon';
 import { Button } from '../../button';
 
-type Placement = React.ComponentProps<typeof Menu>['placement'];
-
-type PlacementRadioProps = {
-  placement: Placement;
-};
-
 function Story() {
-  const [currentPlacement, setCurrentPlacement] =
-    useState<Placement>('bottomRight');
-
-  function PlacementRadio({ placement }: PlacementRadioProps) {
-    return (
-      <Radio
-        name="menuPlacement"
-        value={placement}
-        checked={placement === currentPlacement}
-        onChange={() => setCurrentPlacement(placement)}
-      >
-        {placement}
-      </Radio>
-    );
-  }
+  const [placement, setPlacement] =
+    useState<React.ComponentProps<typeof Menu>['placement']>('bottomLeft');
 
   return (
     <div
@@ -36,21 +17,77 @@ function Story() {
         padding: ${tokens.spacing.medium};
       `}
     >
-      <div
+      <form
         css={css`
           display: flex;
           gap: ${tokens.spacing.medium};
         `}
       >
-        <PlacementRadio placement="bottomRight" />
-        <PlacementRadio placement="bottom" />
-        <PlacementRadio placement="bottomLeft" />
-        <PlacementRadio placement="topRight" />
-        <PlacementRadio placement="top" />
-        <PlacementRadio placement="topLeft" />
-        <PlacementRadio placement="right" />
-        <PlacementRadio placement="left" />
-      </div>
+        <Radio
+          name="menuPlacement"
+          value="bottomLeft"
+          checked={placement === 'bottomLeft'}
+          onChange={() => setPlacement('bottomLeft')}
+        >
+          bottomLeft
+        </Radio>
+        <Radio
+          name="menuPlacement"
+          value="bottomRight"
+          checked={placement === 'bottomRight'}
+          onChange={() => setPlacement('bottomRight')}
+        >
+          bottomRight
+        </Radio>
+        <Radio
+          name="menuPlacement"
+          value="bottom"
+          checked={placement === 'bottom'}
+          onChange={() => setPlacement('bottom')}
+        >
+          bottom
+        </Radio>
+        <Radio
+          name="menuPlacement"
+          value="topLeft"
+          checked={placement === 'topLeft'}
+          onChange={() => setPlacement('topLeft')}
+        >
+          topLeft
+        </Radio>
+        <Radio
+          name="menuPlacement"
+          value="topLeft"
+          checked={placement === 'topRight'}
+          onChange={() => setPlacement('topRight')}
+        >
+          topRight
+        </Radio>
+        <Radio
+          name="menuPlacement"
+          value="top"
+          checked={placement === 'top'}
+          onChange={() => setPlacement('top')}
+        >
+          top
+        </Radio>
+        <Radio
+          name="menuPlacement"
+          value="left"
+          checked={placement === 'left'}
+          onChange={() => setPlacement('left')}
+        >
+          left
+        </Radio>
+        <Radio
+          name="menuPlacement"
+          value="right"
+          checked={placement === 'right'}
+          onChange={() => setPlacement('right')}
+        >
+          right
+        </Radio>
+      </form>
       <div
         css={css`
           margin-top: 200px;
@@ -59,7 +96,7 @@ function Story() {
       >
         <Menu
           trigger={<Button variant="secondary">Open Menu</Button>}
-          placement={currentPlacement}
+          placement={placement}
         >
           <Menu.Item label="Edit" iconLeft={<Code />} />
           <Menu.Item label="Rename" iconLeft={<Edit />} />

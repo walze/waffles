@@ -6,34 +6,15 @@ import { Menu } from '@datacamp/waffles/menu';
 import { mediaQuery } from '@datacamp/waffles/helpers';
 import { Button } from '@datacamp/waffles/button';
 
-type Placement = React.ComponentProps<typeof Menu>['placement'];
-
-type PlacementRadioProps = {
-  placement: Placement;
-};
-
 function Example() {
-  const [currentPlacement, setCurrentPlacement] =
-    useState<Placement>('bottomLeft');
-
-  function PlacementRadio({ placement }: PlacementRadioProps) {
-    return (
-      <Radio
-        name="menuPlacement"
-        value={placement}
-        checked={placement === currentPlacement}
-        onChange={() => setCurrentPlacement(placement)}
-      >
-        {placement}
-      </Radio>
-    );
-  }
+  const [placement, setPlacement] =
+    useState<React.ComponentProps<typeof Menu>['placement']>('bottomLeft');
 
   return (
     <>
       <Menu
         trigger={<Button variant="secondary">Edit</Button>}
-        placement={currentPlacement}
+        placement={placement}
       >
         <Menu.Category noDivider>
           <Menu.Item label="Cut" />
@@ -41,7 +22,7 @@ function Example() {
           <Menu.Item label="Rename" />
         </Menu.Category>
       </Menu>
-      <div
+      <form
         css={css`
           display: grid;
           grid-template-columns: repeat(2, 1fr);
@@ -53,15 +34,71 @@ function Example() {
           }
         `}
       >
-        <PlacementRadio placement="bottomLeft" />
-        <PlacementRadio placement="bottomRight" />
-        <PlacementRadio placement="bottom" />
-        <PlacementRadio placement="topLeft" />
-        <PlacementRadio placement="topRight" />
-        <PlacementRadio placement="top" />
-        <PlacementRadio placement="right" />
-        <PlacementRadio placement="left" />
-      </div>
+        <Radio
+          name="menuPlacement"
+          value="bottomLeft"
+          checked={placement === 'bottomLeft'}
+          onChange={() => setPlacement('bottomLeft')}
+        >
+          bottomLeft
+        </Radio>
+        <Radio
+          name="menuPlacement"
+          value="bottomRight"
+          checked={placement === 'bottomRight'}
+          onChange={() => setPlacement('bottomRight')}
+        >
+          bottomRight
+        </Radio>
+        <Radio
+          name="menuPlacement"
+          value="bottom"
+          checked={placement === 'bottom'}
+          onChange={() => setPlacement('bottom')}
+        >
+          bottom
+        </Radio>
+        <Radio
+          name="menuPlacement"
+          value="topLeft"
+          checked={placement === 'topLeft'}
+          onChange={() => setPlacement('topLeft')}
+        >
+          topLeft
+        </Radio>
+        <Radio
+          name="menuPlacement"
+          value="topLeft"
+          checked={placement === 'topRight'}
+          onChange={() => setPlacement('topRight')}
+        >
+          topRight
+        </Radio>
+        <Radio
+          name="menuPlacement"
+          value="top"
+          checked={placement === 'top'}
+          onChange={() => setPlacement('top')}
+        >
+          top
+        </Radio>
+        <Radio
+          name="menuPlacement"
+          value="left"
+          checked={placement === 'left'}
+          onChange={() => setPlacement('left')}
+        >
+          left
+        </Radio>
+        <Radio
+          name="menuPlacement"
+          value="right"
+          checked={placement === 'right'}
+          onChange={() => setPlacement('right')}
+        >
+          right
+        </Radio>
+      </form>
     </>
   );
 }
