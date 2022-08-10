@@ -9,7 +9,7 @@ import {
 import ProgressSteps from './steps';
 
 type ProgressProps = {
-  /* Optional identifier. Useful for when using your own `<label>`, for example. */
+  /* Optional identifier. Useful for when using your own `<label>`. */
   id?: string;
   /* The size of the progress. */
   size?: 'small' | 'medium';
@@ -17,7 +17,7 @@ type ProgressProps = {
   value?: number;
   /* The maximum value of the progress. Must be greater than `value`. The default is 100. */
   max?: number;
-  /* Whether the progress should be split into individual steps. If so, `max` and value` are treat as the total and current steps respectively. */
+  /* Whether the progress should be split into individual steps. If so, `max` and value` are treated as the total and current steps respectively. */
   showSteps?: boolean;
   /* Whether the progress is inverted in color or not. */
   inverted?: boolean;
