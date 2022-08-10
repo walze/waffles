@@ -41,7 +41,7 @@ export function stepClipWrapperStyle() {
     display: flex;
     flex-wrap: nowrap;
     width: 100%;
-    height: 1px;
+    height: 1px; // Height must be set to at least 1px for Safari to behave
   `;
 }
 

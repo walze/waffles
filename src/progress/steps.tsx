@@ -8,7 +8,7 @@ type ProgressProps = {
 };
 
 function ProgressSteps({ id, max, size }: ProgressProps) {
-  function getStepClipRect(index: number) {
+  function renderStepRect(index: number) {
     const width = `${100 / max}%`;
 
     return (
@@ -30,7 +30,7 @@ function ProgressSteps({ id, max, size }: ProgressProps) {
       <defs>
         <clipPath id={`${id}-clip`}>
           {Array.from({ length: max }, (_, index) => {
-            return getStepClipRect(index);
+            return renderStepRect(index);
           })}
         </clipPath>
       </defs>
