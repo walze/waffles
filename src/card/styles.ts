@@ -5,12 +5,19 @@ import { hexToRgba } from '../helpers';
 
 type CardStyleOptions = {
   isFocusVisible: boolean;
+  hasHeadstone: boolean;
   disableHover: boolean;
 };
 
-export function cardStyle({ isFocusVisible, disableHover }: CardStyleOptions) {
+export function cardStyle({
+  isFocusVisible,
+  hasHeadstone,
+  disableHover,
+}: CardStyleOptions) {
   return css`
+    position: relative;
     padding: ${tokens.spacing.medium};
+    ${hasHeadstone && `padding-top: 28px;`}
     background-color: ${tokens.colors.white};
     border: ${tokens.borderWidth.thin} solid
       ${hexToRgba(tokens.colors.navy, 0.15)};
@@ -30,5 +37,15 @@ export function cardStyle({ isFocusVisible, disableHover }: CardStyleOptions) {
         transform: translateY(-1px);
       }
     `}
+  `;
+}
+
+export function headstoneStyle() {
+  return css`
+    position: absolute;
+    z-index: ${tokens.zIndex.default};
+    top: -20px;
+    display: flex;
+    gap: ${tokens.spacing.small};
   `;
 }

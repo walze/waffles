@@ -2,21 +2,32 @@ import React from 'react';
 import { mergeProps } from '@react-aria/utils';
 import { useFocusRing } from '@react-aria/focus';
 
-import { cardStyle } from './styles';
+import { cardStyle, headstoneStyle } from './styles';
 
 type CardProps = {
   children: React.ReactNode;
+  headstone?: React.ReactNode;
   disableHover?: boolean;
 } & React.HTMLAttributes<HTMLDivElement>;
 
-function Card({ children, disableHover = false, ...restProps }: CardProps) {
+function Card({
+  children,
+  headstone,
+  disableHover = false,
+  ...restProps
+}: CardProps) {
   const { focusProps, isFocusVisible } = useFocusRing();
 
   return (
     <section
       {...mergeProps(focusProps, restProps)}
-      css={cardStyle({ isFocusVisible, disableHover })}
+      css={cardStyle({
+        isFocusVisible,
+        hasHeadstone: !!headstone,
+        disableHover,
+      })}
     >
+      {headstone && <div css={headstoneStyle()}>{headstone}</div>}
       {children}
     </section>
   );
