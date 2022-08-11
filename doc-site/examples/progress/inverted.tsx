@@ -11,8 +11,14 @@ function Example() {
         gap: ${tokens.spacing.small};
       `}
     >
-      <Progress value={40} max={100} inverted />
-      <Progress value={3} max={5} inverted showSteps />
+      <Progress value={40} max={100} inverted aria-label="Inverted progress" />
+      <Progress
+        value={3}
+        max={5}
+        inverted
+        mode="steps"
+        aria-label="Inverted progress in steps mode"
+      />
     </div>
   );
 }

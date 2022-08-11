@@ -11,8 +11,13 @@ function Example() {
         gap: ${tokens.spacing.small};
       `}
     >
-      <Progress size="small" value={60} max={100} />
-      <Progress size="medium" value={60} max={100} />
+      <Progress size="small" value={60} max={100} aria-label="Small progress" />
+      <Progress
+        size="medium"
+        value={60}
+        max={100}
+        aria-label="Medium progress"
+      />
     </div>
   );
 }

@@ -11,7 +11,7 @@ const wrapperStyle = css`
 function Story() {
   return (
     <div css={wrapperStyle}>
-      <Progress value={40} max={100} />
+      <Progress value={40} max={100} aria-label="Default progress" />
     </div>
   );
 }

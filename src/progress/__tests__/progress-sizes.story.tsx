@@ -18,13 +18,28 @@ function Story() {
     <>
       <div css={wrapperStyle}>
         {sizes.map((size) => {
-          return <Progress key={size} value={40} max={100} size={size} />;
+          return (
+            <Progress
+              key={size}
+              value={40}
+              max={100}
+              size={size}
+              aria-label={`Progress with size: ${size}`}
+            />
+          );
         })}
       </div>
       <div css={wrapperStyle}>
         {sizes.map((size) => {
           return (
-            <Progress key={size} value={3} max={5} size={size} showSteps />
+            <Progress
+              key={size}
+              value={3}
+              max={5}
+              size={size}
+              mode="steps"
+              aria-label={`Progress in steps mode with size: ${size}`}
+            />
           );
         })}
       </div>

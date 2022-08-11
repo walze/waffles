@@ -18,20 +18,32 @@ export const sizeMap = {
   },
 };
 
-export function wrapperStyle() {
+type WrapperStyleOptions = {
+  size: NonNullable<React.ComponentProps<typeof Progress>['size']>;
+  inverted: boolean;
+};
+
+export function wrapperStyle({ inverted, size }: WrapperStyleOptions) {
   return css`
     display: flex;
     align-items: center;
     gap: ${tokens.spacing.small};
+    color: ${inverted
+      ? tokens.colors.navySubtleTextOnDark
+      : tokens.colors.navySubtleTextOnLight};
+    font-family: ${tokens.fontFamilies.sansSerif};
+    font-size: ${sizeMap[size].fontSize};
+    line-height: ${tokens.lineHeights.tight};
     width: 100%;
   `;
 }
 
 export function progressWrapperStyle() {
   return css`
-    width: 100%;
     position: relative;
     display: inline-flex;
+    flex: 1;
+    width: 100%;
   `;
 }
 
@@ -107,21 +119,5 @@ export function progressStyle({
     &::-webkit-progress-value {
       ${progressIndicatorStyle}
     }
-  `;
-}
-
-type LabelStyleOptions = {
-  size: NonNullable<React.ComponentProps<typeof Progress>['size']>;
-  inverted: boolean;
-};
-
-export function labelStyle({ size, inverted }: LabelStyleOptions) {
-  return css`
-    color: ${inverted
-      ? tokens.colors.navySubtleTextOnDark
-      : tokens.colors.navySubtleTextOnLight};
-    font-family: ${tokens.fontFamilies.sansSerif};
-    font-size: ${sizeMap[size].fontSize};
-    line-height: ${tokens.lineHeights.tight};
   `;
 }

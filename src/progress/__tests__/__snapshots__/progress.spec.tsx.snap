@@ -11,16 +11,23 @@ exports[`Progress renders snapshot of a progress 1`] = `
   -ms-flex-align: center;
   align-items: center;
   gap: 8px;
+  color: #65707C;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  font-size: 12px;
+  line-height: 1;
   width: 100%;
 }
 
 .emotion-1 {
-  width: 100%;
   position: relative;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 100%;
 }
 
 .emotion-2 {
@@ -56,13 +63,6 @@ exports[`Progress renders snapshot of a progress 1`] = `
   transition: width 1s ease-in-out;
 }
 
-.emotion-3 {
-  color: #65707C;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-size: 12px;
-  line-height: 1;
-}
-
 <div
   class="emotion-0"
   data-testid="progress-wrapper"
@@ -71,6 +71,10 @@ exports[`Progress renders snapshot of a progress 1`] = `
     class="emotion-1"
   >
     <progress
+      aria-label="Default progress"
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="40"
       class="emotion-2"
       id="progress-123abC"
       max="100"
@@ -78,7 +82,6 @@ exports[`Progress renders snapshot of a progress 1`] = `
     />
   </div>
   <label
-    class="emotion-3"
     for="progress-123abC"
   >
     40%
@@ -86,7 +89,7 @@ exports[`Progress renders snapshot of a progress 1`] = `
 </div>
 `;
 
-exports[`Progress renders snapshot of a progress with steps 1`] = `
+exports[`Progress renders snapshot of a progress in steps mode 1`] = `
 .emotion-0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -97,16 +100,23 @@ exports[`Progress renders snapshot of a progress with steps 1`] = `
   -ms-flex-align: center;
   align-items: center;
   gap: 8px;
+  color: #65707C;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  font-size: 12px;
+  line-height: 1;
   width: 100%;
 }
 
 .emotion-1 {
-  width: 100%;
   position: relative;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 100%;
 }
 
 .emotion-2 {
@@ -187,10 +197,16 @@ exports[`Progress renders snapshot of a progress with steps 1`] = `
 }
 
 .emotion-9 {
-  color: #65707C;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-size: 12px;
-  line-height: 1;
+  position: absolute;
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  word-wrap: normal;
 }
 
 <div
@@ -236,6 +252,10 @@ exports[`Progress renders snapshot of a progress with steps 1`] = `
       </defs>
     </svg>
     <progress
+      aria-label="Progress in steps mode"
+      aria-valuemax="5"
+      aria-valuemin="0"
+      aria-valuenow="2"
       class="emotion-8"
       id="progress-123abC"
       max="5"
@@ -243,10 +263,18 @@ exports[`Progress renders snapshot of a progress with steps 1`] = `
     />
   </div>
   <label
-    class="emotion-9"
     for="progress-123abC"
   >
-    2/5
+    <span
+      aria-hidden="true"
+    >
+      2/5
+    </span>
+    <span
+      class="emotion-9"
+    >
+      2 out of 5 steps
+    </span>
   </label>
 </div>
 `;
@@ -262,16 +290,23 @@ exports[`Progress renders snapshot of an inverted progress 1`] = `
   -ms-flex-align: center;
   align-items: center;
   gap: 8px;
+  color: #9BA3AB;
+  font-family: Studio-Feixen-Sans,Arial,sans-serif;
+  font-size: 12px;
+  line-height: 1;
   width: 100%;
 }
 
 .emotion-1 {
-  width: 100%;
   position: relative;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 100%;
 }
 
 .emotion-2 {
@@ -307,13 +342,6 @@ exports[`Progress renders snapshot of an inverted progress 1`] = `
   transition: width 1s ease-in-out;
 }
 
-.emotion-3 {
-  color: #9BA3AB;
-  font-family: Studio-Feixen-Sans,Arial,sans-serif;
-  font-size: 12px;
-  line-height: 1;
-}
-
 <div
   class="emotion-0"
   data-testid="progress-wrapper"
@@ -322,6 +350,10 @@ exports[`Progress renders snapshot of an inverted progress 1`] = `
     class="emotion-1"
   >
     <progress
+      aria-label="Inverted progress"
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="40"
       class="emotion-2"
       id="progress-123abC"
       max="100"
@@ -329,7 +361,6 @@ exports[`Progress renders snapshot of an inverted progress 1`] = `
     />
   </div>
   <label
-    class="emotion-3"
     for="progress-123abC"
   >
     40%

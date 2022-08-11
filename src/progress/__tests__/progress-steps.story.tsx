@@ -11,7 +11,12 @@ const wrapperStyle = css`
 function Story() {
   return (
     <div css={wrapperStyle}>
-      <Progress value={3} max={5} showSteps />
+      <Progress
+        value={3}
+        max={5}
+        mode="steps"
+        aria-label="Progress in step mode"
+      />
     </div>
   );
 }

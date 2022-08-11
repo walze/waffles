@@ -1,13 +1,13 @@
 import { stepClipStyle, stepClipWrapperStyle, sizeMap } from './styles';
 import Progress from './progress';
 
-type ProgressProps = {
+type StepsProps = {
   id: string;
   max: number;
   size: NonNullable<React.ComponentProps<typeof Progress>['size']>;
 };
 
-function ProgressSteps({ id, max, size }: ProgressProps) {
+function Steps({ id, max, size }: StepsProps) {
   function renderStepRect(index: number) {
     const width = `${100 / max}%`;
 
@@ -38,4 +38,4 @@ function ProgressSteps({ id, max, size }: ProgressProps) {
   );
 }
 
-export default ProgressSteps;
+export default Steps;
