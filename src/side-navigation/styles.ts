@@ -93,7 +93,7 @@ export function animatedSidebarStyle({
     height: 100vh;
     background-color: ${tokens.colors.navy};
     border-right: ${tokens.borderWidth.thin} solid
-      ${hexToRgba(tokens.colors.white, 0.2)};
+      ${hexToRgba(tokens.colors.white, 0.15)};
     overflow: hidden;
   `;
 }
@@ -304,7 +304,7 @@ export function closeButtonStyle({ isVisible }: ButtonStyleOptions) {
     box-shadow: ${tokens.boxShadow.thick};
     background-color: ${tokens.colors.navy};
     border: ${tokens.borderWidth.thin} solid
-      ${hexToRgba(tokens.colors.white, 0.2)};
+      ${hexToRgba(tokens.colors.white, 0.15)};
     color: ${tokens.colors.white};
     cursor: pointer;
     // Animation
