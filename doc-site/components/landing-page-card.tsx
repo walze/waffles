@@ -1,14 +1,15 @@
 import React from 'react';
 import { css } from '@emotion/react';
 import { tokens } from '@datacamp/waffles/tokens';
-import { mediaQuery } from '@datacamp/waffles/helpers';
+import { mediaQuery, hexToRgba } from '@datacamp/waffles/helpers';
 
 const cardStyle = css`
   display: flex;
   flex-direction: column;
   width: 100%;
   background-color: ${tokens.colors.white};
-  border: ${tokens.borderWidth.thin} solid ${tokens.colors.beigeMedium};
+  border: ${tokens.borderWidth.thin} solid
+    ${hexToRgba(tokens.colors.navy, 0.15)};
   border-radius: ${tokens.borderRadius.medium};
   overflow: hidden;
 

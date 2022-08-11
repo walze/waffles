@@ -60,7 +60,7 @@ export function toastStyle() {
   return css`
     width: 100%;
     margin-top: ${tokens.spacing.medium};
-    box-shadow: ${tokens.boxShadow.thin}, ${tokens.boxShadow.thick};
+    box-shadow: ${tokens.boxShadow.thick};
     user-select: none;
     pointer-events: all;
 

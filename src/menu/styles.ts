@@ -13,8 +13,7 @@ const dropdownBaseStyle = css`
   outline: 0;
   list-style: none;
   border-radius: ${tokens.borderRadius.medium};
-  box-shadow: ${tokens.boxShadow.thin}, ${tokens.boxShadow.medium},
-    ${tokens.boxShadow.xthick};
+  box-shadow: ${tokens.boxShadow.xthick};
   width: 260px;
 `;
 
@@ -32,6 +31,8 @@ export function dropdownStyle({ x, y, inverted }: DropdownStyleOptions) {
     background-color: ${inverted
       ? tokens.colors.navyLight
       : tokens.colors.white};
+    border: ${tokens.borderWidth.thin} solid
+      ${hexToRgba(inverted ? tokens.colors.white : tokens.colors.navy, 0.15)};
   `;
 }
 
