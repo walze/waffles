@@ -1,36 +1,13 @@
-import React from 'react';
-import { mergeProps } from '@react-aria/utils';
-import { useFocusRing } from '@react-aria/focus';
+import React, { forwardRef } from 'react';
 
-import { cardStyle, headstoneStyle } from './styles';
+import CardInternal from './card-internal';
 
-type CardProps = {
-  children: React.ReactNode;
-  headstone?: React.ReactNode;
-  disableHover?: boolean;
-} & React.HTMLAttributes<HTMLDivElement>;
+import type { CardProps } from './card-internal';
 
-function Card({
-  children,
-  headstone,
-  disableHover = false,
-  ...restProps
-}: CardProps) {
-  const { focusProps, isFocusVisible } = useFocusRing();
+type CardComponent = <T extends React.ElementType = 'section'>(
+  props: CardProps<T>,
+) => JSX.Element | null;
 
-  return (
-    <section
-      {...mergeProps(focusProps, restProps)}
-      css={cardStyle({
-        isFocusVisible,
-        hasHeadstone: !!headstone,
-        disableHover,
-      })}
-    >
-      {headstone && <div css={headstoneStyle()}>{headstone}</div>}
-      {children}
-    </section>
-  );
-}
+const Card: CardComponent = forwardRef(CardInternal);
 
 export default Card;
