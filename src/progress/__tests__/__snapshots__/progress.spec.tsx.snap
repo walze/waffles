@@ -84,7 +84,11 @@ exports[`Progress renders snapshot of a progress 1`] = `
   <label
     for="progress-123abC"
   >
-    40%
+    <span
+      aria-hidden="true"
+    >
+      40%
+    </span>
   </label>
 </div>
 `;
@@ -196,19 +200,6 @@ exports[`Progress renders snapshot of a progress in steps mode 1`] = `
   transition: width 1s ease-in-out;
 }
 
-.emotion-9 {
-  position: absolute;
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  width: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  white-space: nowrap;
-  word-wrap: normal;
-}
-
 <div
   class="emotion-0"
   data-testid="progress-wrapper"
@@ -269,11 +260,6 @@ exports[`Progress renders snapshot of a progress in steps mode 1`] = `
       aria-hidden="true"
     >
       2/5
-    </span>
-    <span
-      class="emotion-9"
-    >
-      2 out of 5 steps
     </span>
   </label>
 </div>
@@ -363,7 +349,11 @@ exports[`Progress renders snapshot of an inverted progress 1`] = `
   <label
     for="progress-123abC"
   >
-    40%
+    <span
+      aria-hidden="true"
+    >
+      40%
+    </span>
   </label>
 </div>
 `;
