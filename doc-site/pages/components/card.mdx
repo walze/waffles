@@ -1,0 +1,55 @@
+import * as CardExports from '@datacamp/waffles/card';
+
+import Layout from '../../components/content-layout';
+import Example from '../../components/example';
+import Playground from '../../components/playground';
+import PropsTable from '../../components/props-table';
+import Imports from '../../components/imports';
+
+import playgroundConfig from '../../examples/card/playground-config';
+import BasicUsage from '../../examples/card/basic-usage';
+import WithHeadstone from '../../examples/card/with-headstone';
+import WithDisabledHover from '../../examples/card/with-disabled-hover';
+import AsALink from '../../examples/card/as-a-link';
+
+<Layout title="Card" description="🚧 This page is under construction">
+
+## Examples
+
+<Example title="Basic Usage" path="card/basic-usage">
+  <BasicUsage />
+</Example>
+
+<Example title="With Headstone" path="card/with-headstone">
+  <WithHeadstone />
+</Example>
+
+<Example title="With Disabled Hover" path="card/with-disabled-hover">
+  <WithDisabledHover />
+</Example>
+
+<Example title="As a Link" path="card/as-a-link">
+  <AsALink />
+</Example>
+
+## Playground
+
+<Playground {...playgroundConfig} />
+
+## Props
+
+### Card
+
+In addition to all custom props listed below, `Card` accepts all props regular `HTMLDiv` would, such as `data-` attributes.
+
+<PropsTable
+  metadata={require('!!extract-react-types-loader!../../../src/card/card-internal')}
+/>
+
+## Imports
+
+You can import following components or utilities from this module:
+
+<Imports module={CardExports} path="@datacamp/waffles/card" />
+
+</Layout>

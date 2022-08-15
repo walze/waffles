@@ -7,8 +7,11 @@ import { cardStyle, headstoneStyle } from './styles';
 import type { PolymorphicRef, PolymorphicComponentProps } from '../helpers';
 
 type CardBaseProps = {
+  /* The content of the card. */
   children: React.ReactNode;
+  /* Content to show sticking out the top of the card, e.g. can be used for technologies. Could be [Avatar](/components/avatar) from Waffles (use default `medium` size) or a custom component. */
   headstone?: React.ReactNode;
+  /* Disables mouse over visual indicator. */
   disableHover?: boolean;
 };
 
