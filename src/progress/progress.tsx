@@ -13,7 +13,7 @@ type ProgressProps = {
   max?: number;
   /* The mode in which the progress will display. In default `continuous` mode one single bar will be shown. In `steps` mode multiple segments will be rendered and `max` and `value` are treated as the total and current steps respectively. */
   mode?: 'continuous' | 'steps';
-  /* Custom label content to be shown instead of the original. Use `<label>` element as the parent. */
+  /* Custom label content to be shown instead of the original. */
   customLabel?: React.ReactNode | string;
   /* Whether the progress is inverted in color or not. */
   inverted?: boolean;
