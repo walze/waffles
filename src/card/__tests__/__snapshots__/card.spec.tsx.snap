@@ -2,6 +2,7 @@
 
 exports[`Card renders snapshot of content 1`] = `
 .emotion-0 {
+  display: block;
   position: relative;
   background-color: #FFFFFF;
   border: 1px solid rgba(5, 25, 45, 0.15);
@@ -43,6 +44,7 @@ exports[`Card renders snapshot of content 1`] = `
 
 exports[`Card renders snapshot of focused card 1`] = `
 .emotion-0 {
+  display: block;
   position: relative;
   background-color: #FFFFFF;
   border: 1px solid rgba(5, 25, 45, 0.15);
@@ -82,6 +84,7 @@ exports[`Card renders snapshot of focused card 1`] = `
 
 exports[`Card renders snapshot of headstones and content 1`] = `
 .emotion-0 {
+  display: block;
   position: relative;
   padding-top: 20px;
   margin-top: 20px;

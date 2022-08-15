@@ -15,6 +15,7 @@ export function cardStyle({
   disableHover,
 }: CardStyleOptions) {
   return css`
+    display: block;
     position: relative;
     ${hasHeadstone &&
     css`
