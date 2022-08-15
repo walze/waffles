@@ -16,8 +16,11 @@ export function cardStyle({
 }: CardStyleOptions) {
   return css`
     position: relative;
-    padding: ${tokens.spacing.medium};
-    ${hasHeadstone && `padding-top: 28px;`}
+    ${hasHeadstone &&
+    css`
+      padding-top: 20px;
+      margin-top: 20px;
+    `}
     background-color: ${tokens.colors.white};
     border: ${tokens.borderWidth.thin} solid
       ${hexToRgba(tokens.colors.navy, 0.15)};
@@ -51,6 +54,7 @@ export function headstoneStyle() {
     position: absolute;
     z-index: ${tokens.zIndex.default};
     top: -20px;
+    left: ${tokens.spacing.medium};
     display: flex;
     gap: ${tokens.spacing.small};
   `;

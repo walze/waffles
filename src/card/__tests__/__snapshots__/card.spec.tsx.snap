@@ -3,7 +3,6 @@
 exports[`Card renders snapshot of content 1`] = `
 .emotion-0 {
   position: relative;
-  padding: 16px;
   background-color: #FFFFFF;
   border: 1px solid rgba(5, 25, 45, 0.15);
   border-radius: 4px;
@@ -45,7 +44,6 @@ exports[`Card renders snapshot of content 1`] = `
 exports[`Card renders snapshot of focused card 1`] = `
 .emotion-0 {
   position: relative;
-  padding: 16px;
   background-color: #FFFFFF;
   border: 1px solid rgba(5, 25, 45, 0.15);
   border-radius: 4px;
@@ -85,8 +83,8 @@ exports[`Card renders snapshot of focused card 1`] = `
 exports[`Card renders snapshot of headstones and content 1`] = `
 .emotion-0 {
   position: relative;
-  padding: 16px;
-  padding-top: 28px;
+  padding-top: 20px;
+  margin-top: 20px;
   background-color: #FFFFFF;
   border: 1px solid rgba(5, 25, 45, 0.15);
   border-radius: 4px;
@@ -117,6 +115,7 @@ exports[`Card renders snapshot of headstones and content 1`] = `
   position: absolute;
   z-index: 1;
   top: -20px;
+  left: 16px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
