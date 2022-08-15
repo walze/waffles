@@ -142,17 +142,13 @@ function Example() {
           >
             <NavItem
               href="https://www.datacamp.com/"
-              iconLeft={<Book size="xsmall" />}
-              iconRight={<ExternalLink size="xsmall" />}
+              iconLeft={<Book />}
+              iconRight={<ExternalLink />}
               size="small"
             >
               Documentation
             </NavItem>
-            <NavItem
-              href="#feedback"
-              iconLeft={<Chat size="xsmall" />}
-              size="small"
-            >
+            <NavItem href="#feedback" iconLeft={<Chat />} size="small">
               Give Feedback
             </NavItem>
           </SideNav.Category>

@@ -68,14 +68,14 @@ function Story() {
           >
             <SideNavigation.Item
               size="small"
-              iconLeft={<Book size="xsmall" />}
+              iconLeft={<Book />}
               href="/documentation"
             >
               Documentation
             </SideNavigation.Item>
             <SideNavigation.Item
               size="small"
-              iconLeft={<Chat size="xsmall" />}
+              iconLeft={<Chat />}
               href="/give-feedback"
             >
               Give Feedback

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { cloneElement } from 'react';
 import { mergeProps } from '@react-aria/utils';
 import { useFocusRing } from '@react-aria/focus';
 
@@ -57,6 +57,16 @@ function Item<T extends React.ElementType = 'a'>(
     onClick?.(event);
   }
 
+  function renderIcon(originalIcon: JSX.Element) {
+    // Check if the icon has a provided custom size prop already
+    return originalIcon.props.size
+      ? originalIcon
+      : cloneElement(originalIcon, {
+          // Handle small buttons having xsmall sized icons by default.
+          size: size === 'small' ? 'xsmall' : size,
+        });
+  }
+
   return (
     <li>
       <Element
@@ -66,7 +76,7 @@ function Item<T extends React.ElementType = 'a'>(
         ref={ref}
         css={itemStyle({ isActive, isFocusVisible })}
       >
-        {!isSubcategoryItem && iconLeft}
+        {!isSubcategoryItem && iconLeft && renderIcon(iconLeft)}
         <Text
           css={itemInnerContentStyle({
             hasLeftIcon: !!iconLeft,
@@ -87,7 +97,7 @@ function Item<T extends React.ElementType = 'a'>(
             </Badge>
           )}
         </Text>
-        {iconRight}
+        {iconRight && renderIcon(iconRight)}
       </Element>
     </li>
   );
