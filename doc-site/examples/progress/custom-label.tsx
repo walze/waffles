@@ -7,7 +7,7 @@ function Example() {
     <Progress
       value={current}
       aria-label="Progress with custom label"
-      customLabel={<span>{`${current}% complete`}</span>}
+      customLabel={`${current}% complete`}
     />
   );
 }
