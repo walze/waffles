@@ -1,16 +1,13 @@
 import React from 'react';
 import { css } from '@emotion/react';
 import { tokens } from '@datacamp/waffles/tokens';
-import { mediaQuery, hexToRgba } from '@datacamp/waffles/helpers';
+import { mediaQuery } from '@datacamp/waffles/helpers';
+import { Card } from '@datacamp/waffles/card';
 
 const cardStyle = css`
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: ${tokens.colors.white};
-  border: ${tokens.borderWidth.thin} solid
-    ${hexToRgba(tokens.colors.navy, 0.15)};
-  border-radius: ${tokens.borderRadius.medium};
   overflow: hidden;
 
   ${mediaQuery.aboveSmall} {
@@ -50,12 +47,12 @@ type LandingPageCardProps = {
 
 function LandingPageCard({ imageUrl, children }: LandingPageCardProps) {
   return (
-    <section css={cardStyle}>
+    <Card disableHover css={cardStyle}>
       <div css={imageWrapperStyle}>
         <img src={imageUrl} css={imageStyle} />
       </div>
       <div css={contentStyle}>{children}</div>
-    </section>
+    </Card>
   );
 }
 

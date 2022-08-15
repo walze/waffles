@@ -83,10 +83,10 @@ function Example({
               : tokens.colors.white};
             border-color: ${darkPreview
               ? tokens.colors.navy
-              : tokens.colors.beigeMedium};
+              : hexToRgba(tokens.colors.navy, 0.15)};
             border-bottom-color: ${darkPreview
               ? hexToRgba(tokens.colors.white, tokens.opacity.low)
-              : hexToRgba(tokens.colors.beigeMedium, tokens.opacity.high)};
+              : hexToRgba(tokens.colors.navy, tokens.opacity.low)};
           `}
         >
           {children}

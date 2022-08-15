@@ -1,6 +1,7 @@
 import React from 'react';
 import { css } from '@emotion/react';
 import { tokens } from '@datacamp/waffles/tokens';
+import { hexToRgba } from '@datacamp/waffles/helpers';
 
 const wrapperStyle = css`
   margin-top: ${tokens.spacing.small};
@@ -36,14 +37,17 @@ const tableBodyCellStyle = css`
   font-weight: ${tokens.fontWeights.regular};
   line-height: ${tokens.lineHeights.relaxed};
   background-color: ${tokens.colors.white};
-  border-top: ${tokens.borderWidth.thin} solid ${tokens.colors.beigeMedium};
+  border-top: ${tokens.borderWidth.thin} solid
+    ${hexToRgba(tokens.colors.navy, 0.15)};
 
   &:first-of-type {
-    border-left: ${tokens.borderWidth.thin} solid ${tokens.colors.beigeMedium};
+    border-left: ${tokens.borderWidth.thin} solid
+      ${hexToRgba(tokens.colors.navy, 0.15)};
   }
 
   &:last-of-type {
-    border-right: ${tokens.borderWidth.thin} solid ${tokens.colors.beigeMedium};
+    border-right: ${tokens.borderWidth.thin} solid
+      ${hexToRgba(tokens.colors.navy, 0.15)};
   }
 
   tr:first-of-type &:first-of-type {
@@ -63,7 +67,8 @@ const tableBodyCellStyle = css`
   }
 
   tr:last-of-type & {
-    border-bottom: ${tokens.borderWidth.thin} solid ${tokens.colors.beigeMedium};
+    border-bottom: ${tokens.borderWidth.thin} solid
+      ${hexToRgba(tokens.colors.navy, 0.15)};
   }
 `;
 

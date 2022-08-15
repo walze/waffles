@@ -3,12 +3,10 @@ import { css } from '@emotion/react';
 import { tokens } from '@datacamp/waffles/tokens';
 import { Checkmark, Cross } from '@datacamp/waffles/icon';
 import { Heading } from '@datacamp/waffles/heading';
+import { Card } from '@datacamp/waffles/card';
 
 const sectionStyle = css`
-  background-color: ${tokens.colors.white};
   padding: ${tokens.spacing.medium};
-  border: ${tokens.borderWidth.thin} solid ${tokens.colors.beigeMedium};
-  border-radius: ${tokens.borderRadius.medium};
 `;
 
 const headingStyle = css`
@@ -35,7 +33,7 @@ function BestPracticesCard({ children, variant }: BestPracticesCardProps) {
   const isRecommended = variant === 'recommended';
 
   return (
-    <section css={sectionStyle}>
+    <Card disableHover css={sectionStyle}>
       <Heading size="large" css={headingStyle}>
         <span
           css={css`
@@ -50,7 +48,7 @@ function BestPracticesCard({ children, variant }: BestPracticesCardProps) {
         {isRecommended ? 'Do' : "Don't"}
       </Heading>
       {children}
-    </section>
+    </Card>
   );
 }
 
