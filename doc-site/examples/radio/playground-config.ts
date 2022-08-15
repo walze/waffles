@@ -15,6 +15,8 @@ function Playground() {
     setValue(event.target.value);
   }
 
+  // Using style, because emotion css prop doesn't work in Playground
+
   return (
     <form style={{
       display: 'flex',

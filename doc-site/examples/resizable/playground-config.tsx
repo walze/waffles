@@ -10,6 +10,8 @@ import { Resizable } from '@datacamp/waffles/resizable';
 import { Paragraph } from '@datacamp/waffles/paragraph';
 
 function Playground() {
+  // Using style, because emotion css prop doesn't work in Playground
+
   return (
     <div
       style={{

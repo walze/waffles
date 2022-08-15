@@ -15,6 +15,8 @@ function Playground() {
     setChecked(!checked);
   }
 
+  // Using style, because emotion css prop doesn't work in Playground
+
   return (
     <div style={{ width: '300px' }}>
       <Switch
