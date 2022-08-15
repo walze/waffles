@@ -14,7 +14,7 @@ type ProgressProps = {
   /* The mode in which the progress will display. In default `continuous` mode one single bar will be shown. In `steps` mode multiple segments will be rendered and `max` and `value` are treated as the total and current steps respectively. */
   mode?: 'continuous' | 'steps';
   /* Custom label content to be shown instead of the original. Use `<label>` element as the parent. */
-  customLabel?: JSX.Element;
+  customLabel?: React.ReactNode | string;
   /* Whether the progress is inverted in color or not. */
   inverted?: boolean;
   /* [skip docs] */
@@ -58,7 +58,14 @@ function Progress({
           css={progressStyle({ size, inverted, clipId: `${generatedId}-clip` })}
           max={max}
           value={value}
-          aria-label={ariaLabel}
+          aria-label={
+            isStepsMode
+              ? ariaLabel.concat(
+                  ' ',
+                  `${Math.floor(value)} out of ${max} steps`,
+                )
+              : ariaLabel
+          }
           aria-valuemin={0}
           aria-valuenow={value}
           aria-valuemax={max}

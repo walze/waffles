@@ -5,9 +5,7 @@ type ProgressProps = {
   isStepsMode: boolean;
   max: NonNullable<React.ComponentProps<typeof Progress>['max']>;
   value: NonNullable<React.ComponentProps<typeof Progress>['value']>;
-  customLabel?: NonNullable<
-    React.ComponentProps<typeof Progress>['customLabel']
-  >;
+  customLabel?: React.ReactNode | string;
 };
 
 function Label({ id, isStepsMode, max, value, customLabel }: ProgressProps) {
@@ -20,7 +18,7 @@ function Label({ id, isStepsMode, max, value, customLabel }: ProgressProps) {
       ) : (
         <span aria-hidden="true">
           {isStepsMode
-            ? `${roundedVal}/${max}`
+            ? `${roundedVal} / ${max}`
             : `${Math.floor((roundedVal / max) * 100)}%`}
         </span>
       )}
