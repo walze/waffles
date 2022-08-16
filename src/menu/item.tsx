@@ -31,8 +31,6 @@ type ItemBaseProps = {
   showNotificationDot?: boolean;
   /* Indicates that the item is currently active. */
   isActive?: boolean;
-  /* [skip docs] */
-  type?: 'button' | 'reset' | 'submit';
 };
 
 type ItemProps<T extends React.ElementType = 'button'> =
@@ -49,7 +47,7 @@ function Item<T extends React.ElementType = 'button'>({
   showNotificationDot = false,
   isActive = false,
   onClick,
-  type = 'button',
+  type,
   ...restProps
 }: ItemProps<T>) {
   const Element = as || 'button';
@@ -71,7 +69,7 @@ function Item<T extends React.ElementType = 'button'>({
         ...focusProps,
         ...restProps,
       })}
-      {...(Element === 'button' && { type: type })}
+      type={!type && Element === 'button' ? 'button' : type}
       ref={(node) => (listRef.current[index] = node)}
       role="menuitem"
       css={itemStyle({ variant, isFocusVisible, isActive, inverted })}

@@ -18,8 +18,6 @@ type ButtonBaseProps = {
   fullWidth?: boolean;
   /* Sets the style of the button suitable for dark backgrounds. */
   inverted?: boolean;
-  /* [skip docs] */
-  type?: 'button' | 'reset' | 'submit';
 };
 
 type ButtonIconOnlyProps = {
@@ -58,7 +56,7 @@ function ButtonInternal<T extends React.ElementType = 'button'>(
     iconLeft,
     iconRight,
     children,
-    type = 'button',
+    type,
     'aria-label': ariaLabel,
     ...restProps
   }: ButtonProps<T>,
@@ -83,7 +81,7 @@ function ButtonInternal<T extends React.ElementType = 'button'>(
       {...(isLoading && {
         disabled: true,
       })}
-      {...(Element === 'button' && { type: type })}
+      type={!type && Element === 'button' ? 'button' : type}
       aria-label={isLoading ? ariaLabel?.concat(' ', 'Loading') : ariaLabel}
       ref={ref}
       css={buttonStyle({

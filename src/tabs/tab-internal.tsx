@@ -17,8 +17,6 @@ type TabBaseProps = {
   isActive?: boolean;
   /* [skip docs] */
   inverted?: boolean;
-  /* [skip docs] */
-  type?: 'button' | 'reset' | 'submit';
 };
 
 export type TabProps<T extends React.ElementType = 'button'> =
@@ -31,7 +29,7 @@ function TabInternal<T extends React.ElementType = 'button'>(
     icon,
     isActive = false,
     inverted = false,
-    type = 'button',
+    type,
     ...restProps
   }: TabProps<T>,
   ref?: PolymorphicRef<T>,
@@ -43,7 +41,7 @@ function TabInternal<T extends React.ElementType = 'button'>(
   return (
     <Element
       {...mergeProps(focusProps, restProps)}
-      {...(Element === 'button' && { type: type })}
+      type={!type && Element === 'button' ? 'button' : type}
       ref={ref}
       role="tab"
       css={tabStyle({ isActive, isFocusVisible, inverted })}
