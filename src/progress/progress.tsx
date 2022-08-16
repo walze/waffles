@@ -24,15 +24,20 @@ type ProgressBaseProps = {
 } & React.HTMLAttributes<HTMLProgressElement>;
 
 type ProgressNoLabelProps = {
-  /* Whether to hide the default label or not. Not necessary if `customLabel` is provided. */
+  /* Whether to hide the default label or not. */
   hideLabel: boolean;
   'aria-label': string;
 } & ProgressBaseProps;
 
 type ProgressCustomLabelProps = {
-  customLabel?: JSX.Element;
+  customLabel?: React.ReactNode | string;
   'aria-label'?: string;
 } & ProgressBaseProps;
+
+type ProgressProps =
+  | ProgressBaseProps
+  | ProgressNoLabelProps
+  | ProgressCustomLabelProps;
 
 function Progress({
   size = 'medium',
@@ -44,7 +49,7 @@ function Progress({
   hideLabel,
   'aria-label': ariaLabel,
   ...restProps
-}: ProgressBaseProps | ProgressNoLabelProps | ProgressCustomLabelProps) {
+}: ProgressProps) {
   const generatedId = useId('progress');
   const isStepsMode = mode === 'steps';
 
