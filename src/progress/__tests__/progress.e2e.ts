@@ -18,4 +18,14 @@ describe('Progress', () => {
     cy.loadStory('progress-inverted');
     cy.findByTestId('progress-wrapper').should('exist');
   });
+
+  it('renders progress with no label', () => {
+    cy.loadStory('progress-no-label');
+    cy.findByTestId('progress-wrapper').should('exist');
+  });
+
+  it('renders progress with custom label', () => {
+    cy.loadStory('progress-custom-label');
+    cy.findByTestId('progress-wrapper').should('exist');
+  });
 });

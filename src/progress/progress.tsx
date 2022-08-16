@@ -4,7 +4,7 @@ import { progressStyle, wrapperStyle, progressWrapperStyle } from './styles';
 import Steps from './steps';
 import Label from './label';
 
-type ProgressProps = {
+type ProgressBaseProps = {
   /* The size of the progress. */
   size?: 'small' | 'medium';
   /* The current value of the progress, which can also be a decimal. This is in relation to the `max` property. */
@@ -19,21 +19,20 @@ type ProgressProps = {
   inverted?: boolean;
   /* [skip docs] */
   hideLabel?: boolean;
-  /* Should always be provided with context of the progress. E.g. "Course Progress". */
+  /* Should always be provided with context of the progress, e.g. "Course Progress". */
   'aria-label': string;
 } & React.HTMLAttributes<HTMLProgressElement>;
 
 type ProgressNoLabelProps = {
   /* Whether to hide the default label or not. Not necessary if `customLabel` is provided. */
   hideLabel: boolean;
-  customLabel: never;
   'aria-label': string;
-} & ProgressProps;
+} & ProgressBaseProps;
 
 type ProgressCustomLabelProps = {
   customLabel?: JSX.Element;
   'aria-label'?: string;
-} & ProgressProps;
+} & ProgressBaseProps;
 
 function Progress({
   size = 'medium',
@@ -45,7 +44,7 @@ function Progress({
   hideLabel,
   'aria-label': ariaLabel,
   ...restProps
-}: ProgressProps | ProgressCustomLabelProps | ProgressNoLabelProps) {
+}: ProgressBaseProps | ProgressNoLabelProps | ProgressCustomLabelProps) {
   const generatedId = useId('progress');
   const isStepsMode = mode === 'steps';
 

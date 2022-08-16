@@ -4,11 +4,9 @@ import { Progress } from '../index';
 
 const MOCKED_ID = '123abC';
 
-jest.mock('../../hooks', () => {
+jest.mock('nanoid', () => {
   return {
-    useId: (prefix: string) => {
-      return `${prefix}-${MOCKED_ID}`;
-    },
+    nanoid: () => MOCKED_ID,
   };
 });
 
@@ -16,8 +14,8 @@ describe('Progress', () => {
   it('renders svg alongside progress when in steps mode', () => {
     const { getByTestId } = render(
       <Progress
-        value={40}
-        max={100}
+        value={4}
+        max={5}
         mode="steps"
         aria-label="Progress in steps mode"
       />,
@@ -28,6 +26,24 @@ describe('Progress', () => {
 
     expect(svg).toBeInTheDocument();
     expect(progressEl).toBeInTheDocument();
+  });
+
+  it('renders label and progress with linked id', () => {
+    const { getByTestId } = render(
+      <Progress
+        value={40}
+        max={100}
+        aria-label="Progress and label with matching id"
+      />,
+    );
+    const wrapper = getByTestId('progress-wrapper');
+    const label = wrapper.querySelector('label');
+    const progressEl = wrapper.querySelector('progress');
+
+    expect(label).toBeInTheDocument();
+    expect(progressEl).toBeInTheDocument();
+
+    expect(progressEl?.id).toEqual(label?.htmlFor);
   });
 
   it('renders snapshot of a progress', () => {
@@ -61,6 +77,40 @@ describe('Progress', () => {
     );
     const progress = getByTestId('progress-wrapper');
 
+    expect(progress).toBeInTheDocument();
+    expect(progress).toMatchSnapshot();
+  });
+
+  it('renders snapshot of a progress with no label', () => {
+    const { getByTestId } = render(
+      <Progress
+        value={40}
+        max={100}
+        aria-label="Progress with no label"
+        hideLabel
+      />,
+    );
+    const progress = getByTestId('progress-wrapper');
+    const label = progress.querySelector('label');
+
+    expect(label).not.toBeInTheDocument();
+    expect(progress).toBeInTheDocument();
+    expect(progress).toMatchSnapshot();
+  });
+
+  it('renders snapshot of a progress with custom label', () => {
+    const { getByTestId, getByText } = render(
+      <Progress
+        value={40}
+        max={100}
+        aria-label="Progress with no label"
+        customLabel="Custom Label"
+      />,
+    );
+    const progress = getByTestId('progress-wrapper');
+    const label = getByText('Custom Label');
+
+    expect(label).toBeInTheDocument();
     expect(progress).toBeInTheDocument();
     expect(progress).toMatchSnapshot();
   });

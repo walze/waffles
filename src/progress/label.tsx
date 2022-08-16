@@ -1,6 +1,6 @@
 import Progress from './progress';
 
-type ProgressProps = {
+type LabelProps = {
   id: string;
   isStepsMode: boolean;
   max: NonNullable<React.ComponentProps<typeof Progress>['max']>;
@@ -8,7 +8,7 @@ type ProgressProps = {
   customLabel?: React.ReactNode | string;
 };
 
-function Label({ id, isStepsMode, max, value, customLabel }: ProgressProps) {
+function Label({ id, isStepsMode, max, value, customLabel }: LabelProps) {
   const roundedVal = Math.floor(value);
 
   return (
