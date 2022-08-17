@@ -52,6 +52,19 @@ describe('Card', () => {
     expect(card).toMatchSnapshot();
   });
 
+  it('renders snapshot of the card with hover disabled', () => {
+    const { container } = render(
+      <Card disableHover>
+        <h3>Taylor Swift</h3>
+        <p>Better than Jimmy Page.</p>
+      </Card>,
+    );
+
+    const card = container.querySelector('section');
+
+    expect(card).toMatchSnapshot();
+  });
+
   it('renders snapshot of headstones and content', () => {
     const { container } = render(
       <Card

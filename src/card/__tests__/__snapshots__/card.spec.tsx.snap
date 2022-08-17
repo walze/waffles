@@ -144,3 +144,37 @@ exports[`Card renders snapshot of headstones and content 1`] = `
   </p>
 </section>
 `;
+
+exports[`Card renders snapshot of the card with hover disabled 1`] = `
+.emotion-0 {
+  display: block;
+  position: relative;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(5, 25, 45, 0.15);
+  border-radius: 4px;
+  -webkit-transition: box-shadow 600ms cubic-bezier(0.1, 0.8, 0.2, 1),-webkit-transform 600ms cubic-bezier(0.1, 0.8, 0.2, 1);
+  transition: box-shadow 600ms cubic-bezier(0.1, 0.8, 0.2, 1),transform 600ms cubic-bezier(0.1, 0.8, 0.2, 1);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+}
+
+.emotion-0:where(a, button) {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+<section
+  class="emotion-0"
+>
+  <h3>
+    Taylor Swift
+  </h3>
+  <p>
+    Better than Jimmy Page.
+  </p>
+</section>
+`;
