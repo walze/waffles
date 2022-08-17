@@ -17,10 +17,10 @@ export function cardStyle({
   return css`
     display: block;
     position: relative;
+    padding: ${tokens.spacing.medium};
     ${hasHeadstone &&
     css`
-      padding-top: 20px;
-      margin-top: 20px;
+      padding-top: 28px;
     `}
     background-color: ${tokens.colors.white};
     border: ${tokens.borderWidth.thin} solid

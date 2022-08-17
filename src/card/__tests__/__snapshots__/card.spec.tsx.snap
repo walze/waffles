@@ -4,6 +4,7 @@ exports[`Card renders snapshot of content 1`] = `
 .emotion-0 {
   display: block;
   position: relative;
+  padding: 16px;
   background-color: #FFFFFF;
   border: 1px solid rgba(5, 25, 45, 0.15);
   border-radius: 4px;
@@ -46,6 +47,7 @@ exports[`Card renders snapshot of focused card 1`] = `
 .emotion-0 {
   display: block;
   position: relative;
+  padding: 16px;
   background-color: #FFFFFF;
   border: 1px solid rgba(5, 25, 45, 0.15);
   border-radius: 4px;
@@ -86,8 +88,8 @@ exports[`Card renders snapshot of headstones and content 1`] = `
 .emotion-0 {
   display: block;
   position: relative;
-  padding-top: 20px;
-  margin-top: 20px;
+  padding: 16px;
+  padding-top: 28px;
   background-color: #FFFFFF;
   border: 1px solid rgba(5, 25, 45, 0.15);
   border-radius: 4px;
@@ -149,6 +151,7 @@ exports[`Card renders snapshot of the card with hover disabled 1`] = `
 .emotion-0 {
   display: block;
   position: relative;
+  padding: 16px;
   background-color: #FFFFFF;
   border: 1px solid rgba(5, 25, 45, 0.15);
   border-radius: 4px;
