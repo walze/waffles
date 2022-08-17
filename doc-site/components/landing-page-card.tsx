@@ -9,6 +9,7 @@ const cardStyle = css`
   flex-direction: column;
   width: 100%;
   overflow: hidden;
+  padding: 0;
 
   ${mediaQuery.aboveSmall} {
     min-height: 180px;
@@ -47,7 +48,7 @@ type LandingPageCardProps = {
 
 function LandingPageCard({ imageUrl, children }: LandingPageCardProps) {
   return (
-    <Card disableHover css={cardStyle}>
+    <Card disableHoverEffect css={cardStyle}>
       <div css={imageWrapperStyle}>
         <img src={imageUrl} css={imageStyle} />
       </div>

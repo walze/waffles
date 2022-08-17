@@ -5,10 +5,6 @@ import { Checkmark, Cross } from '@datacamp/waffles/icon';
 import { Heading } from '@datacamp/waffles/heading';
 import { Card } from '@datacamp/waffles/card';
 
-const sectionStyle = css`
-  padding: ${tokens.spacing.medium};
-`;
-
 const headingStyle = css`
   display: flex;
   align-items: center;
@@ -33,7 +29,7 @@ function BestPracticesCard({ children, variant }: BestPracticesCardProps) {
   const isRecommended = variant === 'recommended';
 
   return (
-    <Card disableHover css={sectionStyle}>
+    <Card disableHoverEffect>
       <Heading size="large" css={headingStyle}>
         <span
           css={css`
