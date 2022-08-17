@@ -54,7 +54,7 @@ describe('Card', () => {
 
   it('renders snapshot of the card with hover disabled', () => {
     const { container } = render(
-      <Card disableHover>
+      <Card disableHoverEffect>
         <h3>Taylor Swift</h3>
         <p>Better than Jimmy Page.</p>
       </Card>,

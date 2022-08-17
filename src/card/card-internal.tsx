@@ -11,15 +11,21 @@ type CardBaseProps = {
   children: React.ReactNode;
   /* Content positioned along the top of the card. Could be [Avatar](/components/avatar) from Waffles (use default `medium` size) or a custom component. */
   headstone?: React.ReactNode;
-  /* Disables hover shadow effect. */
-  disableHover?: boolean;
+  /* Disables on hover shadow effect. */
+  disableHoverEffect?: boolean;
 };
 
 export type CardProps<T extends React.ElementType = 'section'> =
   PolymorphicComponentProps<T, CardBaseProps>;
 
 function CardInternal<T extends React.ElementType = 'section'>(
-  { as, children, headstone, disableHover = false, ...restProps }: CardProps<T>,
+  {
+    as,
+    children,
+    headstone,
+    disableHoverEffect = false,
+    ...restProps
+  }: CardProps<T>,
   ref?: PolymorphicRef<T>,
 ) {
   const Element = as || 'section';
@@ -32,7 +38,7 @@ function CardInternal<T extends React.ElementType = 'section'>(
       css={cardStyle({
         isFocusVisible,
         hasHeadstone: !!headstone,
-        disableHover,
+        disableHoverEffect,
       })}
     >
       {headstone && <div css={headstoneStyle()}>{headstone}</div>}

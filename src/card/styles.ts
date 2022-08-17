@@ -6,13 +6,13 @@ import { hexToRgba } from '../helpers';
 type CardStyleOptions = {
   isFocusVisible: boolean;
   hasHeadstone: boolean;
-  disableHover: boolean;
+  disableHoverEffect: boolean;
 };
 
 export function cardStyle({
   isFocusVisible,
   hasHeadstone,
-  disableHover,
+  disableHoverEffect,
 }: CardStyleOptions) {
   return css`
     display: block;
@@ -38,7 +38,7 @@ export function cardStyle({
 
     ${isFocusVisible && `box-shadow: 0 0 0 2px ${tokens.colors.blueDark};`}
 
-    ${!disableHover &&
+    ${!disableHoverEffect &&
     css`
       &:hover {
         box-shadow: ${tokens.boxShadow.thick};
