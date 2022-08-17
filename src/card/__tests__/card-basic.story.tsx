@@ -14,7 +14,6 @@ function Story() {
     <div css={wrapperStyle}>
       <Card
         css={css`
-          padding: ${tokens.spacing.medium};
           width: 600px;
         `}
       >

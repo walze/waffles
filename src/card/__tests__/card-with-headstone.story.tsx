@@ -8,29 +8,24 @@ import { Avatar } from '../../avatar';
 
 const wrapperStyle = css`
   padding: ${tokens.spacing.medium};
+  padding-top: ${tokens.spacing.xlarge};
 `;
 
 function Story() {
   return (
     <div css={wrapperStyle}>
       <Card headstone={<Avatar content="A" data-testid="card-headstone" />}>
-        <div
+        <Heading size="large">Card with Headstone</Heading>
+        <Paragraph
           css={css`
-            padding: ${tokens.spacing.medium};
+            margin-bottom: 0;
           `}
         >
-          <Heading size="large">Card with Headstone</Heading>
-          <Paragraph
-            css={css`
-              margin-bottom: 0;
-            `}
-          >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </Paragraph>
-        </div>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </Paragraph>
       </Card>
     </div>
   );

@@ -16,7 +16,6 @@ function Story() {
         as="a"
         href="https://datacamp.com"
         css={css`
-          padding: ${tokens.spacing.medium};
           width: 600px;
         `}
       >
