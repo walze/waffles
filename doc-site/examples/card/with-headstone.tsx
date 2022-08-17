@@ -1,5 +1,4 @@
 import { css } from '@emotion/react';
-import { tokens } from '@datacamp/waffles/tokens';
 import { Paragraph } from '@datacamp/waffles/paragraph';
 import { Heading } from '@datacamp/waffles/heading';
 import { Card } from '@datacamp/waffles/card';
@@ -20,22 +19,19 @@ function Example() {
           <Avatar content={<RLogomark />} />
         </>
       }
+      css={css`
+        margin-top: 20px;
+      `}
     >
-      <div
+      <Heading size="large">Introduction to DataCamp Projects</Heading>
+      <Paragraph
         css={css`
-          padding: ${tokens.spacing.medium};
+          margin-bottom: 0;
         `}
       >
-        <Heading size="large">Introduction to DataCamp Projects</Heading>
-        <Paragraph
-          css={css`
-            margin-bottom: 0;
-          `}
-        >
-          Use Python, SQL or R to build a project that has a specific solution,
-          with guided tasks and real-time automated code checks.
-        </Paragraph>
-      </div>
+        Use Python, SQL or R to build a project that has a specific solution,
+        with guided tasks and real-time automated code checks.
+      </Paragraph>
     </Card>
   );
 }
