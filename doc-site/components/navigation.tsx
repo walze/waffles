@@ -68,6 +68,9 @@ function Navigation({ isOpen, onClose }: NavigationProps) {
               <Item href="/components/empty-state">Empty State</Item>
               <Item href="/components/icon">Icon</Item>
               <Item href="/components/notification">Notification</Item>
+              <Item href="/components/progress" isNew>
+                Progress
+              </Item>
             </SideNav.Subcategory>
             <SideNav.Subcategory label="Form">
               <Item href="/components/checkbox">Checkbox</Item>
@@ -105,9 +108,6 @@ function Navigation({ isOpen, onClose }: NavigationProps) {
               <Item href="/components/hooks">Hooks</Item>
               <Item href="/components/loader">Loader</Item>
               <Item href="/components/portal">Portal</Item>
-              <Item href="/components/progress" isNew>
-                Progress
-              </Item>
               <Item href="/components/resizable" isNew>
                 Resizable
               </Item>
