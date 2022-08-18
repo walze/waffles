@@ -208,20 +208,6 @@ export function buttonStyle({
   `;
 }
 
-type WrapperStyleOptions = {
-  isLoading: NonNullable<React.ComponentProps<typeof Button>['isLoading']>;
-};
-
-export function wrapperStyle({ isLoading }: WrapperStyleOptions) {
-  return css`
-    ${isLoading &&
-    css`
-      opacity: 0;
-      height: 0;
-    `}
-  `;
-}
-
 type LoaderWrapperStyleOptions = {
   size: NonNullable<React.ComponentProps<typeof Button>['size']>;
   hasLoadingLabel: boolean;
@@ -234,7 +220,11 @@ export function loaderWrapperStyle({
   return css`
     display: flex;
     align-items: center;
-    opacity: 1;
+
+    // Override for child opacity from parent
+    && {
+      opacity: 1;
+    }
 
     ${hasLoadingLabel &&
     css`
