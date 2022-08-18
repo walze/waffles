@@ -13,8 +13,6 @@ type FormFieldProps = {
   label: string;
   /* Input component to be enhanced. In general pass Waffles [Input](/components/input), [TextArea](/components/text-area) or [Select](/components/select). Must be single element. */
   children: JSX.Element;
-  /* Optional input identifier. Pass it when component is rendered on the server to avoid client-server attribute mismatch. */
-  id?: string;
   /* Defines the size of the form field. In most cases default `medium` size should be used. Children of the form field will inherit the size by default. */
   size?: 'small' | 'medium' | 'large';
   /* Optional description shown above the input. */
@@ -31,7 +29,6 @@ type FormFieldProps = {
 
 function FormField({
   label,
-  id,
   size = 'medium',
   description,
   required = false,
@@ -40,9 +37,9 @@ function FormField({
   error,
   children,
 }: FormFieldProps) {
-  const generatedId = useId('form-field');
-  const fieldId = id || generatedId;
-  const errorId = useId('form-field-error');
+  const id = useId();
+  const fieldId = `form-field-${id}`;
+  const errorId = `form-field-error-${id}`;
 
   const element = cloneElement(children, {
     id: fieldId,

@@ -86,20 +86,6 @@ describe('FormField', () => {
     expect(input).toHaveAttribute('id', `form-field-${MOCKED_ID}`);
   });
 
-  it('if ID is passed explicitly, label and child component are associated by it', () => {
-    const { container } = render(
-      <FormField label="Form field label" id="user-defined-id">
-        <TestInput />
-      </FormField>,
-    );
-
-    const input = container.querySelector('input');
-    const label = container.querySelector('label');
-
-    expect(label).toHaveAttribute('for', `user-defined-id`);
-    expect(input).toHaveAttribute('id', `user-defined-id`);
-  });
-
   it('child input component accepts ref and could be focused programmatically', () => {
     const { container } = render(<TestRefFormField />);
 
