@@ -68,7 +68,7 @@ function MenuInternal({
   ...restProps
 }: MenuProps) {
   const [isOpen, setIsOpen] = useState(false);
-  const triggerId = useId('menu-trigger');
+  const triggerId = `menu-trigger-${useId()}`;
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
   const listItemsRef = useRef<Array<HTMLButtonElement | null>>([]); // Refs for all menu Items
 

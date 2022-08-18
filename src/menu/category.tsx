@@ -21,7 +21,7 @@ function Category({
   noDivider = false,
   ...restProps
 }: CategoryProps) {
-  const categoryId = useId('menu-category');
+  const categoryId = `menu-category-${useId()}`;
   const { inverted } = useMenu();
 
   return (

@@ -36,7 +36,7 @@ function TabsInternal({
   inverted = false,
   ...restProps
 }: TabsProps) {
-  const tabsId = useId('tabs');
+  const tabsId = `tabs-${useId()}`;
   // Keep refs to all non-disabled tabs, so it is possible to navigate between them with arrow keys
   const tabRefs: InternalTabRef[] = [];
 

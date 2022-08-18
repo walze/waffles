@@ -60,7 +60,7 @@ function Tooltip({
   ...restProps
 }: TooltipProps) {
   const [isOpen, setIsOpen] = useState(false);
-  const id = useId('tooltip');
+  const tooltipId = `tooltip-${useId()}`;
 
   const { x, y, reference, floating, context } = useFloating({
     placement: placementMap[placement],
@@ -85,7 +85,7 @@ function Tooltip({
       key: children.key,
       ref: triggerRef,
       ...children.props,
-      ...(isOpen && { 'aria-describedby': id }),
+      ...(isOpen && { 'aria-describedby': tooltipId }),
     }),
   );
 
@@ -97,7 +97,7 @@ function Tooltip({
           {...getFloatingProps({
             ...restProps,
             ref: floating,
-            id,
+            id: tooltipId,
           })}
           as="div"
           role="tooltip"
