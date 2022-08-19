@@ -44,4 +44,4 @@ Learn more about the project structure and available commands in the [Project Or
 
 ## Contributing
 
-Find out how to contribute in our [Contributing Guidelines](https://github.com/datacamp/waffles/blob/master/docs/CONTRIBUTING.md)
+Find out how to contribute in our [Contributing Guidelines](https://github.com/datacamp/waffles/blob/master/docs/CONTRIBUTING.md).
