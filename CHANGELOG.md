@@ -1,5 +1,66 @@
 
 
+## [1.13.0](https://github.com/datacamp/waffles/compare/v1.12.0...v1.13.0) (2022-08-19)
+
+
+### Bug Fixes
+
+* **avatar:** fix shrinking when in flex container ([ee41b05](https://github.com/datacamp/waffles/commit/ee41b0532a63481aa2f8b8e5a288ec614edece66))
+* **button:** fix hiding content when isLoading state ([534bcc1](https://github.com/datacamp/waffles/commit/534bcc178b764b350a56bc029b5470c777f42baa))
+* **button:** set default `type` to be `button` ([5d99d20](https://github.com/datacamp/waffles/commit/5d99d20a8507505ee4bb462783ff8624ece77c2e))
+* **card:** set proper CSS display property ([7c68d25](https://github.com/datacamp/waffles/commit/7c68d2582d38f1ef795d1139e5cb139b3b547d3c))
+* **content-container:** remove redundant overflow style ([b5e1473](https://github.com/datacamp/waffles/commit/b5e14738358e4b6c9d1765fc23cd26d3dbea8c26))
+* **loader:** fix rendering issues with left side ([120de71](https://github.com/datacamp/waffles/commit/120de71b8da6829e6930ea29542a4e72c6ea6938))
+* **loader:** fix top of loader being cut off ([124342b](https://github.com/datacamp/waffles/commit/124342b67304985859fb5d3232b84cc86a0c9392))
+* **loader:** minor fixes to rendering of loader ([2a0dd0c](https://github.com/datacamp/waffles/commit/2a0dd0cb964b8d5c97675cda7d2efb491e63afe0))
+* **menu:** inject trigger inverted prop conditionally ([faa943b](https://github.com/datacamp/waffles/commit/faa943b2f0c7d66c05bfa32abcb8bfb2817a2c1d))
+* **menu:** remove spurious attribute ([89ad641](https://github.com/datacamp/waffles/commit/89ad6410ef33bc5e334749568efd6814c0f306ac))
+* **progress:** add initial width attribute for chrome issue ([00f563b](https://github.com/datacamp/waffles/commit/00f563b826c301c06c04363cedd7f7631a9b6e72))
+* **tabs:** make children optional ([3d3c73f](https://github.com/datacamp/waffles/commit/3d3c73f39fd2a3e75e632d5309482e4ce3d8e505))
+* **tabs:** remove unnecessary comment ([e4b5141](https://github.com/datacamp/waffles/commit/e4b51413d0f724604d63772f54ce822e73ba9ce1))
+
+
+### Core Changes
+
+* **button:** add isLoading property for loader variant ([5fa8180](https://github.com/datacamp/waffles/commit/5fa81808076fcdacb1b5123bdd5eff9986a85b50))
+* **card:** add headstone slot ([6beace6](https://github.com/datacamp/waffles/commit/6beace6285136da51034cc87d4837b2726352c53))
+* **card:** implement basic Card component ([3e96b62](https://github.com/datacamp/waffles/commit/3e96b623550560bbd1b873b5ceee0160ef385b3d))
+* **card:** make it polymorphic ([4a9fa16](https://github.com/datacamp/waffles/commit/4a9fa165b80f68b2a2c88e4893d7fb3cff4c8da7))
+* **card:** reintroduce default padding ([195ebdd](https://github.com/datacamp/waffles/commit/195ebddf5ddc98abf0722280865905e941f649e3))
+* **card:** remove default padding ([86800ae](https://github.com/datacamp/waffles/commit/86800aef47b998e68e9f9a226218efc1e859a03f))
+* **card:** rename disableHover to disableHoverEffect ([bcdcade](https://github.com/datacamp/waffles/commit/bcdcaded35ea99b2e85c9def6b26f64182de3683))
+* change thin shadow to border for Menu and Toast ([171ab5b](https://github.com/datacamp/waffles/commit/171ab5b8833b5b9ce19d7f9297c0352ae3cb1fee))
+* **form-field:** removed optional ID prop ([0953300](https://github.com/datacamp/waffles/commit/09533003b541a239e69eddb34bd354713ee7fb4c))
+* **hooks:** update useId implementation ([b7c0ff6](https://github.com/datacamp/waffles/commit/b7c0ff630cd2ee545b843e82d1fca9d734557254))
+* **icon:** add new Multidoc icon ([25caabf](https://github.com/datacamp/waffles/commit/25caabf2e1a81a9d84933d5d245deb7f580c9972))
+* **menu:** add more placement options ([9e52628](https://github.com/datacamp/waffles/commit/9e52628ba153c12948a79092f9dedbd914e7523b))
+* **progress:** initial wip progres component ([9cd415b](https://github.com/datacamp/waffles/commit/9cd415bbac14bb4c13b29ac3af59bf8acb197f76))
+* **side-navigation:** set icon size based on item size ([1d372cf](https://github.com/datacamp/waffles/commit/1d372cfbb7951ea3abc9eac925c443921fc10b17))
+
+
+### Documentation Changes
+
+* align landing page layout with other pages ([6f6c4aa](https://github.com/datacamp/waffles/commit/6f6c4aa4758aafa2de7367c4e5fd8fa265a7c478))
+* **button:** add loading state example ([d881248](https://github.com/datacamp/waffles/commit/d88124841343ed02709f7631723a4612407b5317))
+* **button:** add notification for button on loader page ([a76144d](https://github.com/datacamp/waffles/commit/a76144d9713acc63af061f10b8dc2bb7e16360f6))
+* **card:** add doc page with examples ([66f1ef6](https://github.com/datacamp/waffles/commit/66f1ef6f25cdcb7c0538956d9730efe3c38f3247))
+* **card:** update examples ([d45c018](https://github.com/datacamp/waffles/commit/d45c018dd60c11ac2badef49bd7604b3c872b6c2))
+* fix CodeBlock background color ([5ca8d0f](https://github.com/datacamp/waffles/commit/5ca8d0ff2c682348d1a0970fbb762b418d14d5ac))
+* mark Card as polymorphic ([77962c3](https://github.com/datacamp/waffles/commit/77962c35eac61e8d61cdad5209b1ab88d67c8690))
+* **menu:** update placement in examples ([7ed5a39](https://github.com/datacamp/waffles/commit/7ed5a395f55c21682fc3d7824938a27a6ebc157e))
+* **progress:** add page and examples for progress ([4e7103e](https://github.com/datacamp/waffles/commit/4e7103e9addf7158af18dac83944dd27aa7df59b))
+* **progress:** update custom label example ([2e13076](https://github.com/datacamp/waffles/commit/2e1307628c3067d0fe276caff676ce63ea10474c))
+* remove redundant prop from PageHeader ([dadad4c](https://github.com/datacamp/waffles/commit/dadad4c044e6b30eeef12af96034fd90a6cc0242))
+* simplify page layout with grid ([21147da](https://github.com/datacamp/waffles/commit/21147da67e25acb5db220c39a646f37c23246cb8))
+* **tabs:** add example without children ([167e243](https://github.com/datacamp/waffles/commit/167e243912a450d13d77753b1aa1df8747847e0b))
+* update design tokens info about colors ([ebb7e2f](https://github.com/datacamp/waffles/commit/ebb7e2f3fc86214add822a8f65989d7698fed89c))
+* update navigation and roadmap ([68d75ab](https://github.com/datacamp/waffles/commit/68d75abef8df4febdb15f7d9e41c81cbc93b936f))
+* update PageHeader layout ([40951d4](https://github.com/datacamp/waffles/commit/40951d4cdf222a8272fc8d1df05d012231185bfc))
+* update roadmap ([ca40652](https://github.com/datacamp/waffles/commit/ca406525d0f66924141423f2a86f177580286fce))
+* update some Card styles in docs ([4a71a66](https://github.com/datacamp/waffles/commit/4a71a66f45f0761b84dbab3bddc03d97ca3eba36))
+* update useId description and example ([c1f45a8](https://github.com/datacamp/waffles/commit/c1f45a894b155cb81f2795c1665eace8efdea5bc))
+* use Card and update custom components borders to match its style ([70038d8](https://github.com/datacamp/waffles/commit/70038d8e5607deb1557ccbe3d5952e8a80f884f7))
+
 ## [1.12.0](https://github.com/datacamp/waffles/compare/v1.11.0...v1.12.0) (2022-07-29)
 
 
