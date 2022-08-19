@@ -50,16 +50,16 @@ function Progress({
   'aria-label': ariaLabel,
   ...restProps
 }: ProgressProps) {
-  const generatedId = useId('progress');
+  const progressId = `progress-${useId()}`;
   const isStepsMode = mode === 'steps';
 
   return (
     <div data-testid="progress-wrapper" css={wrapperStyle({ size, inverted })}>
       <div css={progressWrapperStyle()}>
-        {isStepsMode && <Steps id={generatedId} max={max} size={size} />}
+        {isStepsMode && <Steps id={progressId} max={max} size={size} />}
         <progress
-          id={generatedId}
-          css={progressStyle({ size, inverted, clipId: `${generatedId}-clip` })}
+          id={progressId}
+          css={progressStyle({ size, inverted, clipId: `${progressId}-clip` })}
           max={max}
           value={value}
           aria-label={
@@ -77,7 +77,7 @@ function Progress({
         />
       </div>
       {!hideLabel && (
-        <Label {...{ id: generatedId, isStepsMode, max, value, customLabel }} />
+        <Label {...{ id: progressId, isStepsMode, max, value, customLabel }} />
       )}
     </div>
   );
