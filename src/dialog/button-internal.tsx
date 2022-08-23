@@ -4,32 +4,15 @@ import { Button } from '../button';
 
 import { buttonStyle } from './styles';
 
-type ButtonProps = {
-  /* [skip docs] */
-  variant?: React.ComponentProps<typeof Button>['variant'];
-  /* [skip docs] */
-  size?: React.ComponentProps<typeof Button>['size'];
-  /* [skip docs] */
-  iconLeft?: JSX.Element;
-  /* [skip docs] */
-  iconRight?: JSX.Element;
-  /* [skip docs] */
-  children: React.ReactNode;
-  /* [skip docs] */
-  inverted?: boolean;
-  /* [skip docs] */
-  fullWidth?: boolean;
+type DialogButtonProps = {
   /* Focus this particular button when dialog is opened. */
   /* @default false */
   autoFocus?: boolean;
-} & Omit<
-  React.ButtonHTMLAttributes<HTMLButtonElement>,
-  'autoFocus' | 'children'
->;
+} & Omit<React.ComponentProps<typeof Button>, 'autoFocus'>;
 
 // Override autoFocus behavior to play nicely with react-focus-on
 function ButtonInternal(
-  { autoFocus = false, ...restProps }: ButtonProps,
+  { autoFocus = false, children, ...restProps }: DialogButtonProps,
   ref: React.Ref<HTMLButtonElement>,
 ) {
   return (
@@ -38,7 +21,9 @@ function ButtonInternal(
       data-autofocus={autoFocus ? true : null}
       ref={ref}
       css={buttonStyle()}
-    />
+    >
+      {children}
+    </Button>
   );
 }
 
