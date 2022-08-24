@@ -71,19 +71,15 @@ function extractedProperProps(
           // Check if node has kind 'object'
           if ((node as ProperPropMetadata).kind === 'object') {
             return rawProps.concat(node as ProperPropMetadata);
-          }
-
-          // Check whether any parameters have been omitted. Unfortunately `extract-react-types-loader` does not currently support `Omit<>` - because it does not use the TS compiler to determine types :(
-          if ((node as ProperPropMetadata).kind === 'typeParams') {
-            const omittedTypeParams = (
-              node as PropTypeParamsRawMetaData
-            ).params?.some(
-              (param) =>
-                param.kind === 'union' &&
-                param.types.every((paramType) => paramType.kind === 'string'),
-            );
-
-            if (omittedTypeParams) {
+          } else if ((node as ProperPropMetadata).kind === 'typeParams') {
+            // Check whether any parameters have been omitted. Unfortunately `extract-react-types-loader` does not currently support `Omit<>` - because it does not use the TS compiler to determine types :(
+            if (
+              (node as PropTypeParamsRawMetaData).params?.some(
+                (param) =>
+                  param.kind === 'union' &&
+                  param.types.every((paramType) => paramType.kind === 'string'),
+              )
+            ) {
               return rawProps;
             }
           }
