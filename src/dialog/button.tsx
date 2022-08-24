@@ -1,7 +1,9 @@
 import { forwardRef } from 'react';
 
-import ButtonInternal from './button-internal';
+import ButtonInternal, { DialogButtonProps } from './button-internal';
 
-const Button = forwardRef(ButtonInternal);
+type ButtonComponent = (props: DialogButtonProps) => JSX.Element | null;
+
+const Button: ButtonComponent = forwardRef(ButtonInternal);
 
 export default Button;

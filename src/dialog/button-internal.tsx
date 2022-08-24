@@ -1,25 +1,27 @@
 import React from 'react';
 
+import { PolymorphicRef } from '../helpers';
+import { ButtonProps } from '../button/button-internal';
 import { Button } from '../button';
 
 import { buttonStyle } from './styles';
 
-type DialogButtonProps = {
+export type DialogButtonProps = {
   /* Focus this particular button when dialog is opened. */
   /* @default false */
   autoFocus?: boolean;
-} & Omit<React.ComponentProps<typeof Button>, 'autoFocus'>;
+} & Omit<ButtonProps, 'autoFocus' | 'icon'>;
 
 // Override autoFocus behavior to play nicely with react-focus-on
-function ButtonInternal(
+function ButtonInternal<T extends React.ElementType = 'button'>(
   { autoFocus = false, children, ...restProps }: DialogButtonProps,
-  ref: React.Ref<HTMLButtonElement>,
+  ref?: PolymorphicRef<T>,
 ) {
   return (
     <Button
       {...restProps}
-      data-autofocus={autoFocus ? true : null}
       ref={ref}
+      data-autofocus={autoFocus ? true : null}
       css={buttonStyle()}
     >
       {children}
