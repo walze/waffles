@@ -1,36 +1,22 @@
 import React from 'react';
 
+import { ButtonProps } from '../button/button-internal';
 import { Button } from '../button';
 
 import { buttonStyle } from './styles';
 import { useMenu } from './menu-context';
 
-import type { PolymorphicComponentProps } from '../helpers';
-
-type MenuButtonBaseProps = {
-  /* Defines the variant of the button. */
-  /* @default primary */
-  variant?: 'primary' | 'secondary' | 'plain' | 'destructive' | 'upgrade';
-  /* An icon displayed to the left. Could be any [icon](/components/icon) from Waffles (use default size) or a custom component. */
-  iconLeft?: JSX.Element;
-  /* An icon displayed to the right. Could be any [icon](/components/icon) from Waffles (use default size) or a custom component. */
-  iconRight?: JSX.Element;
-  /* The content inside the button. Most of the time should be a plain text. */
-  children: React.ReactNode;
-  /* [skip docs] */
-  inverted?: boolean;
+type MenuButtonProps = {
   /* [skip docs] */
   index?: number;
-};
+} & Omit<ButtonProps, 'size' | 'isLoading' | 'icon' | 'fullWidth'>;
 
-type MenuButtonProps<T extends React.ElementType = 'button'> =
-  PolymorphicComponentProps<T, MenuButtonBaseProps>;
-
-function MenuButton<T extends React.ElementType = 'button'>({
+function MenuButton({
   index = 0,
+  children,
   onClick,
   ...restProps
-}: MenuButtonProps<T>) {
+}: MenuButtonProps) {
   const { listRef, setIsOpen, getItemProps, triggerRef, inverted } = useMenu();
 
   function handleClick(event: React.MouseEvent<HTMLButtonElement>) {
@@ -41,7 +27,6 @@ function MenuButton<T extends React.ElementType = 'button'>({
   }
 
   return (
-    // @ts-expect-error: spread props out of sync
     <Button
       {...getItemProps({
         onClick: handleClick,
@@ -51,7 +36,9 @@ function MenuButton<T extends React.ElementType = 'button'>({
       role="menuitem"
       inverted={inverted}
       css={buttonStyle()}
-    />
+    >
+      {children}
+    </Button>
   );
 }
 
